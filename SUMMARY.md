@@ -24,9 +24,9 @@
     * 版本
     * 代码片段
   * [工具栏](bian-ji-qi/gong-ju-lan.md)
-    * Kernel
-    * 运行
-    * 终端
-    * Graph
+    * [Kernel](bian-ji-qi/gong-ju-lan/kernel.md)
+    * [运行](bian-ji-qi/gong-ju-lan/yun-xing.md)
+    * [终端](bian-ji-qi/gong-ju-lan/zhong-duan.md)
+    * [Graph](bian-ji-qi/gong-ju-lan/graph.md)
   * [快捷键](bian-ji-qi/kuai-jie-jian.md)
 
