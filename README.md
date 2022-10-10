@@ -1,4 +1,4 @@
-# SmartNoteBook使用手册
+# SmartNoteBook是什么？
 
-SmartNoteBook是一款
+![](/assets/import.png) 
 

@@ -1,9 +1,32 @@
 # Summary
 
-* [产品简介](README.md)
-* [模型管理](chapter1.md)
-* 编辑器
-* 可视化
-* 调度功能
-* 版本控制
+* [SmartNoteBook简介](README.md)
+* [工作空间](chapter1.md)
+  * [首页](chapter1/gong-zuo-kong-jian-shou-ye.md)
+  * [数据源](chapter1/shu-ju-yuan.md)
+  * 文件
+  * 环境
+  * 成员
+  * 调度
+  * 设置
+* [NoteBook](bian-ji-qi.md)
+  * [代码块](bian-ji-qi/dai-ma-kuai.md)
+    * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
+    * [SQL代码](bian-ji-qi/dai-ma-kuai/sqldai-ma.md)
+    * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
+    * [状态](bian-ji-qi/dai-ma-kuai/zhuang-tai.md)
+  * [侧边栏](bian-ji-qi/ce-bian-lan.md)
+    * 环境
+    * 资源
+    * 目录
+    * 实例
+    * 变量
+    * 版本
+    * 代码片段
+  * [工具栏](bian-ji-qi/gong-ju-lan.md)
+    * Kernel
+    * 运行
+    * 终端
+    * Graph
+  * [快捷键](bian-ji-qi/kuai-jie-jian.md)
 
