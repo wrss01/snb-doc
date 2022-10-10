@@ -1,4 +1,4 @@
 # SmartNoteBook是什么？
 
-![](/assets/import.png) 
+![](/assets/import.png)
 
