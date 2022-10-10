@@ -2,13 +2,12 @@
 
 * [SmartNoteBook简介](README.md)
 * [工作空间](chapter1.md)
-  * [首页](chapter1/gong-zuo-kong-jian-shou-ye.md)
   * [数据源](chapter1/shu-ju-yuan.md)
-  * 文件
-  * 环境
-  * 成员
-  * 调度
-  * 设置
+  * [文件](chapter1/wen-jian.md)
+  * [环境](chapter1/huan-jing.md)
+  * [成员](chapter1/cheng-yuan.md)
+  * [调度](chapter1/diao-du.md)
+  * [设置](chapter1/she-zhi.md)
 * [NoteBook](bian-ji-qi.md)
   * [代码块](bian-ji-qi/dai-ma-kuai.md)
     * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
@@ -16,13 +15,13 @@
     * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
     * [状态](bian-ji-qi/dai-ma-kuai/zhuang-tai.md)
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
-    * 环境
-    * 资源
+    * [环境](bian-ji-qi/ce-bian-lan/huan-jing.md)
+    * [资源](bian-ji-qi/ce-bian-lan/zi-yuan.md)
     * 目录
-    * 实例
-    * 变量
-    * 版本
-    * 代码片段
+    * [实例](bian-ji-qi/ce-bian-lan/shi-li.md)
+    * [变量](bian-ji-qi/ce-bian-lan/bian-liang.md)
+    * [版本](bian-ji-qi/ce-bian-lan/ban-ben.md)
+    * [代码片段](bian-ji-qi/ce-bian-lan/dai-ma-pian-duan.md)
   * [工具栏](bian-ji-qi/gong-ju-lan.md)
     * [Kernel](bian-ji-qi/gong-ju-lan/kernel.md)
     * [运行](bian-ji-qi/gong-ju-lan/yun-xing.md)
