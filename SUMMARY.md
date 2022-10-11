@@ -3,7 +3,14 @@
 * [SmartNoteBook简介](README.md)
 * [工作空间](chapter1.md)
   * [数据源](chapter1/shu-ju-yuan.md)
+    * [新建数据源](chapter1/shu-ju-yuan/xin-jian-shu-ju-yuan.md)
+    * [数据源类型](chapter1/shu-ju-yuan/shu-ju-yuan-lei-xing.md)
+    * [数据库连接](chapter1/shu-ju-yuan/shu-ju-ku-lian-jie.md)
   * [文件](chapter1/wen-jian.md)
+    * [新建目录](chapter1/wen-jian/xin-jian-mu-lu.md)
+    * [上传文件](chapter1/wen-jian/shang-chuan-wen-jian.md)
+    * 下载文件
+    * 删除文件（夹）
   * [环境](chapter1/huan-jing.md)
   * [成员](chapter1/cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
