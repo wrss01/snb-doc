@@ -10,7 +10,7 @@
     * [新建目录](chapter1/wen-jian/xin-jian-mu-lu.md)
     * [上传文件](chapter1/wen-jian/shang-chuan-wen-jian.md)
     * [下载文件](chapter1/wen-jian/xia-zai-wen-jian.md)
-    * 删除文件（夹）
+    * [删除文件（夹）](chapter1/wen-jian/shan-chu-wen-jian-ff08-jia-ff09.md)
   * [环境](chapter1/huan-jing.md)
   * [成员](chapter1/cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
