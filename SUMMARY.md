@@ -13,6 +13,8 @@
     * [删除文件（夹）](chapter1/wen-jian/shan-chu-wen-jian-ff08-jia-ff09.md)
   * [环境](chapter1/huan-jing.md)
     * [新建环境](chapter1/huan-jing/xin-jian-huan-jing.md)
+    * [编辑环境](chapter1/huan-jing/bian-ji-huan-jing.md)
+    * [删除环境](chapter1/huan-jing/shan-chu-huan-jing.md)
   * [成员](chapter1/cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
   * [设置](chapter1/she-zhi.md)
