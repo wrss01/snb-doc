@@ -16,6 +16,7 @@
     * [编辑环境](chapter1/huan-jing/bian-ji-huan-jing.md)
     * [删除环境](chapter1/huan-jing/shan-chu-huan-jing.md)
   * [成员](chapter1/cheng-yuan.md)
+    * [邀请成员](chapter1/cheng-yuan/yao-qing-cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
   * [设置](chapter1/she-zhi.md)
 * [NoteBook](bian-ji-qi.md)
