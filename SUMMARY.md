@@ -30,6 +30,10 @@
     * [SQL代码](bian-ji-qi/dai-ma-kuai/sqldai-ma.md)
     * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
     * [状态](bian-ji-qi/dai-ma-kuai/zhuang-tai.md)
+    * Chart
+    * Snb Table
+    * EDA分析
+    * EDA概览
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
     * [环境](bian-ji-qi/ce-bian-lan/huan-jing.md)
     * [资源](bian-ji-qi/ce-bian-lan/zi-yuan.md)
