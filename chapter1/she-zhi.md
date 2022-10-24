@@ -4,7 +4,5 @@ SmartNoteBook为用户提供团队协作的功能，让用户可以邀请成员�
 
 
 
-* * * Workspace名称
-
 
 
