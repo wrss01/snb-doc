@@ -37,6 +37,6 @@
   ![](/assets/xgnbbt.png)
 
 # 添加sheet
-Notebook支持多个sheet，方便用户组织代码。
+Notebook支持多个sheet，方便用户组织内容。
 ![](/assets/ssheet.png)
 
