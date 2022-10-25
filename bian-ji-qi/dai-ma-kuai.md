@@ -60,9 +60,9 @@ Cell的状态为两种：**编辑状态**、**命令状态**
 `注：快捷键只有"命令状态" 才有效`
 
 ## 代码块运行快捷键
-* 运行当前单元格(cell) Ctrl+Enter
-* 运行当前单元格(cell),并选定下面一个单元格  Shift+Enter
-* 运行当前单元格(cell),并下面插入一个code 单元格(code cell)  Alt+Enter
+* 运行当前单元格(cell) `Ctrl+Enter`
+* 运行当前单元格(cell),并选定下面一个单元格  `Shift+Enter`
+* 运行当前单元格(cell),并下面插入一个code 单元格(code cell)  `Alt+Enter`
 
 `注：命令状态与编辑状态 都支持运行快捷键`
 
