@@ -37,7 +37,7 @@
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
     * [环境](bian-ji-qi/ce-bian-lan/huan-jing.md)
     * [数据资源](bian-ji-qi/ce-bian-lan/zi-yuan.md)
-    * 目录
+    * [目录](bian-ji-qi/ce-bian-lan/mu-lu.md)
     * [实例](bian-ji-qi/ce-bian-lan/shi-li.md)
     * [变量](bian-ji-qi/ce-bian-lan/bian-liang.md)
     * [版本](bian-ji-qi/ce-bian-lan/ban-ben.md)
