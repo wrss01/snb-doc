@@ -4,3 +4,14 @@
 
 ![](/assets/nbooks.png)
 
+# 新建Notebook
+
+点击左下【新建Notebook】可以创建新的Notebook
+
+![](/assets/xjnote.png)填写Notebook信息，并选择环境、Kernel类型和模式，最后点击提交
++ kernel类型
++ 模式选择
+
+
+![](/assets/tjnote.png)
+
