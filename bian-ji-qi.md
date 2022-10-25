@@ -4,7 +4,7 @@
 
 ![](/assets/nbooks.png)
 
-# 新建Notebook
+## 新建Notebook
 
 点击左下【新建Notebook】可以创建新的Notebook
 
@@ -17,7 +17,8 @@
   * Jupyter模式：经典的Jupyter模式，没有评估命令执行。计算停止后，笔记本状态不保存。
   * 交互模式：可重复模式强制固定自顶向下的评估顺序和自动重新计算低于修改的细胞。笔记本状态在每次计算单元格后保存，可以在单个编辑会话的任何时候恢复。
 
-# ![](/assets/tjnote.png)导入Notebook
+![](/assets/tjnote.png)
+## 导入Notebook
 
 点击左下【新建Notebook】右侧的下拉箭头，点击上传文件。  
 ![](/assets/scnbwj.png)  
@@ -26,7 +27,7 @@
 导入后的snb文件将在Notebook列表展示。  
 ![](/assets/drsnb.png)
 
-# 修改Notebook标题
+## 修改Notebook标题
 
 两种方式修改Notebook标题
 
@@ -36,7 +37,7 @@
 * 在Notebook的代码页面，双击顶部中间的标题进行修改，修改完成后鼠标移动到任意其他位置即可提交。  
   ![](/assets/xgnbbt.png)
 
-# 添加sheet
+## 添加sheet
 Notebook支持多个sheet，方便用户组织内容。
 ![](/assets/ssheet.png)
 
