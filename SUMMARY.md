@@ -25,7 +25,7 @@
     * 编辑
     * 删除
 * [NoteBook](bian-ji-qi.md)
-  * [代码块](bian-ji-qi/dai-ma-kuai.md)
+  * [代码块（Cell）](bian-ji-qi/dai-ma-kuai.md)
     * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
     * [SQL代码](bian-ji-qi/dai-ma-kuai/sqldai-ma.md)
     * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
