@@ -27,12 +27,16 @@
 ![](/assets/drsnb.png)
 
 # 修改Notebook标题
+
 两种方式修改Notebook标题
-* 在Notebook列表页面，选择要修改标题的Notebook，单击编辑按钮，修改完成后点击对钩进行提交。
-![](/assets/xgnb2.png)
 
-* 在Notebook的代码页面，双击顶部中间的标题进行修改，修改完成后鼠标移动到任意其他位置即可提交。
-![](/assets/xgnbbt.png)
+* 在Notebook列表页面，选择要修改标题的Notebook，单击编辑按钮，修改完成后点击对钩进行提交。  
+  ![](/assets/xgnb2.png)
 
+* 在Notebook的代码页面，双击顶部中间的标题进行修改，修改完成后鼠标移动到任意其他位置即可提交。  
+  ![](/assets/xgnbbt.png)
 
+# 添加sheet
+Notebook支持多个sheet，方便用户组织代码。
+![](/assets/ssheet.png)
 
