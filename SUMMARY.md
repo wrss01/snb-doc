@@ -48,4 +48,11 @@
     * [终端](bian-ji-qi/gong-ju-lan/zhong-duan.md)
     * [Graph](bian-ji-qi/gong-ju-lan/graph.md)
   * [快捷键](bian-ji-qi/kuai-jie-jian.md)
+* [开始使用](kai-shi-shi-yong.md)
+  * [申请一个个人账号](kai-shi-shi-yong/shen-qing-zhang-hao.md)
+  * [创建一个Workspace](kai-shi-shi-yong/chuang-jian-di-yi-ge-workspace.md)
+  * [创建一个Notebook](kai-shi-shi-yong/chuang-jian-di-yi-ge-notebook.md)
+  * [编写一个分析案例](kai-shi-shi-yong/di-yi-ge-fen-xi-an-li.md)
+  * [创建一个定时任务](kai-shi-shi-yong/chuang-jian-yi-ge-ding-shi-ren-wu.md)
+  * [邀请一个团队成员](kai-shi-shi-yong/yao-qing-yi-ge-tuan-dui-cheng-yuan.md)
 
