@@ -85,8 +85,48 @@ print(df_2)
 ## DFSQL
 
 通过SmartNoteBook的DFSQL功能，可以实现
+
 * SQL查询的结果可直接命名和保存为python的DataFrame数据结构
 * 进行SQL查询时可直接将DataFrame数据结构作为表名使用。
+
+## 示例说明
+
+```py
+lat =pd.read_excel('http://172.30.21.57/lat.xlsx')
+lat.columns=['Province','d','d','lot','lat']
+lat
+
+
+import pandas as pd
+gdp=pd.read_excel('http://172.30.21.57/gdpData.xlsx')
+gdp['per_gdp']=gdp['GDP2020']/gdp['Population2020']
+gdp
+
+
+
+
+import numpy as np
+df2['gdp_all_avg']=sum(df2['gdp_sum'])/sum(df2['popu_sum'])
+df2['t_score']=(df2['gdp_avg']-df2['gdp_all_avg'])/(df2['gdp_std']/np.sqrt(df2['dist_count']))
+df2['A']='all'
+for c in ['gdp_sum','popu_sum','gdp_avg','gdp_std','gdp_all_avg','t_score']:
+    df2[c]=round(df2[c],2)
+df2
+
+
+select Province,sum(GDP2020) as gdp_sum, sum(Population2020) as popu_sum,sum(GDP2020) / sum(Population2020) as gdp_avg,
+count(distinct District) as dist_count,stddev(per_gdp) as gdp_std from gdp  group by Province
+
+
+select Province,gdp_sum,popu_sum,gdp_avg,gdp_std,t_score as XL_Index,rank() over(partition by A order by gdp_sum desc) as gdp_rank ,
+rank() over(partition by A order by popu_sum desc) as popu_rank ,rank() over(partition by A order by gdp_avg desc) as gdp_avg_rank ,
+rank() over(partition by A order by t_score desc) as XL_Index_rank
+from df2
+
+
+select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
+
+```
 
 
 
