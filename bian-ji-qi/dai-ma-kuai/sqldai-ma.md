@@ -14,3 +14,11 @@ SmartNoteBook支持运行SQL代码块。
 
 ![](/assets/cvtsqs.png)
 
+## SQL代码的操作
+
+* 选择数据源
+* 结果集的名称 `结果将保存为DataFrame`
+* 点击执行代码
+
+![](/assets/sqczz.png)
+
