@@ -10,7 +10,7 @@ SmartNoteBook支持运行SQL代码块。
 
 ![](/assets/sqldm.png)
 
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的![](/assets/cvvr.png)，选择`Convert to SQL`
+* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的![](/assets/cvvr.png)，选择`Convert to SQL`。
 
 ![](/assets/cvtsqs.png)
 
