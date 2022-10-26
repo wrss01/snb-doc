@@ -33,7 +33,6 @@
     * [Snb Table](bian-ji-qi/dai-ma-kuai/snb-table.md)
     * [EDA分析](bian-ji-qi/dai-ma-kuai/edafen-xi.md)
     * [EDA概览](bian-ji-qi/dai-ma-kuai/edagai-lan.md)
-    * [状态](bian-ji-qi/dai-ma-kuai/zhuang-tai.md)
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
     * [环境](bian-ji-qi/ce-bian-lan/huan-jing.md)
     * [数据资源](bian-ji-qi/ce-bian-lan/zi-yuan.md)

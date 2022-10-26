@@ -6,7 +6,21 @@
 
 SNB作为jupyter 的一款升级工具，不仅弥补了jupyter的很多缺陷，同时增加了很多lowcode的功能，帮助用户快速、充分开展EDA和可视化。
 
+## 创建EDA分析
+
+鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`EDA分析`。
+
 ![](/assets/edafx.png)
 
-![](/assets/edastest.png)
+## 配置和展示
+
+1. 下拉框选择数据集。
+2. 主题配置区域。
+3. 图表探索配置区域。
+4. 图表可视化展示区域。
+5. 图例区域。
+6. 图表比例缩放和全屏
+7. 执行分析。
+
+![](/assets/edafexnxx.png)
 
