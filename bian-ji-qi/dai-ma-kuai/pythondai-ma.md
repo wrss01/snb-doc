@@ -22,7 +22,9 @@ Python是代码块默认的类型，增加Python代码块的两种方式：
        `, {{i}}`
        `{% endfor %}`
 * 字典：
-       data =
+       `data ={"a":100,"b":200}`
+       `{{data.a}}`
+       `{{data.b}}`
 
 
 `Province='山东省'`  
