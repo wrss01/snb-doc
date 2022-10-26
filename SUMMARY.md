@@ -22,16 +22,16 @@
     * [暂停](chapter1/diao-du/zan-ting.md)
     * [删除](chapter1/diao-du/shan-chu.md)
   * [设置](chapter1/she-zhi.md)
-    * 编辑
-    * 删除
+    * [编辑](chapter1/she-zhi/bian-ji.md)
+    * [删除](chapter1/she-zhi/shan-chu.md)
 * [NoteBook](bian-ji-qi.md)
   * [代码块（Cell）](bian-ji-qi/dai-ma-kuai.md)
     * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
     * [SQL代码](bian-ji-qi/dai-ma-kuai/sqldai-ma.md)
     * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
-    * Chart
-    * Snb Table
-    * EDA分析
+    * [Chart](bian-ji-qi/dai-ma-kuai/chart.md)
+    * [Snb Table](bian-ji-qi/dai-ma-kuai/snb-table.md)
+    * [EDA分析](bian-ji-qi/dai-ma-kuai/edafen-xi.md)
     * [EDA概览](bian-ji-qi/dai-ma-kuai/edagai-lan.md)
     * [状态](bian-ji-qi/dai-ma-kuai/zhuang-tai.md)
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
