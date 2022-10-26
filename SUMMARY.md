@@ -18,7 +18,7 @@
   * [成员](chapter1/cheng-yuan.md)
     * [邀请成员](chapter1/cheng-yuan/yao-qing-cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
-    * 配置
+    * [配置](chapter1/diao-du/pei-zhi.md)
     * [暂停](chapter1/diao-du/zan-ting.md)
     * [删除](chapter1/diao-du/shan-chu.md)
   * [设置](chapter1/she-zhi.md)
