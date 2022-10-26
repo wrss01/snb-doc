@@ -11,7 +11,7 @@ NoteBook下常用快捷键整理如下：
     * ESC   取消：编辑状态--转化为--&gt;命令状态
     
 * 代码块（Cell）运行
-    * 运行当前单元格\(cell\) `Ctrl+Enter`
+ * 运行当前单元格\(cell\) `Ctrl+Enter`
     * 运行当前单元格\(cell\),并选定下面一个单元格 `Shift+Enter`
     * 运行当前单元格\(cell\),并下面插入一个code 单元格\(code cell\) `Alt+Enter`
 
