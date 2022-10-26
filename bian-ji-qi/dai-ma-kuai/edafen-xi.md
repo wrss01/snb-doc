@@ -1,6 +1,6 @@
 # EDA分析
 
-充分EDA是选择和设计模型的基础、模型效果的保障，先验知识。（EDA：探索性数据分析 Exploratory Data Analysis）
+充分EDA是选择和设计模型的基础、模型效果的保障，先验知识。`（EDA：探索性数据分析 Exploratory Data Analysis）`
 
 目前很多人一般用jupyter notebook去做EDA。jupyter虽然“很强大，交互式、富文本”但也存在很多“缺点”，比如需要去安装环境，生成图表需要码很多代码，缺乏团队协同等等…
 
