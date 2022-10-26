@@ -9,7 +9,7 @@ Python是代码块默认的类型，增加Python代码块的两种方式：
 
 ## SQLTemplate
 
-通过SmartNoteBook的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。
+通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。
 
 * 变量替换：`{{VAR}}`
 * 判断：  
@@ -81,6 +81,12 @@ df_2 = _smartnotebook_execute_sql("""    select 1
 """, "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
 print(df_2)
 ```
+
+## DFSQL
+
+通过SmartNoteBook的DFSQL功能，可以实现
+* SQL查询的结果可直接命名和保存为python的DataFrame数据结构
+* 进行SQL查询时可直接将DataFrame数据结构作为表名使用。
 
 
 
