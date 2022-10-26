@@ -11,11 +11,8 @@ Python是代码块默认的类型，增加Python代码块的两种方式：
 
 通过SmartNoteBook的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。
 
-* 变量替换：{{VAR}}
+* 变量替换：`{{VAR}}`
 * 判断：
-
-
-
 
 `Province='山东省'`
 `df2=_smartnotebook_execute_dataframesql("""`
