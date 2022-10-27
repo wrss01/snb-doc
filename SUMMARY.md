@@ -48,10 +48,10 @@
     * [运行](bian-ji-qi/gong-ju-lan/yun-xing.md)
     * [终端](bian-ji-qi/gong-ju-lan/zhong-duan.md)
     * [Graph](bian-ji-qi/gong-ju-lan/graph.md)
-  * [快捷键](bian-ji-qi/kuai-jie-jian.md)
-  * 收藏
+  * [收藏](bian-ji-qi/shou-cang.md)
   * [评论](bian-ji-qi/ping-lun.md)
   * 分享
+  * [快捷键](bian-ji-qi/kuai-jie-jian.md)
 * [开始使用](kai-shi-shi-yong.md)
   * [申请一个个人账号](kai-shi-shi-yong/shen-qing-zhang-hao.md)
   * [创建一个Workspace](kai-shi-shi-yong/chuang-jian-di-yi-ge-workspace.md)
