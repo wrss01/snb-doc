@@ -32,7 +32,7 @@
   * [可视化组件](bian-ji-qi/ke-shi-hua-zu-jian.md)
     * [Chart](bian-ji-qi/dai-ma-kuai/chart.md)
     * [Snb Table](bian-ji-qi/dai-ma-kuai/snb-table.md)
-  * [EDA工具](bian-ji-qi/edagong-ju.md)
+  * [EDA组件](bian-ji-qi/edagong-ju.md)
     * [EDA分析](bian-ji-qi/dai-ma-kuai/edafen-xi.md)
     * [EDA概览](bian-ji-qi/dai-ma-kuai/edagai-lan.md)
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)

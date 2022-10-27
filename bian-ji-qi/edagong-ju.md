@@ -6,3 +6,8 @@
 
 SNB作为jupyter 的一款升级工具，不仅弥补了jupyter的很多缺陷，同时增加了很多lowcode的功能，帮助用户快速、充分开展EDA和可视化。
 
+目前SmartNoteBook提供的EDA组件有：
+
+* `EDA分析`
+* `EDA概览`
+
