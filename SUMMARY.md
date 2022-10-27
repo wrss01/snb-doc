@@ -29,8 +29,10 @@
     * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
     * [SQL代码](bian-ji-qi/dai-ma-kuai/sqldai-ma.md)
     * [MarkDown](bian-ji-qi/dai-ma-kuai/markdown.md)
+  * [可视化组件](bian-ji-qi/ke-shi-hua-zu-jian.md)
     * [Chart](bian-ji-qi/dai-ma-kuai/chart.md)
     * [Snb Table](bian-ji-qi/dai-ma-kuai/snb-table.md)
+  * [EDA工具](bian-ji-qi/edagong-ju.md)
     * [EDA分析](bian-ji-qi/dai-ma-kuai/edafen-xi.md)
     * [EDA概览](bian-ji-qi/dai-ma-kuai/edagai-lan.md)
   * [侧边栏](bian-ji-qi/ce-bian-lan.md)
@@ -47,6 +49,9 @@
     * [终端](bian-ji-qi/gong-ju-lan/zhong-duan.md)
     * [Graph](bian-ji-qi/gong-ju-lan/graph.md)
   * [快捷键](bian-ji-qi/kuai-jie-jian.md)
+  * 收藏
+  * [评论](bian-ji-qi/ping-lun.md)
+  * 分享
 * [开始使用](kai-shi-shi-yong.md)
   * [申请一个个人账号](kai-shi-shi-yong/shen-qing-zhang-hao.md)
   * [创建一个Workspace](kai-shi-shi-yong/chuang-jian-di-yi-ge-workspace.md)
