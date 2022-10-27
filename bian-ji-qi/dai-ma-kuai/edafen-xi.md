@@ -1,6 +1,6 @@
 # EDA分析
 
-用户可使用EDA概览快速理解数据集的特征分布。`（EDA：探索性数据分析 Exploratory Data Analysis）`
+用户可使用EDA分析快速探索数据集特征的分布情况。`（EDA：探索性数据分析 Exploratory Data Analysis）`
 
 ## 创建EDA分析
 
