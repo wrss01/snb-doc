@@ -12,7 +12,7 @@ SmartNoteBook为用户提供数据接入与管理功能，让用户可以简单�
 
 ```py
 from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
-engine=snb_conn("0242ac110004-11ed4175-527b33a4-a5ab", context=globals())
+engine=snb_conn("0842ac110004-11ed4175-527b33a4-a5ab", context=globals())
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 with engine.connect() as conn:
