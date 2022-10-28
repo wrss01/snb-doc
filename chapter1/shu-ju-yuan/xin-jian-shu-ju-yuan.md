@@ -2,7 +2,7 @@
 
 在【WorkSpace数据源】标签页，点击右上角【新建连接服务】，即可新建数据源。
 
-###### ![](/assets/data2.png)
+###### ![](/assets/xhsht.png)
 
 
 
