@@ -19,5 +19,3 @@ with engine.connect() as conn:
     #参考 gpu_df.to_sql('gpu_data',conn,if_exists='append')
 ```
 
-![](/assets/datax.png)
-
