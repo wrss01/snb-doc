@@ -4,7 +4,7 @@
 * [工作空间](WorkSpace/main.md)
   * [数据源](WorkSpace/DataSource.md)
   * [文件](WorkSpace/Files.md)
-  * [环境](chapter1/huan-jing.md)
+  * [环境](WorkSpace/Environment.md)
   * [成员](WorkSpace/Groups.md)
   * [调度](WorkSpace/Schedule.md)
   * [设置](WorkSpace/Settings.md)
