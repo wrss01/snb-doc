@@ -14,9 +14,9 @@
   * [EDA组件](NoteBook/EDA.md)
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
-  * [收藏](bian-ji-qi/shou-cang.md)
+  * [收藏](NoteBook/Collections.md)
   * [评论](NoteBook/Comments.md)
-  * 分享
+  * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
 * [开始使用](kai-shi-shi-yong.md)
   * [申请一个个人账号](kai-shi-shi-yong/shen-qing-zhang-hao.md)
