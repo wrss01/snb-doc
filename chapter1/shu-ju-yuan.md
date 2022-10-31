@@ -19,3 +19,11 @@ with engine.connect() as conn:
     #参考 gpu_df.to_sql('gpu_data',conn,if_exists='append')
 ```
 
+## 新建数据源
+
+在【WorkSpace数据源】标签页，点击右上角【新建连接服务】，即可新建数据源。
+
+###### ![](/assets/xhsht.png)
+
+
+
