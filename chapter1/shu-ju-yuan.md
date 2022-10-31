@@ -25,7 +25,7 @@ with engine.connect() as conn:
 
 ###### ![](/assets/xhsht.png)
 
-# 数据源类型
+## 数据源类型
 
 SmartNoteBook当前支持的数据源类型包括：
 
@@ -41,7 +41,7 @@ SmartNoteBook当前支持的数据源类型包括：
 
 ![](/assets/type.png)
 
-# 数据库连接
+## 数据库连接
 
 用户可以在选择不同类型的数据源后，通过正确配置对应类型的数据库信息、数据库凭证后，完成创建数据库连接。
 
