@@ -8,8 +8,6 @@
   * [成员](chapter1/cheng-yuan.md)
   * [调度](chapter1/diao-du.md)
   * [设置](chapter1/she-zhi.md)
-    * [编辑](chapter1/she-zhi/bian-ji.md)
-    * [删除](chapter1/she-zhi/shan-chu.md)
 * [NoteBook](bian-ji-qi.md)
   * [代码块（Cell）](bian-ji-qi/dai-ma-kuai.md)
     * [Python代码](bian-ji-qi/dai-ma-kuai/pythondai-ma.md)
