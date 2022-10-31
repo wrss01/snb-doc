@@ -15,7 +15,7 @@
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
   * [收藏](bian-ji-qi/shou-cang.md)
-  * [评论](bian-ji-qi/ping-lun.md)
+  * [评论](NoteBook/Comments.md)
   * 分享
   * [快捷键](NoteBook/Shortcuts.md)
 * [开始使用](kai-shi-shi-yong.md)
