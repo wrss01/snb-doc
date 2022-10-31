@@ -11,10 +11,6 @@
 * `Python代码`
 * `SQL代码`
 * `MarkDown`
-* `Chart`
-* `Snb Table`
-* `EDA分析`
-* `EDA概览`
 
 ![](/assets/cellfirst.png)
 
