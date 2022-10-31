@@ -10,11 +10,13 @@ SmartNoteBook为用户提供Workspace环境配置功能，让用户可以根据�
 
 ![](/assets/xjhj.png)
 
+
 # 编辑环境
 
 在【WorkSpace环境】标签页，选择需修改的环境，单击【操作】列的【...】，然后点击【编辑环境】。
 
 ![](/assets/bjhj.png)
+
 
 # 删除环境
 
@@ -23,9 +25,4 @@ SmartNoteBook为用户提供Workspace环境配置功能，让用户可以根据�
 注：环境如已被引用，需将项目完全删除后再删除环境。
 
 ![](/assets/schj.png)
-
-
-
-
-
 
