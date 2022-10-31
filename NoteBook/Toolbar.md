@@ -61,6 +61,20 @@ kernel 的中断（Kernel interrupt）是指kernel 正在运行代码中断运�
 批量运行Notebook下的所有Cell（当前sheet范围内）
 
 
+# 终端
+
+用户可通过终端连接至容器，查看和操作服务器上的资源。
+
+![](/assets/zdtr.png)
+
+# Graph
+
+Notebook根据代码块间的引用关系生成Graph，直观展示各个代码块（Cell）间的相互关系和脉络。
+
+![](/assets/gra.png)
+
+
+
 
 
 
