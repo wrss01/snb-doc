@@ -31,7 +31,7 @@
     },
     "doorTheme": {
       "search-placeholder": "请输入关键字搜索",
-      "logo": "./_media/logo.svg",
+      "logo": "./logo.svg",
       "favicon": "./_media/favicon.ico"
     }
   }
