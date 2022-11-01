@@ -11,7 +11,8 @@
 
 var alt_split = data.alt.split("style=")
   if ( alt_split.length>1 ){
-    data.alt=alt_split[0]
+    data.alt=alt_split[0];
+    img.attr('alt',alt_split[0]);
     img.attr('style',alt_split[1].replace(/"/g,''));
   }
 
