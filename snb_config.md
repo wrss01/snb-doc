@@ -1,3 +1,7 @@
+##  
+gitbook.cmd install
+npm run serve
+
 ## 关于图片增加图标题题(fig caption)和style
 
 
