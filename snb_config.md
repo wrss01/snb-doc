@@ -42,4 +42,14 @@ var alt_split = data.alt.split("style=")
 ![图 9](images/120c06e571a1a3b89bd3afaf1ff917b1c7dd53707ae06a0fdc77d9196084fe07.png)  
 
 
-## 注意提醒
+## 注意提醒(note、tips、attention、warning)
+https://github.com/fzankl/gitbook-plugin-flexible-alerts
+
+> [!NOTE]
+> An alert of type 'note' using global style 'callout'.
+
+
+## sdd
+
+> [!NOTE|style:flat]
+> An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'.

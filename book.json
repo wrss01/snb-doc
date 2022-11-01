@@ -8,7 +8,8 @@
     "-search",
     "-sharing",
     "search-pro-fixed", 
-    "image-captions"
+    "image-captions",
+    "flexible-alerts"
   ],
   "variables": {
     "doorTheme": {

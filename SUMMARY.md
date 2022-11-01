@@ -25,4 +25,4 @@
   * [编写一个分析案例](Tutorial/YourFirstAnalysis.md)
   * [创建一个定时任务](Tutorial/YourFirstSchedule.md)
   * [邀请一个团队成员](Tutorial/InviteYourMember.md)
-
+* [编辑注意事项](snb_config.md)
