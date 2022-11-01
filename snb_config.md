@@ -42,7 +42,7 @@ var alt_split = data.alt.split("style=")
 ![图 9](images/120c06e571a1a3b89bd3afaf1ff917b1c7dd53707ae06a0fdc77d9196084fe07.png)  
 
 
-## 注意提醒(note、tips、attention、warning)
+## 注意提醒(alert、note、tips、attention、warning)
 https://github.com/fzankl/gitbook-plugin-flexible-alerts
 
 > [!NOTE]
