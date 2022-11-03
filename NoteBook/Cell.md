@@ -88,76 +88,93 @@ Python是代码块默认的类型，增加Python代码块的两种方式：
 
 通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。
 
-* 变量替换：`{{VAR}}`
+* 变量替换：
+  ``` {% raw %}
+  {{VAR}}
+  {% endraw %}
+  ```
 * 判断：  
-        `{% if b >0 %}`  
-        `,{{a}}`  
-       `{% endif %}`
+  ```{% raw %}
+  {% if b >0 %}
+    ,{{a}}  
+  {% endif %}
+  {% endraw %}
+  ```
 
-* 循环：  
-       `{% for i in list_1 %}`  
-       `, {{i}}`  
-       `{% endfor %}`
+* 循环：
+  ```{% raw %}
+  {% for i in list_1 %}  
+  , {{i}}
+  {% endfor %}
+  {% endraw %}
+  ```
 
 * 字典：  
-       `data ={"a":100,"b":200}`  
-       `{{data.a}}`  
-      `{{data.b}}`
+  ```{% raw %}
+  data ={"a":100,"b":200}  
+  {{data.a}} 
+  {{data.b}}
+  {% endraw %}
+  ```
 
 ## 示例说明
 
+
 ```py
+{% raw %}
 Province='山东省'
 
 df2=_smartnotebook_execute_dataframesql("""
-select Province,sum(GDP2020) as gdp_sum, sum(Population2020) as popu_sum,sum(GDP2020) / sum(Population2020) as gdp_avg,
-count(distinct District) as dist_count,stddev(per_gdp) as gdp_std from gdp 
-
-where Province > "{{Province}}" 
-
+select Province,sum(GDP2020) as gdp_sum, sum(Population2020) as popu_sum,sum(GDP2020) / sum
+(Population2020) as gdp_avg,
+count(distinct District) as dist_count,stddev(per_gdp) as gdp_std from gdp
+where Province > "{{Province}}"
 group by Province
 """,context=globals())
 df2
+{% endraw %}
 ```
 
-```py
-a=111
-b=0
-df_2 = _smartnotebook_execute_sql("""    select 1
-{% if b >0 %}
-,{{a}}
-{% endif %}
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
-```
+    
 
-```py
-a=111
-b=0
-list_1=[1,2,3,4]
-df_2 = _smartnotebook_execute_sql("""    select 1
-{% if b >0 %}
-,{{a}}
-{% endif %}
+  ```
+  a=111
+  b=0
+  df_2 = _smartnotebook_execute_sql("""    select 1
+  {% if b >0 %}
+  ,{{a}}
+  {% endif %}
+  """, "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
+  print(df_2)
+  ```
 
-{% for i in list_1 %}
-, {{i}}
-{% endfor %}
+  ```
+  a=111
+  b=0
+  list_1=[1,2,3,4]
+  df_2 = _smartnotebook_execute_sql("""    select 1
+  {% if b >0 %}
+  ,{{a}}
+  {% endif %}
 
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
-```
+  {% for i in list_1 %}
+  , {{i}}
+  {% endfor %}
 
-```
-data={"a":100,"b":200}
-df_2 = _smartnotebook_execute_sql("""    select 1
+  """, "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
+  print(df_2)
+  ```
 
-,{{data.a}}
-,{{data.b}}
+  ```
+  data={"a":100,"b":200}
+  df_2 = _smartnotebook_execute_sql("""    select 1
 
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
-```
+  ,{{data.a}}
+  ,{{data.b}}
+
+  """, "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
+  print(df_2)
+  ```
 
 ## DFSQL
 
@@ -168,7 +185,7 @@ print(df_2)
 
 ## 示例说明
 
-```py
+```
 lat =pd.read_excel('http://172.30.21.57/lat.xlsx')
 lat.columns=['Province','d','d','lot','lat']
 lat
