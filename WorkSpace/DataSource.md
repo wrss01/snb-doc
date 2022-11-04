@@ -18,10 +18,6 @@ SmartNoteBook当前支持的数据源类型包括：
 
 ![支持的数据源类型 style="width: 70%;height: 70%;"](../images/bb3eb3d7c2ec5061e6dbe0e2b84452ad596ae3257a2a5ef9452e898186401af9.png "数据源类型")
 
-![支持的数据源类型01 style="width: 70%;height: 70%;"](../images/524f187c54a3385b9003668448ad8665f9c1c0568648638aff348ba4c734b09a.png "数据源类型01")
-
-
-
 
 
 SmartNoteBook为用户提供数据接入与管理功能，让用户可以简单高效的接入和管理数据集。
