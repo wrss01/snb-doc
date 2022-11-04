@@ -17,12 +17,7 @@
         {
           "url": "http://172.30.81.116:8888/",
           "target": "_blank",
-          "name": "产品"
-        },
-        {
-          "url": "xxxxx",
-          "target": "_blank",
-          "name": "价格"
+          "name": "SmartNoteBook首页"
         }
       ]
     }
