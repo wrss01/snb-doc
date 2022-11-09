@@ -23,6 +23,7 @@
   * [创建一个Workspace](Tutorial/YourFirstWorkspace.md)
   * [创建一个Notebook](Tutorial/YourFirstNotebook.md)
   * [编写一个分析案例](Tutorial/YourFirstAnalysis.md)
+  * [编写一个机器学习案例](Tutorial/YourFirstML.md)
   * [创建一个定时任务](Tutorial/YourFirstSchedule.md)
   * [邀请一个团队成员](Tutorial/InviteYourMember.md)
 * [编辑注意事项](snb_config.md)
