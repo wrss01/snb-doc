@@ -51,7 +51,7 @@ Snb用于对展示数据集，并具备一定的交互能力，如对特征值�
 除使用Snb Table组件外，SmartNoteBook也提供了Snb Table的开放接口。用户也可通过Python调用__SNB_DisplayTable接口自定义显示Table
 
 ```
-def __SNB_DisplayTable(df,rownum=200,height="520px", width="100%",PageSize=10,nd=2):
+__SNB_DisplayTable(df,rownum=200,height="520px", width="100%",PageSize=10,nd=2)
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
