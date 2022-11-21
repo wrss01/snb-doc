@@ -29,6 +29,104 @@ SmartNoteBook具备低代码实现可视化，目前支持的Chart类型包括
 
 ![](/assets/charsgs.png)
 
+## Chart API（Low code）
+
+除使用Chart组件外，SmartNoteBook也提供了Chart的开放接口Chart API。用户也可通过Python调用Chart API自定义显示图表。
+
+### 河流图themeRiver
+
+```
+from snb_plugin.snbcharts.SnbCharts import themeRiver
+themeRiver(df,'day','project','count_day',height='550px', width='960px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- 'day','project','count_day'：控制统计维度
+
+![图 1](../images/themeriver.png)  
+
+### 散点图scatterChart
+
+```
+from snb_plugin.snbcharts.SnbCharts import scatterChart
+
+scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- 'hour','week_cn','count_hour',series=None：控制统计维度
+- title：图表名称
+
+![图 2](../images/scatterchart.png)  
+
+### 散点图极坐标scatterPolarChart
+
+```
+from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
+
+scatterPolarChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- 'hour','week_cn','count_hour',series=None：控制统计维度
+- title：图表名称
+
+![图 3](../images/polarchart.png)  
+
+
+### 热力图 heatmapChart
+
+```
+from snb_plugin.snbcharts.SnbCharts import heatmapChart
+
+heatmapChart(df,'hour','week_cn','count_hour', title='SmartNotebook', height='550px', width='960px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- 'hour','week_cn','count_hour',：控制统计维度
+- title：图表名称
+
+![图 4](../images/heatmap.png)  
+
+### 雷达图radarChart
+
+```
+from snb_plugin.snbcharts.SnbCharts import radarChart
+radarChart(df, "hour", "week_cn", "count_week_cn", title='SmartNotebook', height='550px', width='1600px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- "hour", "week_cn", "count_week_cn",：控制统计维度
+- title：图表名称
+
+![图 5](../images/radar.png)  
+
+### 盒须图boxPlot
+
+```
+from snb_plugin.snbcharts.SnbCharts import boxPlot
+boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width='980px')
+```
+接口说明：
+- df：数据集，格式：`pandas.DataFrame`
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+- 'Province', 'per_gdp',：控制统计维度
+- title：图表名称
+
+![图 7](../images/boxplotchart.png)  
+
+
 # Snb Table
 
 Snb用于对展示数据集，并具备一定的交互能力，如对特征值进行条件筛选和排序。
