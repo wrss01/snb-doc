@@ -41,3 +41,6 @@
 Notebook支持多个sheet，方便用户组织内容。
 ![](/assets/ssheet.png)
 
+## 返回Workspace
+
+单击浏览器的`后退`按钮或单击左上方SmartNoteBook的Logo区域可返回至Workspace管理页面。

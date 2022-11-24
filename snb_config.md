@@ -53,6 +53,9 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 > An alert of type 'note' using global style 'callout'.
 
 
+> [!Tip]
+> 在分析过程中，Notebook会将我们写的Markdown标题按照层级显示为大纲目录，增加整个分析过程的可读性。另外，我们也可以通过点击大纲目录中的小节快速定位到代码块。所以，养成良好的数据分析报告书写习惯不仅提升数据分析师的效率，同时也会提高阅读者的阅读体验。
+
 ## sdd
 
 > [!NOTE|style:flat]

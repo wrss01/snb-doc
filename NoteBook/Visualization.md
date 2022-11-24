@@ -15,9 +15,9 @@ SmartNoteBook具备低代码实现可视化，目前支持的Chart类型包括
 
 ## 创建Chart
 
-鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`MarkDown`。
+鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`Chart`。
 
-![](/assets/xjcharts.png)
+![图 16](../images/new%20%20charttable.png)  
 
 ## 配置Chart
 
@@ -135,7 +135,7 @@ Snb用于对展示数据集，并具备一定的交互能力，如对特征值�
 
 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`Snb Table`。
 
-![](/assets/snttable.png)
+![图 15](../images/new%20snbtable.png)  
 
 ## 配置和展示
 

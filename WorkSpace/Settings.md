@@ -22,6 +22,11 @@
 
 # 删除
 
+删除WorkSpace
+
+> [!Warning]
+> 注：Workspace下如存在任何NoteBook文件或任务调度，需将所有内容完全删除后再行删除。
+
 
 
 

@@ -275,5 +275,3 @@ china_city.render_notebook()
 
 > [!Tip]
 > 在分析过程中，Notebook提供了我们一些快速探索数据的组件，通过组件我们能够简单快速地进行探索性数据分析。详细的使用说明可以参考前面关于各个EDA组件的介绍。
-
-![图 21](../images/EDA%E7%BB%84%E4%BB%B6%E4%B8%BE%E4%BE%8B.png)  
