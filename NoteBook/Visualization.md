@@ -37,29 +37,51 @@ SmartNoteBook具备低代码实现可视化，目前支持的Chart类型包括
 
 ```
 from snb_plugin.snbcharts.SnbCharts import themeRiver
-themeRiver(df,'day','project','count_day',height='550px', width='960px')
+
+themeRiver(df, date, series, value, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- date：日期参数，时间序列需选择处理好的日期列
+- series：按照选定的维度进行展现
+- value：统计数据，选择需展现的数值
+- title：图表的标题
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- 'day','project','count_day'：控制统计维度
 
 ![图 1](../images/themeriver.png)  
+
+样例：
+
+```
+from snb_plugin.snbcharts.SnbCharts import themeRiver
+
+themeRiver(temp,'day','project','count_day',height='550px', width='960px')
+```
 
 ### 散点图scatterChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterChart
 
-scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+scatterChart(df, x_col, y_col, size_col, series=None, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- x_col：x轴显示列
+- y_col：y轴显示列
+- size_col：统计数据，选择需展现的数值
+- series：按照选定的维度进行展现
+- title：图表名称
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- 'hour','week_cn','count_hour',series=None：控制统计维度
-- title：图表名称
+
+样例：
+```
+from snb_plugin.snbcharts.SnbCharts import scatterChart
+
+scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+```
 
 ![图 2](../images/scatterchart.png)  
 
@@ -68,64 +90,100 @@ scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook'
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
 
-scatterPolarChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+scatterPolarChart(df, x_col, y_col, size_col, series=None, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- x_col：x轴显示列
+- y_col：y轴显示列
+- size_col：统计数据，选择需展现的数值
+- series：按照选定的维度进行展现
+- title：图表名称
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- 'hour','week_cn','count_hour',series=None：控制统计维度
-- title：图表名称
 
 ![图 3](../images/polarchart.png)  
 
+样例：
 
+```
+from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
+
+scatterPolarChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
+```
 ### 热力图 heatmapChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import heatmapChart
 
-heatmapChart(df,'hour','week_cn','count_hour', title='SmartNotebook', height='550px', width='960px')
+heatmapChart(df, x_col, y_col, size_col, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- x_col：x轴显示列
+- y_col：y轴显示列
+- size_col：统计数据，选择需展现的数值
+- title：图表名称
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- 'hour','week_cn','count_hour',：控制统计维度
-- title：图表名称
 
 ![图 4](../images/heatmap.png)  
+
+样例：
+```
+from snb_plugin.snbcharts.SnbCharts import heatmapChart
+
+heatmapChart(df,'hour','week_cn','count_hour', title='SmartNotebook', height='550px', width='960px')
+```
 
 ### 雷达图radarChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import radarChart
-radarChart(df, "hour", "week_cn", "count_week_cn", title='SmartNotebook', height='550px', width='1600px')
+
+radarChart(df, column, series, value, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- column：显示列
+- series：按照选定的维度进行展现
+- value：统计数据，选择需展现的数值
+- title：图表名称
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- "hour", "week_cn", "count_week_cn",：控制统计维度
-- title：图表名称
 
 ![图 5](../images/radar.png)  
+
+样例：
+```
+from snb_plugin.snbcharts.SnbCharts import radarChart
+
+radarChart(df, "hour", "week_cn", "count_week_cn", title='SmartNotebook', height='550px', width='1600px')
+```
 
 ### 盒须图boxPlot
 
 ```
 from snb_plugin.snbcharts.SnbCharts import boxPlot
-boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width='980px')
+
+boxPlot(df, series, value, title='', height='550px', width='960px')
 ```
 接口说明：
 - df：数据集，格式：`pandas.DataFrame`
+- series：按照选定的维度进行展现
+- value：统计数据，选择需展现的数值
+- title：图表名称
 - height：高度，格式：`px` 或`百分比`
 - width：宽度，格式：`px`或`百分比`
-- 'Province', 'per_gdp',：控制统计维度
-- title：图表名称
 
 ![图 7](../images/boxplotchart.png)  
 
+样例：
+```
+from snb_plugin.snbcharts.SnbCharts import boxPlot
+
+boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width='980px')
+```
 
 # Snb Table
 

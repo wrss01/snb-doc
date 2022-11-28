@@ -19,6 +19,10 @@
 ![图 9](../images/7527705e07e5f86cb26c90f84b8fafd1c36e27b29271c2e54057ce194b99169d.png)  
 
 
+例：Workspace配置Gitlab仓库实例
+
+![图 3](../images/gitlab.png)  
+
 
 # 删除
 

@@ -18,6 +18,6 @@ SmartNoteBook为用户提供密码保护的功能，用户可以加密一些敏�
 
 ## 密保的使用
 
-<p>单击密保名称前面的<img src="../images/%E5%A4%8D%E5%88%B6icon.png" alt=""  float />可以复制密保的使用代码，并在NoteBook中插入代码进行调用。</p>
+<p>单击密保名称前面的<img src="../images/%E5%A4%8D%E5%88%B6icon.png"  style="display: inline-block;" />可以复制密保的使用代码，并在NoteBook中插入代码进行调用。</p>
 
 ![图 5](../images/%E5%A4%8D%E5%88%B6%E5%AF%86%E4%BF%9D.png)  

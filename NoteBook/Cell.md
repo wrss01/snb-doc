@@ -1,6 +1,6 @@
 # 代码块（Cell）
 
-在Notebook中，代码块是编写、运行、分享 `代码/图表/MarkDown` 的最小单元，代码块处于运行状态，会有![](/assets/zzzz.png)标志。
+在Notebook中，代码块是编写、运行、分享 `代码/图表/MarkDown` 的最小单元，代码块处于运行状态，会有<img src="../assets/zzzz.png"  style="display: inline-block;" />标志。
 
 ![](/assets/xzms.png)
 
@@ -8,9 +8,20 @@
 
 目前代码块支持的类型有：
 
+<b>Code类型：</b>
+
 * `Python代码`
 * `SQL代码`
 * `MarkDown`
+
+<b>Data Display：</b> 
+* `Chart`：详见<a href="./Visualization.md" title="可视化">可视化组件</a>
+* `Snb table`:详见<a href="./Visualization.md" title="可视化">可视化组件</a>
+* `EDA分析`:详见<a href="./EDA.md" title="EDA组件">EDA组件</a>
+* `EDA概览`:详见<a href="./EDA.md" title="EDA组件">EDA组件</a>
+
+<b>Data Display：</b> 
+* `数据透视表`:详见<a href="./DataTransform.md" title="数据透视表">数据透视表</a>
 
 ![](/assets/cellfirst.png)
 
@@ -52,6 +63,9 @@ Cell的状态为两种：**编辑状态**、**命令状态** ，两者可以相�
   * Enter 回车：命令状态 --转化为--&gt;编辑状态
   * ESC   取消：编辑状态--转化为--&gt;命令状态
 
+> [!Tip]
+> 可根据Cell代码块左侧颜色来判断Cell处于`编辑状态`还是`命令状态`。蓝色为`命令状态`，显示绿色为`编辑状态`。
+
 ## 代码块操作快捷键
 
 * 删除当前CELL   连续按两次`d`键
@@ -77,16 +91,60 @@ Cell的状态为两种：**编辑状态**、**命令状态** ，两者可以相�
 
 # Python代码
 
-Python是代码块默认的类型，增加Python代码块的两种方式：
+Python是Cell代码块默认的代码类型。
+
+## 创建Python代码块
+
+增加Python代码块的两种方式：
 
 * 直接单击代码块右上角的 `+` 号
 * 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`insert code cell`
 
 ![](/assets/inspython.png)
 
+## 运行Python代码块
+
+* 编写Python代码
+* 点击Cell左上角的运行按钮 <img src="../images/%E6%89%A7%E8%A1%8C%E6%8C%89%E9%92%AE.png"  style="display: inline-block;" />开始执行代码，运行完毕后按钮右侧将显示运行时长
+* 打印代码输出区域
+* 折叠代码输入区域
+* 行号
+* 折叠打印输出区域
+
+![图 4](../images/%E8%BF%90%E8%A1%8Cpython%E4%BB%A3%E7%A0%81.png)  
+
+当代码存在错误，报错信息会打印在代码输出区域
+
+![图 6](../images/%E6%8A%A5%E9%94%99%E5%8C%BA%E5%9F%9F.png)  
+
+# SQL代码
+
+SmartNoteBook支持运行SQL代码块。通过选择数据源和编写SQL语句执行后结果集转为DataFrame，提升数据处理效率、降低入门使用门槛。
+
+## 创建SQL代码块
+
+创建SQL代码块的两种方法：
+
+* 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`SQL`。
+
+![图 7](../images/new%20sql%20%E5%9B%BE.png)  
+
+
+* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的![](/assets/cvvr.png)，选择`Convert to SQL`。
+
+![](/assets/cvtsqs.png)
+
+## SQL代码的操作
+
+* 选择数据源
+* 结果集的名称 `结果将保存为DataFrame`
+* 点击执行代码
+
+![](/assets/sqczz.png)
+
 ## SQLTemplate
 
-通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。
+通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。以下我们只介绍SQLTemplate变量替换和流程控制的格式说明和简单样例，关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
 * 变量替换：
   ``` {% raw %}
@@ -178,12 +236,16 @@ print(df_2)
 {% endraw %}
 ```
 
+SQL单元格(Cell)：
+dfSQL单元格(Cell)：
+SQL模板：SQL及dfSQL支持JinJa2 表达式模板，支持变量替换、逻辑判断、逻辑循环等逻辑控制，可以很方便的结合python 变量控制SQL执行逻辑、支持复杂数据处理逻辑。
+Markdown单元格(Cell):通过Markdown描述数据处理的流程、算法的逻辑等说明，更好阐述数据故事和模型、知识的分享。Markdown支持Latex数学公式、插图、序号列表、任务列表、表格、TOC目录等各式，丰富表达数据故事流程。
+
+
 ## DFSQL
 
-通过SmartNoteBook的DFSQL功能，可以实现
+通过SmartNoteBook的DFSQL功能，可以通过SQL操作DataFrame执行数据筛选、过滤、排序、统计汇总、转换、合并等数据处理过程。以下我们只介绍了一个使用DFSQL简单样例，关于DFSQL支持的操作可参考[SQLite3 Documentation](https://www.sqlite.org/docs.html)。
 
-* SQL查询的结果可直接命名和保存为python的DataFrame数据结构
-* 进行SQL查询时可直接将DataFrame数据结构作为表名使用。
 
 ## 示例说明
 
@@ -217,31 +279,6 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 {% endraw %}
 ```
 
-# SQL代码
-
-SmartNoteBook支持运行SQL代码块。
-
-## 创建SQL代码块
-
-创建SQL代码块的两种方法：
-
-* 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`SQL`。
-
-![图 7](../images/new%20sql%20%E5%9B%BE.png)  
-
-
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的![](/assets/cvvr.png)，选择`Convert to SQL`。
-
-![](/assets/cvtsqs.png)
-
-## SQL代码的操作
-
-* 选择数据源
-* 结果集的名称 `结果将保存为DataFrame`
-* 点击执行代码
-
-![](/assets/sqczz.png)
-
 # Markdown
 
 Markdown代码块，文本编辑单元，支持 Markdown 语法，可利用它编写数据分析报告、解释算法和模型的搭建过程。
@@ -261,11 +298,24 @@ Markdown代码块，文本编辑单元，支持 Markdown 语法，可利用它�
 
 ## MarkDown的操作
 
+* 编写MarkDown
+
 Markdown 语法可参考此[Markdown基本语法](http://markdown.p2hp.com/basic-syntax/)。
+
+* 执行代码块
 
 MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保存和显示。
 
 ![](/assets/mrakeddown2.png)
 
+* 在MarkDown中插入图片
+
+SmartNoteBook支持直接复制粘贴图片即可将图片插入MarkDown代码块。
+
+* LaTeX数学公式
+
+在markdown中输入数学公式使用LaTeX。语法和样例可参考[Markdown基本语法](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
+
+![图 7](../images/latex.png)  
 
 

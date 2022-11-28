@@ -60,3 +60,12 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 
 > [!NOTE|style:flat]
 > An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'.
+
+
+## 小图标的样式
+
+<p>单击密保名称前面的<img src="../images/%E5%A4%8D%E5%88%B6icon.png"  style="display: inline-block;" />可以复制密保的使用代码，并在NoteBook中插入代码进行调用。</p>
+
+
+## 详见链接样式
+详见<a href="./Settings.md" title="设置">设置</a>

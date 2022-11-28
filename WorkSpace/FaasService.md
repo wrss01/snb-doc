@@ -19,6 +19,12 @@ def getBody(request,requestHandler) -> 'HTTP':
     r = urllib.request.urlopen('http://www.weather.com.cn/data/sk/'+cityMap.get(requestHandler.get_argument("city"))+'.html')
     requestHandler.write(r.read().decode())
 ```
+关于以上注册服务代码的格式约定：
+
+* `__MODULE_NAME__`：Faas API的注册名称。该变量名固定，变量的值用户自定义
+* `def getBody(request,requestHandler) -> 'HTTP' `: 函数名`getBody`用户自定义，其他为固定格式
+* `requestHandler.write(r.read().decode())`:固定格式
+* 除以上约定外，函数内部代码用户可自定义编写
 
 执行以上代码块后我们先做虚拟测试检查服务是否可以正常调用
 

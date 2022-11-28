@@ -110,3 +110,4 @@ SmartNoteBook为用户提供团队协作的功能，让用户可以邀请成员�
 ## WorkSpace设置
 
 可修改和设定Workspace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`等信息。详见<a href="./Settings.md" title="设置">设置</a>
+
