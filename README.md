@@ -142,9 +142,31 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 
 ![函数发布 style="width: 60%;height: 60%;"](images/adc889bf29b19cc31b56275d9e95732d6ddf68cf142e8579746127815afc5f18.png "函数发布")
 
-
+![函数服务 style="width: 60%;height: 60%;"](images/155c09e70b981af2c4b53ba6928e02c83fab9d52224f62be2c676a52ea38f434.png "函数服务")
 
 
 ## 云原生的数据分析及数据科学平台
 
+云原生技术使组织能够在公共、私有和混合云等现代动态环境中构建和运行可扩展的应用程序。包括容器、服务网格、微服务、不可变基础设施和声明式 API等。这些技术支持具有弹性、可管理和可观察的松散耦合系统。结合强大的自动化，它们使工程师能够以最少的工作频繁且可预测地进行高影响力的更改。
+SmartNoteBook是一款云原生的数据分析及数据科学平台，适应于公有、私有及混合云，有较好的弹性，根据需要配置Node 节点的资源、隔离workspace,使用SmartNoteBook 快捷构建组织内的数据分析和数据科学环境和生态。
+
+- 云原生的架构：整体架构包括Server(管理)、Node(分析及计算引擎)、Kernel Plugin模块，应用云原生的中间件。
+- 以工作空间(WorkSpace)为单元做资源管理、隔离和弹性部署。
+- 安装和部署全部容器化的，可以利用容器编排工具管理集群。
+
+![云原生的架构 style="width: 60%;height: 60%;"](images/f5da37107eb79287839a7f32d9308d9bdfec9273dfcca143074fd0332fabc535.png "云原生的架构")
+
+![资源隔离与弹性配置 style="width: 60%;height: 60%;"](images/aa88a77f5779bc0439fca8a0256b9a443b112ede89de8ef27c6a24c5a6a82037.png "资源隔离与弹性配置")
+
+![资源隔离与弹性配置 style="width: 60%;height: 60%;"](images/b44080ef5b7299c261a65b13c4ed8e7d84d18e2002837c29cd49c7dcf52f63a7.png "资源隔离与弹性配置")
+
+![Node Kernel style="width: 60%;height: 60%;"](images/f6a38f0bcadf51e51c65c6d1370cbe4a9587a2316c41e4aad27d10b2adaa7722.png "Node Kernel")
+
+![Node负载 style="width: 60%;height: 60%;"](images/4bec119897d62da6946cccf5a758f1c34ef383315bc64bd1eb18ef39d15cca2e.png "Node负载")
+
+
+
 ## 模型市场及知识社区
+
+![模型市场 style="width: 60%;height: 60%;"](images/76030cfeb119623ee736b1128840d318dca6e8d9b351eced6b5c01db8f1aaa12.png "模型市场")
+
