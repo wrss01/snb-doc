@@ -1,6 +1,5 @@
-
 {
-    "name": "smart notebook doc gitbook",
+    "name": "smart_notebook_doc_gitbook",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
