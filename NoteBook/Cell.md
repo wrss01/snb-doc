@@ -122,7 +122,7 @@ Python是Cell代码块默认的代码类型。用户可以在Python代码块中�
 
 # SQL代码
 
-SmartNoteBook通过SQL代码块提供一流的SQL支持，每个SQL代码块都是一个完全成熟的查询IDE，具有自动补全、缓存、数据预览等功能。项目可以有无限数量的SQL代码块与文本、代码、图表和各类可视化组件交错，从而创建非常灵活的查询环境。
+SmartNoteBook通过SQL代码块提供一流的SQL支持，每个SQL代码块都是一个完全成熟的查询IDE，具有自动补全、数据预览等功能。项目可以有无限数量的SQL代码块与MarkDown文本、代码、图表和各类可视化组件交错，从而创建非常灵活的查询环境。
 
 ## 创建SQL代码块
 
@@ -317,7 +317,13 @@ SmartNoteBook支持直接复制粘贴图片即可将图片插入MarkDown代码�
 
 * LaTeX数学公式
 
-您可以使用Markdown中的$$分隔符以LaTeX样式插入数学表达式。语法和样例可参考[LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
+您可以使用Markdown中的`$`分隔符以LaTeX样式插入数学表达式。
+
+- 行内公式 `$x`=`1$` 与文字混排
+
+- 行间公式 `$$ x`=`1 $$` 独立成行
+
+语法和样例可参考[LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
 
 ![图 7](../images/latex.png)  
 

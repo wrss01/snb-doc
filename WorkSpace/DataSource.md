@@ -20,6 +20,8 @@ SmartNoteBook当前支持的数据源类型包括：
 
 ![支持的数据源类型 style="width: 70%;height: 70%;"](../images/bb3eb3d7c2ec5061e6dbe0e2b84452ad596ae3257a2a5ef9452e898186401af9.png "数据源类型")
 
+> [!Tip]
+> SmartNoteBook即将支持更多的数据源——如果您有需要优先支持的数据源，请联系我们。
 
 ## 新建数据源
 
@@ -34,6 +36,29 @@ SmartNoteBook当前支持的数据源类型包括：
 用户可以在选择不同类型的数据源后，通过正确配置对应类型的数据库信息、数据库凭证后，完成创建数据库连接。
 
 不同的数据源对应填写的配置项也会存在差异。
+
+- 对于MySQL，PostgreSQL，SQL Server，ClickHouse和Greenplum，您需要：
+
+  - 数据库主机网址地址（host）
+  - 数据库端口（Port）
+  - 数据库名称（Database）
+  - 用户名和密码
+
+- 对于Spark，Hive，Presto，ClickHouse和Greenplum，您需要：
+
+  - 数据库主机网址地址（host）
+  - 数据库端口（Port）
+  - 数据库名称（Database）
+  - 鉴权方式：`用户名和密码`或`无需鉴权`
+  - 用户名和密码
+
+- 对于Oracle，您需要：
+
+  - 数据库主机网址地址（host）
+  - 数据库端口（Port）
+  - 实例名（SID）
+  - 驱动类型（driver）：`Thin`/`OCI`/`OCIB`
+  - 用户名和密码
 
 例如当连接MySQL数据源：
 
