@@ -6,12 +6,20 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 * 分享NoteBook
 
-![图 10](../images/d87989e31fe50a270c80275681eaa11e8176bdb53991c9d0f101abee5fab4cad.png)  
+![图 3](../images/%E5%88%86%E4%BA%ABnotebook%20new.png)  
+
 
 点击`分享`后得到分享链接
 
 
 ![图 11](../images/0c6d3b36d4565c33912bc3d3dda5fcc4a7cfb9b256daf6b6c0eb3d6167a5cded.png)  
+
+点击分享链接可查看分享后的报告页面
+
+![图 5](../images/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%E9%A1%B5%E9%9D%A21.png)  
+
+
+![图 4](../images/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%E6%95%88%E6%9E%9C.png)  
 
 
 * 分享Cell输出
@@ -24,3 +32,11 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 点击分享单元格输出的按钮即可获取分享链接
 
 ![图 13](../images/2b49e52d4baf503390f03a56afc0fe3703cc90311f030d07d6fe223582fb349c.png)  
+
+点击分享链接可查看分享后的单元格输出
+
+![图 1](../images/%E5%88%86%E4%BA%AB%E5%8D%95%E5%85%83%E6%A0%BC%E6%8A%A5%E5%91%8A.png)  
+
+
+![图 2](../images/%E5%88%86%E4%BA%AB%E5%8D%95%E5%85%83%E6%A0%BC2.png)  
+

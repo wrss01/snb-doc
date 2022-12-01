@@ -59,7 +59,7 @@ print(rh.read())
 
 ![图 9](../images/%E7%AE%A1%E7%90%86api%E6%9C%8D%E5%8A%A1.png)  
 
-在管理页面我们可以查看并跳转![图 11](../images/tiaozhuan.png) 到服务链接。
+在管理页面我们可以查看并跳转<img src="../images/tiaozhuan.png"  style="display: inline-block;" /> 到服务链接。
 
 点击`...` 可进行的操作：
 

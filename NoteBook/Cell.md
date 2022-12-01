@@ -85,13 +85,16 @@ Cell的状态为两种：**编辑状态**、**命令状态** ，两者可以相�
 
 `注：命令状态与编辑状态 都支持运行快捷键`
 
+> [!Tip]
+> 代码块操作的快捷键详见<a href="./Shortcuts.md" title="快捷键">快捷键</a>
+
 ## 上下键切换代码块
 
 在当前选定的单元格是命令状态时，可以上下键切换单元格（移动选定的单元格），上键往上移动选定，直到最上面一个单元为止。下键往下移动选定单元格，直到最下面的单元格为止。
 
 # Python代码
 
-Python是Cell代码块默认的代码类型。
+Python是Cell代码块默认的代码类型。用户可以在Python代码块中编辑和执行任何有效的Python。
 
 ## 创建Python代码块
 
@@ -119,7 +122,7 @@ Python是Cell代码块默认的代码类型。
 
 # SQL代码
 
-SmartNoteBook支持运行SQL代码块。通过选择数据源和编写SQL语句执行后结果集转为DataFrame，提升数据处理效率、降低入门使用门槛。
+SmartNoteBook通过SQL代码块提供一流的SQL支持，每个SQL代码块都是一个完全成熟的查询IDE，具有自动补全、缓存、数据预览等功能。项目可以有无限数量的SQL代码块与文本、代码、图表和各类可视化组件交错，从而创建非常灵活的查询环境。
 
 ## 创建SQL代码块
 
@@ -292,7 +295,7 @@ Markdown代码块，文本编辑单元，支持 Markdown 语法，可利用它�
 ![图 8](../images/new%20md.png)  
 
 
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的![](/assets/cvvr.png)，选择`Convert to Markdown`。
+* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;" />，选择`Convert to Markdown`。
 
 ![](/assets/cvmarkd.png)
 
@@ -314,8 +317,11 @@ SmartNoteBook支持直接复制粘贴图片即可将图片插入MarkDown代码�
 
 * LaTeX数学公式
 
-在markdown中输入数学公式使用LaTeX。语法和样例可参考[Markdown基本语法](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
+您可以使用Markdown中的$$分隔符以LaTeX样式插入数学表达式。语法和样例可参考[LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
 
 ![图 7](../images/latex.png)  
 
+## MarkDown快捷键操作
+
+MarkDown操作的快捷键详见<a href="./Shortcuts.md" title="快捷键">快捷键</a>
 

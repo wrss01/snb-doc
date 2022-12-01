@@ -15,9 +15,9 @@
     "doorTheme": {
       "nav": [
         {
-          "url": "http://172.30.81.116:8888/",
+          "url": "http://smartnotebook.tech/",
           "target": "_blank",
-          "name": "SmartNoteBook首页"
+          "name": "产品首页"
         }
       ]
     }
@@ -28,8 +28,8 @@
     },
     "doorTheme": {
       "search-placeholder": "请输入关键字搜索",
-      "logo": "./logo.svg",
-      "favicon": "./_media/favicon.ico"
+      "logo": "./SmartNotebook.svg",
+      "favicon": "./SmartNotebook.ico"
     }
   },
   "styles": {
