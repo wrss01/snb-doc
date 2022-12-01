@@ -2,7 +2,7 @@
 
 侧边栏为Notebook提供一系列扩展功能。
 
-* 环境：包含常用的数据分析、机器学习工具包，为Notebook运行提供软件环境支持。
+* 包管理：包含常用的数据分析、机器学习工具包，为Notebook运行提供软件包环境支持。
 * 数据/文件资源：可访问已上传至Workspace的项目文件及数据库目录。
 * 目录结构：来自Markdown类型单元格标题自动生成的大纲目录结构。
 * 实例和调度：查看当前已使用的容器计算资源，如`内存`、`CPU占比`，可根据需要来切换环境资源。支持创建调度任务，定期执行Notebook任务。
@@ -13,20 +13,55 @@
 ![](/assets/cbl2.png)
 
 
-# 环境
+## 包管理
 
-包含常用的数据分析、机器学习工具包，为Notebook运行提供软件环境支持。
+包含常用的数据分析、机器学习工具包，为Notebook运行提供软件包环境支持。
 
 ![](/assets/hjaz.png)
 
+### 安装包
 
-# 数据资源
+* 输入要安装的包名称（支持模糊匹配）
+* 点击放大镜进行搜索
+* 在结果列表找到需要安装的包及版本号，点击右侧的下载图标开始安装
 
-可访问已上传至Workspace的项目文件及数据库目录。
+![图 8](../images/%E5%AE%89%E8%A3%85%E5%8C%85.png)  
+
+### 已安装的包
+
+- 可查看已安装的包及版本号
+- 支持模糊动态匹配搜索
+
+![图 9](../images/yianzhuangdebao%20.png)  
+
+
+## 数据资源
+
+可访问和管理已上传的文件资源及数据库资源。
+
+SmartNoteBook的文件存储机制：分为两级
+
+* 通过Workspace文件管理上传后，会将文件传输到MinIO分布式存储的公共区域。该操作详见<a href="../WorkSpace/Files.md" title="上传文件">上传文件</a>
+
+* 通过NoteBook的数据资源同步，可以根据需要将MinIO公共区域的资源文件同步至Node节点使用
 
 ![](/assets/身教重于言教.png)
 
-## 同步文件
+
+### 查看和管理文件
+
+点击<img src="../images/%E8%BF%9B%E5%85%A5%E7%9B%AE%E5%BD%95.png"  style="display: inline-block;" />
+查看已上传的文件
+
+![图 11](../images/%E6%95%B0%E6%8D%AE%E8%B5%84%E6%BA%90.png)  
+
+点击 <img src="../images/%E8%BF%94%E5%9B%9E%E7%AE%AD%E5%A4%B4.png"  style="display: inline-block;" />
+返回上一级
+
+![图 12](../images/%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E7%BA%A7.png)  
+
+
+### 同步文件
 
 上传到Workspace的数据文件会保存在顶部的`Notebook files`目录下。  
 通过点击`全部同步`，可将上传的文件同步至Notebook空间下进行访问。  
@@ -34,14 +69,23 @@
 
 ![](/assets/tbwj.png)
 
-## 复制数据连接
+### 下载文件
 
-已建立的数据连接，可点击复制连接地址，嵌入至代码块Cell中进行调用。
+点击列表最右侧的下载按钮可下载文件到本地。
+
+![图 10](../images/%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.png)  
+
+
+### 复制数据连接
+
+已建立的数据连接（数据源的操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>），可点击复制连接地址，嵌入至代码块Cell中进行调用。
+
+![图 15](../images/%E6%95%B0%E6%8D%AE%E8%BF%9E%E6%8E%A5%E5%A4%8D%E5%88%B6.png)  
 
 ![](/assets/fzsjlj.png)
 
 
-# 目录
+## 目录
 
 Notebook通过采集MarkDown的标题层级自动生成目录结构。
 
@@ -49,7 +93,7 @@ Notebook通过采集MarkDown的标题层级自动生成目录结构。
 
 ![](/assets/mljg.png)
 
-# 实例（包含调度）
+## 实例（包含调度）
 
 查看当前已使用的容器计算资源，如`内存`、`CPU占比`，可根据需要来切换环境资源。支持创建调度任务，定期执行Notebook任务。
 
@@ -57,7 +101,7 @@ Notebook通过采集MarkDown的标题层级自动生成目录结构。
 ![](/assets/slhdd.png)
 
 
-# 变量浏览
+## 变量浏览
 
 可查看Notebook中各个代码块执行后产生的各类变量信息。
 

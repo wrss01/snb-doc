@@ -68,4 +68,4 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 
 
 ## 详见链接样式
-详见<a href="./Settings.md" title="设置">设置</a>
+详见<a href="./WorkSpace/Files.md" title="设置">设置</a>
