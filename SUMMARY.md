@@ -30,4 +30,6 @@
   * [编写一个机器学习案例](Tutorial/YourFirstML.md)
   * [创建一个定时任务](Tutorial/YourFirstSchedule.md)
   * [邀请一个团队成员](Tutorial/InviteYourMember.md)
+* [隐私政策](Policy.md)
+* [服务条款](Terms.md)
 * [编辑注意事项](snb_config.md)

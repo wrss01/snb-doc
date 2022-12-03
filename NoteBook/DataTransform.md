@@ -22,3 +22,6 @@ SmartNoteBook的`数据透视表`组件是一个表格数据透视插件，具�
 4. 数据预览区域
  
 ![图 19](../images/new%20shujutrans.png)  
+
+## 数据透视表的例子
+
