@@ -1,8 +1,6 @@
 # Workspace设置
 
-设定Workspace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
-
-![图 8](../images/fabc6aa34846036a5937ba4158c075a74475f399cb816b49693cfdb0f72792b1.png)  
+可以配置Workspace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
 
 # 编辑
 
@@ -16,12 +14,12 @@
 * 仓库ID
 * 修改头像
 
-![图 9](../images/7527705e07e5f86cb26c90f84b8fafd1c36e27b29271c2e54057ce194b99169d.png)  
+![图 2](../images/Workspace%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF.png)  
 
 
 例：Workspace配置Gitlab仓库实例
 
-![图 3](../images/gitlab.png)  
+![图 1](../images/gitlab%E9%85%8D%E7%BD%AE.png)  
 
 
 # 删除
