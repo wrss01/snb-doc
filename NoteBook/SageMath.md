@@ -1,178 +1,457 @@
-# SageMath
+# SageMath支持
 
-# 介绍
----
-本教程分为四个部分。这部分，关于本教程，讨论 SageMath 的一些基本属性，向您介绍 教程的结构，并解释如果您愿意，如何为项目做出贡献。
+SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。它整合了许多开源Python包，采用Python语言编写，但也支持其他语言。它的目标是创造一个可变的开源软件以替代Matlab、Magma、Maple 和 Mathematica。
 
-第二部分，SageMath作为计算器，涵盖了如何做算术，评估函数，创建简单图形，解决方程和做基本微积分等主题。我们将本节称为SageMath作为计算器，因为涵盖的大多数主题都是通常使用标准图形计算器完成的主题。本节的目标受众是任何有动力的微积分或微积分预科学生。
+为使大家方便的了解、学习并使用SageMath，我们的SmartNotebook通过引入SageMath引擎并细致地对兼容性做了优化和完善，充分利用Notebook的特性，不仅减少大量复杂的安装和配置，而且做到可以让用户即开即用。
 
-SageMath编程向读者介绍了一些更高级的主题，例如SageMath如何处理数字;如何定义和使用变量和函数;如何操作列表、字符串和集合;和SageMath宇宙和胁迫。
+当我们创建NoteBook时，对于要在NoteBook中使用的语言及环境，目前有三个类型选项：
+- Python
+- R
+- SageMath
 
-最后一部分，数学结构，向读者介绍在大学水平课程中找到的主题：线性代数，数论，群，环，域等。
+关于Python类型的NoteBook详见<a href="./Cell.md" title="代码块（Cell）">代码块（Cell）-> Python代码</a>
 
-由于本教程是对 SageMath 的介绍，我们将使用示例来演示想法，并鼓励读者跟随我们的进度，将命令输入到他们自己的 SageMath 副本中。我们包括练习练习和问题，以便更广泛地探索给定主题。还鼓励读者做其中的许多。
+关于R类型的NoteBoo详见<a href="./R.md" title="R">R语言支持</a>
 
-虽然本教程主要以线性方式进行，但我们仍然在每个部分的开头包含最重要的先决条件主题的列表。此列表遵循文本“您应该熟悉”，通过单击其中一个链接，您将被带到教程的相关部分。我们还提供了指向更多信息和其他在线参考的链接。这些将遵循“另请参阅：”文本。
+这里我们介绍一下SmartNoteBook对SageMath的支持。
 
-某些部分可能包含编号的引文，例如“[1]”。这些引文的列表将位于至少有一个引文的部分的底部。这些引文将引导读者阅读包含有关所呈现主题的更多信息的文本。
+# 创建SageMath环境支持
 
-引用：
+我们用SmartNotebook 快速创建一个Sagemath内核的Notebook。像下面这样，输入Notebook的标题，选择Sagemath的内核，点击提交即可。
 
-[1]	William A. Stein et al. Sage Mathematics Software （Version 8.2）， Sage 开发团队，2018 年，http://www.sagemath.org。
+![picture 1](../images/sagemath_kernel.png)  
 
-# 开始
----
-SageMath（以前称为Sage或SAGE）是基于Python编程语言的免费开源数学软件系统。最初是为研究 数学，它已经发展成为数学的强大工具 教育。它结合了许多其他数学软件包 使用单个界面，使用 Python。通过学习SageMath，你也学到了很多关于Python的知识。
 
-作为一个开源项目，SageMath邀请所有用户做出贡献。本教程是学习如何使用 SageMath 的众多信息来源之一。有关更多信息，请参阅SageMath项目的网站。
+接下来我们进入Notebook后直接创建Code Cell 单元格，便可以编写并执行Sage代码了。
 
-本教程假定读者有权访问正在运行的 SageMath 副本。在大多数操作系统上，安装 SageMath 通常包括从项目的主网站下载正确的包，解开包装，然后从内部执行 sage。有关安装 sage 过程的更多信息，请参阅 SageMath 的安装指南。
 
-一个不错的选择是使用Cocalc在云中运行SageMath。您需要做的就是注册一个免费帐户或通过Google/Github/Facebook/Twitter帐户登录。注册后，您可以使用SageMath启动项目，也可以与其他用户共享。有关Cocalc及其功能的更多信息，请访问Cocalc教程。
 
-如果您选择物理安装并启动了 SageMath，您应该知道有两种方法可以输入命令：从命令行或使用基于 Web 的笔记本。笔记本界面在设计上类似于Matlab，Mathematica或Maple的界面，是一个受欢迎的选择。
+比如：当我们对整数`20221208` 进行素数因子分解 ，新建一个Code Cell 单元格 ，输入以下代码并点击执行：
 
-提示符后面的所有内容都是我们鼓励读者自行输入的命令。例如，如果我们想分解整数，1438880我们将使用 SageMath 的命令给出以下示例。sage:factor()
+```factor(20221208)```
 
-sage: factor(1438880)
-2^5 * 5 * 17 * 23^2
-后面的行包含用户应遵循的输出 正确输入命令后预期。sage:
+执行结果：
 
-选项卡完成
-接下来，我们将讨论如何使用各种 SageMath 接口的几个重要功能;制表符补全和内置帮助系统。
+![picture 2](../images/factor%E5%87%BD%E6%95%B0.png)  
 
-SageMath内置的最方便的功能之一是命令的选项卡完成。若要使用 Tab 完成，只需键入要使用的命令的前几个字母，然后按 Tab 键。例如，假设您要计算66乙，但不记得执行此操作的确切命令名称。一个很好的猜测是，该命令的名称中将有阶乘。要查看该猜测是否正确，只需键入前三个字母并按 tab 键即可。fac
+由于SageMath
 
-sage: fac[TAB]
-factor     factorial
-sage: factor
-输出告诉您只有两个 SageMath 命令以 和 开头。请注意，SageMath 已经将命令从 更改为 ，因为这是两个命令的公共根。由于阶乘看起来像正确的命令，我们将通过键入下一个字母来选择它，然后再次按 Tab 键。facfactor()factorial()facfactori
 
-sage: factorial
-这次不返回任何列表，因为唯一以 开头的命令是 。因此，要计算66乙，您只需通过添加参数来完成命令。factorifactorial()(56)
 
-sage: factorial(56)
-710998587804863451854045647463724949736497978881168458687447040000000000000
-制表符补全的另一个很好的用途是发现对象具有哪些方法。假设您有整数a = 56，并且想知道 SageMath 提供了哪些命令来处理整数，例如 56.在这种情况下，一个这是我们的对象，我们可以通过键入然后按 tab 键来找到与整数相关的所有方法。a.
 
-sage: a = 56
-sage: a.[TAB]
-a.N                            a.kronecker
-... A long list of Commands ...
-a.divisors                     a.parent
-a.dump                         a.popcount
-a.dumps                        a.powermod
-a.exact_log                    a.powermodm_ui
---More--
-不要被这个列表的长度吓倒。SageMath是一个非常强大的系统，它可以用整数做很多事情。在命令行上，屏幕底部的 告诉您可能的命令列表比单个屏幕适合的列表要长。要一次滚动浏览此列表一页，请点击任意键，SageMath 将显示下一页。--More--
+SageMath的帮助系统
 
-在第二页上，您会看到这是一个选项。要使用此方法（该方法将因子56分解为唯一素因数），请输入 。factor()a.factor()
+Help帮助：使用 “？”
 
-sage: a.factor()
-2^3 * 7
-制表符补全不仅可以减少所需的键入量，还可以用于在 SageMath 中发现新命令。
+当我们需要准确了解某个函数或命令的作用以及如何使用它，我们可以使用 “？”来调用内置的帮助系统。例如：
 
-帮助使用 ？
-确定感兴趣的命令后，下一步就是准确了解该命令的作用以及如何使用它。SageMath有一个内置的帮助系统来帮助您实现这一目标。
+lcm?
+图片
 
-假设您希望计算 两个整数，不确定哪个命令执行此操作。一个好地方 开始搜索是在命令提示符下键入，然后 按制表键。l
 
-sage: l[TAB]
-laguerre                    list_plot3d
-lambda                      lk
-laplace                     ll
-latex                       ln
-lattice_polytope            lngamma
-lazy_attribute              load
-lazy_import                 load_attach_path
-lc                          load_session
-lcalc                       loads
-lcm                         local/LIB
-ldir                        local/bin
-...
-lisp_console                ls
-list                        lucas_number1
-list_composition            lucas_number2
-list_plot                   lx
-再一次，您有很长的命令列表可供选择。向下扫描列表，您会看到列出的命令，该命令似乎是您尝试计算的命令。要确保这一点，请输入 。lcm()lcm?
+查看源代码：使用“??”
 
-sage: lcm?
-此命令的输出是一个页面，其中解释了命令的用法和用途。
+有些喜欢研究源码的同学想看看 SageMath 中某个命令的源码，您只需键入您感兴趣的命令，然后键入“??”。
 
-Base Class:     <type 'function'>
-String Form:    <function lcm at 0x32db6e0>
-Namespace:      Interactive
-File:           /home/ayeq/sage/local/lib/python2.6/site-packages/sage/rings/arith.py
-Definition:     lcm(a, b=None)
-Docstring:
-       The least common multiple of a and b, or if a is a list and b is
-       omitted the least common multiple of all elements of a.
+例如，查看factor()的源代码（截图节取了部分源码）：
 
-       Note that LCM is an alias for lcm.
+factor??
+图片
 
-       INPUT:
 
-       * ``a,b`` - two elements of a ring with lcm or
 
-       * ``a`` - a list or tuple of elements of a ring with lcm
 
-       EXAMPLES:
+SageMath as a Calculator
 
-          sage: lcm(97,100)
-          9700
-          sage: LCM(97,100)
-同样，会有很多信息，通常比一个屏幕所能容纳的信息更多。在命令行上，导航很容易;空格键将带您进入下一页，并且 或向上箭头键将在文档中向后移动。要退出帮助系统，请按键。bq
+这里我们介绍介绍一下如何像图形计算器一样使用 SageMath 的一些算术和函数命令。
 
-刚开始时;说明、和部分是值得阅读的好部分。该说明提供了描述命令用途的简短摘要，提供了有关应作为命令参数提供的内容的信息，并提供了命令用法的具体示例。INPUTEXAMPLESINPUTEXAMPLES
 
-本例中的描述为：
 
-The least common multiple of a and b, or if a is a list and b is
-omitted the least common multiple of all elements of a.
-Note that LCM is an alias for lcm.
-从此描述中，您可以非常确定这是您要查找的命令。接下来检查：INPUT
+基本算术
 
-INPUT:
-* ``a,b`` - two elements of a ring with lcm or
-* ``a`` - a list or tuple of elements of a ring with lcm
-在这里你可以看到可以接受两个参数，对于我们的目的，可以接受两个整数，或者一个对象列表。最后，通过仔细阅读，您可以很好地了解此命令在实践中的实际使用方式。lcmEXAMPLES
+基础的算术运算符为加 + 、减 -、乘 * 、除 / 、指数 ^
+数字前面的符号-表示它是负数。
 
-EXAMPLES:
+print('1+1=',1+1)
+print('103-101=',103-101)
+print('7*9=',7*9)
+print('7337/11=',7337/11)
+print('11/4=',11/4)
+print('2^5=',2^5)
+print('-11+9=',-11+9)
+-6
+输出：
 
-   sage: lcm(97,100)
-   9700
-   sage: LCM(97,100)
-   9700
-   sage: LCM(0,2)
-   0
-   sage: LCM(-3,-5)
-   15
-   sage: LCM([1,2,3,4,5])
-   60
-   sage: v = LCM(range(1,10000))   # *very* fast!
-   sage: len(str(v))
-   4349
-在 SageMath 中内置全面的帮助系统是其最佳功能之一，您越早熟悉使用它，您就能更快地使用此 CAS 的全部功能。
+1+1= 2
 
-源代码，？？
-本教程可能有一些读者喜欢编程，想看看如何在 SageMath 中构建命令。为此，您只需键入您感兴趣的源代码的命令，然后按 <tab> 键。例如，回到我们的命令factor()
+103-101= 2
 
-sage: factor??
-Source Code (starting at line 2139):
+7*9= 63
 
-def factor(n, proof=None, int_=False, algorithm='pari', verbose=0, **kwds):
-"""comments inserted here"""
-        try:
-                m = n.factor
-        except AttributeError:
-                """Maybe n is not a Sage element, try to convert it
-                e = py_scalar_to_element(n)
-if e is n:
-    # Either n was a Sage Element without a factor() method
-    # or we cannot it convert it to Sage
-    raise TypeError("unable to factor {!r}".format(n))
-n = e
-m = n.factor
+7337/11= 667
 
-        """code continues"""
-此命令的输出很长，不适合单个页面或快照（自己尝试）。但是，我们报告了一些代码行，以向您展示语法如何是 Pythonic。运行该命令后，您将在代码中看到大量注释（由三引号“”标记），如果您不熟悉它，这些注释将引导您如何阅读它，它的作用以及解释Python语法。
+11/4= 11/4
+
+2^5= 32
+
+-11+9= -2
+
+-6
+
+
+
+SageMath 遵守标准的操作顺序， 即PEMDAS (parenthesis, exponents, multiplication, division, addition, subtraction): 括号、指数、乘法、除法、加法、 减法。
+
+print(2*4^2+1)
+print((2*4)^2+1)
+print(2*4^(2+1))
+print(-3^2)
+print((-3)^2)
+输出：
+
+33
+
+65
+
+128
+
+-9
+
+9
+
+
+
+当两个整数相除时，有一个微妙之处：SageMath将返回分数或其十进制近似值。与大多数图形计算器不同，SageMath将尝试尽可能精确，除非另有说明，否则将返回分数。
+
+print(11/4)
+print(11/4.0)
+print(11/4.)
+print(11.0/4)
+print(11/4*1.)
+输出：
+
+11/4
+
+2.75000000000000
+
+2.75000000000000
+
+2.75000000000000
+
+2.75000000000000
+
+
+
+整数除法和因式分解
+
+有时当我们使用除法时，除法运算符不会给我们所有想要的信息。比如，我们不仅想知道约化分数是多少，甚至想知道它的十进制近似值，或者想知道唯一商和余数是多少。我们可以使用运算符// 来计算商，使用运算符 % 用于余数。使用 divmod(）函数来同时计算获得商和余数。
+
+print( 14 // 4)
+print( 14 % 4)
+print( divmod(14,4))
+输出：
+
+3
+
+2
+
+(3, 2)
+
+
+
+我们知道当两个整数是否能整除，可以采用A/B余数是0，说明可以整除，但SageMath 整数有一个内置的方法可以专门用来检查一个整数是否整除另一个整数。
+
+print(3.divides(15))
+print(5.divides(17))
+输出：
+
+True
+
+False
+
+
+
+与divides方法相关的还有一个方法divisors()，此方法可以返回指定整数的所有正除数的列表。
+
+print(12.divisors())
+101.divisors()
+输出：
+
+[1, 2, 3, 4, 6, 12]
+
+[1, 101]
+
+
+
+我们知道当整数的除数只是1和它本身时，这个数字是素数。为了检查一个数字在SageMath中是否是素数，我们可使用方法is_prime()
+
+print(153.is_prime())
+(2^19-1).is_prime()
+输出：
+
+False
+
+True
+
+
+
+factor()可计算整数的素因数分解
+
+print(62.factor())
+63.factor()
+输出：
+
+2 * 31
+
+3^2 * 7
+
+
+
+有兴趣简单地知道哪些素数除以整数，我们可以使用prime_divisors() 或 prime_factors()方法。
+
+print(24.prime_divisors())
+print(24.prime_factors())
+print(63.prime_factors())
+print(63.prime_divisors())
+输出：
+
+[2, 3]
+
+[2, 3]
+
+[3, 7]
+
+[3, 7]
+
+
+
+求最大公约数和最小公倍数。
+
+最大公约数（GCD）是所有这些公约数中最大的一个。
+
+最小公倍数（LCM）是两个整数相除的最小整数。
+
+print( gcd(14,63))
+print( gcd(15,19))
+print(lcm(4,5))
+lcm(14,21)
+输出：
+
+7
+
+1
+
+20
+
+42
+
+
+
+标准函数和常量
+
+SageMath几乎包含了人们在学习数学时遇到的所有标准函数。接下来我们将介绍一些最常用的函数：maximum、minimum、 floor、ceiling、trigonometric、exponential、logarithm 函数。我们还将看到许多标准的数学常数，如欧拉常数(e）、π 和黄金比例（ ϕ ）。
+
+# max 最大值
+print(max(1,5,8))
+# min 最小值
+print(min(1/2,1/3))
+# abs 绝对值
+print(abs(-10))
+# floor 向下取整 
+print(floor(2.1))
+# ceil 向上取整
+print(ceil(2.1))
+输出：
+
+8
+
+1/3
+
+10
+
+2
+
+3
+
+
+
+当使用floor、ceil 时要特别小心，注意计算精度问题
+
+ print(floor(1/(2.1-2)))
+ print(1/(2.1-2))
+输出：
+
+9
+
+9.99999999999999
+
+
+
+计算机以二进制形式存储实数，而我们习惯于使用十进制表示。十进制表示法非常简单和简短，但是当转换为二进制时，它是：
+
+图片
+由于计算机不能存储无限数量的数字，因此这会在某处四舍五入，从而导致我们看到的精度错误。
+
+
+
+然而，在SageMath中，有理数（分数）是精确的，所以我们永远不会看到这个舍入误差。因此，尽可能使用有理数(分数)而不是小数通常是一个好主意，尤其是在需要高精度的情况下。
+
+floor(1/(21/10-2))
+输出：
+
+10
+
+
+
+sqrt()该命令/函数计算实数的平方根。正如我们之前在分数中看到的那样，如果我们想要十进制近似值，我们可以通过给出一个十进制数作为输入来获得它。
+
+print(sqrt(3))
+print( sqrt(3.0))
+输出：
+
+sqrt(3)
+
+1.73205080756888
+
+
+
+为了计算其他根，我们使用有理指数。SageMath可以计算任何有理数指数幂(SageMath can compute any rational power)。如果指数或基数是小数，则输出将是小数。
+
+print( 3^(1/2) )
+print( (3.0)^(1/2) )
+print( 8^(1/2) )
+print( 8^(1/3) )
+输出：
+
+sqrt(3)
+
+1.73205080756888
+
+2*sqrt(2)
+
+2
+
+
+
+SageMath 还支持所有标准三角函数，例如：正弦sin()和余弦 cos()
+
+print( sin(1) )
+print( sin(1.0) )
+print( cos(3/2) )
+print( cos(3/2.0) )
+输出：
+
+sin(1)
+
+0.841470984807897
+
+cos(3/2)
+
+0.0707372016677029
+
+
+
+我们再次看到与SageMath相同的行为，SageMath将给我们一个确切的答案。你可能会想，既然没有办法简化，何必呢？好吧，一些涉及正弦的表达式确实可以简化。例如，几何学中的一个重要恒等式是 :
+
+图片
+
+
+SageMath有一个内置的符号π，去使用这个恒等式：
+
+print(pi)
+print(sin(pi/3))
+输出：
+
+pi
+
+1/2*sqrt(3)
+
+
+
+在SageMath内，我们完全处理的是π，而不是一些数字近似。但是，我们可以使用以下方法调用数值近似：pi.n()
+
+print(pi.n())
+print(sin(pi))
+print(sin(pi.n()))
+输出：
+
+3.14159265358979
+
+0
+
+1.22464679914735e-16
+
+
+
+我们看到，当使用符号时，SageMath 返回确切的结果。但是，当我们使用近似值时，我们会得到一个近似值。是 的10^{-16}简写，数字应为零，但近似值引入了错误。以下是使用符号、精确 π 与数值近似的几个示例:
+
+print( sin(pi/6))
+print( sin(pi.n()/6))
+print( sin(pi/4))
+print(sin(pi.n()/4))
+输出：
+
+1/2
+
+0.500000000000000
+
+1/2*sqrt(2)
+
+0.707106781186547
+
+
+
+继续我们的主题，有一些鲜为人知的特殊角度，可以巧妙地简化正弦或余弦的值。
+
+print( sin(pi/10)) 
+print( cos(pi/5) )
+print( sin(5*pi/12) )
+输出：
+
+1/4*sqrt(5) - 1/4
+
+1/4*sqrt(5) + 1/4
+
+1/4*sqrt(6) + 1/4*sqrt(2)
+
+
+
+其他三角函数、反三角函数和双曲函数也可用
+
+print( arctan(1.0) )
+print( sinh(9.0))
+输出：
+
+0.785398163397448
+
+4051.54190208279
+
+
+
+SageMath内与 π 类似，它有一个内置的数字符号常数e，即自然对数的底数。
+
+print(e)
+print(e.n())
+输出：
+
+e
+
+2.71828182845905
+
+
+
+虽然有些人可能熟悉使用自然对数和表示对数底10，但在SageMath中两者都表示对数底e。我们可以指定一个不同的基底作为命令的第二个参数：要在 SageMath 中计算：
+
+图片
+我们使用命令:ln(x)、log(x)、log(x,b)，幂基e可以使用函数和通过将符号常数提高到指定幂来完成。
+
+print(  ln(e) )
+print(  log(e) )
+print(  log(e^2) )
+print(  log(10) )
+print(  log(10.0) )
+print(  log(100,10) )
+print(  exp(2) )
+print(  exp(2.0) )
+print(  exp(log(pi)) )
+print(  e^(log(2)) )
