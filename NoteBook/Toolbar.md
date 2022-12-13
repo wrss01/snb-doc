@@ -84,6 +84,9 @@ kernel 的中断（Kernel interrupt）是指kernel 正在运行代码中断运�
 ![](/assets/cqkr.png)
 
 
+> [!warning|style:flat]
+> 重新Kernel将擦除所有python 变量的存储值。如果你在python变量中存储了不可替代的数据，你知道下次运行应用程序时无法复制，你应该在重启Kernel内核之前将其保存在某个地方。
+
 # 运行
 
 运行Notebook内的各类型代码及组件
@@ -123,9 +126,10 @@ SmartNotebook可根据代码块间的变量引用关系自动生成Graph，直�
 
 - 性能：在模型开发过程中，这种新的DAG模型几乎不会产生额外的性能开销，对性能不会有任何影响。
 
+
 ## 代码块（cell）是如何连接在一起的
 
-Graph是根据代码块中的参数引用自动构建的。
+Graph是根据代码块中的参数引用自动构建的，变量引用会自动推断为链接（或“边”）。
 
 如下图我们可以看到各个DataFrame的生成过程以及引用过程。这些联系是SmartNoteBook自动推断的，无需用户去定义。
 

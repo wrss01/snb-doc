@@ -29,3 +29,8 @@
 > 如要聚合的DataFrame包含字段过多，可以利用左侧的`过滤字段`去模糊搜索匹配所需字段后再拖入右侧的配置区域。
 
 
+## Pandas中关于pivot_table的解释
+> [!Tip]
+> 关于对数据透视表的理解，我们可以参考如下pandas中关于pivot_table的解释。
+
+![picture 2](../images/pivottable.png)  

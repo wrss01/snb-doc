@@ -181,16 +181,29 @@ SmartNoteBook通过SQL代码块提供一流的SQL支持，每个SQL代码块都�
 
 ## 示例说明
 
+- 通过Python代码块导入经纬度信息：
+
 ```{% raw %}
 lat =pd.read_excel('http://172.30.21.57/lat.xlsx')
 lat.columns=['Province','d','d','lot','lat']
 lat
+{% endraw %}
+```
 
+- 通过Python代码块导入全国的gdp数据：
+
+```{% raw %}
 import pandas as pd
 gdp=pd.read_excel('http://172.30.21.57/gdpData.xlsx')
 gdp['per_gdp']=gdp['GDP2020']/gdp['Population2020']
 gdp
+{% endraw %}
+```
 
+
+- 通过Python代码块对列进行计算和精度处理，将结果保存在`df2 `中（数据类型为DataFrame）
+  
+```{% raw %}
 import numpy as np
 df2['gdp_all_avg']=sum(df2['gdp_sum'])/sum(df2['popu_sum'])
 df2['t_score']=(df2['gdp_avg']-df2['gdp_all_avg'])/(df2['gdp_std']/np.sqrt(df2['dist_count']))
@@ -198,15 +211,30 @@ df2['A']='all'
 for c in ['gdp_sum','popu_sum','gdp_avg','gdp_std','gdp_all_avg','t_score']:
     df2[c]=round(df2[c],2)
 df2
+{% endraw %}
+```
 
+- 使用`DF_SQL`，可将上面的DataFrame类型的数据集直接当做表进行SQL查询处理：
+
+```{% raw %}
 select Province,sum(GDP2020) as gdp_sum, sum(Population2020) as popu_sum,sum(GDP2020) / sum(Population2020) as gdp_avg,
 count(distinct District) as dist_count,stddev(per_gdp) as gdp_std from gdp  group by Province
+{% endraw %}
+```
 
+- 使用`DF_SQL`，采用SQL计算排名：
+  
+```{% raw %}
 select Province,gdp_sum,popu_sum,gdp_avg,gdp_std,t_score as XL_Index,rank() over(partition by A order by gdp_sum desc) as gdp_rank ,
 rank() over(partition by A order by popu_sum desc) as popu_rank ,rank() over(partition by A order by gdp_avg desc) as gdp_avg_rank ,
 rank() over(partition by A order by t_score desc) as XL_Index_rank
 from df2
+{% endraw %}
+```
 
+- 使用`DF_SQL`，对表进行关联：
+
+```{% raw %}
 select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 {% endraw %}
 ```
