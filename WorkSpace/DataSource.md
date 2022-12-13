@@ -71,13 +71,13 @@ SmartNoteBook当前支持的数据源类型包括：
 创建数据库连接时，我们会为你生成一个数据标识，相当于该数据库的`云端“唯一id”`。  
 该数据标识你可在Notebook的侧边栏--数据资源复制获取，并可在代码中引用。
 
-示例：
+在NoteBook中使用数据连接的示例：
 
 
 
 ```py
 from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
-engine=snb_conn("0842ac110004-11ed4175-527b33a4-a5ab", context=globals())
+engine=snb_conn("0242ac110004-11ed6fc5-75db535a-b5db", context=globals())
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 with engine.connect() as conn:

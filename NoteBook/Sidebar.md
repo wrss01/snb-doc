@@ -84,6 +84,18 @@ SmartNoteBook的文件存储机制：分为两级
 
 ![](/assets/fzsjlj.png)
 
+在单元格中调用数据连接的示例：
+
+```py
+from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
+engine=snb_conn("0242ac110004-11ed6fc5-75db535a-b5db", context=globals())
+
+# 使用 cursor() 方法创建一个游标对象 cursor
+with engine.connect() as conn:
+    #参考 gpu_df.to_sql('gpu_data',conn,if_exists='append')
+```
+
+
 
 ## 大纲目录
 
