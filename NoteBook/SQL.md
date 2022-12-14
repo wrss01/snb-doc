@@ -32,7 +32,7 @@ select * from '/home/Iris.csv'
 ```
 或
 ```
-select 'Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm','Species' from '/home/Iris.csv'
+select Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm,Species from '/home/Iris.csv'
 ```
 
 - 如果需要跨不同数据源连接数据。您可以运行两个DBSQL查询，一个针对MySQL连接，另一个针对Oracle连接，然后使用DFSQL查询将两个DataFrame进行连接。

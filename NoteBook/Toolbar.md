@@ -85,7 +85,7 @@ kernel 的中断（Kernel interrupt）是指kernel 正在运行代码中断运�
 
 
 > [!warning|style:flat]
-> 重新Kernel将擦除所有python 变量的存储值。如果你在python变量中存储了不可替代的数据，你知道下次运行应用程序时无法复制，你应该在重启Kernel内核之前将其保存在某个地方。
+> 如果您重新Kernel将擦除所有变量的存储值。如果您在变量中存储了不可替代的数据，请在重启Kernel内核之前将其保存在某个地方。
 
 # 运行
 

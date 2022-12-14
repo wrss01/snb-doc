@@ -1,13 +1,15 @@
 # 工作空间（Workspace）
 
-`工作空间（workspace）`是SmartNoteBook的中央组织单位。它是一组用户在同一个组织下工作环境和各类资源要素的集合，如数据源的信息、文件的的上传和管理、运行环境配置等等。
+`工作空间（workspace）`是SmartNoteBook的中央组织单位。它是一组用户在同一个组织下工作环境和各类资源要素的集合，如数据资源、NoteBook模型资源、运行环境资源等。
 
 ![](/assets/ws.png)
 
 
 ## 编辑/新建/切换Workspace
 
-账号申请成功并成功登录后，系统会自动分配一个默认的Workspace空间。
+账号申请成功并成功登录后，系统会自动分配一个默认的`Workspace`空间。
+
+并默认进入到该Workspace下的NoteBook列表页
 
 ![图 27](../images/66e079028547834cff298270823fbc135ff64af8d6cfca0a8901c18c4375abe3.png)  
 
