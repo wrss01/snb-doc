@@ -53,22 +53,36 @@ select Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm,Species from
 
 ![](/assets/cvtsqs.png)
 
-## SQL查询远程数据库/数据仓库（DBSQL)
+## 使用DBSQL（查询远程数据库/数据仓库)
 
-* 选择已有数据源（连接数据源操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
-* 填写结果集的名称 `结果将保存为DataFrame`
+* 创建SQL代码块
+* 数据源下拉框选择已有数据源（连接数据源操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
+* 填写结果集的名称，如`df2` （输出类型为DataFrame）
 * 点击执行代码
 
-经以上三个步骤，SQL查询远程数据库（DBSQL）的结果将保存在DataFrame中，可供后续代码操作和引用。
+经以上步骤我们就运行完一个DBSQL查询，并且将结果保存在了名称为df2的DataFrame中。
 
-![](/assets/sqczz.png)
-
-## SQL查询DataFrame（DFSQL）
-
-通过SmartNoteBook的DFSQL功能，可以通过SQL操作DataFrame执行数据筛选、过滤、排序、统计汇总、转换、合并等数据处理过程。以下我们只介绍了一个使用DFSQL简单样例，关于DFSQL支持的操作可参考[SQLite3 Documentation](https://www.sqlite.org/docs.html)。
+![图 7](../images/dbsql%E7%9A%84%E6%A0%B7%E4%BE%8B.png)  
 
 
-## 示例说明
+## 使用DFSQL（用SQL操作DataFrame）
+
+* 创建SQL代码块
+* 数据源下拉框选择`dfSQL`
+* 输入SQL代码，表名填写DataFrame的名称，比如查询我们上面保存过的`df2`
+* 填写结果集的名称，如`df3`（输出类型为DataFrame）
+* 点击执行代码
+
+经以上步骤我们就运行完一个dfSQL查询，使用SQL和Pandas DataFrame融合的方式完成了数据处理，并且将结果保存在名称为df3的DataFrame中。
+
+![图 8](../images/dfsql%E7%9A%84%E6%A0%B7%E4%BE%8B.png)  
+
+> [!Tip]
+> 关于DFSQL可以支持的一些特性和操作可参考[SQLite3 Documentation](https://www.sqlite.org/docs.html)。
+
+## 示例
+
+以下通过一个简单示例展示如何使用dfSQL将SQL和Python融合方便快捷的进行数据处理：
 
 - 通过Python代码块导入经纬度信息：
 
@@ -128,7 +142,9 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 {% endraw %}
 ```
 
-## SQLTemplate
+## SQL 参数化（使用SQLTemplate）
+
+可以让您在SQL中使用输入参数或Python变量来进行参数化查询！
 
 通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。以下我们只介绍SQLTemplate变量替换和流程控制的格式说明和简单样例，关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
@@ -161,63 +177,67 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   {% endraw %}
   ```
 
-## 示例说明
+## 示例
 
+比如，您可以在Python代码块中先定义两个变量：
 
 ```{% raw %}
-Province='山东省'
+start_time = '2022-07-01T00:00:00Z'
+end_time = '2022-11-01T00:00:00Z'
+```
+然后在SQL代码块中我们便可以引用以上变量过滤数据
 
-df2=_smartnotebook_execute_dataframesql("""
-select Province,sum(GDP2020) as gdp_sum, sum(Population2020) as popu_sum,sum(GDP2020) / sum
-(Population2020) as gdp_avg,
-count(distinct District) as dist_count,stddev(per_gdp) as gdp_std from gdp
-where Province > "{{Province}}"
-group by Province
-""",context=globals())
-df2
+```{% raw %}
+select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
 {% endraw %}
 ```
+![图 2](../images/sqltema.png)  
 
-    
+我们还可以用if..else判断做流程控制
 
-  ```{% raw %}
-a=111
-b=0
-df_2 = _smartnotebook_execute_sql(""" select 1
-{% if b >0 %}
-,{{a}}
+```{% raw %}
+{% if yes_count>0 %}
+	delete from tb_snb_code_data where dt > '{{yesterday_str}}' and dt < '{{today_str}}';
+{% else %}
+    select '昨天的记录不存在';
 {% endif %}
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
 {% endraw %}
 ```
 
-```{% raw %}
-a=111
-b=0
-list_1=[1,2,3,4]
-df_2 = _smartnotebook_execute_sql("""    select 1
-{% if b >0 %}
-,{{a}}
-{% endif %}
+![图 3](../images/SQLtemp%E4%BE%8B%E5%AD%90B.png)  
 
-{% for i in list_1 %}
-, {{i}}
-{% endfor %}
+再来个简单的使用for循环的例子：
 
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
-{% endraw %}
+我们先用Python代码定义一个list：
+
+```
+columns = ['Province', 'District', 'GDP2020']
 ```
 
+然后新建SQL代码块，数据源设置为dfSQL，键入以下SQL代码：
+
 ```{% raw %}
+select 2022
+  {% for col in columns %}
+  , {{col}}
+  {% endfor %} 
+  from gdp_data
+{% endraw %}
+```
+![图 4](../images/templatefor%E5%BE%AA%E7%8E%AF.png)  
+
+使用字典的小例子：
+
+Python代码块
+```
 data={"a":100,"b":200}
-df_2 = _smartnotebook_execute_sql("""    select 1
-
-,{{data.a}}
-,{{data.b}}
-
-""", "861437dfd11e-11ed1944-cba5b0be-93b0", context=globals())
-print(df_2)
-{% endraw %}
 ```
+
+dfSQL代码
+```
+ select 
+ {{data.a}}
+,{{data.b}}
+```
+
+![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  

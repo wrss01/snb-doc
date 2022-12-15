@@ -95,7 +95,7 @@ with engine.connect() as conn:
     #参考 gpu_df.to_sql('gpu_data',conn,if_exists='append')
 ```
 
-### 元数据的浏览
+### 数据库元数据浏览
 
 不记得可用的表名、列名或列的数据类型？
 
