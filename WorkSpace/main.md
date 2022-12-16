@@ -83,7 +83,7 @@
 
 ## 服务API
 
-管理已发布的API服务
+管理已发布的API服务。详见<a href="./FassService.md" title="服务API">服务API</a>
 
 ## 调度器
 
