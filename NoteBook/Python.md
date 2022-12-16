@@ -42,6 +42,6 @@ Python代码块中任何显示打印的值都将显示在输出中，如：
 
 ## 代码块类型转换
 
-您可以点击代码块右上角<img src="../images/%E8%BD%AC%E6%8D%A2%E7%B1%BB%E5%9E%8B%E5%9B%BE%E6%A0%87.png"  style="display: inline-block;" />将单元格从Python 转换为 SQL或Markdown 代码块，反之亦然。
+您可以点击代码块右上角<img src="../images/%E8%BD%AC%E6%8D%A2%E7%B1%BB%E5%9E%8B%E5%9B%BE%E6%A0%87.png"  style="display: inline-block;" />将单元格从Python 转换为SQL或Markdown代码块，反之亦然。
 
 ![图 5](../images/%E8%BD%AC%E6%8D%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E7%B1%BB%E5%9E%8B.png)  

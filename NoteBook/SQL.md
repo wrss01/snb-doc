@@ -142,11 +142,11 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 {% endraw %}
 ```
 
-## SQL 参数化（使用SQLTemplate）
+## SQL参数化（使用SQLTemplate）
 
 可以让您在SQL中使用输入参数或Python变量来进行参数化查询！
 
-通过SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。以下我们只介绍SQLTemplate变量替换和流程控制的格式说明和简单样例，关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
+我们使用SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。以下几个小样例会告诉您如何应用SQLTemplate进行变量替换和流程控制。另外，关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
 * 变量替换：
   ``` {% raw %}
@@ -193,7 +193,7 @@ select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
 ```
 ![图 2](../images/sqltema.png)  
 
-我们还可以用if..else判断做流程控制
+还可以用if..else判断做流程控制
 
 ```{% raw %}
 {% if yes_count>0 %}
@@ -208,7 +208,7 @@ select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
 
 再来个简单的使用for循环的例子：
 
-我们先用Python代码定义一个list：
+先用Python代码定义一个list：
 
 ```
 columns = ['Province', 'District', 'GDP2020']
