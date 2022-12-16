@@ -1,5 +1,5 @@
 # WorkSpace
-
+---
 成功登录后，系统会自动为你创建一个默认的Workspace空间。
 
 ![图 27](../images/66e079028547834cff298270823fbc135ff64af8d6cfca0a8901c18c4375abe3.png)  

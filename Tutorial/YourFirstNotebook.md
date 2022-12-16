@@ -1,5 +1,5 @@
 # NoteBook
-
+---
 切回到我们默认的Workspace空间。首先我们需要先创建一个Workspace环境，将来在这个环境下去运行我们的Notebook。
 
 ![图 33](../images/31ead86323c386f4b1740946154afa92a83bb40f5925d8258b3613c650436f17.png)  
@@ -18,7 +18,7 @@
 
 填写并配置Notebook信息。这里我们标题为`第一个Notebook`，环境选择我们上一步创建的环境`第一个机器学习环境`，kernel类型和模式都采用默认，点击`提交`，我们的第一个Notebook就创建好了。
 
-![图 3](../images/Notebook%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png)  
+![图 1](../images/diyige%20NOte.png)  
 
 我们成功进入Notebook的编辑环境：
 

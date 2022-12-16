@@ -1,5 +1,5 @@
 # 申请账号
-
+---
 我们首先访问[SmartNoteBook的地址](http://smartnotebook.tech/)
 
 ![图 21](../images/ec542081c101009980cfc6f4edbf306ef90d44c02d7bf88128bea23f12f7e8ee.png)  

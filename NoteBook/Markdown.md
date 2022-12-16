@@ -1,5 +1,5 @@
 # MarkDown代码块
-
+---
 MarkDown代码块为我们提供了一个熟悉的、所见即所得的MarkDown编辑器环境。
 
 Markdown代码块允许您编写纯文本并使用Markdown语法规则设置格式。此外还支持标准的LaTex数学公式和符号，因此您也可以非常方便的在文本中插入数学符号。
@@ -75,18 +75,13 @@ MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保
 
 
 * 插入LaTeX数学公式
-
-您可以使用Markdown中的`$`分隔符以LaTeX样式插入数学表达式。
-
-- 行内公式 `$x`=`1$` 与文字混排
-
-- 行间公式 `$$ x`=`1 $$` 独立成行
-
-语法和样例可参考[LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
+  * 行内公式 `$x`=`1$` 与文字混排
+  * 行间公式 `$$ x`=`1 $$` 独立成行
+  * 语法和样例可参考[LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)。
 
 ![图 7](../images/latex.png)  
 
-* 更多
+* 更多Markdown 语法
 
 更多Markdown 语法可参考此[Markdown基本语法](http://markdown.p2hp.com/basic-syntax/)。
 

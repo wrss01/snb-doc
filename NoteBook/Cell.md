@@ -1,29 +1,41 @@
 # 代码块（Cell）概述
+---
+在NoteBook中，代码块是编写、运行、分享 `代码/图表/MarkDown` 的最小单元。
 
-在Notebook中，代码块是编写、运行、分享 `代码/图表/MarkDown` 的最小单元，代码块处于运行状态，会有<img src="../assets/zzzz.png"  style="display: inline-block;" />标志。
+## 代码块的状态
+
+- 代码块未执行
+
+![图 2](../images/%E6%9C%AA%E6%89%A7%E8%A1%8C%E7%8A%B6%E6%80%81.png)  
+
+- 代码块处于运行状态，会有<img src="../assets/zzzz.png"  style="display: inline-block;" />标志
 
 ![](/assets/xzms.png)
 
+- 代码块执行结束。在执行按钮旁会显示执行时长，代码块左上方增加行号显示
+
+![图 4](../images/%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9D%9F%E7%8A%B6%E6%80%81%E6%98%BE%E7%A4%BA.png)  
 
 
-目前代码块支持的类型有：
+## 代码块的类型
 
 <b>Code类型：</b>
 
-* `Python代码`
-* `SQL代码`
-* `MarkDown`
+* `Python代码`：详见 <a href="./Python.md" title="Python代码块">Python代码块</a>
+* `SQL代码`：详见 <a href="./SQL.md" title="SQL代码块">SQL代码块</a>
+* `MarkDown`：详见 <a href="./Markdown.md" title="Markdown代码块">Markdown代码块</a>
 
 <b>Data Display：</b> 
-* `Chart`：详见<a href="./Visualization.md" title="可视化">可视化组件</a>
-* `Snb table`:详见<a href="./Visualization.md" title="可视化">可视化组件</a>
-* `EDA分析`:详见<a href="./EDA.md" title="EDA组件">EDA组件</a>
-* `EDA概览`:详见<a href="./EDA.md" title="EDA组件">EDA组件</a>
+* `Chart`：详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
+* `Snb table`:详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
+* `EDA分析`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
+* `EDA概览`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
 
 <b>Data Transform：</b> 
-* `数据透视表`:详见<a href="./DataTransform.md" title="数据透视表">数据透视表</a>
+* `数据透视表`:详见 <a href="./DataTransform.md" title="数据透视表">数据透视表</a>
 
-![](/assets/cellfirst.png)
+![图 5](../images/%E4%BB%A3%E7%A0%81%E5%9D%97%E7%9A%84%E7%B1%BB%E5%9E%8B%E5%B1%95%E7%A4%BA.png)  
+
 
 ## 代码块的操作
 
@@ -53,7 +65,7 @@
   * 剪切
   * 拷贝
 
-## 代码块的状态
+## 代码块模式状态
 
 Cell的状态为两种：**编辑状态**、**命令状态** ，两者可以相互切换。
 
@@ -86,10 +98,9 @@ Cell的状态为两种：**编辑状态**、**命令状态** ，两者可以相�
 `注：命令状态与编辑状态 都支持运行快捷键`
 
 > [!Tip]
-> 代码块操作的快捷键详见<a href="./Shortcuts.md" title="快捷键">快捷键</a>
+> 代码块操作的快捷键详见 <a href="./Shortcuts.md" title="快捷键">快捷键</a>
 
 ## 上下键切换代码块
 
 在当前选定的单元格是命令状态时，可以上下键切换单元格（移动选定的单元格），上键往上移动选定，直到最上面一个单元为止。下键往下移动选定单元格，直到最下面的单元格为止。
-
 

@@ -1,5 +1,5 @@
 # SQL代码块
-
+---
 SmartNoteBook通过SQL代码块提供一流的SQL支持，每个SQL代码块都是一个完全成熟的查询IDE，具有自动补全、数据预览等功能。项目可以有无限数量的SQL代码块与MarkDown文本、代码、图表和各类可视化组件交错，从而创建非常灵活的查询环境。
 
 ## SQL代码块的特性/要点
@@ -184,6 +184,7 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 ```{% raw %}
 start_time = '2022-07-01T00:00:00Z'
 end_time = '2022-11-01T00:00:00Z'
+{% endraw %}
 ```
 然后在SQL代码块中我们便可以引用以上变量过滤数据
 
@@ -191,9 +192,12 @@ end_time = '2022-11-01T00:00:00Z'
 select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
 {% endraw %}
 ```
+
 ![图 2](../images/sqltema.png)  
 
+
 还可以用if..else判断做流程控制
+
 
 ```{% raw %}
 {% if yes_count>0 %}
@@ -204,17 +208,22 @@ select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
 {% endraw %}
 ```
 
+
 ![图 3](../images/SQLtemp%E4%BE%8B%E5%AD%90B.png)  
+
 
 再来个简单的使用for循环的例子：
 
 先用Python代码定义一个list：
 
+
 ```
 columns = ['Province', 'District', 'GDP2020']
 ```
 
+
 然后新建SQL代码块，数据源设置为dfSQL，键入以下SQL代码：
+
 
 ```{% raw %}
 select 2022
@@ -224,20 +233,26 @@ select 2022
   from gdp_data
 {% endraw %}
 ```
+
 ![图 4](../images/templatefor%E5%BE%AA%E7%8E%AF.png)  
 
 使用字典的小例子：
 
 Python代码块
+
 ```
 data={"a":100,"b":200}
 ```
 
+
 dfSQL代码
-```
+
+```{% raw %}
  select 
  {{data.a}}
 ,{{data.b}}
+{% endraw %}
 ```
+
 
 ![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  

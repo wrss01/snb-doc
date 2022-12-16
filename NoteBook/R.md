@@ -1,14 +1,10 @@
 # R语言支持
+---
 
 当我们创建NoteBook时，对于要在NoteBook中使用的语言及环境，目前有三个类型选项：
-- Python
+- Python 详见<a href="./Python.md" title="Python代码块">Python代码块</a>
 - R
-- SageMath
-
-关于Python类型的NoteBook我们在前面的教程中已介绍过，详见<a href="./Cell.md" title="代码块（Cell）">代码块（Cell）-> Python代码</a>
-
-这里我们介绍一下SmartNoteBook对R语言编程的支持。
-
+- SageMath 详见<a href="./SageMath.md" title="SageMath支持">SageMath支持</a>
 
 # 创建R语言的Kernel
 

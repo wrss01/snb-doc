@@ -1,19 +1,13 @@
 # SageMath支持
-
+---
 SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。它整合了许多开源Python包，采用Python语言编写，但也支持其他语言。它的目标是创造一个可变的开源软件以替代Matlab、Magma、Maple 和 Mathematica。
 
 为使大家方便的了解、学习并使用SageMath，我们的SmartNotebook通过引入SageMath引擎并细致地对兼容性做了优化和完善，充分利用Notebook的特性，不仅减少大量复杂的安装和配置，而且做到可以让用户即开即用。
 
 当我们创建NoteBook时，对于要在NoteBook中使用的语言及环境，目前有三个类型选项：
-- Python
-- R
-- SageMath
-
-关于Python类型的NoteBook详见<a href="./Cell.md" title="代码块（Cell）">代码块（Cell）-> Python代码</a>
-
-关于R类型的NoteBoo详见<a href="./R.md" title="R">R语言支持</a>
-
-这里我们介绍一下SmartNoteBook对SageMath的支持。
+- Python 详见<a href="./Python.md" title="Python代码块">Python代码块</a>
+- R 详见<a href="./R.md" title="R">R语言支持</a>
+- SageMath 
 
 ## 创建SageMath环境支持
 
@@ -28,7 +22,9 @@ SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。�
 
 比如：当我们对整数`20221208` 进行素数因子分解 ，新建一个Code Cell 单元格 ，输入以下代码并点击执行：
 
-```factor(20221208)```
+```
+factor(20221208)
+```
 
 执行结果：
 
@@ -41,7 +37,9 @@ SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。�
 
 当我们需要准确了解某个函数或命令的作用以及如何使用它，我们可以使用 “？”来调用内置的帮助系统。例如：
 
-```lcm?```
+```
+lcm?
+```
 
 - 查看源代码：使用“??”
 
@@ -49,7 +47,9 @@ SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。�
 
 例如，查看factor()的源代码：
 
-```factor??```
+```
+factor??
+```
 
 ![图 3](../images/%E6%9F%A5%E7%9C%8B%E6%BA%90%E4%BB%A3%E7%A0%81.png)  
 
@@ -264,4 +264,6 @@ print(  e^(log(2)) )
 
 ## 更多
 
-想了解更多SageMath的知识和例子，可以参考[SDSU Sage Tutorial](https://mosullivan.sdsu.edu/Teaching/sdsu-sage-tutorial) 
+以上内容只是简单介绍了SageMath在算术和函数方面的知识。
+
+如果您想了解更多关于SageMath的知识和用例，可以参考[SDSU Sage Tutorial](https://mosullivan.sdsu.edu/Teaching/sdsu-sage-tutorial) 
