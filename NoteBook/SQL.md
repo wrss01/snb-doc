@@ -177,7 +177,7 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   {% endraw %}
   ```
 
-## 示例
+### 示例
 
 比如，您可以在Python代码块中先定义两个变量：
 
@@ -256,3 +256,12 @@ dfSQL代码
 
 
 ![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  
+
+
+## SQL注释
+
+注释用于解释SQL语​​句的各个部分，或用于防止执行SQL语句。
+
+在SmartNoteBook中，SQL注释用`##` 双井号开始，末尾用分号`;`结束：
+
+![图 9](../images/SQL%E6%B3%A8%E9%87%8A.png)  
