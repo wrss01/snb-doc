@@ -9,7 +9,8 @@
     "-sharing",
     "search-pro-fixed", 
     "image-captions",
-    "flexible-alerts"
+    "flexible-alerts",
+    "mathjax-pro"
   ],
   "variables": {
     "doorTheme": {
@@ -38,6 +39,6 @@
     "pdf": "styles/pdf.css",
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
-}
+  }
 
 }
