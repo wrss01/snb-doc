@@ -2,7 +2,7 @@
 ---
 可以配置Workspace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
 
-# 编辑
+## 编辑
 
 * WorkSpace名称
 * WorkSpace描述
@@ -22,7 +22,7 @@
 ![图 1](../images/gitlab%E9%85%8D%E7%BD%AE.png)  
 
 
-# 删除
+## 删除
 
 删除WorkSpace
 
