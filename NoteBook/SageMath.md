@@ -527,8 +527,18 @@ SageMath是一个强大的开源数学软件，具有非常广泛的数学可视
 
 总的来说，SageMath的可视化功能非常强大，能够帮助您更直观地理解数学概念和模型。
 
+### 函数可视化的理论
 
-在开始探索前，我们需要先了解三个函数plot()、implicit_plot()以及parametric_plot()
+- **一元函数**是一种特殊的函数，其中函数的输入和输出都是单个变量。一元函数的形式通常是 y=f(x)，其中 x 是输入变量，y 是输出变量。例如，函数 y=x^2+1 就是一个一元函数，其中 x 是输入变量，y 是输出变量。
+
+- **隐函数**是由隐式方程所隐含定义的函数。设F（x,y）是某个定义域上的函数。如果存在定义域上的子集D，使得对每个x属于D，存在相应的y满足F(x,y)=0，则称方程确定了一个隐函数。记为y=y(x)。 显函数是用y=f(x)来表示的函数，显函数是相对于隐函数来说的。
+
+- **参数方程**是一种特殊的方程，其中函数的一个变量是参数。例如，x=t^2+1 和 y=t+2 可以联立起来得到参数方程：
+  x=t^2+1
+  y=t+2
+  在这个参数方程中，t 是参数。我们可以用不同的值来替换 t，然后求出对应的 x 和 y 值。参数方程常用于描述曲线或曲面，因为它可以用一组方程来描述多维几何图形。
+
+对应以几类函数的定义，我们需要先了解SageMath中三个绘图函数plot()、implicit_plot()以及parametric_plot()
 
 plot函数是SageMath中的一个常用函数，用于绘制一元函数的图像。这意味着，如果你想绘制一个函数y=f(x)的图像，你可以使用plot函数。例如：
 
@@ -564,9 +574,254 @@ sage: parametric_plot((f, g), (t,0,2*pi))
 
 这将在平面直角坐标系中绘制出由x=cos(t)和y=sin(t)定义的圆。
 
-### SageMath:基础的可视化命令
+### 2D图形
 
-上面我们说过，SageMath有很多方法能够让我们实现数学的可视化。接下来我们将介绍和使用SageMath提供的一些基础命令帮助我们快速掌握绘制图形。
+SageMath提供了广泛的二维绘图功能，它的底层渲染是使用matplotlib库完成的。
+
+它可以支持以下图形图元函数：
+
+- `arrow()` - an arrow from a min point to a max point.
+
+- `circle()` - a circle with given radius
+
+- `ellipse()` - an ellipse with given radii and angle
+
+- `arc() `- an arc of a circle or an ellipse
+  
+- `disk()` - a filled disk (i.e. a sector or wedge of a circle)
+  
+- `line()` - a line determined by a sequence of points (this need not be straight!)
+
+- `point()` - a point
+
+- `text()` - some text
+
+- `polygon()` - a filled polygon
+  
+支持以下绘图打印功能：
+  
+- `plot()` - plot of a function or other Sage object (e.g., elliptic curve).
+  
+- `parametric_plot()`
+  
+- `implicit_plot()`
+  
+- `polar_plot()`
+  
+- `region_plot()`
+  
+- `list_plot()`
+  
+- `scatter_plot()`
+  
+- `bar_chart()`
+  
+- `contour_plot()`
+  
+- `density_plot()`
+  
+- `plot_vector_field()`
+  
+- `plot_slope_field()`
+  
+- `matrix_plot()`
+  
+- `complex_plot()`
+  
+- `graphics_array()`
+  
+- `multi_graphics()`
+  
+支持以下日志打印功能：
+  
+- `plot_loglog()`
+  
+- `plot_semilogx()` and `plot_semilogy()`
+  
+- `list_plot_loglog()`
+  
+- `list_plot_semilogx()` and `list_plot_semilogy()`
+  
+包括以下各种图形功能：
+  
+- `Graphics()`
+  
+- `is_Graphics()`
+  
+- `hue()`
+
+
+> [!Tip]
+> 在每个函数名后面输入`?`，可以获得该函数的帮助和示例。
+
+### 3D图形
+
+Sage广泛支持3D图形，从基本形状到隐式和参数化绘图。支持以下图形功能：
+
+- `plot3d()` - plot a 3d function
+
+- `parametric_plot3d()` - a parametric three-dimensional space curve or surface
+
+- `revolution_plot3d()` - a plot of a revolved curve
+
+- `plot_vector_field3d()` - a plot of a 3d vector field
+
+- `implicit_plot3d()` - a plot of an isosurface of a function
+
+- `list_plot3d()`- a 3-dimensional plot of a surface defined by a list of points in 3-dimensional space
+
+- `list_plot3d_matrix()` - a 3-dimensional plot of a surface defined by a matrix defining points in 3-dimensional space
+
+- `list_plot3d_array_of_arrays()`- A 3-dimensional plot of a surface defined by a list of lists defining points in 3-dimensional space
+
+- `list_plot3d_tuples()` - a 3-dimensional plot of a surface defined by a list of points in 3-dimensional space
+
+支持以下基本形状：
+
+- `Box` - a box given its three magnitudes
+
+- `Cone` - a cone, with base in the xy-plane pointing up the z-axis
+
+- `Cylinder` - a cylinder, with base in the xy-plane pointing up the z-axis
+
+- `Line` - a 3d line joining a sequence of points
+
+- `Sphere` - a sphere centered at the origin
+
+- `Text` - a text label attached to a point in 3d space
+
+- `Torus` - a 3d torus
+
+- `Point` - a position in 3d, represented by a sphere of fixed size
+
+支持以下基本形状的绘图功能：
+
+- `ColorCube()` - a cube with given size and sides with given colors
+
+- `LineSegment()` - a line segment, which is drawn as a cylinder from start to end with given radius
+
+- `line3d()` - a 3d line joining a sequence of points
+
+- `arrow3d()` - a 3d arrow
+
+- `point3d()` - a point or list of points in 3d space
+
+- `bezier3d()` - a 3d bezier path
+
+- `frame3d()`- a frame in 3d
+
+- `frame_labels()` - labels for a given frame in 3d
+
+- `polygon3d()` - draw a polygon in 3d
+
+- `polygons3d()` - draw the union of several polygons in 3d
+
+- `ruler()` - draw a ruler in 3d, with major and minor ticks
+
+- `ruler_frame()` - draw a frame made of 3d rulers, with major and minor ticks
+
+- `sphere()` - plot of a sphere given center and radius
+
+- `text3d()` - 3d text
+
+Sage还支持以下：
+
+- `tetrahedron()`
+
+- `cube()`
+
+- `octahedron()`
+
+- `dodecahedron()`
+
+- `icosahedron()`
+
+支持不同的查看器: 基于web的交互式查看器，默认使用Three.js JavaScript library, Jmol以及Tachyon ray tracer. 通过添加关键字参数来调用查看器，如viewer='threejs' ('jmol'或者 'tachyon') 并使用命令show（）显示任何三维图形。
+
+- `Tachyon` - create a scene the can be rendered using the Tachyon ray tracer
+
+- `Axis_aligned_box` - box with axis-aligned edges with the given min and max coordinates
+
+- `Cylinder` - an infinite cylinder
+
+- `FCylinder` - a finite cylinder
+
+- `FractalLandscape`- axis-aligned fractal landscape
+
+- `Light` - represents lighting objects
+
+- `ParametricPlot` - parametric plot routines
+
+- `Plane`- an infinite plane
+
+- `Ring` - an annulus of zero thickness
+
+- `Sphere`- a sphere
+
+- `TachyonSmoothTriangle` - a triangle along with a normal vector, which is used for smoothing
+
+- `TachyonTriangle` - basic triangle class
+
+- `TachyonTriangleFactory` - class to produce triangles of various rendering types
+
+- `Texfunc` - creates a texture function
+
+- `Texture` - stores texture information
+
+- `tostr()` - converts vector information to a space-separated string
+
+### 动画
+
+我们知道动画是由一系列图形对象（或其他可迭代的对象）渲染生成的。通过对每个输入对象调用save_image方法，创建一系列PNG文件来生成图像。然后使用不同的工具将它们组合成各种目标格式。其中，ImageMagick的转换程序可用于生成动画GIF文件。FFmpeg（带有命令行程序FFmpeg）提供了对各种视频格式的支持，但也是生成动画GIF的另一种方法。对于支持APNG的浏览器，APNG可以用作另一种替代方案，并且无需任何额外的依赖。
+
+例如：
+
+使用ImageMagick生成动画
+
+```
+x = SR.var("x")
+sines = [plot(c*sin(x), (-2*pi,2*pi), color=Color(c,0,0), ymin=-1, ymax=1) for c in sxrange(0,1,.2)]
+a = animate(sines)
+a         # optional -- ImageMagick
+# Animation with 5 frames
+a.show()  # optional -- ImageMagick
+```
+
+使用FFmpeg:
+```
+f = tmp_filename(ext='.gif')
+a.save(filename=f, use_ffmpeg=True) # optional -- ffmpeg
+```
+
+生成APNG:
+```
+a.apng()  # long time
+```
+
+3D动画:
+Animations of 3d objects:
+
+```
+s,t = SR.var("s,t")
+def sphere_and_plane(x):
+    return sphere((0,0,0),1,color='red',opacity=.5)+parametric_plot3d([t,x,s],(s,-1,1),(t,-1,1),color='green',opacity=.7)
+sp = animate([sphere_and_plane(x) for x in sxrange(-1,1,.3)])
+sp[0]      # first frame
+# Graphics3d Object
+sp[-1]     # last frame
+# Graphics3d Object
+sp.show()  # optional -- ImageMagick
+(x,y,z) = SR.var("x,y,z")
+
+def frame(t):
+    return implicit_plot3d((x^2 + y^2 + z^2), (x, -2, 2), (y, -2, 2), (z, -2, 2), plot_points=60, contour=[1,3,5], region=lambda x,y,z: x<=t or y>=t or z<=t)
+a = animate([frame(t) for t in srange(.01,1.5,.2)])
+a[0]       # long time
+# Graphics3d Object
+a.show()   # optional -- ImageMagick   # long time
+```
+
+### 常用的绘图命令
 
 * plot()：当需要绘制基本的图形时，我们可以使用plot命令。
 
@@ -642,7 +897,7 @@ show(
   )
 ```
 
-### SageMath:可视化（函数之美）
+### 优美案例
 
 以上我们介绍了SageMath绘图的基础知识，那接下来让我们一起欣赏一些用SageMath绘制的比较有趣的图形，感受一下“函数之美”。
 
@@ -855,4 +1110,4 @@ factor??
 
 受限于篇幅，我们以上只介绍了SageMath的小部分内容，其中提供的代码希望大家能够借助SmartNoteBook去亲自实践并查看输出的信息，探索和领悟SageMath和数学的魅力！
 
-如果您想了解更多关于SageMath的知识和用例，可以参考[SDSU Sage Tutorial](https://mosullivan.sdsu.edu/Teaching/sdsu-sage-tutorial) 
+如果您想了解更多关于SageMath的知识和用例，可以参考[SDSU Sage Tutorial](https://mosullivan.sdsu.edu/Teaching/sdsu-sage-tutorial) 以及[SageMath Documentation](https://doc.sagemath.org/)
