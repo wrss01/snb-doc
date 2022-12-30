@@ -10,7 +10,7 @@
 
 若要创建使用R语言的NoteBook，请从`新建NoteBook`对话框中选择Kernel类型为“R”的选项。
 
-![picture 1](../images/R%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81kernel.png)  
+![图 3](../images/r%20kern.png)  
 
 
 > [!warning|style:flat]

@@ -13,7 +13,7 @@ SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。�
 
 我们用SmartNotebook 快速创建一个Sagemath内核的Notebook。像下面这样，输入Notebook的标题，选择Sagemath的内核，点击提交即可。
 
-![picture 1](../images/sagemath_kernel.png)  
+![图 6](../images/sgkernel.png)  
 
 
 接下来我们进入Notebook后直接创建Code Cell 单元格，便可以编写并执行Sage代码了。
