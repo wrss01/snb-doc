@@ -2,6 +2,8 @@
 ---
 Python是新增Cell代码块默认的代码类型。用户可以在Python代码块中编辑和执行任何有效的Python。
 
+![图 7](../images/python%20kenel.png)  
+
 ## 创建Python代码块
 
 增加Python代码块的两种方式：

@@ -149,10 +149,22 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 我们使用SmartNoteBook提供的SQLTemplate语法，可以实现对SQL语句替换变量，流程控制及动态拼接。以下几个小样例会告诉您如何应用SQLTemplate进行变量替换和流程控制。另外，关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
 * 变量替换：
+  * 一般变量
+
   ``` {% raw %}
   {{VAR}}
   {% endraw %}
   ```
+
+  * 字典变量：
+ 
+  ```{% raw %}
+  data ={"a":100,"b":200}  
+  {{data.a}} 
+  {{data.b}}
+  {% endraw %}
+  ```
+
 * 判断：  
   ```{% raw %}
   {% if b >0 %}
@@ -166,14 +178,6 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   {% for i in list_1 %}  
   , {{i}}
   {% endfor %}
-  {% endraw %}
-  ```
-
-* 字典：  
-  ```{% raw %}
-  data ={"a":100,"b":200}  
-  {{data.a}} 
-  {{data.b}}
   {% endraw %}
   ```
 
