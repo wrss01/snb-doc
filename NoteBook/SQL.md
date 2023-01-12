@@ -269,3 +269,92 @@ dfSQL代码
 在SmartNoteBook中，SQL注释用`##` 双井号开始，末尾用分号`;`结束：
 
 ![图 9](../images/SQL%E6%B3%A8%E9%87%8A.png)  
+
+## 对T-SQL和PL/SQL的支持
+
+
+- T-SQL是Transact-Structured Query Language的缩写，是微软公司用于SQL Server数据库管理系统的扩展版本。它基于ANSI SQL标准，提供了更多的扩展和特性，如存储过程、触发器、表变量和用户定义函数等。使用T-SQL语言可以对数据库中的数据进行查询、更新、插入和删除操作。T-SQL还可以用来创建、修改和管理数据库对象，如表、视图、索引等。
+
+- PL/SQL全称为Procedural Language/SQL，是Oracle公司用于其Oracle数据库管理系统的一种专用编程语言。PL/SQL是一种基于SQL语言的高级编程语言。它具有结构化编程能力，支持面向过程编程，包括循环、条件语句、变量、常量、过程和函数等。
+
+### 使用T-SQL
+
+当我们连接好了SQL Sever的数据源，在执行T-SQL代码时可能会遇到报错或输出提示`非标准的DDL语句`，此时我们可以通过以下步骤来实现支持所有的T-SQL代码：
+
+1.  添加`Python代码块`
+2.  侧边栏的`数据资源`下复制所用SQL Sever数据源的连接信息
+   ![图 10](../images/sqlserver%E9%93%BE%E6%8E%A5.png)  
+3.  将连接信息复制到`Python代码块`里
+4.  在连接信息下方增加T-SQL语句和执行代码：
+
+   ```
+      # 数据源的连接信息
+      from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
+      engine=snb_conn("0242ac110004-11ed7b8d-9d8364a0-81eb", context=globals())
+
+      # T-SQL语句
+
+      SQL="""
+      DECLARE @Number INT;
+      SET @Number = 100;
+      IF @Number > 100
+        PRINT 'The number is large.';
+      ELSE
+        BEGIN
+          IF @Number < 10
+            PRINT 'The number is small.'
+          ELSE
+            PRINT 'The number is medium.';
+        END ;
+      """
+
+      # 执行T-SQL语句
+      conn = engine.raw_connection()
+      with conn.cursor() as cursor:
+        cursor.execute(SQL)
+      conn.close()
+
+   ```
+
+### 使用PL/SQL
+
+与执行T-SQL代码类似的，当我们连接好了Oracle的数据源，在执行PL/SQL代码时可能会遇到报错或输出提示`非标准的DDL语句`，此时我们可以通过以下步骤来实现支持所有的PL/SQL代码：
+
+1.  添加`Python代码块`
+2.  侧边栏的`数据资源`下复制所用Oracle数据源的连接信息
+   ![图 11](../images/Oracle%E8%BF%9E%E6%8E%A5.png)  
+
+3.  将连接信息复制到`Python代码块`里
+4.  在连接信息下方增加PL/SQL语句和执行代码：
+   
+```
+  # 数据源的连接信息
+  from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
+  engine=snb_conn("0242ac110004-11ed7c2a-8a556732-8e72", context=globals())
+
+
+  # PLSQL语句
+  SQL = """
+  declare
+    i number(2) := 12 ;
+    s varchar2(10) := 'end' ;
+  begin
+    IF i < 10
+    THEN
+    dbms_output.put_line('小于10');
+    ELSIF i > 10
+    THEN
+    dbms_output.put_line('大于10');
+    ELSE
+    dbms_output.put_line('等于10');
+    END IF;
+    dbms_output.put_line(s);
+  end;
+  """
+
+  # 执行PLSQL语句
+  conn = engine.raw_connection()
+  with conn.cursor() as cursor:
+    cursor.execute(SQL)
+    conn.commit()
+```
