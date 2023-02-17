@@ -1,5 +1,6 @@
 # Summary
 
+* [快速上手使用](QuickStart.md)
 * [SmartNoteBook简介](README.md)
 * [工作空间](WorkSpace/main.md)
   * [数据源](WorkSpace/DataSource.md)
