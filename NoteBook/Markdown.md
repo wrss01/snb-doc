@@ -85,6 +85,134 @@ MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保
 
 更多Markdown 语法可参考此[Markdown基本语法](http://markdown.p2hp.com/basic-syntax/)。
 
+
+## 动态MarkDown（高级用法）
+
+SmartNoteBook的Markdown单元格支持使用Jinja模板语言将变量与文本混合。
+
+比如你可以将Python变量直接插入Markdown单元格中：
+
+像平时一样在MarkDown单元格中写入文本，然后将变量括在两个大括号中，按下`Ctrl+Enter`执行。参考下图的例子：
+
+![图 11](../images/dynamd.png)  
+
+另外，我们也可以利用Jinja模板语言的流程控制配合Python变量或HTML标记实现或简化一些操作：
+
+例如：
+
+- 实现循环换行
+
+![图 13](../images/tenbr.png)  
+
+- 实现if...else判断
+
+![图 14](../images/md_jinja_if.png)  
+
+- 实现for循环
+
+![图 15](../images/md_jinja_for.png)  
+
+
+## 设置MarkDown的标签样式（高级用法）
+
+MarkDown的呈现需要解析成HTML, 其支持的HTML标记也只是一部分。从这个角度上讲，Markdown是HTML的一个简化标记形式的子集，因此我们也可以利用CSS定义来重新对Markdown的标签样式进行定义。
+
+例如：
+
+```
+<style>
+
+/**一级标题**/
+.v-note-show h1 {
+    font-family:"方正小标宋GBK";
+    font-size: 22pt;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    line-height:150%;
+}
+
+/**二级标题**/
+.v-note-show h2 {
+    font-family:"黑体";
+    font-size: 16pt;
+    color:black;
+}
+
+
+/**三级标题**/
+.v-note-show h3 {
+    font-family:"楷体";
+    font-size: 16pt;
+    font-weight:bold;
+}
+
+
+/**四级标题**/
+.v-note-show h4 {
+    font-family:"仿宋";
+    font-size: 16pt;
+    font-weight:bold;
+}
+
+
+/**五级标题**/
+.v-note-show h5 {
+    font-family:"仿宋";
+    font-size: 16pt;
+    font-weight:normal;
+}
+
+
+/**正文段落**/
+.v-note-show p {
+    font-family:"仿宋_GB2312";
+    font-size: 16pt;
+    font-weight:normal;
+    line-height:37.3px;
+    text-indent:32pt;
+}
+
+
+/**正文加粗强调**/
+.v-note-show strong {
+    font-family:"仿宋_GB2312";
+    font-size: 16pt;
+    font-weight:bold;
+    line-height:37.3px;
+}
+
+
+/**无序列表**/
+.v-note-show ul li{
+    font-family:"仿宋_GB2312";
+    font-size: 16pt;
+    font-weight:normal;
+    line-height:37.3px;
+}
+
+/**有序列表**/
+.v-note-show ol li{
+    font-family:"仿宋_GB2312";
+    font-size: 16pt;
+    font-weight:normal;
+    line-height:37.3px;
+}
+
+/**自定义**/
+#md_title{
+    text-align:center;
+    font-weight:bold;
+    font-size: 5pt;
+} 
+
+</style>
+
+```
+
+![图 12](../images/redefinemd.png)  
+
+
 ## 代码块类型转换
 
 您可以点击代码块右上角<img src="../images/markdownicon.png"  style="display: inline-block;" />将单元格从Markdown转换为Python或SQL代码块，反之亦然。
