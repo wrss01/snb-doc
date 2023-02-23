@@ -56,6 +56,7 @@
     ![图 2](../images/ack_tk.png)  
 
 2. Token创建成功，复制使用
+
     ![图 3](../images/ack_token_gen.png)  
 
 

@@ -1,12 +1,13 @@
 # WorkSpace数据源
 ---
-SmartNoteBook为用户提供数据接入与管理功能，让用户可以简单高效的接入和管理数据集。
+简单高效接入和管理数据源。
 
-![](/assets/datax.png)
+![图 1](../images/ds.png)  
 
-## 数据源类型
 
-SmartNoteBook当前支持的数据源类型包括：
+## 支持数据源类型
+
+![支持的数据源类型 style="width: 70%;height: 70%;"](../images/datatype.png "数据源类型")  
 
 * `MySQL`：关系型数据库管理系统，由瑞典MySQL AB 公司开发，属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系统之一。
 * `Spark`：通用的大数据分析引擎,具有高性能、易用和普遍性等特点。
@@ -18,20 +19,22 @@ SmartNoteBook当前支持的数据源类型包括：
 * `ClickHouse`：俄罗斯的 Yandex 于 2016 年开源的用于在线分析处理查询（OLAP :Online Analytical Processing）MPP架构的列式存储数据库
 * `Greenplum`：业界最快最高性价比的关系型分布式数据库，它在开源的PG(PostgreSql)的基础上采用MPP架构（Massive Parallel Processing,海量并行处理），具有强大的大规模数据分析任务处理能力。
 
-![支持的数据源类型 style="width: 70%;height: 70%;"](../images/bb3eb3d7c2ec5061e6dbe0e2b84452ad596ae3257a2a5ef9452e898186401af9.png "数据源类型")
-
 > [!Tip]
 > SmartNoteBook即将支持更多的数据源——如果您有需要优先支持的数据源，请联系我们。
 
-## 新建数据源
+## 建立连接
 
-在`【WorkSpace数据源】`标签页，点击右上角`【新建连接服务】`，即可新建数据源。
+选择`WorkSpace数据源`标签页，点击右上角`新建连接服务`。
 
-###### ![](/assets/xhsht.png)
+然后选择所需的数据源类型图标，填写数据源地址和认证信息后单击`测试`，返回成功信息后点击`提交`。
 
+![图 3](../images/dsinput.png)  
 
+## 编辑连接
 
-## 数据库连接
+在数据源列表中选择所需修改的数据源，修改配置信息后单击`测试`，返回成功信息后点击`提交`。
+
+## 不同数据源的配置信息
 
 用户可以在选择不同类型的数据源后，通过正确配置对应类型的数据库信息、数据库凭证后，完成创建数据库连接。
 
@@ -60,16 +63,8 @@ SmartNoteBook当前支持的数据源类型包括：
   - 驱动类型（driver）：`Thin`/`OCI`/`OCIB`
   - 用户名和密码
 
-例如当连接MySQL数据源：
 
-![](/assets/myss.png)
-
-当连接Oracle数据源：
-
-![](/assets/ljeoral.png)
-
-创建数据库连接时，我们会为你生成一个数据标识，相当于该数据库的`云端“唯一id”`。  
-该数据标识你可在Notebook的侧边栏--数据资源复制获取，并可在代码中引用。详见<a href="../NoteBook/Sidebar.md" title="数据资源">侧边栏->数据资源</a>
+备注：当数据库连接配置完成后，我们会为你生成一个数据标识，相当于该数据库的`云端“唯一id”`， 如 `0242ac110004-11edacf8-81c84f68-a244`。该数据标识你可在Notebook的侧边栏--数据资源复制获取，并可在代码中引用。参见<a href="../NoteBook/Sidebar.md" title="数据资源">侧边栏->数据资源</a>
 
 
 
