@@ -77,6 +77,13 @@
 
 ![图 12](../images/sches.png)  
 
+## 图标
+
+Notebook设置调度器后会增加显示跳动的图标
+
+![图 13](../images/iconsche.png)  
+
+
 
 
 

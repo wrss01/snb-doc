@@ -22,6 +22,7 @@
   * [数据处理组件](NoteBook/DataTransform.md)
   * [R支持](NoteBook/R.md)
   * [SageMath支持](NoteBook/SageMath.md)
+  * [Julia语言支持](NoteBook/Julia.md)
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
   * [收藏](NoteBook/Collections.md)

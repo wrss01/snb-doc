@@ -6,7 +6,7 @@
 
 ![图 1](../images/workspacenew.png)  
 
- Workspace页面功能概览
+ Workspace页面功能概览：
 
 | 功能 | 解释 | 
 | :-----| :---- | 

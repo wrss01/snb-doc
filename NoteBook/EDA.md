@@ -1,4 +1,4 @@
-#EDA组件
+# EDA组件
 ---
 充分EDA是选择和设计模型的基础、模型效果的保障，先验知识。`（EDA：探索性数据分析 Exploratory Data Analysis）`
 

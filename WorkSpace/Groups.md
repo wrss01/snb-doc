@@ -37,9 +37,11 @@ Workspace页面下单击右上角 <img src="../images/invite.png"  style="displa
 
 ## 同时编辑
 
-当两名团队成员同时编辑同一份Notebook文档，后打开Notebook的成员会在Notebook页面上方收到提示，无法保存修改的内容（同时编辑内容会产生冲突）：
+当多名团队成员同时编辑同一份Notebook文档，后打开Notebook的成员会在Notebook页面上方收到提示，无法保存修改的内容（同时编辑内容会产生冲突）：
 
 ![图 8](../images/confli.png)  
+
+
 
 
 
