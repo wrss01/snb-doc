@@ -2,41 +2,59 @@
 ---
 NoteBook有很好的代码展示性，可作为“项目报告”承载研究成果，并能够以网页的形式进行分享。
 
-在分享的内容方面，既可以整体分享NoteBook的所有内容（包含所有Cell代码块的输入输出），也可单独分享某个Cell代码块的输出。
+在分享的内容方面，既可以整体分享NoteBook（包含所有Cell代码块的输入输出），也可单独分享某个Cell代码块的输出。
 
-* 分享NoteBook
+## 分享整个NoteBook
 
-![图 3](../images/%E5%88%86%E4%BA%ABnotebook%20new.png)  
+- 第一种方式，在Notebook文档内，点击Notebook右上角的分享按钮：
 
+![图 1](../images/sharenotebook.png)  
 
-点击`分享`后得到分享链接
+复制分享链接：
 
+![图 2](../images/sharelinksnotebook.png)  
 
-![图 11](../images/0c6d3b36d4565c33912bc3d3dda5fcc4a7cfb9b256daf6b6c0eb3d6167a5cded.png)  
-
-点击分享链接可查看分享后的报告页面
+将分享链接贴入浏览器中查看分享报告：
 
 ![图 5](../images/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%E9%A1%B5%E9%9D%A21.png)  
 
+- 第二种方式，在Workspace的Notebook列表页，点击操作下的`预览和分享`按钮：
 
-![图 4](../images/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%E6%95%88%E6%9E%9C.png)  
+![图 3](../images/shareand.png)  
+
+在弹出的页面中用户可以复制分享链接，并将链接贴入浏览器中查看分享报告：
+
+![图 6](../images/shareandseebook.png)  
+
+| 操作 | 解释 | 备注 |
+| :-----| :---- | :---- | 
+| 预览notebook| 不打开Notebook文档的情况下预览文档内容 | |
+| 分享链接| 整个Notebook文档的报告分享链接| |
+| 嵌入Notebook | 整个Notebook文档的报告分享链接作为iframe可嵌入至其他页面 |  |
+
+### 分享报告时隐藏输入/输出
+
+- 控制单个单元格输入/输出的显隐：
+
+![图 7](../images/eyeforreport.gif)  
+
+- 批量隐藏（适用于生成报告时批量隐藏代码输入）：
+
+![图 8](../images/batchforcell.png)  
+
+## 分享单元格的输出
+
+用户只需要分享某个单元格的输出时，可以点击单元格右侧的<img src="../images/shareout.png"  style="display: inline-block;" /> 按钮。
+
+![图 9](../images/shout.png)  
+
+获得分享链接：
+
+![图 10](../images/shlink.png)  
+
+拿到分享链接的朋友打开链接进行查看：
+
+![图 11](../images/readrepo.png)  
 
 
-* 分享Cell输出
-
-选中要分享的Cell，点击右上角的悬浮按钮。
-
-![图 12](../images/9294868d8ccb952c9722c24e40204cb4f3b35f5c5b75507884755bfac9467b84.png)  
-
-
-点击分享单元格输出的按钮即可获取分享链接
-
-![图 13](../images/2b49e52d4baf503390f03a56afc0fe3703cc90311f030d07d6fe223582fb349c.png)  
-
-点击分享链接可查看分享后的单元格输出
-
-![图 1](../images/%E5%88%86%E4%BA%AB%E5%8D%95%E5%85%83%E6%A0%BC%E6%8A%A5%E5%91%8A.png)  
-
-
-![图 2](../images/%E5%88%86%E4%BA%AB%E5%8D%95%E5%85%83%E6%A0%BC2.png)  
 

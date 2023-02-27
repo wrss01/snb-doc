@@ -2,7 +2,7 @@
 ---
 MarkDown代码块为我们提供了一个熟悉的、所见即所得的MarkDown编辑器环境。
 
-Markdown代码块允许您编写纯文本并使用Markdown语法规则设置格式。此外还支持标准的LaTex数学公式和符号，因此您也可以非常方便的在文本中插入数学符号。
+Markdown代码块允许用户编写纯文本并使用Markdown语法规则设置格式。此外还支持标准的LaTex数学公式和符号，因此可以非常方便的在文本中插入数学符号。
 
 Markdown代码块通常用作代码的解释性或描述性文本，此外SmartNoteBook还会根据MarkDown的标题结构和层级帮助我们自动生成大纲目录，方便我们快速掌握文档结构。
 
@@ -14,12 +14,14 @@ Markdown代码块通常用作代码的解释性或描述性文本，此外SmartN
 
 * 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`MarkDown`。
 
-![图 8](../images/new%20md.png)  
+![图 17](../images/mdnewcells.png)  
+
 
 
 * 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;" />，选择`Convert to Markdown`。
 
-![](/assets/cvmarkd.png)
+![图 18](../images/convmdcells.png)  
+
 
 ## MarkDown的操作
 

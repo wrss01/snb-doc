@@ -4,16 +4,17 @@ SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。�
 
 为使大家方便的了解、学习并使用SageMath，我们的SmartNotebook通过引入SageMath引擎并细致地对兼容性做了优化和完善，充分利用Notebook的特性，不仅减少大量复杂的安装和配置，而且做到可以让用户即开即用。
 
-当我们创建NoteBook时，对于要在NoteBook中使用的语言及环境，目前有三个类型选项：
-- Python 详见<a href="./Python.md" title="Python代码块">Python代码块</a>
-- R 详见<a href="./R.md" title="R">R语言支持</a>
-- SageMath 
-
 ## 创建SageMath环境支持
 
-我们用SmartNotebook 快速创建一个Sagemath内核的Notebook。像下面这样，输入Notebook的标题，选择Sagemath的内核，点击提交即可。
+
+在`新建NoteBook`对话框中选择Kernel类型为“Sagemath”的选项。
+
+输入`Notebook标题`并选择对应的环境（需满足您购买的产品拥有创建Sagemath的环境，否则无法创建），最后点击提交。
 
 ![图 6](../images/sgkernel.png)  
+
+> [!warning|style:flat]
+> 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
 
 
 接下来我们进入Notebook后直接创建Code Cell 单元格，便可以编写并执行Sage代码了。
@@ -29,8 +30,6 @@ factor(20221208)
 执行结果：
 
 ![picture 2](../images/factor%E5%87%BD%E6%95%B0.png)  
-
-
 
 
 ## SageMath as a Calculator

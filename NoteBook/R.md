@@ -1,25 +1,20 @@
 # R语言支持
 ---
 
-当我们创建NoteBook时，对于要在NoteBook中使用的语言及环境，目前有三个类型选项：
-- Python 详见<a href="./Python.md" title="Python代码块">Python代码块</a>
-- R
-- SageMath 详见<a href="./SageMath.md" title="SageMath支持">SageMath支持</a>
+# 创建Notebook
 
-# 创建R语言的Kernel
+在`新建NoteBook`对话框中选择Kernel类型为“R”的选项。
 
-若要创建使用R语言的NoteBook，请从`新建NoteBook`对话框中选择Kernel类型为“R”的选项。
+输入`Notebook标题`并选择对应的环境（需满足您购买的产品拥有创建R语言的环境，否则无法创建），最后点击提交。
 
 ![图 3](../images/r%20kern.png)  
 
 
 > [!warning|style:flat]
-> 请注意，创建NoteBook后，无法在语言之间进行切换。
+> 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
 
 
-# 支持的功能列表
-
-SmartNoteBook已实现了对R语言的运行和环境支撑，目前R类型的NoteBook支持的功能有：
+# R语言Notebook目前支持的功能列表
 
 - MarkDown 单元格
 - 收藏
