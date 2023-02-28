@@ -2,192 +2,204 @@
 ---
 侧边栏为Notebook提供一系列扩展功能。
 
-* 包管理：包含常用的数据分析、机器学习工具包，为Notebook运行提供软件包环境支持。
-* 数据/文件资源：可访问已上传至Workspace的项目文件及数据库目录。
-* 目录结构：来自Markdown类型单元格标题自动生成的大纲目录结构。
-* 实例和调度：查看当前已使用的容器计算资源，如`内存`、`CPU占比`，可根据需要来切换环境资源。支持创建调度任务，定期执行Notebook任务。
-* 变量浏览:可查看Notebook中各个代码块执行后产生的各类变量信息。
-* 历史版本：用户可以查看历史保存的版本，并与当前内容进行比对。Notebook会自动标注两个版本间的文件差异。用户可根据需要回退到某历史版本。
-* 代码片段：Notebook提供了一些公共的代码片段，用户可根据需要复制。同时用户也可保存自己的代码收藏复用，或分享给团队成员使用。
+功能概览
 
-![](/assets/cbl2.png)
+| 图标 | 功能 | 解释 | 
+| :----- | :-----| :---- | 
+| <img src="../images/packa.png"  style="display: inline-block;" />  | Packages | Notebook的包管理 | 
+| <img src="../images/das.png"  style="display: inline-block;" />  | 数据资源 | 文件和数据库管理 | 
+| <img src="../images/indx.png"  style="display: inline-block;" />  | 目录 | Notebook根据Markdown单元格中使用的标题显示文档结构| 
+| <img src="../images/enve.png"  style="display: inline-block;" />  | 环境 | 查看和管理当前Notebook的计算资源和调度器| 
+| <img src="../images/fx.png"  style="display: inline-block;" />  | 变量预览 | 浏览Notebook中使用的变量、值和值的一些属性| 
+| <img src="../images/vers.png"  style="display: inline-block;" />  | 版本列表 | 保存Notebook版本并可还原至历史记录的状态 | 
+| <img src="../images/coderep.png"  style="display: inline-block;" />  | 代码片段 | 包含`公有库`（Notebook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
+
+## Packages
+
+默认情况下，Notebook的运行环境已经为用户安装了常用的数据分析、机器学习以及可视化的包。
+
+![图 11](../images/packages.png)  
+
+### 搜索查看包版本
+
+![图 12](../images/search.gif)  
 
 
-## 包管理
+用户如需安装、升级或删除包可参考如下操作：
 
-包含常用的数据分析、机器学习工具包，为Notebook运行提供软件包环境支持。
+### 安装/升级包
 
-![](/assets/hjaz.png)
+* 在`安装`的Tab页搜索要安装的包名称
+* 点击放大镜或敲击回车进行搜索
+* 在结果列表找到需要安装/升级的包和版本号，点击右侧的下载图标开始安装
 
-### 安装包
+![图 14](../images/inspac.png)  
 
-* 输入要安装的包名称（支持模糊匹配）
-* 点击放大镜进行搜索
-* 在结果列表找到需要安装的包及版本号，点击右侧的下载图标开始安装
+### 删除包
 
-![图 8](../images/%E5%AE%89%E8%A3%85%E5%8C%85.png)  
+* 在`已安装`的Tab页搜索要删除的包名称
+* 在结果列表找到需要删除的包和版本号，点击右侧的删除图标
 
-### 已安装的包
-
-- 可查看已安装的包及版本号
-- 支持模糊动态匹配搜索
-
-![图 9](../images/yianzhuangdebao%20.png)  
+ ![图 15](../images/delpack.png)  
 
 
 ## 数据资源
 
-方便集成和管理我们组织拥有的数据资产。这些数据资产形式上可以是结构化的，如我们数据库中的数据，也可以是非结构化的，比如csv/excel/txt文本等等。数据资产可以为组织提供重要的信息，并且可以用于帮助组织做出决策和支持业务流程。
+集成和管理数据资产，包括数据库和数据文件（csv/excel/txt/json等）。
 
-在SmartNoteBook中，非结构的文件资源存储机制分为两级：
+<!--在SmartNoteBook中，非结构的文件资源存储机制分为两级：
 
 * 通过Workspace文件管理上传后，会将文件传输到MinIO分布式存储的公共区域。该操作详见<a href="../WorkSpace/Files.md" title="上传文件">上传文件</a>
 
 * 通过NoteBook的数据资源同步，可以根据需要将MinIO公共区域的资源文件同步至Node节点使用
 
-![](/assets/身教重于言教.png)
+![](/assets/身教重于言教.png)-->
 
+### 数据库
 
-### 查看和管理文件
+- 复制连接
 
-点击<img src="../images/%E8%BF%9B%E5%85%A5%E7%9B%AE%E5%BD%95.png"  style="display: inline-block;" />
-查看已上传的文件
+已建立的数据库连接将显示在数据资源板块中，可点击`复制数据连接`按钮，将数据连接代码拷贝至单元格使用。（如需新建数据库连接请跳转至<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
 
-![图 11](../images/%E6%95%B0%E6%8D%AE%E8%B5%84%E6%BA%90.png)  
+![图 21](../images/copylinksmysql.png)  
 
-点击 <img src="../images/%E8%BF%94%E5%9B%9E%E7%AE%AD%E5%A4%B4.png"  style="display: inline-block;" />
-返回上一级
+- 浏览元数据
 
-![图 12](../images/%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E7%BA%A7.png)  
+点击数据库右侧按钮查看库表元数据。
 
+![图 22](../images/seemysl.png)  
 
-### 同步文件
+元数据浏览（如元数据有更新，可点击上方刷新按钮重新获取）
 
-上传到Workspace的数据文件会保存在顶部的`Notebook files`目录下。  
-通过点击`全部同步`，可将上传的文件同步至Notebook空间下进行访问。  
-点击所需文件最右边的复制可获取该文件的路径连接。
+![图 23](../images/metad.png)  
 
-![](/assets/tbwj.png)
+### 数据文件
 
-### 下载文件
+- 查看和同步文件
 
-点击列表最右侧的下载按钮可下载文件到本地。
+点击右侧小箭头查看已上传至Workspace的文件
 
-![图 10](../images/%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.png)  
+![图 17](../images/fileup2.png)  
 
+点击`文件一键同步到Node`将文件同步
 
-### 复制数据连接
+![图 18](../images/ays.png)  
 
-已建立的数据连接（数据源的操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>），可点击复制连接地址，嵌入至代码块Cell中进行调用。
+- 复制文件路径
 
-![图 15](../images/%E6%95%B0%E6%8D%AE%E8%BF%9E%E6%8E%A5%E5%A4%8D%E5%88%B6.png)  
+点击复制按钮拷贝文件路径
 
-![](/assets/fzsjlj.png)
+![图 19](../images/cppath.png)  
 
-在单元格中调用数据连接的示例：
+- 下载文件
 
-```py
-from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
-engine=snb_conn("0242ac110004-11ed6fc5-75db535a-b5db", context=globals())
+点击文件列表右侧下载按钮可将文件下载至本地
 
-# 使用 cursor() 方法创建一个游标对象 cursor
-with engine.connect() as conn:
-    #参考 gpu_df.to_sql('gpu_data',conn,if_exists='append')
-```
+![图 20](../images/downl.png)  
 
-### 元数据浏览
+## 目录
 
-不记得可用的表名、列名或列的数据类型？
-
-没关系，您可以点击数据源右侧的按钮去浏览数据库和表结构。
-
-![picture 1](../images/%E6%95%B0%E6%8D%AE%E6%B5%8F%E8%A7%88%E5%99%A8.png)  
-
-在这里，您可以通过一层层展开数据库的内容来浏览数据库中各个表结构以及列的数据类型。
-
-![picture 2](../images/shujuliulanqi.png)  
-
-
-## 大纲目录
-
-我们知道，在Word中生成目录是通过采集正文中各个章节的标题来实现的。
-
-相应的，Notebook会通过采集MarkDown的标题层级自动生成目录结构。
+目录是一种工具，它根据MarkDown单元格中当前使用的标题显示Notebook的结构。
 
 MarkDown使用"#"表示不同级别的标题，例如：
 - "#  一级标题"
 - "##  二级标题"
 - "###  三级标题"
 
-通过大纲目录提供的方便浏览的概述，用户不仅可以快速掌握代码的文档结构，也可以单击目录大纲中的条目自动跳转到NoteBook中该逻辑的位置。
+Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 
-![](/assets/mljg.png)
+同时，目录是交互式的：单击标题可导航到Notebook中的相应部分
 
-## 实例（包含调度）
+![图 24](../images/indexall.png)  
 
-查看当前已使用的容器计算资源，如`内存`、`CPU占比`，可根据需要来切换环境资源。支持创建调度任务，定期执行Notebook任务。
+## 环境
 
+### 查看配置/负载情况
 
-![](/assets/slhdd.png)
+![图 25](../images/workload.png)  
 
+### 切换环境
+
+当用户购买和构建了多个环境资源，可根据需要切换Notebook的运行环境
+
+![图 26](../images/switchenv.gif)  
+
+### 创建调度器
+
+请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">Workspace调度器</a>
 
 ## 变量浏览
 
-可以方便的探索NoteBook中存在的当前变量。
+浏览Notebook中使用的变量、值和值的一些属性。
 
-当执行定义变量的单元格后，该变量将出现在左侧的`变量浏览`列表中，其中包含有关其类型和内容的信息，如变量名、变量的值、变量类型、占用大小等。
+单元格的代码执行后，变量将出现在左侧的`变量浏览`列表中，其中包含有关其类型和内容的信息，如变量名、变量的值、变量类型、占用大小等。
+
+![图 27](../images/varie.png)  
 
 > [!warning|style:flat]
-> 重启Kernel将清除所有已存储的变量值。因此如果您在某些变量中存储了非常重要的数据，请在重启Kernel前将数据导出（比如导出文件）或保存在某个地方（比如写入数据库）。
+> 重启Kernel的操作将会清除所有已存储的变量值。如果用户在某些变量中保存了非常重要的数据，请在重启Kernel前将重要变量的数据保留下来。
 
+## 版本列表
 
-![](/assets/blyl.png)
-
-## 历史版本
-
-用户可以通过保存版本，记录各阶段的工作成果。并可拿历史版本与当前内容进行比对，Notebook会自动标注两个版本间的文件差异。用户可根据需要替换成某历史版本。
+<!-- 用户可以通过保存版本，记录各阶段的工作成果。并可拿历史版本与当前内容进行比对，Notebook会自动标注两个版本间的文件差异。用户可根据需要替换成某历史版本。
 
 - 版本名称
 - 版本提交人
 - 版本提交时间
 - 回退到该版本
 
-![图 13](../images/new%20banbnexinxi%20.png)  
+![图 13](../images/new%20banbnexinxi%20.png)   -->
 
 ### 保存版本
 
-版本保存快捷键`Ctrl + S`
+Notebook文档在我们编写期间会每隔30秒保存一次内容，但如果需要永久保存Notebook某一个时点的内容和状态，用户需要自行保存成版本。初始状态下版本列表是空的：
+
+![图 28](../images/verso.png)  
+
+按下`Ctrl + S`，输入`版本名称`和`版本信息`后点击确定按钮，提示版本保存成功。
 
 ![](/assets/bubbxx.png)
 
+> [!Tip]
+> 如果用户在Workspace设置里配置了GitLab或GitHub，保存的版本会同步到云端仓库。
+
 ### 版本对比
 
-单击某一历史版本，可与当前内容进行比对。
+单击列表中某个版本，可打开该历史版本与当前Notebook内容进行对比。
 
-`左侧为历史版本，右侧为当前内容`
+下图左侧为历史版本内容，右侧为当前Notebook文档的内容
 
 ![](/assets/bbdb.png)
 
-### 版本回退
+### 回退版本
 
-用户根据需要可回退至某历史版本，点击右侧的`回退`,将提示你是否回退到该版本。
+点击版本列表右侧的回退按钮，可以将当前Notebook文档内容恢复至历史版本
 
-![](/assets/htbb.png)
+![图 30](../images/rollbakkk.png)  
+
 
 ## 代码片段
 
-Notebook提供了一些公共的代码片段，用户可根据需要复制。同时用户也可保存自己的代码收藏复用，或分享给团队成员使用。
+### 公有库
 
-- 公有库：显示SmartNoteBook提供的公共代码片段
-- 我的收藏：显示个人收藏的代码片段，收藏代码的操作详见<a href="./Collections.md" title="收藏代码">收藏代码</a>
-  
-![图 20](../images/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5new.png)  
+SmartNoteBook帮用户内置了一些常用的代码片段，用户根据需要复制使用
 
+鼠标移动到代码片段右侧会显示预览框，点击代码名称右侧的复制按钮可复制整块代码
 
-
+![图 32](../images/cpdercoppp.png)  
 
 
+### 我的收藏
 
+个人收藏的代码片段，用户根据需要复制使用
+
+同样的，鼠标移动到代码片段右侧会显示预览框
+
+代码名称右侧两个按钮分别为`删除`代码块和`复制`整块代码
+
+![图 33](../images/collcode.png)  
+
+收藏代码的操作详见<a href="./Collections.md" title="代码收藏">代码收藏</a>
 
 
 

@@ -20,7 +20,9 @@
 
 ![图 2](../images/shutkernel.png)  
 
-如需释放Kernel资源，可以选择NoteBook对应的Kernel，点击`关闭`释放资源。
+在某些时候，用户可能必须停止某些正在运行的计算，最常见的情况是达到并行计算的限制。
+
+如需释放Kernel资源，可以选择NoteBook对应的Kernel，点击`关闭`。
 
 ## 删除环境
 

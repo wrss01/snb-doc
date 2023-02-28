@@ -170,3 +170,29 @@
 > [!Tip]
 > Notebook支持的全部快捷键详见 <a href="./Shortcuts.md" title="快捷键">快捷键</a>
 
+## 魔法指令
+
+<div style='display: none'> 内容待补充</div>
+
+通过魔法指令（magic commands）可以增强SmartNoteBook的功能和灵活性。
+
+以下是常用的一些魔法指令：
+
+1.  %run：运行 Python 脚本
+2.  %load：加载一个 Python 脚本
+3.  %time：测试一个语句或函数的执行时间
+4.  %matplotlib：集成 matplotlib 绘图库，实现 inline 绘图
+5.  %pwd：显示当前工作目录
+6.  %cd：更改当前工作目录
+7.  %ls：显示当前目录下的文件和目录
+8.  %who：显示当前命名空间中定义的变量
+9.  %reset：清空当前命名空间中定义的变量
+10.  %%timeit：测试一个语句或函数的平均执行时间
+
+这些魔法指令只需要在Notebook的代码单元格中输入，以百分号`%`或两个百分号`%%`开头即可。
+
+在输入魔法指令时，可以使用`?`查看更多帮助信息。例如，输入`%run?` 可以查看`%run`魔法指令的详细用法。
+
+![图 39](../images/magicrun.png)  
+
+> 更多的魔法指令可以参考这份文档[Useful Magic Commands](https://storage.googleapis.com/coderzcolumn/static/tutorials/python/pdf/Useful%20Magic%20Commands%20of%20Jupyter%20Notebooks.pdf)。
