@@ -34,6 +34,8 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 ### 分享报告时隐藏输入/输出
 
+<span id="hide"></span>
+
 - 控制单个单元格输入/输出的显隐：
 
 ![图 7](../images/eyeforreport.gif)  

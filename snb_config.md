@@ -79,3 +79,11 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 
 ## 外部网站引用
 [SQLite3 Documentation](https://www.sqlite.org/docs.html)。
+
+## 内部跳转位置
+见[代码自动补全](#show) 
+<span id="show"></span>
+
+## 外部跳转文档的固定位置
+<a href="./Sidebar.md/#sv" title="保存版本">版本列表</a> 
+<span id="sv"></span>

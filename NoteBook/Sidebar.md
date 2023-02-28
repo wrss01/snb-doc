@@ -2,7 +2,7 @@
 ---
 侧边栏为Notebook提供一系列扩展功能。
 
-功能概览
+侧边栏功能概览
 
 | 图标 | 功能 | 解释 | 
 | :----- | :-----| :---- | 
@@ -15,6 +15,8 @@
 | <img src="../images/coderep.png"  style="display: inline-block;" />  | 代码片段 | 包含`公有库`（Notebook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
 
 ## Packages
+
+<span id="pk"></span>
 
 默认情况下，Notebook的运行环境已经为用户安装了常用的数据分析、机器学习以及可视化的包。
 
@@ -44,6 +46,8 @@
 
 
 ## 数据资源
+
+<span id="ds"></span>
 
 集成和管理数据资产，包括数据库和数据文件（csv/excel/txt/json等）。
 
@@ -98,7 +102,7 @@
 ![图 20](../images/downl.png)  
 
 ## 目录
-
+<span id="idx"></span>
 目录是一种工具，它根据MarkDown单元格中当前使用的标题显示Notebook的结构。
 
 MarkDown使用"#"表示不同级别的标题，例如：
@@ -113,6 +117,8 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 ![图 24](../images/indexall.png)  
 
 ## 环境
+
+<span id="env"></span>
 
 ### 查看配置/负载情况
 
@@ -129,7 +135,7 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">Workspace调度器</a>
 
 ## 变量浏览
-
+<span id="vr"></span>
 浏览Notebook中使用的变量、值和值的一些属性。
 
 单元格的代码执行后，变量将出现在左侧的`变量浏览`列表中，其中包含有关其类型和内容的信息，如变量名、变量的值、变量类型、占用大小等。
@@ -151,6 +157,8 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 ![图 13](../images/new%20banbnexinxi%20.png)   -->
 
 ### 保存版本
+
+<span id="sv"></span>
 
 Notebook文档在我们编写期间会每隔30秒保存一次内容，但如果需要永久保存Notebook某一个时点的内容和状态，用户需要自行保存成版本。初始状态下版本列表是空的：
 
@@ -179,6 +187,8 @@ Notebook文档在我们编写期间会每隔30秒保存一次内容，但如果�
 
 
 ## 代码片段
+
+<span id="cd"></span>
 
 ### 公有库
 
