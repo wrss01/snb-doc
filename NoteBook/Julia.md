@@ -5,10 +5,9 @@
 
 在`新建NoteBook`对话框中选择Kernel类型为“Julia”的选项。
 
-输入`Notebook标题`并选择对应的环境（需满足您购买的产品拥有创建Julia语言的环境，否则无法创建），最后点击提交。
+输入`Notebook标题`并选择对应的环境（需满足您购买的产品拥有创建Julia语言的环境，否则无法创建），点击提交完成创建。
 
-![图 3](../images/r%20kern.png)   图片需要更换
-
+![图 1](../images/julianote.png)  
 
 > [!warning|style:flat]
 > 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
