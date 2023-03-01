@@ -13,7 +13,7 @@
   * [个人中心](WorkSpace/Profile.md)
   * [设置](WorkSpace/Settings.md)
 * [NoteBook](NoteBook/main.md)
-  * [代码块（Cell）概述](NoteBook/Cell.md)
+  * [代码块/单元格概述](NoteBook/Cell.md)
   * [Python代码块](NoteBook/Python.md)
   * [SQL代码块](NoteBook/SQL.md)
   * [MarkDown代码块](NoteBook/Markdown.md)
@@ -23,6 +23,7 @@
   * [R支持](NoteBook/R.md)
   * [SageMath支持](NoteBook/SageMath.md)
   * [Julia语言支持](NoteBook/Julia.md)
+  * [ChatGPT支持](NoteBook/ChatGPT.md)
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
   * [收藏](NoteBook/Collections.md)
@@ -30,13 +31,13 @@
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
 * [开始使用](Tutorial/main.md)
-  * [申请一个个人账号](Tutorial/Register.md)
-  * [创建一个Workspace](Tutorial/YourFirstWorkspace.md)
-  * [创建一个Notebook](Tutorial/YourFirstNotebook.md)
-  * [编写一个分析案例](Tutorial/YourFirstAnalysis.md)
-  * [编写一个机器学习案例](Tutorial/YourFirstML.md)
-  * [创建一个定时任务](Tutorial/YourFirstSchedule.md)
-  * [邀请一个团队成员](Tutorial/InviteYourMember.md)
+  <!-- * [申请账号](Tutorial/Register.md) -->
+  <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
+  <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
+  * [开展数据分析](Tutorial/YourFirstAnalysis.md)
+  * [开展机器学习](Tutorial/YourFirstML.md)
+  <!-- * [定期执行](Tutorial/YourFirstSchedule.md) -->
+  <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)
 * [服务条款](Terms.md)
-* [编辑注意事项](snb_config.md)
+<!-- * [编辑注意事项](snb_config.md) -->

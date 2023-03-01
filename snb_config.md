@@ -87,3 +87,8 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 ## 外部跳转文档的固定位置
 <a href="./Sidebar.md/#sv" title="保存版本">版本列表</a> 
 <span id="sv"></span>
+
+
+## 设置图片大小
+
+<img src="images/snspic.png"  style="width: 80%;height: 80%;" />

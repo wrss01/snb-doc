@@ -2,8 +2,8 @@
 ---
 简单高效接入和管理数据源。
 
-![图 1](../images/ds.png)  
-
+<!-- ![图 1](../images/ds.png)   -->
+<img src="../images/ds.png"  style="width: 78%;height: 78%;" />
 
 ## 支持数据源类型
 
