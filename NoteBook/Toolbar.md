@@ -25,7 +25,7 @@
 | 工具 | 终端 | 打开命令行界面与服务器交互 | 
 | 工具 | 生成Graph | 分析代码中的变量关系生成关系图 | 
 | Kernel | 中断Kernel | 中断运行正在运行的代码| 
-| Kernel | 重启Kernel | 重新启动Kernel（例如一些package安装后需要重启）| 
+| Kernel | 重启Kernel | 重新启动Kernel（例如某些package安装后需要重启）| 
 | 运行 | 全部运行 | 运行Notebook下所有的单元格（按照Sheet顺序）| 
 | 运行 | 运行当前及上方所有单元格 | 运行选中的单元格及之前所有单元格的代码（当前Sheet内） | 
 | 运行 | 运行当前及下方所有单元格 | 运行选中的单元格及之后所有单元格的代码（当前Sheet内） | 
@@ -49,50 +49,31 @@
 - 可解释性：容易看到各单元格如何相互关联，查看整个NoteBook代码逻辑的“流动”，是跟踪复杂逻辑的可视化“思维导图”。
 
 - 性能：在模型开发过程中，这种DAG模型几乎不会产生额外的性能开销，对性能无任何影响。
+- 交互方面：
+  - 点击Graph中的代码框可以快速定位到左侧的单元格
+  - 代码框右下角的图标可识别代码类型
+  - 线条箭头的指向代表了代码逻辑的流向，线条中间为上下关联的变量
+  - Graph中的代码框可以任意拖动
 
 
-## Kernel（内核）
+![图 3](../images/gengraph.png)  
 
-每个NoteBook都具备底层内核，这些内核本质上是运行代码的程序。
+## Kernel
 
-Kernel 连接服务端的计算资源，当内核处于连接状态时，才能正常运行NoteBook中的代码。
+Kernel是一个独立于Notebook的进程，它运行用户编写的代码并处理Notebook中的输入和输出。Kernel会将代码执行的结果返回给Notebook，然后Notebook会将结果渲染成适当的格式并显示出来，可以理解为是Notebook和代码之间的中间层。
+
+Kernel可以支持多种编程语言，包括Python、R、Julia等，用户可以根据需要选择不同的Kernel来运行不同的代码（参考<a href="./main.md/#newnb" title="新建Notebook">新建Notebook时选择Kernel</a>） 。
 
 ### 中断Kernel
 
-kernel 的中断（Kernel interrupt）是指kernel 正在运行代码中断运行（Kernel interrupt），针对notebook 内单元格（cell) 中断包括正在运行cell 和待运行的cell。
+中断Kernel是指中断kernel正在运行的代码，针对Notebook内正在运行的单元格和待运行的单元格。
  
-点击左上角的停止按钮中断Kernel
+### 重启Kernel
 
-![](/assets/zdkr.png)
-
-或是点击工具栏的`中断kernel`
-
-![](/assets/zdkr2.png)
-
-### 重启Kernel（内核）
-
-当环境发生变化（如环境安装了新的包），需要重启Kernel时使用。
-
-![](/assets/cqkr.png)
-
+当环境发生变化（如环境安装了新的包或其他情况），需要重启Kernel时使用。
 
 > [!warning|style:flat]
-> 重启Kernel将清除所有已存储的变量值。因此如果您在某些变量中存储了非常重要的数据，请在重启Kernel前将数据导出（比如导出文件）或保存在某个地方（比如写入数据库）。
-
-
-
-## 代码块（cell）是如何连接在一起的
-
-Graph是根据代码块中的参数引用自动构建的，变量引用会自动推断为链接（或“边”）。
-
-如下图我们可以看到各个DataFrame的生成过程以及引用过程。这些联系是SmartNoteBook自动推断的，无需用户去定义。
-
-![](/assets/gra.png)
-
-> [!Tip]
-> Graph中的代码片段用户可以随意拖动。
-
-
+> 重启Kernel的操作将会清除所有已存储的变量值。如果用户在某些变量中保存了非常重要的数据，请在重启Kernel前将重要变量的数据保留下来。
 
 
 

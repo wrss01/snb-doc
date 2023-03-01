@@ -27,6 +27,8 @@ Notebook文档功能元素概览：
 
 ## 新建Notebook
 
+<span id="newnb"></span>
+
 当前Workspace下，点击左下按钮`新建Notebook`
 
 ![图 8](../images/createnote.png)  

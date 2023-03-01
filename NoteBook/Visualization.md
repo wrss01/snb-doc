@@ -1,90 +1,109 @@
 # 可视化组件
 ---
-* `Chart`可视化组件帮助用户以交互方式浏览和聚合数据帧，从而创建丰富的可视化效果并可用于分享和展示。
 
-![图 3](../images/Chart%E7%BB%84%E4%BB%B6%E7%9A%84%E5%9B%BE.png)  
+## Chart组件
+
+Chart组件帮助用户以可视化交互方式浏览和处理数据，无需编写代码即可创建丰富的图表用于展示和分享。
+
+支持的Chart组件包括以下几类：
+
+* 标准Chart类型: 如柱状图（bar）、折线图（line）、散点图（point）、面积图（area）
+* 组合图表：如Grid组合、overlap等（组合图表的功能还在研发当中）
+* 其他图表：如地图、箱线图（盒须图）、词云图（WordCloud）、漏斗图等（其他图表的功能还在研发当中）
+
+### 创建Chart
+
+鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`More cell types`，然后选择`Chart`。
+
+![图 8](../images/createchart.png)  
+
+### 配置Chart
+
+1. 选择要可视化的数据变量（DataFrame）
+2. 选择图表的类型及相关配置：
+     - Bar：条形图/柱状图/直方图
+     - Line：折线图
+     - Point：散点图
+     - Area：面积图
+3. 设置x中和y轴的字段、聚合函数、字段类型等
+4. 设置系列和排序方式
+5. 点击左上角的执行按钮
+
+<!-- ![图 4](../images/charts%E7%9A%84%E9%85%8D%E7%BD%AE.png)   -->
+<!-- ![图 9](../images/chartdesc.png)   -->
+
+![图 10](../images/orderexcetable.png)  
 
 
-* `Snb Table`组件帮助用户进行可视化筛选和查找数据。
+### 聚合数据
 
-![图 2](../images/snbtable%20%E6%93%8D%E4%BD%9C.png)  
+对行数据使用`sum`，`count`,`max`等聚合函数进行聚合：
+
+![图 11](../images/agg.png)  
+
+### 更改数据类型
+
+图表中的字段支持以下数据类型：
+- quantitative：数量类型
+- categorical：分类类型
+- ordinal：序数类型
+- time：时间类型
+
+不同的数据类型下可以设定相应的格式显示，更改数据类型将影响数据的处理和呈现方式。
+
+![图 12](../images/datatype.gif)  
 
 
-# Chart组件
+### 排序
 
-SmartNoteBook具备低代码实现可视化，目前支持的Chart类型包括
+Chart提供了多种用于对数据排序的选项：
 
-* 标准charts: bar、line、point、area
-* 组合图`建设中`：Grid 组合、overlap等
-* 其他`建设中`：地图、箱线图（盒须图）、WordCloud、漏斗图等
+![图 13](../images/dataorder.png)  
 
-## 创建Chart
 
-鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`Chart`。
+### 绘制多列
 
-![图 16](../images/new%20%20charttable.png)  
+当需要在一张图表上绘制多列，如果数据满足不同类型的标签共享相同的度量单位，此时可以通过添加系列来实现。例如：
 
-## 配置Chart
+![图 15](../images/seris.gif)  
 
-1. `Chart`配置区域
-2. `Chart`显示区域
-3. `Chart`类型显示
-4. 执行`Chart`
-5. `Chart` 主题和图例等配置
+### 显示/隐藏图例
 
-![图 4](../images/charts%E7%9A%84%E9%85%8D%E7%BD%AE.png)  
+![图 16](../images/toolstips.png)  
 
-### 配置项
+### 设置图表宽度/高度
 
-- 图表标题（非必填）
-  
-- 图表类型
-  - Bar：条形图/柱状图/直方图
-    - Tooltips：工具提示条，当鼠标停止在图表上某一处时，图表会提示该处的信息。True/False，默认False。
-    - Stack：堆积选项。True/False，默认False。
-  - Line：折线图
-  - Point：散点图
-  - Area：面积图
-  
-- x轴
-  - 字段选择
-  - 字段类型
-  - 聚合函数
-  - 标题（非必填）
-  
-- y轴
-  - 字段选择
-  - 字段类型
-  - 聚合函数
-  - 格式
-  - 标题（非必填）
 
-- 系列
-  - 字段选择
-  
-- 排序
-  - x轴升序（默认）
-  - x轴降序
-  - y轴升序
-  - y轴降序
+![图 17](../images/shape.png)  
 
-## 隐藏/显示配置
+### 主题设置
+
+设置图表的主题样式：
+- LIGHT：高亮主题
+- DARK：暗黑主题
+- WHITE：亮白主题
+
+![图 18](../images/theme.png)  
+
+### 隐藏/显示配置
 
 ![图 5](../images/%E9%9A%90%E8%97%8F%E9%85%8D%E7%BD%AE.gif)  
 
-## 拷贝出代码
+### 代码拷贝
 
-可将通过Chart组件制作好的图表代码拷贝出来，可直接放在Python代码块中执行：
+将代码拷贝到Python单元格进一步自定义图表
 
-![图 6](../images/kaobeichudaima.png)  
+![图 19](../images/codecharts.png)  
 
 ![图 7](../images/kaobeidaimapythonzhixing.png)  
 
-## Chart开放API（Low code）
+### Chart开放API
 
 Chart API 为您提供了一个以编程方式自定义显示图表的方式。
 
-### 河流图themeRiver
+**样例** 
+
+- 河流图themeRiver
 
 ```
 from snb_plugin.snbcharts.SnbCharts import themeRiver
@@ -110,7 +129,7 @@ from snb_plugin.snbcharts.SnbCharts import themeRiver
 themeRiver(temp,'day','project','count_day',height='550px', width='960px')
 ```
 
-### 散点图scatterChart
+- 散点图scatterChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterChart
@@ -136,7 +155,7 @@ scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook'
 
 ![图 2](../images/scatterchart.png)  
 
-### 散点图极坐标scatterPolarChart
+- 散点图极坐标scatterPolarChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
@@ -162,7 +181,7 @@ from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
 
 scatterPolarChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook', height='550px', width='960px')
 ```
-### 热力图 heatmapChart
+- 热力图 heatmapChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import heatmapChart
@@ -187,7 +206,7 @@ from snb_plugin.snbcharts.SnbCharts import heatmapChart
 heatmapChart(df,'hour','week_cn','count_hour', title='SmartNotebook', height='550px', width='960px')
 ```
 
-### 雷达图radarChart
+- 雷达图radarChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import radarChart
@@ -212,7 +231,7 @@ from snb_plugin.snbcharts.SnbCharts import radarChart
 radarChart(df, "hour", "week_cn", "count_week_cn", title='SmartNotebook', height='550px', width='1600px')
 ```
 
-### 盒须图boxPlot
+- 盒须图boxPlot
 
 ```
 from snb_plugin.snbcharts.SnbCharts import boxPlot
@@ -236,24 +255,26 @@ from snb_plugin.snbcharts.SnbCharts import boxPlot
 boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width='980px')
 ```
 
-# Snb Table组件
+## Snb Table组件
 
-Snb用于对展示数据集，并具备一定的交互能力，如对特征值进行条件筛选和排序。
+Snb Table组件除用作展示数据集，同时也具备一定的可视化交互能力，如对特征值进行条件筛选和排序。
 
-## 创建Snb Table
+### 创建
 
-鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`Snb Table`。
+鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`More cell types`，然后选择`Snb Table`。
 
-![图 15](../images/new%20snbtable.png)  
+![图 20](../images/snbtables.png)  
 
-## 配置和展示
+### Snb Table使用
 
-* 下拉框选择数据集。
-* 选择字段可进行排序和条件筛选。
+* 选择数据集
+* 选择字段可进行排序
+* 点击字段右侧筛选按钮可进行逻辑条件筛选
 
-![](/assets/snbtablesss.png)
+![图 21](../images/snbtak.gif)  
 
-## 自定义Snb Table
+
+### 通过接口自定义Snb Table
 
 除使用Snb Table组件外，SmartNoteBook也提供了Snb Table的开放接口。用户也可通过Python调用__SNB_DisplayTable接口自定义显示Table
 
