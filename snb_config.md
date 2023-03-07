@@ -92,3 +92,7 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 ## 设置图片大小
 
 <img src="images/snspic.png"  style="width: 80%;height: 80%;" />
+
+## 反馈邮箱
+<feedback@smartnotebook.tech>
+[XXX](feedback@smartnotebook.tech)

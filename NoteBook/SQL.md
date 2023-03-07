@@ -26,7 +26,7 @@ SmartNoteBook提供一流的SQL支持，每个SQL代码块都是一个完全成�
 
 - DBSQL-->Python处理-->dfSQL。用户运行DBSQL查询从数据库提取数据，然后使用Python代码对数据的某一列进行地理编码，此时数据此时已不在数据库表中，而是在Python处理后的数据放在DataFrame中，这时用户可以利用dfSQL对DataFrame进行SQL查询。
   
-- 用户从.csv文件查询数据。通过dfSQL可以直接这样提取csv文件中的数据：`SELECT * FROM "文件名.csv"`
+- 用户从.csv文件查询数据。通过dfSQL可以直接这样提取csv文件中的数据：`SELECT * FROM '文件名.csv'`
 
 例如：
 
