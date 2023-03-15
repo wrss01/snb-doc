@@ -255,6 +255,51 @@ from snb_plugin.snbcharts.SnbCharts import boxPlot
 boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width='980px')
 ```
 
+- 网络态势感知(Sankey Diagram)
+
+Sankey Diagram，用来展示数据的“流动”变化。
+
+- 左右两侧的矩形叫做“节点”，代表了不同的分类
+- 节点与节点之间的流线叫做“边”，代表数据的流动
+- 流动数据的具体数值叫做“流量”。边的宽度与流量成比例展示，流量越大，边越宽。
+
+```
+from snb_plugin.snbcharts.SnbCharts import  sankeyChart
+
+sankeyChart(df1,df2,node_config={"name_col":"","value_col":"","info_col":""},
+                link_config={"src_col":"","dst_col":"",
+                "value_col":"","info_col":"","opacity_col":""},
+                title="",height="1080px",width="100%")
+```
+接口说明：
+- df1、df2：数据集，格式：`pandas.DataFrame`
+- node_config：节点相关配置项
+  - "name_col"：设置节点对应的数据列
+  - "value_col"：设置节点对应的数值（数值越大，节点的柱子越宽）
+  - "info_col"：节点需显示的详细消息
+- link_config：边的相关配合项
+  - "src_col"：选择源节点字段
+  - "dst_col"：选择目标节点字段
+  - "value_col"：设置边对应的数值（数值越大，边的线条越粗）
+  - "info_col"：边上需显示的详细消息
+  - "opacity_col"：控制边的透明度（数值越大，线条越明显）
+- title：图表名称
+- height：高度，格式：`px` 或`百分比`
+- width：宽度，格式：`px`或`百分比`
+
+![图 23](../images/snakey2.png)  
+
+样例：
+```
+from snb_plugin.snbcharts.SnbCharts import  sankeyChart
+
+sankeyChart(df4,df2,node_config={"name_col":"ip","value_col":"msg_count","info_col":"info"},
+                link_config={"src_col":"srcAddress","dst_col":"destAddress",
+                "value_col":"s_msg_count","info_col":"info","opacity_col":"opacity"},
+                title="",height="1080px",width="100%")
+```
+
+
 ## Snb Table组件
 
 Snb Table组件除用作展示数据集，同时也具备一定的可视化交互能力，如对特征值进行条件筛选和排序。
