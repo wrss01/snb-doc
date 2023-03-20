@@ -59,6 +59,9 @@
 
     ![图 3](../images/ack_token_gen.png)  
 
+> [!Tip]
+> 如何获取配置github？
+
 
 ### 创建新的Workspace
 
