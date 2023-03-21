@@ -24,6 +24,8 @@
 | 测试仓库链接 | git仓库配置完成后，点击测试是否成功 |
 | workspace 图标 | 单击上方的图标修改并上传新的图标 | 
 
+<span id="git"></span>
+
 > [!Tip]
 > 如何获取gitlab的Access Token？
 
@@ -34,6 +36,40 @@
 2. Token创建成功，复制使用
 
     ![图 3](../images/ack_token_gen.png)  
+
+> [!Tip]
+> 如何配置github？
+
+1.登录GitHub，点击右上角的头像选择`Settings`
+
+![](./../images/1679304801747.png)
+
+2.左侧菜单点击`Developer settings`
+
+![](./../images/1679304287856.png)
+
+3.点击`Personal access tokens`-->`Tokens(classic)`-->右上角按钮`Generate new tokens(classic)`
+
+![](./../images/1679304460665.png)
+
+4.填写Note（必填）、选择过期时间Expiration，并勾选权限范围，鼠标滑到页面最下方点击绿色按钮`Generate token`
+
+![](./../images/1679304643450.png)
+
+![](./../images/1679304688101.png)
+
+5.复制Access Token
+
+![](./../images/1679304738391.png)
+
+6.复制仓库ID或目录
+
+![](./../images/1679306218178.png)
+
+7.将上面拿到的Access Token和仓库目录以及分支信息填入Workspace的仓库设置，点击按钮`测试仓库链接`，如配置正确系统会提示连接成功，点击保存即可。
+
+![](./../images/1679305311829.png)
+
 
 ## 删除
 
