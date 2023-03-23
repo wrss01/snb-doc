@@ -58,6 +58,13 @@
 
 ![图 3](../images/gengraph.png)  
 
+右上角支持打开/关闭小地图。小地图显示Graph的预览，并且支持鼠标在小地图拖动控制显示的区域（对于Graph显示面积过大的情况会很有帮助）
+
+![图 10](./../images/1679540175250.png)
+
+![图 11](./../images/1679540232245.png)
+
+
 ## Kernel
 
 Kernel是一个独立于Notebook的进程，它运行用户编写的代码并处理Notebook中的输入和输出。Kernel会将代码执行的结果返回给Notebook，然后Notebook会将结果渲染成适当的格式并显示出来，可以理解为是Notebook和代码之间的中间层。
