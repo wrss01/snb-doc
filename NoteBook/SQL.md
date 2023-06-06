@@ -255,6 +255,13 @@ data={"a":100,"b":200}
 ![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  
 
 
+## 链式SQL
+
+链式SQL是SNB中的一种优雅、高效且易于调试的工作流。它允许在SQL查询的from子句中引用notebook内同一数据源中的其他SQL查询，从而将复杂的SQL查询分解为短小、高效的SQL单元格。通过链式SQL，我们可以将复杂的嵌套查询转化为简单的链式CTE（Common Table Expression）查询SQL，使代码更加简洁、易于调试、复用及高效。快来尝试链式SQL，让你的SQL查询变得更加优雅！
+
+![图 14](../images/1aaa287f15169dc1a8cd61a699ee5146f7819d1eb7513a6b7bdbdb8c72f5cde4.png)  
+
+
 ## SQL注释
 
 注释用于解释SQL语​​句的各个部分，或用于防止执行SQL语句。
