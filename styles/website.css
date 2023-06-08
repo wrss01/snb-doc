@@ -30,3 +30,20 @@ figcaption {
     padding: .5rem;
     font-size: 16px;
 }
+
+.markdown-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1px;
+    background: #f8fafb;
+    border:20px #f8fafb solid;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
