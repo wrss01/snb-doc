@@ -1,7 +1,7 @@
 # WorkSpace文件
 ---
 
-将本地文件上传到SmartNoteBook。
+将本地（数据）文件上传至SmartNoteBook。
 
 ## 上传文件
 
@@ -9,25 +9,61 @@
 
 ![图 1](../images/fileup.png)
 
-选择要上传的文件（单个文件大小不超过10M)，点击`打开`。
+选择要上传的文件（注意：单个文件大小不超过10M)，单击`打开`，即开始上传文件。
 
 ![图 2](../images/openfile.png)  
  
 
 ## 下载文件
 
-在`WorkSpace文件`标签页，找到需要下载的文件，单击`操作`列的`...`，然后点击`下载`即可。
+在文件列表中找到需要下载的文件，单击`操作`列的`...`，然后点击`下载`，即开始将文件下载到本地文件夹。
 
-您可以从文件浏览器下载任何导入的文件。
+![图 3](../images/82e56f6d5af2534e92634abe29b10b78871c015f9c8f33e80795f2611ef36722.gif)  
+
+
+## 创建文件夹
+
+点击文件列表右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;" />即可创建文件夹。
+
+## 重命名文件夹
+
+方式一：选择需要重命名的文件夹，单击`操作`列的`...`，点击`重命名`，修改好文件夹名称后点击`√`提交修改。
+
+方式二：鼠标移动到需要重命名的文件夹名称处， 此时出现编辑按钮<img src="../images/001937546f67284288a8d7c37770016a96adc4c786c4fc75f3211e4200139a7f.png"  style="display: inline-block;" />，点击编辑按钮对文件夹重命名后点击`√`提交.
+
+
+![图 4](../images/ddbd6bff6f4fdb5ef2dc8c37ad794555b1e8919b9b658b76cc4b77e5a51e1dcb.gif)  
+
 
 ## 删除文件（夹）
 
-在`WorkSpace文件`标签页，找到需要删除的文件（夹），单击`操作`列的`...`，然后点击`删除`即可。
+选择需要删除的文件（夹），单击`操作`列的`...`，然后点击`删除`。
 
-</br>
-</br>
+> [!warning|style:flat]
+> 删除文件夹时需确保文件夹为空，否则无法删除。
 
-**备注**：
+
+## 同步文件
+
+### 文件一键同步到Node
+
+详见<a href="../NoteBook/Sidebar.md" title="侧边栏">侧边栏-数据资源-WorkSpace文件</a>
+
+### 直接上传文件至环境Node
+
+详见<a href="../NoteBook/Sidebar.md" title="侧边栏">侧边栏-数据资源-环境文件</a>
+
+## 读取csv文件
+
+### 预览文件
+
+详见<a href="../NoteBook/Sidebar.md" title="侧边栏">侧边栏-数据资源-环境文件</a>
+
+### 单元格读取文件
+
+详见<a href="../NoteBook/SQL.md" title="SQL">SQL代码块-dfSQL</a>
+
+<!-- **备注**：
 
 在SmartNoteBook中，非结构的文件资源存储机制分为两级：
 
@@ -35,9 +71,6 @@
 
 * 通过NoteBook的数据资源同步，可以根据需要将MinIO公共区域的资源文件同步至Node节点使用
 
-![](/assets/tbwj.png)
+![](/assets/tbwj.png) -->
 
-## 新建文件夹
-
-在`WorkSpace文件`标签页，点击右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;" />。文件夹帮助我们更好的组织和管理文件，便于归档和查找
 

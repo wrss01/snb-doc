@@ -1,11 +1,13 @@
 # WorkSpace数据源
 ---
-简单高效地与各类数据源建立安全链接。
+简单、高效、无代码的与数据源建立安全链接。
 
 <!-- ![图 1](../images/ds.png)   -->
 <!-- <img src="../images/ds.png"  style="width: 78%;height: 78%;" /> -->
 
-## 支持数据源类型
+## 数据源类型
+
+SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多的国产数据库正在接入测试中，敬请期待：
 
 ![支持的数据源类型](../images/de0cb651c474dc3ad7d477a85f010ca3d1f40f2e9dcc3bb74925c3ac617b90f9.png)  
 
