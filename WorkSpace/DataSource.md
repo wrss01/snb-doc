@@ -23,7 +23,7 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 * `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库，
 
 > [!Tip]
-> 即将支持更多的数据源——如果您有需要优先支持的数据源，可联系我们<feedback@smartnotebook.tech>。
+> 即将支持更多的数据源——如果您有需要优先支持的数据源，可联系我们 <feedback@smartnotebook.tech>。
 
 ## 建立新的数据源连接
 
@@ -47,31 +47,26 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 
 不同的数据源对应填写的配置项也会存在差异。 -->
 
-- 对于MySQL，PostgreSQL，SQL Server，ClickHouse、Greenplum和Neo4j，您需要配置：
+- 对于`MySQL`，`PostgreSQL`，`SQL Server`，`ClickHouse`、`Greenplum`和`Neo4j`，您需要配置：
 
+  - 连接名称
   - 数据库主机网址地址（host）
   - 数据库端口（Port）
   - 数据库名称（Database）
   - 用户名和密码
 
-- 对于Spark，Hive，Presto，ClickHouse和Greenplum，您需要配置：
+- 对于`Spark`，`Hive`和`Presto`，您需要配置：
 
+  - 连接名称
   - 数据库主机网址地址（host）
   - 数据库端口（Port）
   - 数据库名称（Database）
   - 鉴权方式：`用户名和密码`或`无需鉴权`
   - 用户名和密码
 
-- 对于Oracle，您需要配置：
+- 对于`Oracle`，您需要配置：
 
-  - 数据库主机网址地址（host）
-  - 数据库端口（Port）
-  - 实例名（SID）
-  - 驱动类型（driver）：`Thin`/`OCI`/`OCIB`
-  - 用户名和密码
-
-- 对于Neo4j，您需要配置：
-
+  - 连接名称
   - 数据库主机网址地址（host）
   - 数据库端口（Port）
   - 实例名（SID）
@@ -87,13 +82,17 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 
 ## 配置SSH安全连接
 
-对于每个数据连接，都可以配置SSH，通过加密和认证机制实现更安全的访问。
-
 ![图 7](../images/df9050419f6f13dc89d92e2d5c66e9921fb65161b6fdeb540cfea644bf878524.png)  
 
-  - 主机地址（SSH Host）：主机名或IP地址
-  - 端口号（SSH Port）：通常是22端口
-  - 用户名（SSH User）
-  - 密码（SSH Password）
+
+通过SSH，您可以配置数据连接以实现更安全的访问。SSH提供了加密和认证机制，以保护您的连接和数据安全。下面是一些SSH配置参数的说明：
+
+- 主机地址（SSH Host）：这是您要连接的远程主机（堡垒机）的主机名或IP地址。它可以是您想要远程访问的服务器或网络设备。
+
+- 端口号（SSH Port）：SSH协议通常使用22端口作为默认端口。当您连接到远程主机时，您可以指定要使用的端口号。在某些情况下，您可能需要更改默认端口以增加安全性。
+
+- 用户名（SSH User）：您需要指定您在远程主机上的用户名。这是您在远程主机上拥有访问权限的帐户。
+
+- 密码（SSH Password）：为了进行身份验证，您需要提供与所指定用户名相对应的密码。这是为了确保只有授权用户可以访问远程主机。
 
 

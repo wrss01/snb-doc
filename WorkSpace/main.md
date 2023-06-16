@@ -1,10 +1,13 @@
-# 工作空间（Workspace）
+# Workspace（工作空间）
 ---
-`工作空间（workspace）`是SmartNoteBook的中央组织单位。
+<!-- 是什么 -->
 
-它是一组用户在同一个组织下工作环境和各类资源要素的集合，如NoteBook、数据服务、调度器和环境资源等。
+`Workspace（工作空间）`是SmartNoteBook的中央组织单位。它就像是SmartNoteBook的大管家，集合了一组用户在同一个组织下工作环境和各类资源要素，如NoteBook、数据服务、调度器和环境资源等，帮助我们更好地组织和管理工作。
+
 
 ![图 1](../images/workspacenew.png)  
+
+<!-- 功能概览 -->
 
  Workspace页面功能概览：
 
@@ -23,10 +26,11 @@
 | 已加入的成员 | Workspace下所有的成员管理。详见<a href="./Groups.md" title="成员">成员</a> | 
 | WorkSpace设置 | WorkSpace信息配置。详见<a href="./Settings.md" title="设置">WorkSpace设置</a> | 
 
+<!-- 操作类型 -->
 
-## 编辑/新建/切换Workspace
+## Workspace 相关操作
 
-用户成功登录SmartNotebook后，会进入到系统默认分配的`Workspace`空间。
+用户成功登录SmartNotebook后，会进入到一个系统默认分配的`Workspace`空间。
 
 ###  编辑当前Workspace信息
 
@@ -58,16 +62,16 @@
 
 ![图 4](../images/newws.png)  
 
-### 切换不同的Workspace
+### 切换Workspace
 
-当用户拥有多个Workspace时（自己创建或加入别的Workspace），可点击左上小三角切换至需要的Workspace
+当用户拥有或加入了多个Workspace时，如需切换，可点击左上小三角切换至需要的Workspace。
 
 ![图 32](../images/80283774bbf123ed04218037a88244366d13bf6376f50a91011a1dd7e83f323e.png)  
 
 
 ## 你的NoteBooks
 
-管理当前Workspace下所有的NoteBooks文档。
+管理当前Workspace下所有的NoteBook模型文件。
 
 
 ### 新建文件夹
