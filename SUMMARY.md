@@ -1,19 +1,19 @@
 # Summary
 
-* [快速上手使用](QuickStart.md)
-* [SmartNoteBook简介](README.md)
-* [工作空间](WorkSpace/main.md)
+* [快速上手](QuickStart.md)
+* [产品简介](README.md)
+* [WorkSpace](WorkSpace/main.md)
   * [数据源](WorkSpace/DataSource.md)
   * [文件](WorkSpace/Files.md)
   * [环境](WorkSpace/Environment.md)
-  * [成员](WorkSpace/Groups.md)
+  * [密保箱](WorkSpace/Encryption.md)
   * [调度器](WorkSpace/Schedule.md)
   * [服务API](WorkSpace/FaasService.md)
-  * [密保箱](WorkSpace/Encryption.md)
-  * [个人中心](WorkSpace/Profile.md)
+  * [成员](WorkSpace/Groups.md)
   * [设置](WorkSpace/Settings.md)
+  * [个人中心](WorkSpace/Profile.md)
 * [NoteBook](NoteBook/main.md)
-  * [代码块/单元格概述](NoteBook/Cell.md)
+  * [代码块（单元格）](NoteBook/Cell.md)
   * [Python代码块](NoteBook/Python.md)
   * [SQL代码块](NoteBook/SQL.md)
   * [MarkDown代码块](NoteBook/Markdown.md)
@@ -22,7 +22,7 @@
   * [数据处理组件](NoteBook/DataTransform.md)
   * [R支持](NoteBook/R.md)
   * [SageMath支持](NoteBook/SageMath.md)
-  * [Julia语言支持](NoteBook/Julia.md)
+  * [Julia支持](NoteBook/Julia.md)
   * [ChatGPT支持](NoteBook/ChatGPT.md)
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
@@ -30,14 +30,17 @@
   * [评论](NoteBook/Comments.md)
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
-* [例子](Tutorial/main.md)
+* [数据科学](Tutorial/main.md)
   <!-- * [申请账号](Tutorial/Register.md) -->
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
   <!-- * [数据分析](Tutorial/YourFirstAnalysis.md)
   * [机器学习](Tutorial/YourFirstML.md) -->
+  * [漏斗分析](Tutorial/Funnel_Analysis.md)
+  * [留存分析](Tutorial/Cohort_Analysis.md)
+  * [RFM分析](Tutorial/RFM_Analysis.md)
   * [购物篮分析](Tutorial/Market_Basket_Analysis.md)
-  * [机器学习](Tutorial/YourFirstML.md)
+  * [KNN](Tutorial/KNN.md)
   <!-- * [定期执行](Tutorial/YourFirstSchedule.md) -->
   <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)

@@ -257,7 +257,7 @@ boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width=
 ![图 7](../images/boxplotchart.png)  
 
 
-#### 网络态势感知(Sankey Diagram)
+#### 桑基图(Sankey Diagram)
 
 Sankey Diagram，用来展示数据的“流动”变化。
 
