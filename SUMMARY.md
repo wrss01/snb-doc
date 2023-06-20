@@ -30,14 +30,17 @@
   * [评论](NoteBook/Comments.md)
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
-* [开始使用](Tutorial/main.md)
+* [例子](Tutorial/main.md)
   <!-- * [申请账号](Tutorial/Register.md) -->
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
-  * [开展数据分析](Tutorial/YourFirstAnalysis.md)
-  * [开展机器学习](Tutorial/YourFirstML.md)
+  <!-- * [数据分析](Tutorial/YourFirstAnalysis.md)
+  * [机器学习](Tutorial/YourFirstML.md) -->
+  * [购物篮分析](Tutorial/Market_Basket_Analysis.md)
+  * [机器学习](Tutorial/YourFirstML.md)
   <!-- * [定期执行](Tutorial/YourFirstSchedule.md) -->
   <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)
 * [服务条款](Terms.md)
+* [关于](About.md)
 <!-- * [编辑注意事项](snb_config.md) -->

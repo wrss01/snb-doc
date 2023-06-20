@@ -82,6 +82,8 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 
 ## 配置SSH安全连接
 
+当需要增加跳板机
+
 ![图 7](../images/df9050419f6f13dc89d92e2d5c66e9921fb65161b6fdeb540cfea644bf878524.png)  
 
 
