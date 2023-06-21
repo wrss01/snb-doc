@@ -30,7 +30,7 @@
   * [评论](NoteBook/Comments.md)
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
-* [数据科学](Tutorial/main.md)
+* [例子](Tutorial/main.md)
   <!-- * [申请账号](Tutorial/Register.md) -->
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
