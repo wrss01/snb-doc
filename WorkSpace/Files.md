@@ -8,7 +8,8 @@
 选择左侧导航栏的`WorkSpace文件`，点击右上角`上传文件`按钮，弹出选择文件窗口。
 
 <!-- ![图 1](../images/fileup.png) -->
-![图 6](../images/4cbf920bae67599088fd8086970f277da76ad37cd6cb6fdca9685a6934e03cd0.png)  
+<!-- ![图 6](../images/4cbf920bae67599088fd8086970f277da76ad37cd6cb6fdca9685a6934e03cd0.png)   -->
+![图 1](../images/4cbf920bae67599088fd8086970f277da76ad37cd6cb6fdca9685a6934e03cd0.png)  
 
 
 选择要上传的文件（注意：单个文件大小不超过10M)，单击`打开`，即刻开始上传文件。
@@ -31,12 +32,14 @@
 
 方式一：选择需要重命名的文件夹，单击`操作`列的`...`，点击`重命名`，修改好文件夹名称后点击`√`提交修改。
 
-![图 8](../images/b23f785171d801129341e7207cd4d48c9d684ac5dddc823d8119d43fb83b172f.gif)  
+<!-- ![图 8](../images/b23f785171d801129341e7207cd4d48c9d684ac5dddc823d8119d43fb83b172f.gif)   -->
+![图 2](../images/b23f785171d801129341e7207cd4d48c9d684ac5dddc823d8119d43fb83b172f.gif)  
 
 
 方式二：鼠标移动到需要重命名的文件夹名称处， 此时出现编辑按钮<img src="../images/001937546f67284288a8d7c37770016a96adc4c786c4fc75f3211e4200139a7f.png"  style="display: inline-block;" />，点击编辑按钮对文件夹重命名后点击`√`提交.
 
-![图 7](../images/9737c272afe52266b4537bdd4106dd59f3b2bd1c6ac12a6b40902a15fee597cc.gif)  
+<!-- ![图 7](../images/9737c272afe52266b4537bdd4106dd59f3b2bd1c6ac12a6b40902a15fee597cc.gif)   -->
+![图 3](../images/9737c272afe52266b4537bdd4106dd59f3b2bd1c6ac12a6b40902a15fee597cc.gif)  
 
 <!-- 
 ![图 4](../images/ddbd6bff6f4fdb5ef2dc8c37ad794555b1e8919b9b658b76cc4b77e5a51e1dcb.gif)   -->
