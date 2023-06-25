@@ -1,7 +1,7 @@
-# 快速上手使用
+# 快速上手
 ---
 
-使用本指南快速了解SmartNotebook的基础知识。
+快速了解SmartNotebook的基础使用。
 
 ## 概述
 
@@ -54,9 +54,11 @@ print('当前时间：',now)
 
 2.点击左上角的运行按钮 <img src="images/run.png"  style="display: inline-block;" /> 或使用键盘快捷键 Shift+Enter 来运行代码块。
 
-3.通过将鼠标悬停在单元格下边框的中间，选择`More cell types`并单击Markdown来添加 Markdown单元格。
+3.通过将鼠标悬停在单元格下边框的中间，选择`更多类型`并单击Markdown来添加 Markdown单元格。
 
-![图 1](images/qscelltype.png)  
+
+![图 1](images/63db6cb6f91f327ea5376ab5d30b1180caa0db7e6e4719eba16e3497ed64d4c1.png)  
+
 
 4.在Markdown单元格中输入文本。
 

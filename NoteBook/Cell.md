@@ -71,11 +71,12 @@
 <b>Data Transform：</b> 
 * `数据透视表`:详见 <a href="./DataTransform.md" title="数据透视表">数据透视表</a>
 
-<b>ChatGPT：</b> 
-* `ChatGPT`:详见 <a href="./ChatGPT.md" title="ChatGPT">ChatGPT</a>
+<!-- <b>ChatGPT：</b> 
+* `ChatGPT`:详见 <a href="./ChatGPT.md" title="ChatGPT">ChatGPT</a> -->
 
 
-![图 36](../images/codecelltype.png)  
+<!-- ![图 36](../images/codecelltype.png)   -->
+![图 1](../images/396805114999bee73d1e1fcdb41ff4f61d06a3c27b1176c082a966b53f7b3c30.png)  
 
 
 ## 单元格的操作一览
