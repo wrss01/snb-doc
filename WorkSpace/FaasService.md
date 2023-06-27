@@ -55,7 +55,7 @@ def translate(word:str="word") -> "HTTP":
 - `打开NoteBook`：打开服务API对应的NoteBook文档
 - `帮助文档`：打开该API的帮助文档（支持接口测试）
 - `删除服务`：删除该API
-- <img src="../images/copy.png"  style="display: inline-block;" />：复制API链接地址
+- <img src="../images/copy.png"  style="display: inline-block;padding:0px;border:0px"  />：复制API链接地址
 
 ## 切换查看不同环境下的API
 

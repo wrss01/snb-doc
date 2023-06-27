@@ -5,8 +5,10 @@ SNB通过SQL单元格提供对SQL的一流支持，每个单元格都是一个�
 
 每个Notebook中可以添加无限数量的SQL单元格，它们与文本、代码、图表以及各类数据分析组件交错，从而为用户提供了一个非常灵活的数据分析环境。
 
-![图 1](../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png)  
 
+<img src="../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png"  srcset="favicon144.png 2x" />
+
+![图 1](../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png)  
 
 ## SQL单元格的特性/要点
 
@@ -76,7 +78,7 @@ select Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm,Species from
 ![图 12](../images/newsqlcell.png)  
 
 
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;" />，选择`Convert to SQL`。
+* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to SQL`。
 
 ![图 13](../images/consql.png)  
 

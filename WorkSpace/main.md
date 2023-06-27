@@ -76,7 +76,7 @@
 
 ### 新建文件夹
 
-<p>点击右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;" />新建文件夹。文件夹帮助我们更好的组织和管理Notebook文档，便于归档和查找</p>
+<p>点击右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;padding:0px;border:0px"  />新建文件夹。文件夹帮助我们更好的组织和管理Notebook文档，便于归档和查找</p>
 
 ![图 6](../images/folders.png)  
 
@@ -104,7 +104,7 @@
 | 重命名 | 重新修改Notebook文档名称 | 
 | 新的窗口打开 |浏览器开启新的标签页打开此NoteBook文档| 
 | 创建副本 | 在当前目录下创建文档副本| 
-| 收藏 | 收藏文档后文档将显示收藏图标 <img src="../images/collecticon.png"  style="display: inline-block;" /> 并在列表中置顶显示| 
+| 收藏 | 收藏文档后文档将显示收藏图标 <img src="../images/collecticon.png"  style="display: inline-block;padding:0px;border:0px"  /> 并在列表中置顶显示| 
 | 导出.snb | 导出snb格式文件（SmartNoteBook专用格式） | 
 | 导出.ipynb | 导出.ipynb文件(兼容Jupyter Notebook) | 
 | 删除 | 将文档放入`删除的Notebook` 列表|

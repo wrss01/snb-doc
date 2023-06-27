@@ -46,7 +46,7 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 ## 分享单元格的输出
 
-用户只需要分享某个单元格的输出时，可以点击单元格右侧的<img src="../images/shareout.png"  style="display: inline-block;" /> 按钮。
+用户只需要分享某个单元格的输出时，可以点击单元格右侧的<img src="../images/shareout.png"  style="display: inline-block;padding:0px;border:0px"  /> 按钮。
 
 ![图 9](../images/shout.png)  
 

@@ -5,7 +5,7 @@
 
 ## 发表评论
 
-点击单元格右侧的<img src="../images/comm.png"  style="display: inline-block;" /> 按钮。
+点击单元格右侧的<img src="../images/comm.png"  style="display: inline-block;padding:0px;border:0px"  /> 按钮。
 
 ![图15 style="width: 70%;height: 70%;"](../images/44bbdb2ea343b6118633ad2d3821b59db5a9114a45eebe45b10b10a06d561b11.png "Cell评论")
 
@@ -14,7 +14,7 @@
 ![图 2](../images/sendcomm.png)  
 
 > [!Tip]
-> 评论按钮颜色<img src="../images/yansepinglun.png"  style="display: inline-block;" /> 
+> 评论按钮颜色<img src="../images/yansepinglun.png"  style="display: inline-block;padding:0px;border:0px"  /> 
 会提示你在哪个单元格上有小伙伴发表了评论。
 
 

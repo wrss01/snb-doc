@@ -52,7 +52,7 @@ print('现在几点钟了？')
 print('当前时间：',now)
 ```
 
-2.点击左上角的运行按钮 <img src="images/run.png"  style="display: inline-block;" /> 或使用键盘快捷键 Shift+Enter 来运行代码块。
+2.点击左上角的运行按钮 <img src="images/run.png"  style="display: inline-block;padding:0px;border:0px" /> 或使用键盘快捷键 Shift+Enter 来运行代码块。
 
 3.通过将鼠标悬停在单元格下边框的中间，选择`更多类型`并单击Markdown来添加 Markdown单元格。
 
@@ -73,7 +73,7 @@ print('当前时间：',now)
 
 2.点击workspace主页右上角的的上传文件按钮，将下载的数据集上传至云端。
 
-3.进入Notebook，单击左侧边栏上的数据资源图标 <img src="images/attachment.png"  style="display: inline-block;" /> ，在workspace文件下可以看到上传的Iris.csv，点击右上角“文件一键同步到Node”，此时页面上方提示文件同步成功。
+3.进入Notebook，单击左侧边栏上的数据资源图标 <img src="images/attachment.png"  style="display: inline-block;padding:0px;border:0px" /> ，在workspace文件下可以看到上传的Iris.csv，点击右上角“文件一键同步到Node”，此时页面上方提示文件同步成功。
 
 4.使用 pandas（一种流行的 Python 库）查看数据。
 
@@ -113,5 +113,7 @@ plt.show()
 
 2.复制分享链接发送分析报告。
 
-3.（可选）如果需要单独分享某个单元格输出，只需点击该单元格右侧的分享 <img src="images/sharebutton.png"  style="display: inline-block;" /> 按钮。
+<!-- 3.（可选）如果需要单独分享某个单元格输出，只需点击该单元格右侧的分享 <icon src="images/sharebutton.png"  style="display: inline-block;padding:0px border:0px" /> 按钮。 -->
+
+3.（可选）如果需要单独分享某个单元格输出，只需点击该单元格右侧的分享 <img style="display: inline-block;padding:0px;border:0px" src="images/sharebutton.png"  /> 按钮。
 

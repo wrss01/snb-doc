@@ -6,13 +6,13 @@
 
 | 图标 | 功能 | 解释 | 
 | :----- | :-----| :---- | 
-| <img src="../images/packa.png"  style="display: inline-block;" />  | Packages | Notebook的包管理 | 
-| <img src="../images/das.png"  style="display: inline-block;" />  | 数据资源 | 文件和数据库管理 | 
-| <img src="../images/indx.png"  style="display: inline-block;" />  | 目录 | Notebook根据Markdown单元格中使用的标题显示文档结构| 
-| <img src="../images/enve.png"  style="display: inline-block;" />  | 环境 | 查看和管理当前Notebook的计算资源和调度器| 
-| <img src="../images/fx.png"  style="display: inline-block;" />  | 变量预览 | 浏览Notebook中使用的变量、值和值的一些属性| 
-| <img src="../images/vers.png"  style="display: inline-block;" />  | 版本列表 | 保存Notebook版本并可还原至历史记录的状态 | 
-| <img src="../images/coderep.png"  style="display: inline-block;" />  | 代码片段 | 包含`公有库`（Notebook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
+| <img src="../images/packa.png"  style="display: inline-block;padding:0px;border:0px"  />  | Packages | Notebook的包管理 | 
+| <img src="../images/das.png"  style="display: inline-block;padding:0px;border:0px"  />  | 数据资源 | 文件和数据库管理 | 
+| <img src="../images/indx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 目录 | Notebook根据Markdown单元格中使用的标题显示文档结构| 
+| <img src="../images/enve.png"  style="display: inline-block;padding:0px;border:0px"  />  | 环境 | 查看和管理当前Notebook的计算资源和调度器| 
+| <img src="../images/fx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 变量预览 | 浏览Notebook中使用的变量、值和值的一些属性| 
+| <img src="../images/vers.png"  style="display: inline-block;padding:0px;border:0px"  />  | 版本列表 | 保存Notebook版本并可还原至历史记录的状态 | 
+| <img src="../images/coderep.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码片段 | 包含`公有库`（Notebook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
 
 ## Packages
 

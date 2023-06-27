@@ -24,7 +24,7 @@
 ## 运行Python代码块
 
 * 编写Python代码
-* 点击Cell左上角的运行按钮 <img src="../images/%E6%89%A7%E8%A1%8C%E6%8C%89%E9%92%AE.png"  style="display: inline-block;" />开始执行代码，运行完毕后按钮右侧将显示运行时长
+* 点击Cell左上角的运行按钮 <img src="../images/%E6%89%A7%E8%A1%8C%E6%8C%89%E9%92%AE.png"  style="display: inline-block;padding:0px;border:0px"  />开始执行代码，运行完毕后按钮右侧将显示运行时长
 * 结果输出
 * 折叠/展开输入框
 * 行号（运行前为空，运行后显示行号）
@@ -52,6 +52,6 @@
 
 ## 代码块类型转换
 
-您可以点击代码块右上角<img src="../images/%E8%BD%AC%E6%8D%A2%E7%B1%BB%E5%9E%8B%E5%9B%BE%E6%A0%87.png"  style="display: inline-block;" />将单元格从Python 转换为SQL或Markdown代码块，反之亦然。
+您可以点击代码块右上角<img src="../images/%E8%BD%AC%E6%8D%A2%E7%B1%BB%E5%9E%8B%E5%9B%BE%E6%A0%87.png"  style="display: inline-block;padding:0px;border:0px"  />将单元格从Python 转换为SQL或Markdown代码块，反之亦然。
 
 ![图 5](../images/%E8%BD%AC%E6%8D%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E7%B1%BB%E5%9E%8B.png)  

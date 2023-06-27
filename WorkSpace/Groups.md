@@ -8,7 +8,7 @@
 
 ## 邀请团队成员
 
-单击页面右上角的<img src="../images/invite.png"  style="display: inline-block;" />按钮转到邀请页面，填写受邀请人的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
+单击页面右上角的<img src="../images/invite.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请人的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
 
 <!-- ![图 11](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)   -->
 ![图 2](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)  

@@ -19,7 +19,7 @@
 
 ## 查看和关闭Kernel实例
 
-<p>单击环境列表前的 <img src="../images/%E6%9F%A5%E7%9C%8Bicon.png"  style="display: inline-block;" /> 可查看该环境下所有打开的Kernel实例。</p>
+<p>单击环境列表前的 <img src="../images/%E6%9F%A5%E7%9C%8Bicon.png"  style="display: inline-block;padding:0px;border:0px"  /> 可查看该环境下所有打开的Kernel实例。</p>
 
 <!-- ![图 2](../images/shutkernel.png)   -->
 <!-- ![图 5](../images/709813ee04c07146e06dff10a5c925846da06c15bb0f7ab4c50b4f5921a58a4e.png)   -->

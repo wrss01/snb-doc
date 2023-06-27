@@ -20,7 +20,7 @@
 
 ![图 7](../images/unexe.png)  
 
-- 正在运行：执行按钮变为黑色正方形且旁边显示加载中<img src="../assets/zzzz.png"  style="display: inline-block;" />的图标
+- 正在运行：执行按钮变为黑色正方形且旁边显示加载中<img src="../assets/zzzz.png"  style="display: inline-block;padding:0px;border:0px"  />的图标
 
 ![](/assets/xzms.png)
 
@@ -83,38 +83,38 @@
 
 | 图标 | 操作 | 解释 | 备注 |
 | :-----| :-----| :---- | :---- | 
-|  <img src="../images/exec.png"  style="display: inline-block;" />  | 运行单元格| 运行代码或低代码组件 | |
-| <img src="../images/eyes.png"  style="display: inline-block;" />  | 输入输出显隐设置| 配置分享Notebook页面单元格输入和输出区域的隐藏/显示 | |
-|  <img src="../images/addc2.png"  style="display: inline-block;" /> | 下方新增单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 |  |
-| <img src="../images/tpe.png"  style="display: inline-block;" /> | 转换当前单元格类型  | 转换当前单元格类型为其他代码类型 |  |
-| <img src="../images/delce.png"  style="display: inline-block;" />  | 删除当前单元格 | 删除当前单元格 |  |
-| <img src="../images/more.png"  style="display: inline-block;" /> 更多| 向上插入单元格 | 在当前单元格上方新增默认类型为Python语言的单元格 | 命令状态下快捷键`A` |
-| <img src="../images/more.png"  style="display: inline-block;" /> 更多| 向下插入单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 | 命令状态下快捷键`B` |
-| <img src="../images/more.png"  style="display: inline-block;" />  更多| 剪切单元格 | 剪切当前单元格内容 |  命令状态下快捷键`X` |
-| <img src="../images/more.png"  style="display: inline-block;" />  更多| 复制单元格 | 复制当前单元格内容 | 命令状态下快捷键`C` |
-| <img src="../images/more.png"  style="display: inline-block;" />  更多| 粘贴单元格 | 内容粘贴至当前单元格 | 命令状态下快捷键`V` |
-| <img src="../images/more.png"  style="display: inline-block;" />  更多| 上移一格 | 将当前单元格上移一格 |  |
-| <img src="../images/more.png"  style="display: inline-block;" /> 更多 | 下移一格 | 将当前单元格下移一格 |  |
-| <img src="../images/more.png"  style="display: inline-block;" /> 更多 | 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
-| <img src="../images/more.png"  style="display: inline-block;" />  更多| 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` ，见[代码自动补全](#show)  |
-| <img src="../images/comm.png"  style="display: inline-block;" /> | 评论 | 成员可对当前单元格评论 |此功能详见 <a href="./Comments.md" title="评论">评论</a>  | 
-| <img src="../images/collec.png"  style="display: inline-block;" /> | 收藏 | 可收藏当前单元格内容 | 此功能详见 <a href="./Collections.md" title="代码收藏">代码收藏</a>  | 
-|  <img src="../images/shareout.png"  style="display: inline-block;" /> | 分享单元格输出 | 分享当前单元格的输入内容，生成分享链接 | 此功能详见 <a href="./Share.md" title="分享">分享</a>  |
+|  <img src="../images/exec.png"  style="display: inline-block;padding:0px;border:0px"  />  | 运行单元格| 运行代码或低代码组件 | |
+| <img src="../images/eyes.png"  style="display: inline-block;padding:0px;border:0px"  />  | 输入输出显隐设置| 配置分享Notebook页面单元格输入和输出区域的隐藏/显示 | |
+|  <img src="../images/addc2.png"  style="display: inline-block;padding:0px;border:0px"  /> | 下方新增单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 |  |
+| <img src="../images/tpe.png"  style="display: inline-block;padding:0px;border:0px"  /> | 转换当前单元格类型  | 转换当前单元格类型为其他代码类型 |  |
+| <img src="../images/delce.png"  style="display: inline-block;padding:0px;border:0px"  />  | 删除当前单元格 | 删除当前单元格 |  |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多| 向上插入单元格 | 在当前单元格上方新增默认类型为Python语言的单元格 | 命令状态下快捷键`A` |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多| 向下插入单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 | 命令状态下快捷键`B` |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 剪切单元格 | 剪切当前单元格内容 |  命令状态下快捷键`X` |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 复制单元格 | 复制当前单元格内容 | 命令状态下快捷键`C` |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 粘贴单元格 | 内容粘贴至当前单元格 | 命令状态下快捷键`V` |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 上移一格 | 将当前单元格上移一格 |  |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多 | 下移一格 | 将当前单元格下移一格 |  |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多 | 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` ，见[代码自动补全](#show)  |
+| <img src="../images/comm.png"  style="display: inline-block;padding:0px;border:0px"  /> | 评论 | 成员可对当前单元格评论 |此功能详见 <a href="./Comments.md" title="评论">评论</a>  | 
+| <img src="../images/collec.png"  style="display: inline-block;padding:0px;border:0px"  /> | 收藏 | 可收藏当前单元格内容 | 此功能详见 <a href="./Collections.md" title="代码收藏">代码收藏</a>  | 
+|  <img src="../images/shareout.png"  style="display: inline-block;padding:0px;border:0px"  /> | 分享单元格输出 | 分享当前单元格的输入内容，生成分享链接 | 此功能详见 <a href="./Share.md" title="分享">分享</a>  |
 | 其他| 代码自动补全 | 行2列2内容 | 见[代码自动补全](#code) |
 | `数据源` | 数据源 | 选择数据库或选用dfSQL | SQL代码块类型下 |
 | `结果保存为` | 结果保存为 | 将SQL或dfSQL的查询结果保存为新的变量 | SQL代码块类型下 |
 | 右键 |  剪切 | 剪切选中的内容 | 鼠标处于代码框内右键操作 |
 | 右键 |  拷贝 | 拷贝选中的内容 | 鼠标处于代码框内右键操作 |
-| <img src="../images/boldd.png"  style="display: inline-block;" />  | 粗体 | / | MarkDown代码块类型下 |
-| <img src="../images/2.png"  style="display: inline-block;" />  | 斜体 |  | MarkDown代码块类型下 |
-| <img src="../images/3.png"  style="display: inline-block;" />  | 下划线 | / | MarkDown代码块类型下 |
-| <img src="../images/4.png"  style="display: inline-block;" />  | 中划线 | / | MarkDown代码块类型下 |
-| <img src="../images/5.png"  style="display: inline-block;" />  | 标记 | / | MarkDown代码块类型下 |
-| <img src="../images/6.png"  style="display: inline-block;" />  | 上角标 | / | MarkDown代码块类型下 |
-| <img src="../images/7.png"  style="display: inline-block;" />  | 有序列表 | / | MarkDown代码块类型下 |
-| <img src="../images/8.png"  style="display: inline-block;" />  | 链接 | / | MarkDown代码块类型下 |
-| <img src="../images/9.png"  style="display: inline-block;" />  | 上传图片 | / | MarkDown代码块类型下 |
-| <img src="../images/10.png"  style="display: inline-block;" />  | 代码块 | / | MarkDown代码块类型下 |
+| <img src="../images/boldd.png"  style="display: inline-block;padding:0px;border:0px"  />  | 粗体 | / | MarkDown代码块类型下 |
+| <img src="../images/2.png"  style="display: inline-block;padding:0px;border:0px"  />  | 斜体 |  | MarkDown代码块类型下 |
+| <img src="../images/3.png"  style="display: inline-block;padding:0px;border:0px"  />  | 下划线 | / | MarkDown代码块类型下 |
+| <img src="../images/4.png"  style="display: inline-block;padding:0px;border:0px"  />  | 中划线 | / | MarkDown代码块类型下 |
+| <img src="../images/5.png"  style="display: inline-block;padding:0px;border:0px"  />  | 标记 | / | MarkDown代码块类型下 |
+| <img src="../images/6.png"  style="display: inline-block;padding:0px;border:0px"  />  | 上角标 | / | MarkDown代码块类型下 |
+| <img src="../images/7.png"  style="display: inline-block;padding:0px;border:0px"  />  | 有序列表 | / | MarkDown代码块类型下 |
+| <img src="../images/8.png"  style="display: inline-block;padding:0px;border:0px"  />  | 链接 | / | MarkDown代码块类型下 |
+| <img src="../images/9.png"  style="display: inline-block;padding:0px;border:0px"  />  | 上传图片 | / | MarkDown代码块类型下 |
+| <img src="../images/10.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码块 | / | MarkDown代码块类型下 |
 
 ### 折叠/伸展单元格
 

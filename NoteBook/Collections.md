@@ -6,7 +6,7 @@
 
 收藏单元格代码至代码片段仓库，以供复用或其他团队成员参考使用。
 
-点击单元格右侧的<img src="../images/collec.png"  style="display: inline-block;" /> 按钮。
+点击单元格右侧的<img src="../images/collec.png"  style="display: inline-block;padding:0px;border:0px"  /> 按钮。
 
 选择代码目录（可在此页面创建新的目录），填写代码段名称和说明后，点击`收藏`
 

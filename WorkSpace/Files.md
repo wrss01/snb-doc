@@ -26,7 +26,7 @@
 
 ## 新建文件夹
 
-点击文件列表右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;" />创建新的文件夹。
+点击文件列表右上角的文件夹图标 <img src="../images/newfolder.png"  style="display: inline-block;padding:0px;border:0px"  />创建新的文件夹。
 
 ## 重命名文件夹
 
@@ -36,7 +36,7 @@
 ![图 2](../images/b23f785171d801129341e7207cd4d48c9d684ac5dddc823d8119d43fb83b172f.gif)  
 
 
-方式二：鼠标移动到需要重命名的文件夹名称处， 此时出现编辑按钮<img src="../images/001937546f67284288a8d7c37770016a96adc4c786c4fc75f3211e4200139a7f.png"  style="display: inline-block;" />，点击编辑按钮对文件夹重命名后点击`√`提交.
+方式二：鼠标移动到需要重命名的文件夹名称处， 此时出现编辑按钮<img src="../images/001937546f67284288a8d7c37770016a96adc4c786c4fc75f3211e4200139a7f.png"  style="display: inline-block;padding:0px;border:0px"  />，点击编辑按钮对文件夹重命名后点击`√`提交.
 
 <!-- ![图 7](../images/9737c272afe52266b4537bdd4106dd59f3b2bd1c6ac12a6b40902a15fee597cc.gif)   -->
 ![图 3](../images/9737c272afe52266b4537bdd4106dd59f3b2bd1c6ac12a6b40902a15fee597cc.gif)  

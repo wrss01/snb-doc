@@ -18,7 +18,7 @@ Markdown代码块通常用作代码的解释性或描述性文本，此外SmartN
 
 
 
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;" />，选择`Convert to Markdown`。
+* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to Markdown`。
 
 ![图 18](../images/convmdcells.png)  
 
@@ -217,7 +217,7 @@ MarkDown的呈现需要解析成HTML, 其支持的HTML标记也只是一部分�
 
 ## 代码块类型转换
 
-您可以点击代码块右上角<img src="../images/markdownicon.png"  style="display: inline-block;" />将单元格从Markdown转换为Python或SQL代码块，反之亦然。
+您可以点击代码块右上角<img src="../images/markdownicon.png"  style="display: inline-block;padding:0px;border:0px"  />将单元格从Markdown转换为Python或SQL代码块，反之亦然。
 
 ![图 2](../images/zhuanhuan.png)  
  
