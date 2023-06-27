@@ -26,7 +26,7 @@
 
 ## 使用密保
 
-<p>单击密保名称<img src="../images/%E5%A4%8D%E5%88%B6icon.png"  style="display: inline-block;" />可复制密保的代码，并在NoteBook的单元格中调用。</p>
+<p>单击密保名称<img src="../images/%E5%A4%8D%E5%88%B6icon.png"  style="display: inline-block;padding:1px; background: white;border:0px;" />可复制密保的代码，并在NoteBook的单元格中调用。</p>
 
 ![图 5](../images/%E5%A4%8D%E5%88%B6%E5%AF%86%E4%BF%9D.png)  
 
