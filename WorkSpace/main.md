@@ -2,19 +2,22 @@
 ---
 <!-- 是什么 -->
 
-`Workspace（工作空间）`是SmartNoteBook的中央组织单位。它就像是SmartNoteBook的大管家，集合了一组用户在同一个组织下工作环境和各类资源要素，如NoteBook、数据服务、调度器和环境资源等，帮助我们更好地组织和管理工作。
+`Workspace（工作空间）`是SmartNoteBook的中央组织单位。它就像SmartNoteBook的大管家，集合了团队成员在同一个组织内的各类资源要素，如NoteBook、数据资产、环境资源等等，帮助我们更好地组织和管理数据分析工作。
 
 
-![图 1](../images/workspacenew.png)  
+<!-- ![图 1](../images/workspacenew.png)   -->
+
+![图 1](../images/8cfdd55aa45d63d6aa10386b3c2ae537a13bd114f55ac1298cc3b955eec67ddf.png)  
+
 
 <!-- 功能概览 -->
 
- Workspace页面功能概览：
+**Workspace页面功能**
 
 | 功能 | 解释 | 
 | :-----| :---- | 
-| 你的NoteBook | Workspace下所有Notebook文档列表 | 
-| 最近NoteBook记录 | 最近打开过的Notebook文档 | 
+| 您的NoteBooks | Workspace所有Notebook模型文件列表 | 
+| 最近的NoteBooks录 | 最近打开过的Notebook文档 | 
 | 分享给你的NoteBook | 建设中 | 
 | 删除的NoteBook | 已删除的Notebook文档 | 
 | 服务API | 管理注册成功的API列表。详见<a href="./FassService.md" title="服务API">服务API</a> | 
