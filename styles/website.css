@@ -3,6 +3,10 @@
     display: block;
 }
 
+.title {
+    display: none;
+}
+
 figure {
     margin: 1.5em 0px;
     padding:10px 0;
