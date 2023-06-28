@@ -38,10 +38,6 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 
 ![图 6](../images/2640c7ef5da05a8d7b83d9dc7f04374f5c0a07a8ed631f25c4c4002baf955d79.png)  
 
-
-> [!NOTE|style:flat]
-> An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'.
-
 <!-- ## 编辑连接
 
 在数据源列表中选择所需修改的数据源，修改配置信息后单击`测试`，返回成功信息后点击`提交`。 -->
