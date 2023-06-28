@@ -16,6 +16,10 @@
     padding-right: 200px;
 }
 
+.markdown-section *{
+    font-size: 1.5rem;
+}
+
 .book-header h1{
     display: none;
 }
@@ -62,3 +66,4 @@ figcaption {
     background: white;
     border:0px;
 }
+

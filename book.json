@@ -29,7 +29,20 @@
     "hide-element": {
       "elements": [".gitbook-link"]
     },
-
+    "flexible-alerts": {
+      "note": {
+        "label": "Hinweis"
+      },
+      "tip": {
+        "label": "Tipp"
+      },
+      "warning": {
+        "label": "Warnung"
+      },
+      "danger": {
+        "label": "Achtung"
+      }
+    },
     "doorTheme": {
       "search-placeholder": "请输入关键字搜索",
       "logo": "./SmartNotebook.svg",
