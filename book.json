@@ -28,6 +28,7 @@
     "hide-element": {
       "elements": [".gitbook-link"]
     },
+
     "doorTheme": {
       "search-placeholder": "请输入关键字搜索",
       "logo": "./SmartNotebook.svg",

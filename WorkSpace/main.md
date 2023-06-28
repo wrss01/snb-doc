@@ -1,8 +1,10 @@
-# Workspace（工作空间）
+# WorkSpace（工作空间）
 ---
+
+## 概述
 <!-- 是什么 -->
 
-`Workspace（工作空间）`是SmartNoteBook的中央组织单位。它就像SmartNoteBook的大管家，集合了团队成员在同一个组织内的各类资源要素，如NoteBook、数据资产、环境资源等等，帮助我们更好地组织和管理数据分析工作。
+WorkSpace（工作空间）是SNB的中央组织单位。它就像SNB的大管家，集合了团队成员在同一个组织内的各类资源要素，如NoteBook模型文件、数据资产、环境资源等等，帮助我们更好地组织和管理数据分析工作。
 
 
 <!-- ![图 1](../images/workspacenew.png)   -->
@@ -12,54 +14,59 @@
 
 <!-- 功能概览 -->
 
-**Workspace页面功能**
+## 功能列表
 
 | 功能 | 解释 | 
 | :-----| :---- | 
-| 您的NoteBooks | Workspace所有Notebook模型文件列表 | 
-| 最近的NoteBooks录 | 最近打开过的Notebook文档 | 
-| 分享给你的NoteBook | 建设中 | 
-| 删除的NoteBook | 已删除的Notebook文档 | 
-| 服务API | 管理注册成功的API列表。详见<a href="./FassService.md" title="服务API">服务API</a> | 
-| 调度器 | 设定调度器，定期执行Notebook。详见<a href="./Schedule.md" title="调度器">调度器</a> | 
-| 密保箱 | 全局key-value配置并支持加密。详见<a href="./Encryption.md" title="密保箱">密保箱</a> | 
-| WorkSpace数据源 | 管理数据源链接。详见<a href="./DataSource.md" title="数据源">WorkSpace数据源</a> | 
-| WorkSpace文件 | 文件的上传与管理。详见<a href="./Files.md" title="文件">WorkSpace文件</a> | 
-| WorkSpace环境 | 管理环境配置。详见<a href="./Environment.md" title="环境">WorkSpace环境</a> | 
-| 已加入的成员 | Workspace下所有的成员管理。详见<a href="./Groups.md" title="成员">成员</a> | 
-| WorkSpace设置 | WorkSpace信息配置。详见<a href="./Settings.md" title="设置">WorkSpace设置</a> | 
+| 您的NoteBooks | WorkSpace所有NoteBook模型文件列表 | 
+| 最近的NoteBooks | —— | 
+| 删除的NoteBooks | —— | 
+| 数据源 | 数据源的连接与管理。详见<a href="./DataSource.md" title="数据源">数据源</a> | 
+| 密保箱 | 配置key-value全局变量或加密敏感信息。详见<a href="./Encryption.md" title="密保箱">密保箱</a> | 
+| WorkSpace文件 | 文件的上传与管理（上传到WorkSpace）。详见<a href="./Files.md" title="文件">WorkSpace文件</a> | 
+| 环境 | Notebook运行环境的配置与管理。详见<a href="./Environment.md" title="环境">环境</a> | 
+| 调度器 | 用于设定并管理Notebook模型文件的定期运行，查看运行结果。详见<a href="./Schedule.md" title="调度器">调度器</a> | 
+| 服务API | 用于管理已注册的服务API、测试与使用服务API。详见<a href="./FassService.md" title="服务API">服务API</a> | 
+| 报告和看板 | 查看并管理已创建的数据报告与看板。详见<a href="./Dashboard.md" title="报告和看板">报告和看板</a> | 
+| WorkSpace成员 | 成员管理。详见<a href="./Groups.md" title="成员">成员</a> | 
+| WorkSpace设置 | 管理WorkSpace的相关配置。详见<a href="./Settings.md" title="设置">WorkSpace设置</a> | 
 
 <!-- 操作类型 -->
 
-## Workspace 相关操作
+## 相关操作
 
-用户成功登录SmartNotebook后，会进入到一个系统默认分配的`Workspace`空间。
+用户成功登录SNB后，会进入到系统默认的`WorkSpace`工作空间。
 
-###  编辑当前Workspace信息
+###  修改Workspace信息
 
-当前Workspace下点击左侧菜单栏`WorkSpace设置`-->`编辑`。
+点击`WorkSpace设置`，进入WorkSpace的设置界面，然后点击`编辑`按钮。
 
-![图 1](../images/edit_workspce.png)  
 
-可修改Workspace的名称和描述，并上传喜欢的头像，点击`保存`。
+<!-- ![图 1](../images/edit_workspce.png)   -->
+![图 2](../images/f959b281c870e85ee4160eff66b038ebbf58625ac55aa20dc96b230ea3c6097f.png)  
+
+在这里您可以修改您自己的WorkSpace名称与描述，配置代码仓库（配置方式详见<a href="./Settings.md/#git" title="Workspace设置">WorkSpace设置</a> ），并上传您喜欢的头像。一切配置完成后记得点击`保存`。
 
 | 功能 | 解释 | 
 | :-----| :---- | 
-| workspace 名称 | 必填 | 
-| workspace 描述 | 选填 | 
-| 仓库类型 | 选填， 目前支持的仓库类型：gitlab 和 github| 
-| 仓库地址 | git仓库的url，如：`http://172.30.81.xxx:8000`| 
-| 仓库token | git仓库的Access Token ，获取方式见<a href="./Settings.md/#git" title="Workspace设置">Workspace设置</a> | 
-| 仓库ID或目录 | git仓库的ID或目录 | 
-| 分支 | git仓库分支 | 
-| 测试仓库链接 | git仓库配置完成后，点击测试是否成功 |
-| workspace 图标 | 单击上方的图标修改并上传新的图标 | 
+| Workspace 名称 | 名称，必填项 | 
+| Workspace 描述 | 描述，选填项 | 
+| 仓库类型 | 选填配置， 目前支持的仓库类型：gitlab 和 github| 
+| 仓库地址 | 配置git仓库的url，格式如：`http://172.30.81.xxx:8000`| 
+| 仓库token | 配置git仓库的Access Token | 
+| 仓库ID或目录 | 配置git仓库的ID或目录 | 
+| 分支 | 配置git仓库的分支 | 
+| 头像 | 单击上方`＋`上传新的头像 | 
+| 测试仓库链接（按钮） | git仓库配置完成后，点击测试是否成功 |
 
 ### 创建新的Workspace
 
-如需创建一个新的Workspace，可以点击左上角Workspace处的下拉箭头，点击`新建`
+单击左上角Workspace的下拉箭头，点击`新建Workspace`
 
-![图 30](../images/ebe4eaf923218346d5e34fa8aa77c9300b583c915900af3551e9352adbd31c4f.png)  
+<!-- ![图 30](../images/ebe4eaf923218346d5e34fa8aa77c9300b583c915900af3551e9352adbd31c4f.png)   -->
+
+![图 3](../images/925a98830bf28a3d1a97e65e0004f9a271a2539019f46af5da96c1b1f06cdd08.png)  
+
 
 然后输入新的Workspace的相关信息和配置，点击`提交`，新的Workspace创建完成。
 
