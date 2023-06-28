@@ -7,6 +7,10 @@
     display: none;
 }
 
+.book-summary{
+    height: -webkit-fill-available;
+}
+
 figure {
     margin: 1.5em 0px;
     padding:10px 0;

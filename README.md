@@ -104,7 +104,7 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 
 ![EDA分析 style="width: 60%;height: 60%;"](images/572d2915d5c1bd83c9ff37ab92f59a0bcc3ef7d868d42b611c1ee992f0b0e724.png "EDA分析")
 
-![EAD概览 style="width: 60%;height: 60%;"](images/04ca3199ef412d9ff61bc4db33018ff3b294c2824f14690d231857e954359bc1.png "EAD概览")
+![EAD概览 style="width: 60%;height: 60%;"](images/04ca3199ef412d9ff61bc4db33018ff3b294c2824f14690d231857e954359bc1.png "EDA概览")
 
 ![数据透视表 style="width: 60%;height: 60%;"](images/149b7424b61a3ad539c69e20424fbda88c42e87fcbe4a03541d2ea1f832f0fcf.png "数据透视表")
 

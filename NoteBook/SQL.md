@@ -5,8 +5,8 @@ SNB通过SQL单元格提供对SQL的一流支持，每个单元格都是一个�
 
 每个Notebook中可以添加无限数量的SQL单元格，它们与文本、代码、图表以及各类数据分析组件交错，从而为用户提供了一个非常灵活的数据分析环境。
 
-
-<img src="../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png"  srcset="favicon144.png 2x" />
+<!-- 
+<img src="../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png"  srcset="favicon144.png 2x" /> -->
 
 ![图 1](../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png)  
 

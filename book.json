@@ -5,6 +5,7 @@
     "hide-element",
     "code",
     "theme-door",
+    "expandable-chapters",
     "-lunr",
     "-search",
     "-sharing",
