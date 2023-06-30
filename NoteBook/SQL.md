@@ -187,19 +187,21 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 格式如下：
 - 变量引用：
   - 引用Python变量：a = 100
+  
   ``` {% raw %}
     {{a}}
   {% endraw %}
   ```
 
-  * 引用字典：  data ={"a":100,"b":200}  
+  - 引用字典：  data ={"a":100,"b":200}  
+  
   ```{% raw %}
   {{data.a}} 
   {{data.b}}
   {% endraw %}
   ```
 
-* if else 判断：  
+- if else 判断：  
   ```{% raw %}
   {% if b >0 %}
     ,{{a}}  
@@ -207,7 +209,7 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   {% endraw %}
   ```
 
-* for 循环：
+- for 循环：
   ```{% raw %}
   {% for i in list_1 %}  
   , {{i}}
@@ -320,18 +322,23 @@ data={"a":100,"b":200}
 6. 执行单元格
 
 #### 链式SQL例子
-![图 14](../images/1aaa287f15169dc1a8cd61a699ee5146f7819d1eb7513a6b7bdbdb8c72f5cde4.png)  
+<!-- ![图 14](../images/1aaa287f15169dc1a8cd61a699ee5146f7819d1eb7513a6b7bdbdb8c72f5cde4.png)   -->
+![图 15](../images/2851014e80db1abab0229ac6b55578e6be2f6c36cdf4c27146038ec1106c40b9.png)  
+![图 16](../images/5cf600a0c0de5b6677ac71ef4cd24984911aa4df26ce2e4e62b20a67de9bc424.png)  
+![图 17](../images/168e9791694a44cca716def86fbe5a7b18a4e1ad8ab6ba0acd54fe440a94297a.png)  
 
 
 ## 注释
 
-注释用于解释SQL语​​句的各个部分，或用于防止执行SQL语句。
+<!-- 注释用于解释SQL语​​句的各个部分，或用于防止执行SQL语句。 -->
 
-在SmartNoteBook中，SQL注释用`##` 双井号开始，末尾用分号`;`结束：
+在SNB中，SQL注释用`##` 双井号开始，末尾用分号`;`结束：
 
-![图 9](../images/SQL%E6%B3%A8%E9%87%8A.png)  
+<!-- ![图 9](../images/SQL%E6%B3%A8%E9%87%8A.png)   -->
+![图 18](../images/a8e1c2c272e25243a4c141884e6655540331ae081aa369cdfc33f55f18f7c38d.png)  
 
-## 对T-SQL和PL/SQL的支持
+
+## 支持T-SQL和PL/SQL
 
 
 - T-SQL是Transact-Structured Query Language的缩写，是微软公司用于SQL Server数据库管理系统的扩展版本。它基于ANSI SQL标准，提供了更多的扩展和特性，如存储过程、触发器、表变量和用户定义函数等。使用T-SQL语言可以对数据库中的数据进行查询、更新、插入和删除操作。T-SQL还可以用来创建、修改和管理数据库对象，如表、视图、索引等。
