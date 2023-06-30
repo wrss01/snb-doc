@@ -252,14 +252,17 @@ where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 
 - 按照估价（target）从低到高排序取前5条；如果不存在，返回“符合条件的房子不存在！”
 
-```{% raw %}
-{% if house_count>0 %}
-	select * from df3 order by target limit 5;
-{% else %}
-    select '符合条件的房子不存在！';
-{% endif %}
+
+```
+{% raw %}
+  {% if house_count > 0 %}
+	  select * from df3 order by target limit 5;
+  {% else %}
+     select '符合条件的房子不存在！';
+  {% endif %}
 {% endraw %}
 ```
+
 
 ![图 13](../images/3512ef221eb502c2fa8b8b3c40e9db9a72f0039250283a1edbd0812ffd32e3f7.png)  
 
@@ -274,12 +277,13 @@ columns = ['HouseAge', 'Population', 'target']
 
 - 然后把查询日期和需要的字段信息放到SQL语句：
 
-```{% raw %}
-select '2023-01-01'
-  {% for col in columns %}
-  , {{col}}
-  {% endfor %} 
-from df2
+```
+{% raw %}
+    select '2023-01-01'
+      {% for col in columns %}
+      , {{col}}
+      {% endfor %} 
+    from df2
 {% endraw %}
 ```
 
@@ -299,9 +303,6 @@ data={"a":100,"b":200}
 ,{{data.b}}
 {% endraw %}
 ``` -->
-
-
-
 
 <!-- 
 ![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  
@@ -354,34 +355,34 @@ data={"a":100,"b":200}
 3.  将连接信息复制到`Python代码块`里
 4.  在连接信息下方增加T-SQL语句和执行代码：
 
-   ```
-      # 数据源的连接信息
-      from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
-      engine=snb_conn("0242ac110004-11ed7b8d-9d8364a0-81eb", context=globals())
+```{% raw %}
+  # 数据源的连接信息
+  from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
+  engine=snb_conn("0242ac110004-11ed7b8d-9d8364a0-81eb", context=globals())
 
-      # T-SQL语句
+  # T-SQL语句
 
-      SQL="""
-      DECLARE @Number INT;
-      SET @Number = 100;
-      IF @Number > 100
-        PRINT 'The number is large.';
+  SQL="""
+  DECLARE @Number INT;
+  SET @Number = 100;
+  IF @Number > 100
+    PRINT 'The number is large.';
+  ELSE
+    BEGIN
+      IF @Number < 10
+        PRINT 'The number is small.'
       ELSE
-        BEGIN
-          IF @Number < 10
-            PRINT 'The number is small.'
-          ELSE
-            PRINT 'The number is medium.';
-        END ;
-      """
+        PRINT 'The number is medium.';
+    END ;
+  """
 
-      # 执行T-SQL语句
-      conn = engine.raw_connection()
-      with conn.cursor() as cursor:
-        cursor.execute(SQL)
-      conn.close()
-
-   ```
+  # 执行T-SQL语句
+  conn = engine.raw_connection()
+  with conn.cursor() as cursor:
+    cursor.execute(SQL)
+  conn.close()
+{% endraw %}
+```
 
 ### 使用PL/SQL
 
@@ -394,7 +395,7 @@ data={"a":100,"b":200}
 3.  将连接信息复制到`Python代码块`里
 4.  在连接信息下方增加PL/SQL语句和执行代码：
    
-```
+```{% raw %}
   # 数据源的连接信息
   from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
   engine=snb_conn("0242ac110004-11ed7c2a-8a556732-8e72", context=globals())
@@ -424,4 +425,5 @@ data={"a":100,"b":200}
   with conn.cursor() as cursor:
     cursor.execute(SQL)
     conn.commit()
+{% endraw %}
 ```
