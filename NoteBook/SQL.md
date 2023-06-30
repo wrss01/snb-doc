@@ -218,7 +218,7 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   ```
 
 > [!Tip]
-> 关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
+> 关于动态SQL支持的更多内容可以参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
 
 #### 动态SQL例子
@@ -251,7 +251,7 @@ where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 ![图 12](../images/f18dea3c86ae091a1b2428231995e77346552e65e3b21181939272022e308e71.png)  
 
 - 按照估价（target）从低到高排序取前5条；如果不存在，返回“符合条件的房子不存在！”
-  
+
 ```{% raw %}
 {% if house_count>0 %}
 	select * from df3 order by target limit 5;
@@ -273,7 +273,6 @@ columns = ['HouseAge', 'Population', 'target']
 ```
 
 - 然后把查询日期和需要的字段信息放到SQL语句：
-
 
 ```{% raw %}
 select '2023-01-01'
