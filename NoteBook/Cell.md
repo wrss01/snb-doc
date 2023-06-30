@@ -96,7 +96,7 @@
 | <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 上移一格 | 将当前单元格上移一格 |  |
 | <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多 | 下移一格 | 将当前单元格下移一格 |  |
 | <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  /> 更多 | 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
-| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` ，见[代码自动补全](#show)  |
+| <img src="../images/more.png"  style="display: inline-block;padding:0px;border:0px"  />  更多| 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` |
 | <img src="../images/comm.png"  style="display: inline-block;padding:0px;border:0px"  /> | 评论 | 成员可对当前单元格评论 |此功能详见 <a href="./Comments.md" title="评论">评论</a>  | 
 | <img src="../images/collec.png"  style="display: inline-block;padding:0px;border:0px"  /> | 收藏 | 可收藏当前单元格内容 | 此功能详见 <a href="./Collections.md" title="代码收藏">代码收藏</a>  | 
 |  <img src="../images/shareout.png"  style="display: inline-block;padding:0px;border:0px"  /> | 分享单元格输出 | 分享当前单元格的输入内容，生成分享链接 | 此功能详见 <a href="./Share.md" title="分享">分享</a>  |

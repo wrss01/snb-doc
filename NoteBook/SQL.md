@@ -14,101 +14,117 @@ SNB通过SQL单元格提供对SQL的一流支持，每个单元格都是一个�
 
 SNB在SQL应用方面进行了深入的优化和支持，使得SQL数据查询和处理变的非常便捷和高效。
 
-区别于您之前所使用的“常规”SQL查询工具，使用SNB编写SQL，有以下几个特性/要点：
+区别于您之前所使用的“常规”SQL查询工具，使用SNB操作SQL有以下几个特性/要点：
 
-- 支持两种SQL查询：DBSQL和dfSQL。DBSQL允许用户通过连接远程数据库或数据仓库运行SQL查询。dfSQL允许用户使用SQL代码直接查询Pandas DataFrame变量或者直接读csv数据文件。这两种SQL查询方式相融合，可以帮助用户简单高效的编写和执行一些非常强大的数据处理流程。
+1. DBSQL和dfSQL。在SNB中有两种SQL查询方式：DBSQL允许用户通过连接远程数据库或数据仓库运行SQL查询。dfSQL允许用户以SQL语法对DataFrame变量进行查询、变换、统计和过滤等操作。两种查询方式相融合，可以帮助用户编写和执行一些非常强大的数据处理流程。
   
-- 用户通过DBSQL查询的结果均可以作为Pandas DataFrame变量返回。用户后续可以使用Python代码来处理该数据。
+2. 查询结果自动存储为DataFrame变量。DBSQL查询的结果均可以作为DataFrame变量返回，后续可以采用Python代码或dfSQL继续进行数据分析或数据建模。。
 
-- SQL查询可以通过数据变量“串联”在一起：后面执行的SQL查询可以引用NoteBook中之前已执行的SQL查询结果。用户可以使用这种方式将复杂SQL按照逻辑进行拆分，使整个查询过程更具可读性。
+3. 用户可以通过dfSQL直接读取csv文件，后续进行统计汇总等分析。
 
-<!-- 就像我们写复杂SQL中包含许多CTE（公共表表达式） 一样 -->
+4. 动态SQL：SQL单元格支持[Jinja2](http://docs.jinkan.org/docs/jinja2/templates.html)表达式模板，用户可以在SQL代码中引用Python变量，并且使用流程控制（if...else.../for循环等等），极大程度上扩展了SQL语言的灵活性。
 
-- SQL查询可以嵌入变量参数及流程控制参数：您可使用[Jinja2](http://docs.jinkan.org/docs/jinja2/templates.html)语法将NoteBook中其他代码部分定义或运行的值插入到当前的SQL查询中。这种机制可以帮助您自定义用户输入、将之前已运行的SQL或Python代码块输出作为查询条件进行参数化查询,并在SQL代码中加入流程控制（if...else.../for循环等等），从而构建由SQL提供的支持面向用户的复杂数据应用程序。
-
-- 链式SQL：支持将复杂的嵌套查询转化为简单的链式CTE（Common Table Expression）查询SQL（注意：需手动勾选SQL单元格上方的输入输出选项，将SQL单元格串联起来）。
+5. 链式SQL：可以将复杂的嵌套查询转化为简单的链式CTE（Common Table Expression）查询SQL，使代码更加简洁、易于调试、复用及高效。
 
 
 ## 何时使用DBSQL VS dfSQL？
 
-很简单，看您的数据存储在哪里：
+很简单，看您的数据存储在哪里或者说看您查询的对象类型是什么：
 
-- 当需要查询远程数据库或数据仓库时使用DBSQL
+- 当您需要查询远程数据库或数据仓库时使用DBSQL
 
-- 当查询的对象是Pandas DataFrame变量或csv文件，则选用dfSQL
+- 当您查询的对象是DataFrame变量或csv文件，则选用dfSQL
+
+以下我们整理了一张表格来区别二者的适用场景：
 
 | 目标用途 | DBSQL | dfSQL |
 | :-----| :---- | :---- | 
-| 可以与SQL数据库对话 | √ | × | 
-| 可以使用数据库特定的功能 | √ | × | 
-| 可以查询Python数据帧和变量 | √ | × | 
-| 以数据帧形式返回结果 | √ | × | 
-| 可以跨源联接数据 | √ | × | 
-| 适用于超大数据集 | √ | × | 
-| 小型-大型数据集的速度 | √ | × | 
-| 可以缓存结果 | √ | × | 
+| 查询远程SQL数据库 | √ | × | 
+| 使用数据库特定的功能 | √ | × | 
+| 查询Pandas DataFrame | ×  |√| 
+| 以DataFrame返回结果 | √ | √ | 
+| 连接来自不同数据源的数据集 | × | √ | 
+| 适合查询超大数据集 | √ | × | 
+| 查询中小数据集的速度 | 快 | 极快 | 
 
-用户可以通过组合DBSQL和dfSQL，以更流畅的方式构建复杂的数据处理流程，例如：
 
-- DBSQL-->Python处理-->dfSQL：用户首先运行DBSQL查询从数据库中提取数据，接着使用Python代码对数据的某一列进行地理编码。此时数据已不在数据库表中，而是存放在DataFrame中，用户可以选择利用dfSQL对DataFrame进行SQL查询。
+通过组合DBSQL和dfSQL，用户能以更流畅的方式构建复杂的数据处理流程。
+
+我们举两个例子来说明：
+
+- 通过DBSQL从远程数据库中获取数据，此时数据已不在数据库表中，而是存放在DataFrame变量，然后我们使用Python代码对某一列进行地理信息编码（明显相比SQL，Python更擅长此类操作）。接下来我们如果需要对数据进行分组和排序，可以继续选择使用SQL语言对DataFrame进行处理（dfSQL的功能）。
   
-- 用户从csv文件查询数据。通过dfSQL可以直接这样提取csv文件中的数据：`SELECT * FROM '文件名.csv'`
+- 当我们用到不同的数据源，并且需要将数据进行关联查询：比如我们从MySQL通过DBSQL获取数据集dfA，从Oracle通过DBSQL获取数据集dfB，此时，我们可以选择使用dfSQL将两个数据集开展关联查询（依然使用SQL的方式。当然，您如果对Pandas熟悉也可以使用Python代码的方式进行关联）。
 
-例如：
+## 创建SQL代码块
+
+
+- 方式一：首先点击单元格右上角 `+` 号或单元格下方`Add Code Cell`，新建一个默认的代码单元格，然后点击右上角的转换类型<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`转换为SQL`。
+
+<!-- ![图 13](../images/consql.png)  
+
+![图 3](../images/3bb71ea2d0cbfb7ec5d1e1f6fdd84f52b44a6300c7a1b6385fec11a2a224a8b4.gif)   -->
+
+<!-- ![图 4](../images/d64fe36d737d6a135d18c1de6bc3ff462d9f5ced4e72d9030ece1f12e486cee0.gif)   -->
+![图 5](../images/0c1f5d3c4a0942146c32629c10428bd04992953f807a6c6791078215b952cd38.gif)  
+
+- 方式二：鼠标移动至代码块的下方，当显示悬浮操作框时，单击`更多类型`，然后选择`SQL`。
+
+<!-- ![图 12](../images/newsqlcell.png)   -->
+![图 6](../images/886de307b1f9115974934841cddfe2a35c69a693c044e36c47156ac6e75cfd5f.gif)  
+
+
+## 相关操作
+
+### 1.  DBSQL查询
+
+步骤：
+
+1. 新建SQL单元格
+2. 在数据源下拉框中选择DB数据源（连接DB数据源的操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
+3. 在`结果保存为`处填写输出变量名（SNB会默认分配一个变量名，如`df1` 、`df2`等）
+4. 编写SQL代码
+5. 执行单元格
+
+经以上几步我们执行了一个DBSQL查询，并将结果保存在DataFrame变量。
+
+<!-- ![图 7](../images/dbsql%E7%9A%84%E6%A0%B7%E4%BE%8B.png)   -->
+
+![图 7](../images/5b79499b7fb4227fcc1fc3b3fe08cc1efa981dcaab2e1b4f96c7e7ae2eda00d9.png)  
+
+### 2.  dfSQL查询
+
+步骤：
+
+1. 新建SQL单元格
+2. 在数据源下拉框中选择`dfSQL`
+3. 在`结果保存为`处填写输出变量名（SNB会默认分配一个变量名，如`df1` 、`df2`等）
+4. 编写SQL代码(表名为已存在的DataFrame变量名称)
+5. 执行单元格
+
+这样我们就执行了一个dfSQL查询，使用SQL的方式操作DataFrame变量，并将结果保存在新的DataFrame变量。
+
+![图 8](../images/1a23c5fef367d2c0ab55acd05f91a7cac1da52b767ca816207a28fdb3dbf8812.png)  
+
+**dfSQL还可用于读取csv文件**
+
+像这样：
 
 ```
 select * from '/home/Iris.csv'
 ```
-或
+![图 9](../images/eb029c8ad8dcb9931a5110b3251070d4dfb7fa421dad1730be2ebbaee2567eec.png)  
+或者这样：
 ```
 select Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm,Species from '/home/Iris.csv'
 ```
 
-- DBSQL+DBSQL-->dfSQL。用户需要跨不同的数据源连接数据。比如用户运行了两个DBSQL查询，一个查询MySQL的数据表，另一个查询Oracle的数据表，此时可以使用dfSQL查询将两个DataFrame进行关联。
-
-> [!NOTE]
-> 如果数据量非常大的情况下不建议使用dfSQL，因为dfSQL是在内存中加载数据。
-
-## 创建SQL代码块
-
-创建SQL代码块的方法：
-
-* 鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`More cell types`，然后选择`SQL`。
-
-![图 12](../images/newsqlcell.png)  
-
-
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to SQL`。
-
-![图 13](../images/consql.png)  
-
-## 使用DBSQL（查询远程数据库/数据仓库)
-
-* 创建SQL代码块
-* 数据源下拉框选择已有数据源（连接数据源操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
-* 填写结果集的名称，如`df2` （输出类型为DataFrame）
-* 点击执行代码
-
-经以上步骤我们就运行完一个DBSQL查询，并且将结果保存在了名称为df2的DataFrame中。
-
-![图 7](../images/dbsql%E7%9A%84%E6%A0%B7%E4%BE%8B.png)  
-
-
-## 使用dfSQL（用SQL操作DataFrame）
-
-* 创建SQL代码块
-* 数据源下拉框选择`dfSQL`
-* 输入SQL代码，表名填写DataFrame的名称，比如查询我们上面保存过的`df2`
-* 填写结果集的名称，如`df3`（输出类型为DataFrame）
-* 点击执行代码
-
-经以上步骤我们就运行完一个dfSQL查询，使用SQL和Pandas DataFrame融合的方式完成了数据处理，并且将结果保存在名称为df3的DataFrame中。
-
-![图 8](../images/dfsql%E7%9A%84%E6%A0%B7%E4%BE%8B.png)  
+![图 10](../images/f30a5528b80a97225942511d0fbadca8d4e494ee14d5e917b4fe3a1ab75dd3c0.png)  
 
 > [!Tip]
-> 关于DFSQL可以支持的一些操作和特性可参考[SQLite3 Documentation](https://www.sqlite.org/docs.html)。
+> dfSQL查询必须使用DuckDB的PostgreSQL风格SQL编写，它不兼容某些特定于数据库的函数。关于dfSQL支持的内容可参考[DuckDB Documentation](https://duckdb.org/docs/)。
 
+<!-- 
 ## 示例
 
 以下通过一个示例展示使用dfSQL进行数据处理：
@@ -162,31 +178,28 @@ from df2
 
 ```
 select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
-```
+``` -->
 
-## SQL参数化（SQLTemplate）
+### 3.  动态SQL查询
 
-用户可以在SQL中输入参数或使用变量来进行参数化查询。
+通过使用[Jinja2](http://docs.jinkan.org/docs/jinja2/templates.html)表达式模板，用户能够在SQL单元格中引用Python变量，并且使用if...else.../for等关键字对SQL语句进行流程控制。
 
-用户使用SmartNoteBook提供的SQLTemplate语法，能够实现对SQL语句的变量替换，流程控制及动态拼接。例如：
-* 变量替换：
-  * 一般变量
-
+格式如下：
+- 变量引用：
+  - 引用Python变量：a = 100
   ``` {% raw %}
-  {{VAR}}
+    {{a}}
   {% endraw %}
   ```
 
-  * 字典变量：
- 
+  * 引用字典：  data ={"a":100,"b":200}  
   ```{% raw %}
-  data ={"a":100,"b":200}  
   {{data.a}} 
   {{data.b}}
   {% endraw %}
   ```
 
-* 判断：  
+* if else 判断：  
   ```{% raw %}
   {% if b >0 %}
     ,{{a}}  
@@ -194,7 +207,7 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
   {% endraw %}
   ```
 
-* 循环：
+* for 循环：
   ```{% raw %}
   {% for i in list_1 %}  
   , {{i}}
@@ -206,63 +219,72 @@ select df3.*,lat.lat,lat.lot from df3,lat where df3.Province=lat.Province
 > 关于SQLTemplate的详细语法可参考[Jinja2 模板](http://docs.jinkan.org/docs/jinja2/templates.html)。
 
 
-### 实例
+#### 动态SQL例子
 
-在Python代码块中先定义两个变量：
+例1：变量引用
+
+我们在Python单元格中定义并运行两个变量：
 
 ```
-start_time = '2022-07-01T00:00:00Z'
-end_time = '2022-11-01T00:00:00Z'
+Population = 500
+HouseAge = 30
 ```
-在SQL代码块中引用以上变量来过滤数据：
+在SQL单元格中引用两个变量作为where条件：
 
 ```{% raw %}
-select count(*)  from df where dt > '{{start_time}}' and dt < '{{end_time}}'
+select * from df2 
+where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 {% endraw %}
 ```
 
-![图 2](../images/sqltema.png)  
+![图 11](../images/a5439e9288aba11cb03200d6d35f2435f946379b1de69400004f10b6caf5112a.png)  
 
 
-用if..else判断做流程控制：
+例2：if..else..：
 
+延续例1：
 
+- 我们先来统计符合条件的房子数量，赋给house_count变量：
+  
+![图 12](../images/f18dea3c86ae091a1b2428231995e77346552e65e3b21181939272022e308e71.png)  
+
+- 按照估价（target）从低到高排序取前5条；如果不存在，返回“符合条件的房子不存在！”
+  
 ```{% raw %}
-{% if yes_count>0 %}
-	delete from tb_snb_code_data where dt > '{{yesterday_str}}' and dt < '{{today_str}}';
+{% if house_count>0 %}
+	select * from df3 order by target limit 5;
 {% else %}
-    select '昨天的记录不存在';
+    select '符合条件的房子不存在！';
 {% endif %}
 {% endraw %}
 ```
 
-![图 3](../images/SQLtemp%E4%BE%8B%E5%AD%90B.png)  
+![图 13](../images/3512ef221eb502c2fa8b8b3c40e9db9a72f0039250283a1edbd0812ffd32e3f7.png)  
 
 
-for循环的例子：
+例3：for循环：
 
-用Python代码写个list变量：
+- 我们使用Python代码将我们需要的信息字段放入list变量：
 
 ```
-columns = ['Province', 'District', 'GDP2020']
+columns = ['HouseAge', 'Population', 'target']
 ```
 
-
-然后新建SQL代码块，数据源设置为dfSQL，编写SQL代码：
+- 然后把查询日期和需要的字段信息放到SQL语句：
 
 
 ```{% raw %}
-select 2022
+select '2023-01-01'
   {% for col in columns %}
   , {{col}}
   {% endfor %} 
-  from gdp_data
+from df2
 {% endraw %}
 ```
 
-![图 4](../images/templatefor%E5%BE%AA%E7%8E%AF.png)  
+![图 14](../images/54acbe3885427445f57222948534711f5c9b467291c59454217e0407db1a2b31.png)  
 
-字典的例子：
+<!-- 字典的例子：
 
 ```
 data={"a":100,"b":200}
@@ -275,27 +297,33 @@ data={"a":100,"b":200}
  {{data.a}}
 ,{{data.b}}
 {% endraw %}
-```
+``` -->
 
 
+
+
+<!-- 
 ![图 6](../images/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E4%BE%8B%E5%AD%90.png)  
+ -->
 
+### 4.  链式SQL查询
 
-## 链式SQL
+链式SQL用于将复杂的查询分解为易于阅读、理解和调试的原子单元，每个单元都可以分别运行、编辑、缓存和调试。
 
-链式SQL是SNB中的一种优雅、高效且易于调试的工作流。它允许在SQL查询的from子句中引用notebook内同一数据源中的其他SQL查询，从而将复杂的SQL查询分解为短小、高效的SQL单元格。通过链式SQL，我们可以将复杂的嵌套查询转化为简单的链式CTE（Common Table Expression）查询SQL，使代码更加简洁、易于调试、复用及高效。快来尝试链式SQL，让你的SQL查询变得更加优雅！
+步骤：
 
-SNB支持称为链式SQL的工作流，其中SQL查询在from子句中引用项目中的另一个SQL查询。该功能在数据连接和数据帧SQL中略有不同，但最终结果是相同的：您可以将大型SQL查询分解为干净且易于调试的单个单元格。参考部分中有许多示例和详细信息，但链式SQL的两个主要用例很容易理解：简化复杂的查询，以及让SQL用户“深入”数据。
+1. 新建SQL单元格
+2. 在数据源下拉框中选择DB数据源（连接DB数据源的操作详见<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
+3. 在`结果保存为`处填写输出变量名（SNB会默认分配一个变量名，如`df1` 、`df2`等）
+4. 根据输入输出逻辑勾选`链式输入`、`链式输出`
+5. 编写SQL代码
+6. 执行单元格
 
-链式SQL可用于将复杂的查询分解为易于阅读、理解和调试的原子单元。具有三个CTE的查询可以变成四个链接的SQL单元，每个单元都可以分别运行、编辑、缓存和调试。
-
+#### 链式SQL例子
 ![图 14](../images/1aaa287f15169dc1a8cd61a699ee5146f7819d1eb7513a6b7bdbdb8c72f5cde4.png)  
 
-Chained SQL还允许用户在不重写代码的情况下进行探索和迭代。运行一个具有您想深入了解的有趣输出的查询？传统上，您会复制整个查询并对其进行更改以适应您的新格式。如果你必须在不同的层次上进行聚合，你应该开始编写一个CTE（见第1点）。使用Chained SQL，您只需添加一个新的SQL单元格，并针对感兴趣的输出编写一个新查询。
 
-这适用于数据帧SQL和数据连接SQL，但评估方式有所不同——数据帧SQL实际上是针对以前查询的物化输出运行的，而链式数据连接查询在远程连接上执行的最终查询中动态编译为CTE。在实践中，除了保持数据连接SQL意味着您可以继续使用仓库特定的SQL语法功能之外，这对用户体验没有太大影响。请参阅本文档的参考部分了解更多信息。
-
-## SQL注释
+## 注释
 
 注释用于解释SQL语​​句的各个部分，或用于防止执行SQL语句。
 
