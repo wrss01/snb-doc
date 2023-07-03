@@ -55,14 +55,21 @@
   - 线条箭头的指向代表了代码逻辑的流向，线条中间为上下关联的变量
   - Graph中的代码框可以任意拖动
 
-
-![图 3](../images/gengraph.png)  
-
 右上角支持打开/关闭小地图。小地图显示Graph的预览，并且支持鼠标在小地图拖动控制显示的区域（对于Graph显示面积过大的情况会很有帮助）
 
-![图 10](./../images/1679540175250.png)
+<!-- ![图 3](../images/gengraph.png)   -->
+<!-- ![图 2](d:\00%20%E9%A1%B9%E7%9B%AE%E9%9B%86%E5%90%88\snb%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B8%93%E9%A1%B9\snb_gitbook\images\f954e878763ace910f28057d809abad3be86a645a3f65db048c84389dcacca31.png)   -->
 
-![图 11](./../images/1679540232245.png)
+![图 1](../images/9f29ab8c8536f0fed522ad9965a300656397e3ed43d5aacb8a25a9dfe6d8417f.png)  
+
+
+
+
+<!-- ![图 10](./../images/1679540175250.png) -->
+
+<!-- ![图 3](../images/c81a7dca512bf6e630a676eaa79a57f01c35abc4423c9af81fda298acfc0857d.png)   -->
+
+<!-- ![图 11](./../images/1679540232245.png) -->
 
 
 ## Kernel
