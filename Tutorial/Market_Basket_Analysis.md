@@ -74,9 +74,9 @@ group by BillNo,Itemname
 
 ### 计算总订单数据
 
-&emsp;&emsp;利用SmartNotebook 内置的SQL单元格和dfSQL引擎，在数据集上进行计算总订单数，并将保存python变量里：total_num。
+&emsp;&emsp;利用SmartNoteBook 内置的SQL单元格和dfSQL引擎，在数据集上进行计算总订单数，并将保存python变量里：total_num。
 
-&emsp;&emsp;后面的绝大计算方式都是SQL，都是dfSQL。dfSQL引擎是SmartNotebook内置引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数，性能卓越，比pandas 转换性能提升一倍。
+&emsp;&emsp;后面的绝大计算方式都是SQL，都是dfSQL。dfSQL引擎是SmartNoteBook内置引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数，性能卓越，比pandas 转换性能提升一倍。
 
 ```
 select count(distinct BillNo) from all_data
@@ -135,7 +135,7 @@ from s_df,item_df where s_df.a_name=item_df.Itemname
 
 ## 购物篮分析的模型视图(流程图)
 
-&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现Notebook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析Notebook的逻辑依赖关系，从而提升代码执行效率。
+&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现NoteBook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析NoteBook的逻辑依赖关系，从而提升代码执行效率。
 
 ![图 9](../images/f5d2bd274659851266d94f7d5c84896ff3c5c272980254e7e81475579eac272c.png)  
 

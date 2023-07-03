@@ -1,28 +1,28 @@
-# Workspace设置
+# WorkSpace设置
 ---
-可以配置Workspace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
+可以配置WorkSpace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
 
-## 编辑/新建/切换Workspace
+## 编辑/新建/切换WorkSpace
 
-###  编辑当前Workspace信息
+###  编辑当前WorkSpace信息
 
-当前Workspace下点击左侧菜单栏`WorkSpace设置`-->`编辑`。
+当前WorkSpace下点击左侧菜单栏`WorkSpace设置`-->`编辑`。
 
 ![图 1](../images/edit_workspce.png)  
 
-可修改Workspace的名称和描述，并上传喜欢的头像，点击`保存`。
+可修改WorkSpace的名称和描述，并上传喜欢的头像，点击`保存`。
 
 | 功能 | 解释 | 
 | :-----| :---- | 
-| workspace 名称 | 必填 | 
-| workspace 描述 | 选填 | 
+| WorkSpace 名称 | 必填 | 
+| WorkSpace 描述 | 选填 | 
 | 仓库类型 | 选填， 目前支持的仓库类型：gitlab 和 github| 
 | 仓库地址 | git仓库的url，如：`http://172.30.81.xxx:8000`| 
 | 仓库token | git仓库的Access Token ，获取方式见下方的tips| 
 | 仓库ID或目录 | git仓库的ID或目录 | 
 | 分支 | git仓库分支 | 
 | 测试仓库链接 | git仓库配置完成后，点击测试是否成功 |
-| workspace 图标 | 单击上方的图标修改并上传新的图标 | 
+| WorkSpace 图标 | 单击上方的图标修改并上传新的图标 | 
 
 <span id="git"></span>
 
@@ -66,7 +66,7 @@
 
 ![](./../images/1679306218178.png)
 
-7.将上面拿到的Access Token和仓库目录以及分支信息填入Workspace的仓库设置，点击按钮`测试仓库链接`，如配置正确系统会提示连接成功，点击保存即可。
+7.将上面拿到的Access Token和仓库目录以及分支信息填入WorkSpace的仓库设置，点击按钮`测试仓库链接`，如配置正确系统会提示连接成功，点击保存即可。
 
 ![](./../images/1679305311829.png)
 
@@ -76,7 +76,7 @@
 ![图 3](../images/delwork.png)  
 
 > [!Warning]
-> 注：删除Workspace时，如该Workspace下如存在任何文件或使用记录，需将所有内容删除后才能删除。
+> 注：删除WorkSpace时，如该WorkSpace下如存在任何文件或使用记录，需将所有内容删除后才能删除。
 
 
 

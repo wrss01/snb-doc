@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 import warnings
 warnings.filterwarnings('ignore')
 
-# 该数据文件已上传至用户默认的Workspace，文件路径可直接读取使用
+# 该数据文件已上传至用户默认的WorkSpace，文件路径可直接读取使用
 data = pd.read_csv('/home/Iris.csv')  
 ```
 

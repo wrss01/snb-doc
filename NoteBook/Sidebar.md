@@ -1,24 +1,24 @@
 # 侧边栏
 ---
-侧边栏为Notebook提供一系列扩展功能。
+侧边栏为NoteBook提供一系列扩展功能。
 
 侧边栏功能概览
 
 | 图标 | 功能 | 解释 | 
 | :----- | :-----| :---- | 
-| <img src="../images/packa.png"  style="display: inline-block;padding:0px;border:0px"  />  | Packages | Notebook的包管理 | 
+| <img src="../images/packa.png"  style="display: inline-block;padding:0px;border:0px"  />  | Packages | NoteBook的包管理 | 
 | <img src="../images/das.png"  style="display: inline-block;padding:0px;border:0px"  />  | 数据资源 | 文件和数据库管理 | 
-| <img src="../images/indx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 目录 | Notebook根据Markdown单元格中使用的标题显示文档结构| 
-| <img src="../images/enve.png"  style="display: inline-block;padding:0px;border:0px"  />  | 环境 | 查看和管理当前Notebook的计算资源和调度器| 
-| <img src="../images/fx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 变量预览 | 浏览Notebook中使用的变量、值和值的一些属性| 
-| <img src="../images/vers.png"  style="display: inline-block;padding:0px;border:0px"  />  | 版本列表 | 保存Notebook版本并可还原至历史记录的状态 | 
-| <img src="../images/coderep.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码片段 | 包含`公有库`（Notebook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
+| <img src="../images/indx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 目录 | NoteBook根据Markdown单元格中使用的标题显示文档结构| 
+| <img src="../images/enve.png"  style="display: inline-block;padding:0px;border:0px"  />  | 环境 | 查看和管理当前NoteBook的计算资源和调度器| 
+| <img src="../images/fx.png"  style="display: inline-block;padding:0px;border:0px"  />  | 变量预览 | 浏览NoteBook中使用的变量、值和值的一些属性| 
+| <img src="../images/vers.png"  style="display: inline-block;padding:0px;border:0px"  />  | 版本列表 | 保存NoteBook版本并可还原至历史记录的状态 | 
+| <img src="../images/coderep.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码片段 | 包含`公有库`（NoteBook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
 
 ## Packages
 
 <span id="pk"></span>
 
-默认情况下，Notebook的运行环境已经为用户安装了常用的数据分析、机器学习以及可视化的包。
+默认情况下，NoteBook的运行环境已经为用户安装了常用的数据分析、机器学习以及可视化的包。
 
 ![图 11](../images/packages.png)  
 
@@ -81,7 +81,7 @@
 
 - 查看和同步文件
 
-点击右侧小箭头查看已上传至Workspace的文件
+点击右侧小箭头查看已上传至WorkSpace的文件
 
 ![图 17](../images/fileup2.png)  
 
@@ -103,16 +103,16 @@
 
 ## 目录
 <span id="idx"></span>
-目录是一种工具，它根据MarkDown单元格中当前使用的标题显示Notebook的结构。
+目录是一种工具，它根据MarkDown单元格中当前使用的标题显示NoteBook的结构。
 
 MarkDown使用"#"表示不同级别的标题，例如：
 - "#  一级标题"
 - "##  二级标题"
 - "###  三级标题"
 
-Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
+NoteBook采集MarkDown的标题层级配合层次缩进自动生成目录
 
-同时，目录是交互式的：单击标题可导航到Notebook中的相应部分
+同时，目录是交互式的：单击标题可导航到NoteBook中的相应部分
 
 ![图 24](../images/indexall.png)  
 
@@ -126,17 +126,17 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 ### 切换环境
 
-当用户购买和构建了多个环境资源，可根据需要切换Notebook的运行环境
+当用户购买和构建了多个环境资源，可根据需要切换NoteBook的运行环境
 
 ![图 26](../images/switchenv.gif)  
 
 ### 创建调度器
 
-请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">Workspace调度器</a>
+请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">WorkSpace调度器</a>
 
 ## 变量浏览
 <span id="vr"></span>
-浏览Notebook中使用的变量、值和值的一些属性。
+浏览NoteBook中使用的变量、值和值的一些属性。
 
 单元格的代码执行后，变量将出现在左侧的`变量浏览`列表中，其中包含有关其类型和内容的信息，如变量名、变量的值、变量类型、占用大小等。
 
@@ -147,7 +147,7 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 ## 版本列表
 
-<!-- 用户可以通过保存版本，记录各阶段的工作成果。并可拿历史版本与当前内容进行比对，Notebook会自动标注两个版本间的文件差异。用户可根据需要替换成某历史版本。
+<!-- 用户可以通过保存版本，记录各阶段的工作成果。并可拿历史版本与当前内容进行比对，NoteBook会自动标注两个版本间的文件差异。用户可根据需要替换成某历史版本。
 
 - 版本名称
 - 版本提交人
@@ -160,7 +160,7 @@ Notebook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 <span id="sv"></span>
 
-Notebook文档在我们编写期间会每隔30秒保存一次内容，但如果需要永久保存Notebook某一个时点的内容和状态，用户需要自行保存成版本。初始状态下版本列表是空的：
+NoteBook文档在我们编写期间会每隔30秒保存一次内容，但如果需要永久保存NoteBook某一个时点的内容和状态，用户需要自行保存成版本。初始状态下版本列表是空的：
 
 ![图 28](../images/verso.png)  
 
@@ -169,19 +169,19 @@ Notebook文档在我们编写期间会每隔30秒保存一次内容，但如果�
 ![](/assets/bubbxx.png)
 
 > [!Tip]
-> 如果用户在Workspace设置里配置了GitLab或GitHub，保存的版本会同步到云端仓库。
+> 如果用户在WorkSpace设置里配置了GitLab或GitHub，保存的版本会同步到云端仓库。
 
 ### 版本对比
 
-单击列表中某个版本，可打开该历史版本与当前Notebook内容进行对比。
+单击列表中某个版本，可打开该历史版本与当前NoteBook内容进行对比。
 
-下图左侧为历史版本内容，右侧为当前Notebook文档的内容
+下图左侧为历史版本内容，右侧为当前NoteBook文档的内容
 
 ![](/assets/bbdb.png)
 
 ### 回退版本
 
-点击版本列表右侧的回退按钮，可以将当前Notebook文档内容恢复至历史版本
+点击版本列表右侧的回退按钮，可以将当前NoteBook文档内容恢复至历史版本
 
 ![图 30](../images/rollbakkk.png)  
 

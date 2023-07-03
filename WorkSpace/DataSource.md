@@ -79,7 +79,7 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 
 ## 使用数据连接查询数据库
 
-当建立好数据连接后，可以在Notebook中使用SQL单元格进行查询。详见<a href="../NoteBook/SQL.md" title="SQL代码块">SQL代码块</a>
+当建立好数据连接后，可以在NoteBook中使用SQL单元格进行查询。详见<a href="../NoteBook/SQL.md" title="SQL代码块">SQL代码块</a>
 
 ## 配置SSH安全连接
 

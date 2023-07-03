@@ -6,7 +6,7 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 ## 分享整个NoteBook
 
-- 第一种方式，在Notebook文档内，点击Notebook右上角的分享按钮：
+- 第一种方式，在NoteBook文档内，点击NoteBook右上角的分享按钮：
 
 ![图 1](../images/sharenotebook.png)  
 
@@ -18,7 +18,7 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 ![图 5](../images/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%E9%A1%B5%E9%9D%A21.png)  
 
-- 第二种方式，在Workspace的Notebook列表页，点击操作下的`预览和分享`按钮：
+- 第二种方式，在WorkSpace的NoteBook列表页，点击操作下的`预览和分享`按钮：
 
 ![图 3](../images/shareand.png)  
 
@@ -28,9 +28,9 @@ NoteBook有很好的代码展示性，可作为“项目报告”承载研究成
 
 | 操作 | 解释 | 备注 |
 | :-----| :---- | :---- | 
-| 预览notebook| 不打开Notebook文档的情况下预览文档内容 | |
-| 分享链接| 整个Notebook文档的报告分享链接| |
-| 嵌入Notebook | 整个Notebook文档的报告分享链接作为iframe可嵌入至其他页面 |  |
+| 预览notebook| 不打开NoteBook文档的情况下预览文档内容 | |
+| 分享链接| 整个NoteBook文档的报告分享链接| |
+| 嵌入NoteBook | 整个NoteBook文档的报告分享链接作为iframe可嵌入至其他页面 |  |
 
 ### 分享报告时隐藏输入/输出
 

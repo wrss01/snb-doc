@@ -3,7 +3,7 @@
 
 SNB通过SQL单元格提供对SQL的一流支持，每个单元格都是一个成熟的SQL集成开发环境，例如可以选择数据源、代码自动补全、执行SQL查询和保存查询结果等。
 
-每个Notebook中可以添加无限数量的SQL单元格，它们与文本、代码、图表以及各类数据分析组件交错，从而为用户提供了一个非常灵活的数据分析环境。
+每个NoteBook中可以添加无限数量的SQL单元格，它们与文本、代码、图表以及各类数据分析组件交错，从而为用户提供了一个非常灵活的数据分析环境。
 
 <!-- 
 <img src="../images/ecb0eb44d9779d44fa4eef7cd73f38e7edda55dfdd081f65a46a0c77ca57cc47.png"  srcset="favicon144.png 2x" /> -->
@@ -52,7 +52,7 @@ SNB在SQL应用方面进行了深入的优化和支持，使得SQL数据查询�
 
 我们举两个例子来说明：
 
-- 通过DBSQL从远程数据库中获取数据，此时数据已不在数据库表中，而是存放在DataFrame变量，然后我们使用Python代码对某一列进行地理信息编码（明显相比SQL，Python更擅长此类操作）。接下来我们如果需要对数据进行分组和排序，可以继续选择使用SQL语言对DataFrame进行处理（dfSQL的功能）。
+- 通过DBSQL从远程数据库中获取数据，数据从数据库表中拷贝至我们定义的DataFrame变量，然后我们使用Python代码对某一列进行地理信息编码（明显相比SQL，Python更擅长此类操作）。接下来我们如果需要对数据进行分组和排序，可以继续选择使用SQL语言对DataFrame进行处理（dfSQL的功能）。
   
 - 当我们用到不同的数据源，并且需要将数据进行关联查询：比如我们从MySQL通过DBSQL获取数据集dfA，从Oracle通过DBSQL获取数据集dfB，此时，我们可以选择使用dfSQL将两个数据集开展关联查询（依然使用SQL的方式。当然，您如果对Pandas熟悉也可以使用Python代码的方式进行关联）。
 
@@ -321,9 +321,26 @@ data={"a":100,"b":200}
 
 #### 链式SQL例子
 <!-- ![图 14](../images/1aaa287f15169dc1a8cd61a699ee5146f7819d1eb7513a6b7bdbdb8c72f5cde4.png)   -->
-![图 15](../images/2851014e80db1abab0229ac6b55578e6be2f6c36cdf4c27146038ec1106c40b9.png)  
-![图 16](../images/5cf600a0c0de5b6677ac71ef4cd24984911aa4df26ce2e4e62b20a67de9bc424.png)  
-![图 17](../images/168e9791694a44cca716def86fbe5a7b18a4e1ad8ab6ba0acd54fe440a94297a.png)  
+
+为方便理解链式SQL的原理和过程，我们可以将SNB的DEBUG功能打开（查看每一步的SQL语句）：
+
+<!-- ![图 20](../images/ab2bbed2481608559bf19299cd711dfae19556cedce11c8a53aae23acbcd1a64.png)   -->
+
+第一步：
+![图 21](../images/95fa0a9b4568bf508ec0186b3a9c7503880d2d964caf05a5fc0e7daf8213da5c.png)  
+
+<!-- ![图 15](../images/2851014e80db1abab0229ac6b55578e6be2f6c36cdf4c27146038ec1106c40b9.png)   -->
+
+第二步：
+<!-- ![图 23](../images/67c7930789a77e4e9d8fd322cdf7f5f6304f714fcdfabfb520b47c6c2b044e19.png)   -->
+<!-- 
+![图 18](../images/ccfee26829e1c5e5300b29937aa6a9e118537744a89ff6e58938e43002e5b363.png)   -->
+![图 24](../images/2040b3a819602982180988142995786836a6883a4c4f878a4a5f789ec2d3d5a2.png)  
+
+第三步：
+<!-- ![图 16](../images/5cf600a0c0de5b6677ac71ef4cd24984911aa4df26ce2e4e62b20a67de9bc424.png)   -->
+<!-- ![图 17](../images/168e9791694a44cca716def86fbe5a7b18a4e1ad8ab6ba0acd54fe440a94297a.png)   -->
+![图 25](../images/2ab3a5a81f4c83fb325b15dd0e14c3255090744831249285d58c86530756e480.png)  
 
 
 ## 注释

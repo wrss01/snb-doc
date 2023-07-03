@@ -62,7 +62,7 @@ __SNB_DisplayTable(all_data)
 
 ### 计算Recency、Frequency、MonetaryValue
 
-&emsp;&emsp;SmartNotebook 内置dfSQL引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数。
+&emsp;&emsp;SmartNoteBook 内置dfSQL引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数。
 
 &emsp;&emsp;利用dfSQL计算Recency、Frequency、MonetaryValue 值。
 
@@ -105,7 +105,7 @@ __SNB_DisplayTable(rfm_data)
 ![图 6](../images/0ff70a3c91b8eba0af62579d6e228be83e5dea2e233f032f14e695c03bd498d7.png)  
 
 
-利用SmartNotebook内置透视图低代码插件分析每个RFM分数的汇总指标情况。
+利用SmartNoteBook内置透视图低代码插件分析每个RFM分数的汇总指标情况。
 
 ![图 7](../images/901f920203671a45117e3567fd748113df89514ccf33a0a26f43aee7e02e6bdc.png)  
 
@@ -332,7 +332,7 @@ plt.show()
 
 ### RFM分析的模型视图(流程图)
 
-&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现Notebook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析Notebook的逻辑依赖关系，从而提升代码执行效率。
+&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现NoteBook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析NoteBook的逻辑依赖关系，从而提升代码执行效率。
 
 ![图 17](../images/a95c8c1a3faff5eba9ade3ef27e018427829eb13b218ccd2bc224fc4fd6d8d20.png)  
 

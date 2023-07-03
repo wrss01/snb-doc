@@ -46,7 +46,7 @@ def translate(word:str="word") -> "HTTP":
 
 ## 管理API
 
-点击Workspace下的`服务API`，可以看到已注册的API列表。
+点击WorkSpace下的`服务API`，可以看到已注册的API列表。
 
 ![图 3](../images/apilist.png)  
 

@@ -74,7 +74,7 @@ all_data=all_data[(all_data['Quantity']>0) & (all_data['UnitPrice']>0)]
 
 ### 应用SQL 开窗函数，
 
-&emsp;&emsp;SmartNotebook 内置dfSQL引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数。
+&emsp;&emsp;SmartNoteBook 内置dfSQL引擎，可以通过SQL 方式操作Pandas DataFrame ，大大降低数据集转换难度，充分发挥SQL能力，内置dfSQL引擎主流操作方式、支持绝大部分主流函数、支持开窗函数。
 
 
 ```
@@ -106,7 +106,7 @@ from all_chort_data
 
 ### 透视图进行二维矩阵生成
 
-&emsp;&emsp;SmartNotebook作为数据分析/数据科学平台，为便捷数据转换操作，开发低代码数据转换组件，比如透视图（pivot）方便进行数据转换。
+&emsp;&emsp;SmartNoteBook作为数据分析/数据科学平台，为便捷数据转换操作，开发低代码数据转换组件，比如透视图（pivot）方便进行数据转换。
 
 &emsp;&emsp;数据透视表将DataFrame作为输入，根据您的配置对其进行聚合，并返回输出一个DataFrame的数据对象，该数据对象可以在应用中预览和显示或在NoteBook后续单元格中使用。
 
@@ -148,7 +148,7 @@ plt.show()
 
 ### 留存分析模型视图(流程图)
 
-&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现Notebook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析Notebook的逻辑依赖关系，从而提升代码执行效率。
+&emsp;&emsp;SmartNoteBook模型视图(Graph)是用于展现NoteBook中单元格之间的逻辑依赖关系关系。在模型视图中，每个单元格被表示为一个节点，而单元格之间的引用关系则表示为边。通过模型视图，可以更直观地理解和分析NoteBook的逻辑依赖关系，从而提升代码执行效率。
 
 ![图 8](../images/1503aab94691810592fe948674c397e90a3a6c38787ad96de650b88674b3fb46.png)  
 

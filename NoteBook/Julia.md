@@ -1,11 +1,11 @@
 # Julia语言支持
 ---
 
-# 创建Notebook
+# 创建NoteBook
 
 在`新建NoteBook`对话框中选择Kernel类型为“Julia”的选项。
 
-输入`Notebook标题`并选择对应的环境（需满足您购买的产品拥有创建Julia语言的环境，否则无法创建），点击提交完成创建。
+输入`NoteBook标题`并选择对应的环境（需满足您购买的产品拥有创建Julia语言的环境，否则无法创建），点击提交完成创建。
 
 ![图 1](../images/julianote.png)  
 
@@ -13,7 +13,7 @@
 > 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
 
 
-# Julia语言Notebook目前支持的功能列表
+# Julia语言NoteBook目前支持的功能列表
 
 - MarkDown 单元格
 - 收藏

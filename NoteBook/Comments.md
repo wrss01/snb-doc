@@ -1,7 +1,7 @@
 # 评论
 ---
 
-同一Workspace下的成员可以在Notebook单元格上开展评论。
+同一WorkSpace下的成员可以在NoteBook单元格上开展评论。
 
 ## 发表评论
 

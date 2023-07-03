@@ -1,10 +1,10 @@
-# MarkDown代码块
+# MarkDown单元格
 ---
-MarkDown代码块为我们提供了一个熟悉的、所见即所得的MarkDown编辑器环境。
+MarkDown单元格为我们提供了一个熟悉的、所见即所得的MarkDown编辑器环境。
 
-Markdown代码块允许用户编写纯文本并使用Markdown语法规则设置格式。此外还支持标准的LaTex数学公式和符号，因此可以非常方便的在文本中插入数学符号。
+Markdown单元格允许用户编写纯文本并使用Markdown语法规则设置格式。此外还支持标准的LaTex数学公式和符号，因此可以非常方便的在文本中插入数学符号。
 
-Markdown代码块通常用作代码的解释性或描述性文本，此外SmartNoteBook还会根据MarkDown的标题结构和层级帮助我们自动生成大纲目录，方便我们快速掌握文档结构。
+Markdown单元格通常用作代码的解释性或描述性文本，此外SmartNoteBook还会根据MarkDown的标题结构和层级帮助我们自动生成大纲目录，方便我们快速掌握文档结构。
 
 ![图 1](../images/%20MarkDown%E4%BB%A3%E7%A0%81%E5%9D%97%E7%8E%AF%E5%A2%83.png)  
 
@@ -12,13 +12,13 @@ Markdown代码块通常用作代码的解释性或描述性文本，此外SmartN
 
 创建MarkDown的两种方法：
 
-* 鼠标移动到代码块的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`MarkDown`。
+* 鼠标移动到单元格的下方，当显示悬浮操作框时，单击`More cell types`，然后选择`MarkDown`。
 
 ![图 17](../images/mdnewcells.png)  
 
 
 
-* 直接单击代码块右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to Markdown`。
+* 直接单击单元格右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to Markdown`。
 
 ![图 18](../images/convmdcells.png)  
 
@@ -29,9 +29,9 @@ Markdown代码块通常用作代码的解释性或描述性文本，此外SmartN
 
 如果熟悉MarkDown的语法规则，您可以直接在编辑框中书写MarkDown代码；如果不太熟悉，也可以借助上方的快捷工具栏来辅助您调整格式、上传图片以及嵌入链接等。下方会提到几个例子帮您熟悉MarkDown的语法。
 
-* 执行代码块
+* 执行单元格
 
-MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保存和显示。
+MarkDown编写完成后无需执行，将鼠标移动至单元格以外即可保存和显示。
 
 ![](/assets/mrakeddown2.png)
 
@@ -55,7 +55,7 @@ MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保
 
 * 插入代码
 
-您可以通过将文本换行在反引号中来突出显示文本中的变量，也可以在文本前后使用3个反引号来创建代码块。
+您可以通过将文本换行在反引号中来突出显示文本中的变量，也可以在文本前后使用3个反引号来创建单元格。
 
 ![图 7](../images/daimakuai.png)  
 
@@ -67,11 +67,11 @@ MarkDown编写完成后无需执行，将鼠标移动至代码块以外即可保
 
 * 插入图片
 
-直接复制粘贴图片即可将图片插入MarkDown代码块。
+直接复制粘贴图片即可将图片插入MarkDown单元格。
 
 ![图 9](../images/tupianMarkdown.png)  
 
-当然，也可以采用MarkDown代码块提供的快捷工具栏：
+当然，也可以采用MarkDown单元格提供的快捷工具栏：
 
 ![图 10](../images/%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C%E6%A0%8FMarkDown.png)  
 
@@ -215,9 +215,9 @@ MarkDown的呈现需要解析成HTML, 其支持的HTML标记也只是一部分�
 ![图 12](../images/redefinemd.png)  
 
 
-## 代码块类型转换
+## 单元格类型转换
 
-您可以点击代码块右上角<img src="../images/markdownicon.png"  style="display: inline-block;padding:0px;border:0px"  />将单元格从Markdown转换为Python或SQL代码块，反之亦然。
+您可以点击单元格右上角<img src="../images/markdownicon.png"  style="display: inline-block;padding:0px;border:0px"  />将单元格从Markdown转换为Python或SQL单元格，反之亦然。
 
 ![图 2](../images/zhuanhuan.png)  
  
