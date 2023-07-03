@@ -61,7 +61,7 @@ Chart提供了多种用于对数据排序的选项：
 ![图 13](../images/dataorder.png)  
 
 
-### 绘制多列
+### 多系列
 
 当需要在一张图表上绘制多列，如果数据满足不同类型的标签共享相同的度量单位，此时可以通过添加系列来实现。例如：
 
@@ -97,13 +97,13 @@ Chart提供了多种用于对数据排序的选项：
 
 ![图 7](../images/kaobeidaimapythonzhixing.png)  
 
-### Chart开放API
+## Chart开放API
 
 Chart API 为您提供了一个以编程方式自定义显示图表的方式。
 
 **样例** 
 
-#### 河流图themeRiver
+### 河流图themeRiver
 
 ```
 from snb_plugin.snbcharts.SnbCharts import themeRiver
@@ -129,7 +129,7 @@ themeRiver(temp,'day','project','count_day',height='550px', width='960px')
 
 ![图 1](../images/themeriver.png)  
 
-#### 散点图scatterChart
+### 散点图scatterChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterChart
@@ -155,7 +155,7 @@ scatterChart(df,'hour','week_cn','count_hour',series=None, title='SmartNotebook'
 
 ![图 2](../images/scatterchart.png)  
 
-#### 散点图极坐标scatterPolarChart
+### 散点图极坐标scatterPolarChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import scatterPolarChart
@@ -182,7 +182,7 @@ scatterPolarChart(df,'hour','week_cn','count_hour',series=None, title='SmartNote
 
 ![图 3](../images/polarchart.png)  
 
-#### 热力图 heatmapChart
+### 热力图 heatmapChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import heatmapChart
@@ -207,7 +207,7 @@ heatmapChart(df,'hour','week_cn','count_hour', title='SmartNotebook', height='55
 
 ![图 4](../images/heatmap.png)  
 
-#### 雷达图radarChart
+### 雷达图radarChart
 
 ```
 from snb_plugin.snbcharts.SnbCharts import radarChart
@@ -232,7 +232,7 @@ radarChart(df, "hour", "week_cn", "count_week_cn", title='SmartNotebook', height
 
 ![图 5](../images/radar.png)  
 
-#### 盒须图boxPlot
+### 盒须图boxPlot
 
 ```
 from snb_plugin.snbcharts.SnbCharts import boxPlot
@@ -257,7 +257,7 @@ boxPlot(df, 'Province', 'per_gdp', title='SmartNotebook', height='550px', width=
 ![图 7](../images/boxplotchart.png)  
 
 
-#### 桑基图(Sankey Diagram)
+### 桑基图(Sankey Diagram)
 
 Sankey Diagram，用来展示数据的“流动”变化。
 
@@ -302,17 +302,17 @@ sankeyChart(df4,df2,node_config={"name_col":"ip","value_col":"msg_count","info_c
 ![图 25](../images/df4.png)  
 ![图 23](../images/snakey2.png)  
 
-## Snb Table组件
+## Table组件
 
-Snb Table组件除用作展示数据集，同时也具备一定的可视化交互能力，如对特征值进行条件筛选和排序。
+Table组件除用作展示数据集，同时也具备一定的可视化交互能力，如对特征值进行条件筛选和排序。
 
 ### 创建
 
-鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`Snb Table`。
+鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`Table`。
 
 ![图 20](../images/snbtables.png)  
 
-### Snb Table使用
+### Table使用
 
 * 选择数据集
 * 选择字段可进行排序
@@ -321,9 +321,9 @@ Snb Table组件除用作展示数据集，同时也具备一定的可视化交�
 ![图 21](../images/snbtak.gif)  
 
 
-### 通过接口自定义Snb Table
+### 通过接口自定义Table
 
-除使用Snb Table组件外，SmartNoteBook也提供了Snb Table的开放接口。用户也可通过Python调用__SNB_DisplayTable接口自定义显示Table
+除使用Table组件外，SNB也提供了Table的开放接口。用户也可通过Python调用__SNB_DisplayTable接口自定义显示Table
 
 ```
 __SNB_DisplayTable(df,rownum=200,height="520px", width="100%",PageSize=10,nd=2)
