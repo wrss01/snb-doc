@@ -22,7 +22,7 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 * `Greenplum`：业界最快最高性价比的关系型分布式数据库，它在开源的PG(PostgreSql)的基础上采用MPP架构（Massive Parallel Processing,海量并行处理），具有强大的大规模数据分析任务处理能力。
 * `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库，
 
-> [!Danger]
+> [!NOTE]
 > 即将支持更多的数据源——如果您有需要优先支持的数据源，可联系我们 <feedback@smartnotebook.tech>。
 
 
