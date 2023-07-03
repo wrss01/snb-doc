@@ -61,13 +61,13 @@
 
 <b>Code：</b>
 
-* `Python代码`：详见 <a href="./Python.md" title="Python单元格">Python单元格</a>
-* `SQL代码`：详见 <a href="./SQL.md" title="SQL单元格">SQL单元格</a>
+* `Python`：详见 <a href="./Python.md" title="Python单元格">Python单元格</a>
+* `SQL`：详见 <a href="./SQL.md" title="SQL单元格">SQL单元格</a>
 * `MarkDown`：详见 <a href="./Markdown.md" title="Markdown单元格">Markdown单元格</a>
 
 <b>Data Display：</b> 
 * `Chart`：详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
-* `Snb table`:详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
+* `Table`:详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
 * `EDA分析`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
 * `EDA概览`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
 
