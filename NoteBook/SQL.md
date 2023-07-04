@@ -254,8 +254,7 @@ where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 
 
 ```
-{% raw %}
-{% if house_count > 0 %}
+{% raw %}{% if house_count > 0 %}
   select * from df3 order by target limit 5;
 {% else %}
     select '符合条件的房子不存在！';
