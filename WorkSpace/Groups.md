@@ -3,12 +3,14 @@
 团队成员在相同的WorkSpace下开始协同工作。
 <!-- ![图 9](../images/898684d39aaa16b0cd70a50afa946f940503e3d72a357858ae2cdf5049bda5dd.png)   -->
 <!-- ![图 10](../images/dd48a9185a5f80146b5957c28b1a169ec0274b20726b78cb9d6160f56d384fb8.png)   -->
-![图 1](../images/dd48a9185a5f80146b5957c28b1a169ec0274b20726b78cb9d6160f56d384fb8.png)  
+<!-- ![图 1](../images/dd48a9185a5f80146b5957c28b1a169ec0274b20726b78cb9d6160f56d384fb8.png)   -->
 <!-- ![图 1](../images/members.png)   -->
+![图 7](../images/4cb0a2368ae1b79a55b161569eefdf3b2c369eb7bfa430d1a912ec97755aa99f.png)  
 
 ## 邀请团队成员
 
-单击页面右上角的<img src="../images/invite.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请人的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
+单击页面右上角的<img src="../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请人的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
+<!-- ![图 8](../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png)   -->
 
 <!-- ![图 11](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)   -->
 ![图 2](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)  

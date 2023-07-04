@@ -233,8 +233,8 @@ HouseAge = 30
 ```
 在SQL单元格中引用两个变量作为where条件：
 
-```{% raw %}
-select * from df2 
+```
+{% raw %}select * from df2 
 where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 {% endraw %}
 ```
@@ -253,8 +253,8 @@ where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 - 按照估价（target）从低到高排序取前5条；如果不存在，返回“符合条件的房子不存在！”
 
 
-```{% raw %}
-{% if house_count > 0 %}
+```
+{% raw %}{% if house_count > 0 %}
   select * from df3 order by target limit 5;
 {% else %}
     select '符合条件的房子不存在！';
@@ -276,8 +276,8 @@ columns = ['HouseAge', 'Population', 'target']
 
 - 然后把查询日期和需要的字段信息放到SQL语句：
 
-```{% raw %}
-select '2023-01-01'
+```
+{% raw %}select '2023-01-01'
   {% for col in columns %}
   , {{col}}
   {% endfor %} 
