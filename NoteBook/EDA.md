@@ -11,9 +11,12 @@ EDA分析组件是一个用于帮助理解和分析机器学习数据集的可�
 
 ### 创建EDA分析
 
-鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`More cell types`，然后选择`EDA分析`。
+鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`EDA分析`。
 
-![图 1](../images/edaanyll.png)  
+<!-- ![图 1](../images/edaanyll.png)   -->
+
+![图 0](../images/f0c358314c60580ee93eb9dfa52a8c11185c641298f38b5dba5cb414aec86406.png)  
+
 
 ### 配置过程
 
@@ -33,9 +36,11 @@ EDA分析组件是一个用于帮助理解和分析机器学习数据集的可�
 
 ### 创建EDA概览
 
-鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`More cell types`，然后选择`EDA概览`。
+鼠标移动至代码块的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`EDA概览`。
 
-![图 2](../images/edawholeview.png)  
+<!-- ![图 2](../images/edawholeview.png)   -->
+![图 1](../images/8b2f3e7d46df1a0044b3da0db2105c6e449a1b6f63bfc7bebe3446307457ae4b.png)  
+
 
 ### 配置和展示
 

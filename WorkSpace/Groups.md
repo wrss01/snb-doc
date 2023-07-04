@@ -9,7 +9,7 @@
 
 ## 邀请团队成员
 
-单击页面右上角的<img src="../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请人的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
+单击页面右上角的<img src="../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请用户的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
 <!-- ![图 8](../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png)   -->
 
 <!-- ![图 11](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)   -->
@@ -30,7 +30,7 @@
 <!-- ![图 13](../images/7354975ed57eee36bc10522969115f78468941f9ab72238c5bd35557e7c49837.png)   -->
 
 > [!NOTE|style:flat]
-> 受邀请人需拥有SmartNoteBook的账号方能正常收到邀请，否则将无法正常邀请。
+> 受邀请用户需要先成功注册SNB的账号，否则无法接收邀请：
 
 ![图 6](../images/accounterror.png)  
 
