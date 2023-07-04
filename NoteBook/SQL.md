@@ -234,9 +234,8 @@ HouseAge = 30
 在SQL单元格中引用两个变量作为where条件：
 
 ```
-{% raw %}select * from df2 
+select * from df2 
 where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
-{% endraw %}
 ```
 
 ![图 11](../images/a5439e9288aba11cb03200d6d35f2435f946379b1de69400004f10b6caf5112a.png)  
@@ -254,12 +253,11 @@ where  Population > '{{Population}}' and HouseAge < '{{HouseAge}}'
 
 
 ```
-{% raw %}{% if house_count > 0 %}
+{% if house_count > 0 %}
   select * from df3 order by target limit 5;
 {% else %}
     select '符合条件的房子不存在！';
 {% endif %}
-{% endraw %}
 ```
 
 
