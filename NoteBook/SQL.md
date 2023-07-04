@@ -276,8 +276,7 @@ columns = ['HouseAge', 'Population', 'target']
 
 - 然后把查询日期和需要的字段信息放到SQL语句：
 
-```
-{% raw %} 
+```{% raw %} 
 select '2023-01-01'
   {% for col in columns %}
   , {{col}}
