@@ -276,13 +276,12 @@ columns = ['HouseAge', 'Population', 'target']
 
 - 然后把查询日期和需要的字段信息放到SQL语句：
 
-```{% raw %} 
+```
 select '2023-01-01'
   {% for col in columns %}
   , {{col}}
   {% endfor %} 
 from df2
-{% endraw %}
 ```
 
 ![图 14](../images/54acbe3885427445f57222948534711f5c9b467291c59454217e0407db1a2b31.png)  
