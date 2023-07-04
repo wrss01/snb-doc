@@ -370,7 +370,7 @@ data={"a":100,"b":200}
 3.  将连接信息复制到`Python代码块`里
 4.  在连接信息下方增加T-SQL语句和执行代码：
 
-```{% raw %}
+```
   # 数据源的连接信息
   from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
   engine=snb_conn("0242ac110004-11ed7b8d-9d8364a0-81eb", context=globals())
@@ -396,7 +396,6 @@ data={"a":100,"b":200}
   with conn.cursor() as cursor:
     cursor.execute(SQL)
   conn.close()
-{% endraw %}
 ```
 
 ### 使用PL/SQL
@@ -410,7 +409,7 @@ data={"a":100,"b":200}
 3.  将连接信息复制到`Python代码块`里
 4.  在连接信息下方增加PL/SQL语句和执行代码：
    
-```{% raw %}
+```
   # 数据源的连接信息
   from snb_plugin.sql.execute_sql import __smartnotebook_getengine_by_conn_id as snb_conn  
   engine=snb_conn("0242ac110004-11ed7c2a-8a556732-8e72", context=globals())
@@ -440,5 +439,4 @@ data={"a":100,"b":200}
   with conn.cursor() as cursor:
     cursor.execute(SQL)
     conn.commit()
-{% endraw %}
 ```
