@@ -25,7 +25,7 @@ SNB汇集了以下要点：
   
 - 模型视图(Graph)促进模型的可解释性和再现性
 
-- 团队成员在Workspace中的开展实时协作
+- 团队成员在WorkSpace中的开展实时协作
   
 - “一模多用”
   
@@ -36,9 +36,9 @@ SNB汇集了以下要点：
 
 通过创建和编辑您的第一个NoteBook开始学习数据知识。
 
-**在Workspace下创建新的NoteBook**
+**在WorkSpace下创建新的NoteBook**
   
-1.在Workspace下，单击左下方的“新建NoteBook”，您将重定向到“新建NoteBook”页面。
+1.在WorkSpace下，单击左下方的“新建NoteBook”，您将重定向到“新建NoteBook”页面。
 
 ![图 1](/images/newnotebook.png)  
 
@@ -87,9 +87,9 @@ print('当前时间：',now)
 
 1.下载鸢尾花数据集Iris.csv（此数据集据集包含150个数据样本，分为3类，每类50个数据，每个数据包含Id列、花的4个属性以及花的分类）。
 
-2.点击Workspace主页右上角的的上传文件按钮，将下载的数据集上传至云端。
+2.点击WorkSpace主页右上角的的上传文件按钮，将下载的数据集上传至云端。
 
-3.进入NoteBook，单击左侧边栏上的数据资源图标 <img src="images/attachment.png"  style="display: inline-block;padding:0px;border:0px" /> ，在workspace文件下可以看到上传的Iris.csv，点击右上角“文件一键同步到Node”，此时页面上方提示文件同步成功。
+3.进入NoteBook，单击左侧边栏上的数据资源图标 <img src="images/attachment.png"  style="display: inline-block;padding:0px;border:0px" /> ，在WorkSpace文件下可以看到上传的Iris.csv，点击右上角“文件一键同步到Node”，此时页面上方提示文件同步成功。
 
 4.使用 Pandas（一种流行的 Python 库）查看数据。
 
@@ -128,7 +128,7 @@ plt.show()
 
 **分享您的分析报告**
 
-1.单击Notebook右上角的分享图标 <img style="display: inline-block;padding:0px;border:0px" src="images/63b1904ceacda241881627c7b93a6bd7b0cb121c1ae077392b82681fb0183250.png"  />
+1.单击NoteBook右上角的分享图标 <img style="display: inline-block;padding:0px;border:0px" src="images/63b1904ceacda241881627c7b93a6bd7b0cb121c1ae077392b82681fb0183250.png"  />
 。
 
 2.复制分享链接发送分析报告。
@@ -140,7 +140,7 @@ plt.show()
 
 ## 接下来...
 
-1. 开始发挥您的创意。您可以先查看SNB为您准备的一些demo，然后自己创建一个新的Notebook，尽情发挥想象力。
+1. 开始发挥您的创意。您可以先查看SNB为您准备的一些demo，然后自己创建一个新的NoteBook，尽情发挥想象力。
    <!-- ![图 3](images/84b155fb243d1b1386309e0017c6a3b25524875a03d463328343924e11e3ca28.png)   -->
 ![图 4](images/f39cbeccf15af6a05aa1a38637599883be8131e9558d71214c878d156dd627c8.png)  
 

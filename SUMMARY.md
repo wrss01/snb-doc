@@ -46,5 +46,6 @@
   <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)
 * [服务条款](Terms.md)
+* [命名规范](Standard.md)
 * [关于](About.md)
 <!-- * [编辑注意事项](snb_config.md) -->

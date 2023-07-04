@@ -138,9 +138,9 @@ WorkSpace（工作空间）是SNB的中央组织单位。它就像SNB的大管�
 - 导出.snb：导出snb格式文件（SmartNoteBook专用格式） | 
 - 导出.ipynb：导出.ipynb文件(兼容Jupyter NoteBook)
 
-## 分享给你的NoteBooks
+<!-- ## 分享给你的NoteBooks
 
-查看其他成员分享给你的NoteBooks（建设中）
+查看其他成员分享给你的NoteBooks（建设中） -->
 
 ## 删除的NoteBooks
 
