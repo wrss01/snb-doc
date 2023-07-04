@@ -138,7 +138,7 @@ plt.show()
 3.（可选）如果需要单独分享某个单元格输出，只需点击该单元格右侧的分享 <img style="display: inline-block;padding:0px;border:0px" src="images/sharebutton.png"  /> 按钮。
 
 
-## 下一步
+## 接下来...
 
 1. 开始发挥您的创意。您可以先查看SNB为您准备的一些demo，然后自己创建一个新的Notebook，尽情发挥想象力。
    <!-- ![图 3](images/84b155fb243d1b1386309e0017c6a3b25524875a03d463328343924e11e3ca28.png)   -->
