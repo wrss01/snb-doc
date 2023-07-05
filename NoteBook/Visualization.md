@@ -5,11 +5,28 @@
 
 Chart组件帮助用户以可视化交互方式浏览和处理数据，无需编写代码即可创建丰富的图表用于展示和分享。
 
-支持的Chart组件包括以下几类：
+利用Chart组件我们可以构建以下图表：
 
-* 标准Chart类型: 如柱状图（bar）、折线图（line）、散点图（point）、面积图（area）
-* 组合图表：如Grid组合、overlap等（组合图表的功能还在研发当中）
-* 其他图表：如地图、箱线图（盒须图）、词云图（WordCloud）、漏斗图等（其他图表的功能还在研发当中）
+![图 1](../images/eede738bc5d76a165082dd329b651a24007765c2e89f50ece4d28396de731976.png)  
+<!-- 
+<table>
+  <tr>
+    <td style="width: 260px; height: 250px;"><img src="../images/989a4e4143f393ab7a70b802127904f02ab9345ba5e941de21ef7d12e694c615.png" style="width: 80%; height: 80%; object-fit: cover;"></td>
+    <td style="width: 260px; height: 200px;"><img src="../images/241d1934a8da84597ed7a62f4e881cf079080b09913abaca50649da4c80a963e.png" style="width: 80%; height: 80%; object-fit: cover;"></td>
+  </tr>
+  <tr>
+    <td style="width: 260px; height: 250px;"><img src="../images/62ea5c56a7c8e3349b7bdb884695967ce0e5c947cc7aa5695f7b020be6d5ed34.png" style="width: 80%; height: 80%; object-fit: cover;"></td>
+    <td style="width: 260px; height: 250px;"><img src="../images/b4b44527232c1f120d8fb5f6af529bfceec3ffc7bae3f24ae9ae6b6eea19f9ed.png" style="width: 80%; height: 80%; object-fit: cover;"></td>
+  </tr>
+</table> -->
+
+Chart组件支持的图标类型包括：
+
+* 标准Chart类型: 如柱状
+* 图（bar）、折线图（line）、散点图（point）、面积图（area）
+* 组合图表：如Grid组合、overlap等（开发中）
+* 其他图表：如地图、箱线图（盒须图）、词云图（WordCloud）、漏斗图等（开发中）
+
 
 ### 创建Chart
 
@@ -17,24 +34,66 @@ Chart组件帮助用户以可视化交互方式浏览和处理数据，无需编
 
 <!-- ![图 8](../images/createchart.png)   -->
 ![图 0](../images/f6d1ab4c0301346caf7eb371eea21d81bd6b9188e5efab542cd4cb459d2d7b23.png)  
+ 
 
-### 配置Chart
+<!-- 
+![图 6](../images/93dd7f0d650ef3225d43d9fae17793d57625d4a19318d36b152cee2b03c3a271.gif)   -->
 
-1. 选择要可视化的数据变量（DataFrame）
-2. 选择图表的类型及相关配置：
-     - Bar：条形图/柱状图/直方图
-     - Line：折线图
-     - Point：散点图
-     - Area：面积图
-3. 设置x中和y轴的字段、聚合函数、字段类型等
-4. 设置系列和排序方式
-5. 点击左上角的执行按钮
+### 基础操作
+
+为了学习Chart的基本操作，我们创建一个简单的柱状图，分析泰坦尼克数据中`亲戚个数`与`生还数量`的情况。
+
+![图 7](../images/0999191cf9685b2099ee9d96b530a681ad29439a8c41522f936e0eab94083887.gif) 
+
+通过上面例子，Chart组件大致操作流程如下：
+
+1. 选择要分析的DataFrame
+2. 输入标题（可选）、选择图表类型并配置图表参数
+3. 选择X、Y轴字段并设置聚合函数、字段类型和格式等
+4. 设置多系列和排序方式
+5. 运行单元格
 
 <!-- ![图 4](../images/charts%E7%9A%84%E9%85%8D%E7%BD%AE.png)   -->
 <!-- ![图 9](../images/chartdesc.png)   -->
 
 ![图 10](../images/orderexcetable.png)  
 
+以下我们对Chart的一些功能点做简要介绍：
+
+### 图表类型参数
+
+#### Bar（柱状图）
+
+| 配置项  | 作用| 取值 | 备注 |
+| :-----| :-----| :---- | :---- | 
+|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
+|  Stack | 设置数据系列中是否堆积显示| True：堆积显示</br>False：不堆积显示 | 默认：False|
+
+#### Line（折线图）
+
+| 配置项  | 作用| 取值 | 备注 |
+| :-----| :-----| :---- | :---- | 
+|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈</br>False：不显示圆圈 | 默认：True|
+|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
+|  Smooth | 设置折线是否平滑| True：平滑</br>False：不平滑 | 默认：True|
+|  Filled | 设置是否填充折线下方区域| True：填充</br>False：不填充 | 默认：False|
+
+#### Point（散点图）
+
+| 配置项  | 作用| 取值 | 备注 |
+| :-----| :-----| :---- | :---- | 
+|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
+|  Size | 设置点的尺寸| 正整数| 默认：10|
+|  Shape | 设置点的形状| circle：圆点</br>rect：矩形</br>roundRect：边缘平滑矩形</br>triangle：三角形</br>diamond：菱形</br>pin：图钉</br>arrow：箭头 | 默认：circle|
+
+#### Area（面积图）
+
+| 配置项  | 作用| 取值 | 备注 |
+| :-----| :-----| :---- | :---- | 
+|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈</br>False：不显示圆圈 | 默认：True|
+|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
+|  Smooth | 设置折线是否平滑| True：平滑</br>False：不平滑 | 默认：True|
+|  Filled | 设置是否填充折线下方区域| True：填充</br>False：不填充 | 默认：True|
 
 ### 聚合数据
 

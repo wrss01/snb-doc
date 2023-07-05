@@ -67,3 +67,11 @@ figcaption {
     border:0px;
 }
 
+.table {
+    border-collapse: collapse;
+    border: 0.5px solid grey;
+  }
+  
+.td {
+    border: 0.5px solid grey;
+  }

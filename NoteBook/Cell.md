@@ -240,4 +240,4 @@
 
 ![图 39](../images/magicrun.png)  
 
-> 更多的魔法指令可以参考这份文档[Useful Magic Commands](https://storage.googleapis.com/coderzcolumn/static/tutorials/python/pdf/Useful%20Magic%20Commands%20of%20Jupyter%20Notebooks.pdf)。
+> 更多的魔法指令可以参考[Useful Magic Commands](https://storage.googleapis.com/coderzcolumn/static/tutorials/python/pdf/Useful%20Magic%20Commands%20of%20Jupyter%20Notebooks.pdf)
