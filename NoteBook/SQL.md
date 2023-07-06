@@ -56,7 +56,7 @@ SNB在SQL应用方面进行了深入的优化和支持，使得SQL数据查询�
   
 - 当我们用到不同的数据源，并且需要将数据进行关联查询：比如我们从MySQL通过DBSQL获取数据集dfA，从Oracle通过DBSQL获取数据集dfB，此时，我们可以选择使用dfSQL将两个数据集开展关联查询（依然使用SQL的方式。当然，您如果对Pandas熟悉也可以使用Python代码的方式进行关联）。
 
-## 创建SQL代码块
+## 创建SQL单元格
 
 
 - 方式一：首先点击单元格右上角 `+` 号或单元格下方`Add Code Cell`，新建一个默认的代码单元格，然后点击右上角的转换类型<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`转换为SQL`。
@@ -68,7 +68,7 @@ SNB在SQL应用方面进行了深入的优化和支持，使得SQL数据查询�
 <!-- ![图 4](../images/d64fe36d737d6a135d18c1de6bc3ff462d9f5ced4e72d9030ece1f12e486cee0.gif)   -->
 ![图 5](../images/0c1f5d3c4a0942146c32629c10428bd04992953f807a6c6791078215b952cd38.gif)  
 
-- 方式二：鼠标移动至代码块的下方，当显示悬浮操作框时，单击`更多类型`，然后选择`SQL`。
+- 方式二：鼠标移动至单元格的下方，当显示悬浮操作框时，单击`更多类型`，然后选择`SQL`。
 
 <!-- ![图 12](../images/newsqlcell.png)   -->
 ![图 6](../images/886de307b1f9115974934841cddfe2a35c69a693c044e36c47156ac6e75cfd5f.gif)  
@@ -290,7 +290,7 @@ from df2
 data={"a":100,"b":200}
 ```
 
-然后新建SQL代码块，数据源设置为dfSQL，编写SQL代码：
+然后新建SQL单元格，数据源设置为dfSQL，编写SQL代码：
 
 ```{% raw %}
  select 
@@ -369,10 +369,10 @@ data={"a":100,"b":200}
 
 当我们连接好了SQL Sever的数据源，在执行T-SQL代码时可能会遇到报错或输出提示`非标准的DDL语句`，此时我们可以通过以下步骤来实现支持所有的T-SQL代码：
 
-1.  添加`Python代码块`
+1.  添加`Python单元格`
 2.  侧边栏的`数据资源`下复制所用SQL Sever数据源的连接信息
    ![图 10](../images/sqlserver%E9%93%BE%E6%8E%A5.png)  
-3.  将连接信息复制到`Python代码块`里
+3.  将连接信息复制到`Python单元格`里
 4.  在连接信息下方增加T-SQL语句和执行代码：
 
 ```
@@ -407,11 +407,11 @@ data={"a":100,"b":200}
 
 与执行T-SQL代码类似的，当我们连接好了Oracle的数据源，在执行PL/SQL代码时可能会遇到报错或输出提示`非标准的DDL语句`，此时我们可以通过以下步骤来实现支持所有的PL/SQL代码：
 
-1.  添加`Python代码块`
+1.  添加`Python单元格`
 2.  侧边栏的`数据资源`下复制所用Oracle数据源的连接信息
    ![图 11](../images/Oracle%E8%BF%9E%E6%8E%A5.png)  
 
-3.  将连接信息复制到`Python代码块`里
+3.  将连接信息复制到`Python单元格`里
 4.  在连接信息下方增加PL/SQL语句和执行代码：
    
 ```
