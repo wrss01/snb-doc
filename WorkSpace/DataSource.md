@@ -7,9 +7,9 @@
 
 ## 数据源类型
 
-SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多的国产数据库正在接入测试中，敬请期待：
+SNB 当前经过测试已支持的数据源包括以下十一种：
 
-![支持的数据源类型](../images/de0cb651c474dc3ad7d477a85f010ca3d1f40f2e9dcc3bb74925c3ac617b90f9.png)  
+![支持的数据源类型](../images/d29cc6e5e6f39e9197465bb88020b8c870b25bbfe2562a3259e8a8a46466c4e0.png)  
 
 * `MySQL`：关系型数据库管理系统，由瑞典MySQL AB 公司开发，属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系统之一。
 * `Spark`：通用的大数据分析引擎,具有高性能、易用和普遍性等特点。
@@ -20,10 +20,11 @@ SmartNoteBook当前经过测试已支持的数据源包括以下10种，更多�
 * `Presto`：Facebook开发的数据查询引擎，可对250PB以上的数据进行快速地交互式分析。
 * `ClickHouse`：俄罗斯的 Yandex 于 2016 年开源的用于在线分析处理查询（OLAP :Online Analytical Processing）MPP架构的列式存储数据库
 * `Greenplum`：业界最快最高性价比的关系型分布式数据库，它在开源的PG(PostgreSql)的基础上采用MPP架构（Massive Parallel Processing,海量并行处理），具有强大的大规模数据分析任务处理能力。
-* `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库，
+* `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库。
+* `DuckDB`：DuckDB是一个针对数据分析和查询任务进行优化的高性能列式存储数据库管理系统，它提供了快速的查询性能、低内存占用以及方便的SQL查询功能。
 
 > [!NOTE]
-> 即将支持更多的数据源——如果您有需要优先支持的数据源，可联系我们 <feedback@smartnotebook.tech>。
+> 即将支持更多数据源类型 —— 目前，SNB正在积极进行国产数据库接入测试的工作。如果您有需要优先支持的数据源，可通过邮件联系我们 <feedback@smartnotebook.tech>。
 
 
 ## 建立新的数据源连接

@@ -28,20 +28,32 @@
 
 ## SmartNoteBook是什么？
 
-SmartNoteBook是协作的、集成的、一站式数据科学/分析环境。
+<!-- SmartNoteBook是协作的、集成的、一站式数据科学/分析环境。 -->
 
-SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大环境，深度融合`Python`(编程能力、AI能力)与`SQL`(数据处理)、可视化于一体，更高效编辑、执行和共享数据应用模型，进行数据采集、探索、机器学习、深度学习和交互可视化。开箱即用的数据科学、机器学习工具包；高效编辑器辅助和团队协作跟踪功能；通过Notebook结构化逻辑关系配合自然语言可以很好表现数据分析过程、阐述数据故事，形成数据报告，深层次的挖掘数据、释放数据价值。
+SmartNoteBook 是一款现代化的 Notebook，是 **开箱即用、云原生、协作式** 在线数据科学与分析平台。
 
-![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位")
+
+SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大环境，深度融合`Python`(编程能力、AI能力)与`SQL`(数据处理)、可视化于一体，更高效编辑、执行和共享数据应用模型，进行数据采集、探索、机器学习、深度学习和交互可视化。开箱即用的数据科学、机器学习工具包；高效编辑器辅助和团队协作跟踪功能；通过Notebook结构化逻辑关系配合自然语言可以很好表现数据分析过程、阐述数据故事，形成数据报告，深层次的挖掘数据、释放数据价值。
+
+![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")  
+
+
+<!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位") -->
 
 ![SmartNoteBook首页 style="width: 60%;height: 60%;"](images/newmainpage.png "SmartNoteBook首页")
 
 <!-- ![SmartNoteBook首页 style="width: 60%;height: 60%;"](/assets/import.png "SmartNoteBook首页") -->
 
-![工作空间管理 style="width: 60%;height: 60%;"](images/wsnotebook.png "工作空间管理")
+<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/wsnotebook.png "工作空间管理") -->
 
+<!-- ![图 1](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png)   -->
 
-![工作空间管理 style="width: 60%;height: 60%;"](images/wsnew.png "工作空间管理")
+![工作空间管理 style="width: 60%;height: 60%;"](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理")
+<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理") -->
+<!-- ![图 2](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png)   -->
+![工作空间管理 style="width: 60%;height: 60%;"](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png "工作空间管理")
+
+<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/wsnew.png "工作空间管理") -->
 
 <!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/3b483722d0652b1b562f01552f86d894d2726738a9d2c3b9467de641097d1615.png "工作空间管理") -->
 
@@ -52,7 +64,7 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 <!-- ![图 5](images/wsworktable.png)   -->
 
 ## NoteBook企业发行版
-基于Notebook思想和企业数据化的需求全新开发了数据分析/数据科学平台:SmartNoteBook,完美兼容notebook的显性编程方式(独立代码输入块与显示输出、代码与自然语言标记交织)和Python强大的数据处理、分析和人工智能的框架能力，以下就逐一介绍重点功能：
+基于Notebook思想和企业数据化的需求全新开发了数据分析/数据科学平台:SmartNoteBook,完美兼容NoteBook的显性编程方式(独立代码输入块与显示输出、代码与自然语言标记交织)和Python强大的数据处理、分析和人工智能的框架能力，以下就逐一介绍重点功能：
 
 ### 1. 优雅融合SQL数据处理能力：
 兼容主流数据库、数据仓库、MPP、HTAP(Hybrid Transaction/Analytics Processing)、大数据平台,利用强大数据基础设施和Python 融合,充分、快速挖掘数据价值。 数据源的统一配置管理、Notebook内引用及调用数据源、DataFrame与SQL互操作、Python与SQL融合等特性，极大提升数据处理效率、降低入门使用门槛。
@@ -113,10 +125,10 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 
 ### 3.单一编程界面
 - 代码块：以统一代码块(Cell)组织程序之间或数据间的逻辑关系，形成数据流动的流程图(PipeLine)， 代码块类型包括基本code类型(Python code、SQL code、Markdown)及Low Code 扩展类型(数据转换、数据展示、数据探索分析及不久后支持机器学习)、服务API。
-- 辅助功能:包括节点环境package包管理、数据资源管理(数据文件、数据源及元数据)、目录(根据MarkDown单元格中使用的标题显示Notebook结构和代码的逻辑流程)、节点实例(展示节点实例的负载情况包括cpu、内存等资源，节点环境的切换、Notebook调度配置及调度历史)、变量预览区(变量查看器工具允许您浏览当前notebook kernel中使用的变量及其值)、版本控制(版本列表、版本回退、比对、提交;支持gitLab、gitHub)、代码片段(常用复用代码、个人收藏的代码块/代码模板)
-- 模型视图:模型视图是notebook 逻辑关系的一种可视化(Graph)关系图展现，节点为单元格，边为单元格之间的引用关系(逻辑依赖关系)，模型视图提升更高效代码执行效率，同时像脑图一样辅助建模人员更好梳理和优化模型、更方便的分享模型。
+- 辅助功能:包括节点环境package包管理、数据资源管理(数据文件、数据源及元数据)、目录(根据MarkDown单元格中使用的标题显示Notebook结构和代码的逻辑流程)、节点实例(展示节点实例的负载情况包括cpu、内存等资源，节点环境的切换、Notebook调度配置及调度历史)、变量预览区(变量查看器工具允许您浏览当前NoteBook kernel中使用的变量及其值)、版本控制(版本列表、版本回退、比对、提交;支持gitLab、gitHub)、代码片段(常用复用代码、个人收藏的代码块/代码模板)
+- 模型视图:模型视图是NoteBook 逻辑关系的一种可视化(Graph)关系图展现，节点为单元格，边为单元格之间的引用关系(逻辑依赖关系)，模型视图提升更高效代码执行效率，同时像脑图一样辅助建模人员更好梳理和优化模型、更方便的分享模型。
 - 终端管理:集成的终端web客户端允许您执行许多任务，例如在SmartNoteBook中执行.py脚本，或者使用常见的bash命令访问Node节点环境和文件系统。还可以运行命令并安装需要依赖项的包。
-- 调度/监控(scheduling):使用调度(scheduling)以配置时间间隔（每小时、每天、每周或每月）运行notebook。通过调度器可以定期处理数据和更新报告，同时查看和监控执行情况。
+- 调度/监控(scheduling):使用调度(scheduling)以配置时间间隔（每小时、每天、每周或每月）运行NoteBook。通过调度器可以定期处理数据和更新报告，同时查看和监控执行情况。
 
 ![辅助功能 style="width: 60%;height: 60%;"](images/5b51fd29a7975c0f4cdcbd1b53c2b3e9cbde790b1b20aeeb61e35957a1427892.png "辅助功能")
 
@@ -132,10 +144,10 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 
 
 ### 4.团队的交互合作
-共享和协作是SmartNoteBook中团队合作关键部分。包含workspace工作空间的团队协作、cell和notebook 分享、评论。
+共享和协作是SmartNoteBook中团队合作关键部分。包含WorkSpace工作空间的团队协作、cell和NoteBook 分享、评论。
 - 共享工作空间：让团队用户在您创建的工作空间上协调工作。
 - 共享报告/cell：邀请其他用户实时从默认的主工作区在笔记本上进行协作。随时、多终端分享数据成果。
-- 评论:在notebook和报告内对单元格进行评论互动，通过互动快速改进和优化模型。
+- 评论:在NoteBook和报告内对单元格进行评论互动，通过互动快速改进和优化模型。
 
 ![共享工作空间 style="width: 60%;height: 60%;"](images/wsshares.png "共享工作空间")
 
@@ -151,7 +163,7 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 
 ### 5.Data/Model service(API)
 
-数据/模型服务是快速将SmartNoteBook建模后的数据或模型生成API服务，通过API为其他业务系统或第三方提供服务(通过数据API的方式，提供给上层数据应用、数据门户，可视化大屏等)，是释放数据价值的最为关键的步骤。由于数据多样性和模型的复杂性，传统的定制开发API方式需要架构、开发、部署、运维等多步骤、多角色参与，整个过程复杂、成本高、运维/维护困难。近几年诞生较多的DataAPI服务平台，通过配置的方式生成API Service，提升效率、降低开发成本，但实际使用过程中也存在较多的问题，比如灵活性问题，很难应对复杂业务场景、很难应对算法模型的数据变换、处理的需要。为此SmartNoteBook开发了FaaS服务模块，Snb FaaS是函数即服务(Function-as-a-Service)的框架，通过notebook 调试函数，调试完成直接发布到Snb FaaS Node 节点上直接生成Servcie API，根据负载情况弹性扩展Node 节点。通过FaaS 方式生成Service API 既保持灵活性，又降低复杂性，有极高的弹性，维持灵活性、复杂性和弹性的统一。
+数据/模型服务是快速将SmartNoteBook建模后的数据或模型生成API服务，通过API为其他业务系统或第三方提供服务(通过数据API的方式，提供给上层数据应用、数据门户，可视化大屏等)，是释放数据价值的最为关键的步骤。由于数据多样性和模型的复杂性，传统的定制开发API方式需要架构、开发、部署、运维等多步骤、多角色参与，整个过程复杂、成本高、运维/维护困难。近几年诞生较多的DataAPI服务平台，通过配置的方式生成API Service，提升效率、降低开发成本，但实际使用过程中也存在较多的问题，比如灵活性问题，很难应对复杂业务场景、很难应对算法模型的数据变换、处理的需要。为此SmartNoteBook开发了FaaS服务模块，Snb FaaS是函数即服务(Function-as-a-Service)的框架，通过NoteBook 调试函数，调试完成直接发布到Snb FaaS Node 节点上直接生成Servcie API，根据负载情况弹性扩展Node 节点。通过FaaS 方式生成Service API 既保持灵活性，又降低复杂性，有极高的弹性，维持灵活性、复杂性和弹性的统一。
 
 ![函数发布 style="width: 60%;height: 60%;"](images/pubapi.png "函数发布")
 
@@ -163,7 +175,8 @@ SmartNoteBook是参考Jupyter notebook思想实现数据科学与分析的强大
 ## 云原生的数据分析及数据科学平台
 
 云原生技术使组织能够在公共、私有和混合云等现代动态环境中构建和运行可扩展的应用程序。包括容器、服务网格、微服务、不可变基础设施和声明式 API等。这些技术支持具有弹性、可管理和可观察的松散耦合系统。结合强大的自动化，它们使工程师能够以最少的工作频繁且可预测地进行高影响力的更改。
-SmartNoteBook是一款云原生的数据分析及数据科学平台，适应于公有、私有及混合云，有较好的弹性，根据需要配置Node 节点的资源、隔离workspace,使用SmartNoteBook 快捷构建组织内的数据分析和数据科学环境和生态。
+
+SmartNoteBook是一款云原生的数据分析及数据科学平台，适应于公有、私有及混合云，有较好的弹性，根据需要配置Node 节点的资源、隔离WorkSpace,使用SmartNoteBook 快捷构建组织内的数据分析和数据科学环境和生态。
 
 - 云原生的架构：整体架构包括Server(管理)、Node(分析及计算引擎)、Kernel Plugin模块，应用云原生的中间件。
 - 以工作空间(WorkSpace)为单元做资源管理、隔离和弹性部署。
