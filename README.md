@@ -36,11 +36,11 @@ SmartNoteBook 是一款现代化的 Notebook，是 **开箱即用、云原生、
 SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大环境，深度融合`Python`(编程能力、AI能力)与`SQL`(数据处理)、可视化于一体，更高效编辑、执行和共享数据应用模型，进行数据采集、探索、机器学习、深度学习和交互可视化。开箱即用的数据科学、机器学习工具包；高效编辑器辅助和团队协作跟踪功能；通过Notebook结构化逻辑关系配合自然语言可以很好表现数据分析过程、阐述数据故事，形成数据报告，深层次的挖掘数据、释放数据价值。
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")   -->
-![SmartNoteBook定位 style="width: 60%;height: 60%;"](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")
+![SmartNoteBook定位](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位") -->
 
-![SmartNoteBook首页 style="width: 60%;height: 60%;"](images/newmainpage.png "SmartNoteBook首页")
+![SmartNoteBook首页](images/newmainpage.png "SmartNoteBook首页")
 
 <!-- ![SmartNoteBook首页 style="width: 60%;height: 60%;"](/assets/import.png "SmartNoteBook首页") -->
 
@@ -48,16 +48,11 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 
 <!-- ![图 1](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png)   -->
 
-![工作空间管理 style="width: 60%;height: 60%;"](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理")
-<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理") -->
-<!-- ![图 2](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png)   -->
-![工作空间管理 style="width: 60%;height: 60%;"](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png "工作空间管理")
+![工作空间管理](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理")
 
-<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/wsnew.png "工作空间管理") -->
+![工作空间管理](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png "工作空间管理")
 
-<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/3b483722d0652b1b562f01552f86d894d2726738a9d2c3b9467de641097d1615.png "工作空间管理") -->
-
-![SmartNoteBook工作台 style="width: 60%;height: 60%;"](images/wstbgif.gif "SmartNoteBook工作台")
+![SmartNoteBook工作台](images/wstbgif.gif "SmartNoteBook工作台")
 
 <!-- ![SmartNoteBook工作台 style="width: 60%;height: 60%;"](images/df5cdce9485ca90b14169e0967fcb5d725daa56c021d21d1506630631c3e527a.png "SmartNoteBook工作台") -->
 
@@ -75,20 +70,20 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 - SQL模板：SQL及dfSQL支持JinJa2 表达式模板，支持变量替换、逻辑判断、逻辑循环等逻辑控制，可以很方便的结合python 变量控制SQL执行逻辑、支持复杂数据处理逻辑。
 - Markdown单元格(Cell):通过Markdown描述数据处理的流程、算法的逻辑等说明，更好阐述数据故事和模型、知识的分享。Markdown支持Latex数学公式、插图、序号列表、任务列表、表格、TOC目录等各式，丰富表达数据故事流程。
 
-![CSV加载 style="width: 60%;height: 60%;"](images/903ed849d68a2abe766765bdf31092d60d0589ca1a1dbbc97cdb0c81024ff2ff.png "CSV加载")
+![CSV加载](images/903ed849d68a2abe766765bdf31092d60d0589ca1a1dbbc97cdb0c81024ff2ff.png "CSV加载")
 
-![数据源引用 style="width: 60%;height: 60%;"](images/5be840d59844b6a5e228e60bb59499d270a98f17735f1d4145287a2ceeca93ae.png "数据源引用")
+![数据源引用](images/5be840d59844b6a5e228e60bb59499d270a98f17735f1d4145287a2ceeca93ae.png "数据源引用")
 
-![dfSQL(SQL操作DataFrame) style="width: 60%;height: 60%;"](images/74198724f31e8489de133ddec575aa3eda9ecf7856262c0101b8e1bda62a7f08.png "dfSQL(SQL操作DataFrame)")
+![dfSQL(SQL操作DataFrame)](images/74198724f31e8489de133ddec575aa3eda9ecf7856262c0101b8e1bda62a7f08.png "dfSQL(SQL操作DataFrame)")
 
 
-![SQL单元格 style="width: 60%;height: 60%;"](images/93d0df5fc22643e85f7831f73db52c86a528fa041fed009eed192d0da50e6950.png "SQL单元格")
+![SQL单元格](images/93d0df5fc22643e85f7831f73db52c86a528fa041fed009eed192d0da50e6950.png "SQL单元格")
 
-![SQL Jinja2 模板 style="width: 60%;height: 60%;"](images/86055b19d0e583a2285fac3454d2c317b711e56f110a5a5cd85d51385ad95afd.png "SQL Jinja2 模板")
+![SQL Jinja2 模板](images/86055b19d0e583a2285fac3454d2c317b711e56f110a5a5cd85d51385ad95afd.png "SQL Jinja2 模板")
 
-![Markdown单元格 style="width: 60%;height: 60%;"](images/a1dd12f4b5cdc54ab45d3f51b92b71acff5e1817daaa014c2bb20f2fc9063ca9.png "Markdown单元格")
+![Markdown单元格](images/a1dd12f4b5cdc54ab45d3f51b92b71acff5e1817daaa014c2bb20f2fc9063ca9.png "Markdown单元格")
 
-![Markdown单元格 style="width: 60%;height: 60%;" ](images/d3ff308af82e69a31aba431e8c7dc3dd73aeaa3145411e4ef92487fceafe163c.png "Markdown单元格")
+![Markdown单元格](images/d3ff308af82e69a31aba431e8c7dc3dd73aeaa3145411e4ef92487fceafe163c.png "Markdown单元格")
 
 
 
@@ -103,22 +98,22 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 - 数据透视表单元格：数据透视表(可以动态地改变它们的配置，以便按照不同方式分析数据，也可以重新设置行、列和值字段)单元格以可视化界面的(类似Excel 透视表 )方式交互聚合和透视数据。拖拽数据集的字段设置行(需要聚合的字段，垂直渲染)、列(需要聚合的字段，水平呈现)、值(需要聚合汇总的字段，配置聚合函数类型：求和、均值、均差等等)敏捷进行数据转换、聚合统计。
 
 
-![产品理念 style="width: 60%;height: 60%;"](images/2e7bb45b98cce19894ff9392dcff5cd7d675f7a7700552ba1de5d4f79567d1f7.png "产品理念")
+![产品理念](images/2e7bb45b98cce19894ff9392dcff5cd7d675f7a7700552ba1de5d4f79567d1f7.png "产品理念")
 
 
-![单元格类型 style="width: 60%;height: 60%;" ](images/maincell%E7%BB%9F%E4%B8%80.png "单元格类型")
+![单元格类型](images/maincell%E7%BB%9F%E4%B8%80.png "单元格类型")
 
 <!-- ![单元格类型 style="width: 60%;height: 60%;" ](images/11967a438e13f71cfc0db41ad0c2a1bc563a9183782612ef04c2dbd0009671c7.png "单元格类型") -->
 
-![chart单元格 style="width: 60%;height: 60%;"](images/73cbc7a808d4153ef345137ef62c6aa6b1df4f736d1d6c2bce09df57751a5d4c.png "chart单元格")
+![chart单元格](images/73cbc7a808d4153ef345137ef62c6aa6b1df4f736d1d6c2bce09df57751a5d4c.png "chart单元格")
 
-![Table单元格 style="width: 60%;height: 60%;"](images/bc203ce13fd9da9ce50a913333b886a5eaa3adc798ca8f3eab288d9038a61543.png "Table单元格")
+![Table单元格](images/bc203ce13fd9da9ce50a913333b886a5eaa3adc798ca8f3eab288d9038a61543.png "Table单元格")
 
-![EDA分析 style="width: 60%;height: 60%;"](images/572d2915d5c1bd83c9ff37ab92f59a0bcc3ef7d868d42b611c1ee992f0b0e724.png "EDA分析")
+![EDA分析](images/572d2915d5c1bd83c9ff37ab92f59a0bcc3ef7d868d42b611c1ee992f0b0e724.png "EDA分析")
 
-![EAD概览 style="width: 60%;height: 60%;"](images/04ca3199ef412d9ff61bc4db33018ff3b294c2824f14690d231857e954359bc1.png "EDA概览")
+![EAD概览](images/04ca3199ef412d9ff61bc4db33018ff3b294c2824f14690d231857e954359bc1.png "EDA概览")
 
-![数据透视表 style="width: 60%;height: 60%;"](images/149b7424b61a3ad539c69e20424fbda88c42e87fcbe4a03541d2ea1f832f0fcf.png "数据透视表")
+![数据透视表](images/149b7424b61a3ad539c69e20424fbda88c42e87fcbe4a03541d2ea1f832f0fcf.png "数据透视表")
 
 
 
@@ -130,15 +125,15 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 - 终端管理:集成的终端web客户端允许您执行许多任务，例如在SmartNoteBook中执行.py脚本，或者使用常见的bash命令访问Node节点环境和文件系统。还可以运行命令并安装需要依赖项的包。
 - 调度/监控(scheduling):使用调度(scheduling)以配置时间间隔（每小时、每天、每周或每月）运行NoteBook。通过调度器可以定期处理数据和更新报告，同时查看和监控执行情况。
 
-![辅助功能 style="width: 60%;height: 60%;"](images/5b51fd29a7975c0f4cdcbd1b53c2b3e9cbde790b1b20aeeb61e35957a1427892.png "辅助功能")
+![辅助功能](images/5b51fd29a7975c0f4cdcbd1b53c2b3e9cbde790b1b20aeeb61e35957a1427892.png "辅助功能")
 
-![模型视图 style="width: 60%;height: 60%;"](images/a7a953d9e1ea9f4379fe5df909df68d1e50246968c7847abdbb110bf33722696.png "模型视图")
+![模型视图](images/a7a953d9e1ea9f4379fe5df909df68d1e50246968c7847abdbb110bf33722696.png "模型视图")
 
-![终端管理 style="width: 60%;height: 60%;" ](images/2c18d7f6acfa1289c2f40f812b80469286eae0ebe6a8ed59cc9484305f8d150c.png "终端管理")
+![终端管理](images/2c18d7f6acfa1289c2f40f812b80469286eae0ebe6a8ed59cc9484305f8d150c.png "终端管理")
 
-![调度配置 style="width: 60%;height: 60%;" ](images/1acc92e4a90635e0836b68fd471aeee99cc72ac4f877725fa509717cf01dd283.png "调度配置")
+![调度配置](images/1acc92e4a90635e0836b68fd471aeee99cc72ac4f877725fa509717cf01dd283.png "调度配置")
 
-![调度历史 style="width: 60%;height: 60%;"](images/50728ed010baa33c7f50546bf53d539fe45a743ee79db5d214a526eebe778f45.png "调度历史")
+![调度历史](images/50728ed010baa33c7f50546bf53d539fe45a743ee79db5d214a526eebe778f45.png "调度历史")
 
 
 
@@ -149,27 +144,27 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 - 共享报告/cell：邀请其他用户实时从默认的主工作区在笔记本上进行协作。随时、多终端分享数据成果。
 - 评论:在NoteBook和报告内对单元格进行评论互动，通过互动快速改进和优化模型。
 
-![共享工作空间 style="width: 60%;height: 60%;"](images/wsshares.png "共享工作空间")
+![共享工作空间](images/wsshares.png "共享工作空间")
 
 
 <!-- ![共享工作空间 style="width: 60%;height: 60%;"](images/f250b9e2ce894e7c20e6206423d9e6fc388408a0480663658a51d9b4c9720634.png "共享工作空间") -->
 
-![共享单元格 style="width: 60%;height: 60%;"](images/ea35c9e8434295844ca3d8e6e57e398228afac7baf81854e5a49425eb85e9065.png "共享单元格")
+![共享单元格](images/ea35c9e8434295844ca3d8e6e57e398228afac7baf81854e5a49425eb85e9065.png "共享单元格")
 
-![共享单元格 style="width: 60%;height: 60%;"](images/sharemaincell.gif "共享单元格")
+![共享单元格](images/sharemaincell.gif "共享单元格")
 
 <!-- ![共享单元格 style="width: 60%;height: 60%;"](images/36887584e39d3462de421f759ac8d8e73f5728c70e4e6851387573a20f991651.png "共享单元格") -->
-![共享评论 style="width: 60%;height: 60%;"](images/c7c766d535aafff72570bcd4698cb2d6e1e19cd4bc45379e17fc975fd86a2a15.png "共享评论")
+![共享评论](images/c7c766d535aafff72570bcd4698cb2d6e1e19cd4bc45379e17fc975fd86a2a15.png "共享评论")
 
 ### 5.Data/Model service(API)
 
 数据/模型服务是快速将SmartNoteBook建模后的数据或模型生成API服务，通过API为其他业务系统或第三方提供服务(通过数据API的方式，提供给上层数据应用、数据门户，可视化大屏等)，是释放数据价值的最为关键的步骤。由于数据多样性和模型的复杂性，传统的定制开发API方式需要架构、开发、部署、运维等多步骤、多角色参与，整个过程复杂、成本高、运维/维护困难。近几年诞生较多的DataAPI服务平台，通过配置的方式生成API Service，提升效率、降低开发成本，但实际使用过程中也存在较多的问题，比如灵活性问题，很难应对复杂业务场景、很难应对算法模型的数据变换、处理的需要。为此SmartNoteBook开发了FaaS服务模块，Snb FaaS是函数即服务(Function-as-a-Service)的框架，通过NoteBook 调试函数，调试完成直接发布到Snb FaaS Node 节点上直接生成Servcie API，根据负载情况弹性扩展Node 节点。通过FaaS 方式生成Service API 既保持灵活性，又降低复杂性，有极高的弹性，维持灵活性、复杂性和弹性的统一。
 
-![函数发布 style="width: 60%;height: 60%;"](images/pubapi.png "函数发布")
+![函数发布](images/pubapi.png "函数发布")
 
 <!-- ![函数发布 style="width: 60%;height: 60%;"](images/adc889bf29b19cc31b56275d9e95732d6ddf68cf142e8579746127815afc5f18.png "函数发布") -->
 
-![函数服务 style="width: 60%;height: 60%;"](images/155c09e70b981af2c4b53ba6928e02c83fab9d52224f62be2c676a52ea38f434.png "函数服务")
+![函数服务](images/155c09e70b981af2c4b53ba6928e02c83fab9d52224f62be2c676a52ea38f434.png "函数服务")
 
 
 ## 云原生的数据分析及数据科学平台
@@ -182,17 +177,17 @@ SmartNoteBook是一款云原生的数据分析及数据科学平台，适应于�
 - 以工作空间(WorkSpace)为单元做资源管理、隔离和弹性部署。
 - 安装和部署全部容器化的，可以利用容器编排工具管理集群。
 
-![云原生的架构 style="width: 60%;height: 60%;"](images/f5da37107eb79287839a7f32d9308d9bdfec9273dfcca143074fd0332fabc535.png "云原生的架构")
+![云原生的架构](images/f5da37107eb79287839a7f32d9308d9bdfec9273dfcca143074fd0332fabc535.png "云原生的架构")
 
-![资源隔离与弹性配置 style="width: 60%;height: 60%;"](images/aa88a77f5779bc0439fca8a0256b9a443b112ede89de8ef27c6a24c5a6a82037.png "资源隔离与弹性配置")
+![资源隔离与弹性配置](images/aa88a77f5779bc0439fca8a0256b9a443b112ede89de8ef27c6a24c5a6a82037.png "资源隔离与弹性配置")
 
-![资源隔离与弹性配置 style="width: 60%;height: 60%;"](images/b44080ef5b7299c261a65b13c4ed8e7d84d18e2002837c29cd49c7dcf52f63a7.png "资源隔离与弹性配置")
+![资源隔离与弹性配置](images/b44080ef5b7299c261a65b13c4ed8e7d84d18e2002837c29cd49c7dcf52f63a7.png "资源隔离与弹性配置")
 
-![Node Kernel style="width: 60%;height: 60%;"](images/nodekernel.png "Node Kernel")
+![Node Kernel](images/nodekernel.png "Node Kernel")
 
 <!-- ![Node Kernel style="width: 60%;height: 60%;"](images/f6a38f0bcadf51e51c65c6d1370cbe4a9587a2316c41e4aad27d10b2adaa7722.png "Node Kernel") -->
 
-![Node负载 style="width: 60%;height: 60%;"](images/kernelins.png "Node负载")
+![Node负载](images/kernelins.png "Node负载")
 
 <!-- ![Node负载 style="width: 60%;height: 60%;"](images/4bec119897d62da6946cccf5a758f1c34ef383315bc64bd1eb18ef39d15cca2e.png "Node负载") -->
 
@@ -200,5 +195,5 @@ SmartNoteBook是一款云原生的数据分析及数据科学平台，适应于�
 
 ## 模型市场及知识社区
 
-![模型市场 style="width: 60%;height: 60%;"](images/76030cfeb119623ee736b1128840d318dca6e8d9b351eced6b5c01db8f1aaa12.png "模型市场")
+![模型市场](images/76030cfeb119623ee736b1128840d318dca6e8d9b351eced6b5c01db8f1aaa12.png "模型市场")
 
