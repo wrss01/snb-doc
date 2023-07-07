@@ -35,8 +35,8 @@ SmartNoteBook 是一款现代化的 Notebook，是 **开箱即用、云原生、
 
 SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大环境，深度融合`Python`(编程能力、AI能力)与`SQL`(数据处理)、可视化于一体，更高效编辑、执行和共享数据应用模型，进行数据采集、探索、机器学习、深度学习和交互可视化。开箱即用的数据科学、机器学习工具包；高效编辑器辅助和团队协作跟踪功能；通过Notebook结构化逻辑关系配合自然语言可以很好表现数据分析过程、阐述数据故事，形成数据报告，深层次的挖掘数据、释放数据价值。
 
-![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")  
-
+<!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")   -->
+![SmartNoteBook定位 style="width: 60%;height: 60%;"](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位") -->
 
