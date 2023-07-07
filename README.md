@@ -36,27 +36,20 @@ SmartNoteBook 是一款现代化的 Notebook，是 **开箱即用、云原生、
 SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大环境，深度融合`Python`(编程能力、AI能力)与`SQL`(数据处理)、可视化于一体，更高效编辑、执行和共享数据应用模型，进行数据采集、探索、机器学习、深度学习和交互可视化。开箱即用的数据科学、机器学习工具包；高效编辑器辅助和团队协作跟踪功能；通过Notebook结构化逻辑关系配合自然语言可以很好表现数据分析过程、阐述数据故事，形成数据报告，深层次的挖掘数据、释放数据价值。
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")   -->
+
 ![SmartNoteBook定位](images/b6e0e476794e8df7cfe69fde57848a3e5106c70b61aa5ac4f6267c2fc7540f5b.png "SmartNoteBook定位")
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位") -->
 
 ![SmartNoteBook首页](images/newmainpage.png "SmartNoteBook首页")
 
-<!-- ![SmartNoteBook首页 style="width: 60%;height: 60%;"](/assets/import.png "SmartNoteBook首页") -->
-
-<!-- ![工作空间管理 style="width: 60%;height: 60%;"](images/wsnotebook.png "工作空间管理") -->
-
-<!-- ![图 1](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png)   -->
-
-![工作空间管理](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png "工作空间管理")
+![工作空间管理](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png  "工作空间管理")
 
 ![工作空间管理](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png "工作空间管理")
 
 ![SmartNoteBook工作台](images/wstbgif.gif "SmartNoteBook工作台")
 
-<!-- ![SmartNoteBook工作台 style="width: 60%;height: 60%;"](images/df5cdce9485ca90b14169e0967fcb5d725daa56c021d21d1506630631c3e527a.png "SmartNoteBook工作台") -->
 
-<!-- ![图 5](images/wsworktable.png)   -->
 
 ## NoteBook企业发行版
 基于Notebook思想和企业数据化的需求全新开发了数据分析/数据科学平台:SmartNoteBook,完美兼容NoteBook的显性编程方式(独立代码输入块与显示输出、代码与自然语言标记交织)和Python强大的数据处理、分析和人工智能的框架能力，以下就逐一介绍重点功能：
