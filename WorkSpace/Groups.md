@@ -71,16 +71,24 @@
 <!-- ![图 17](../images/408c31bd962f63a4b91285a795d0be699ec28a740d1933ac6e0b3ac553266ff5.png)   -->
 ![图 7](../images/408c31bd962f63a4b91285a795d0be699ec28a740d1933ac6e0b3ac553266ff5.png)  
 
-## 协同编辑
+## 实时协作
 
 <!-- 待协同操作功能完善后再补充该部分内容 -->
 
-当多名团队成员同时编辑同一份NoteBook文档，后打开NoteBook的成员会在NoteBook页面上方收到提示，无法保存修改的内容（同时编辑内容会产生冲突）：
+SNB 支持实时协作。当团队成员打开你正在编辑的NoteBook时，你会看到他们的头像出现在右上角。您和您的团队现在同时共享同一个执行环境。
 
-![图 8](../images/confli.png)  
+目前该功能尚处于第一阶段，即：首先打开NoteBook的成员获得编辑权，其他成员只拥有查看权限。
 
+<!-- ![图 8](../images/confli.png)   -->
 
+<!-- ![图 9](../images/01fe724a1e0c7d42fee287505b8018c0b36d2f10da359ba4a18d4c7b08f13385.gif)  
 
+![图 10](d:\00%20%E9%A1%B9%E7%9B%AE%E9%9B%86%E5%90%88\snb%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B8%93%E9%A1%B9\snb_gitbook\images\01fe724a1e0c7d42fee287505b8018c0b36d2f10da359ba4a18d4c7b08f13385.gif)   -->
 
+<!-- ![图 11](../images/a8d9048a6be717f68a97b9f50cf4822c0b5ff5c470e5978a6d05ff95a258cd05.gif)   -->
+
+<!-- ![图 12](../images/f6d2208a26fab5eb318a9442fe1a3824828591f72a53af6bdc369d4203b01b63.gif)   -->
+
+![图 13](../images/19571b74bff84280b0c566f16d0efbabe396972e1477c76a58e46178884d8064.png)  
 
 

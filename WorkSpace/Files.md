@@ -1,7 +1,7 @@
 # WorkSpace文件
 ---
 
-将本地（数据）文件上传至SmartNoteBook。
+将本地（数据）文件上传至 SNB。
 
 ## 上传文件
 
@@ -56,6 +56,8 @@
 ## 同步文件
 
 **文件一键同步到Node**
+
+在`Workspace文件`页面上传，文件将会上传至公共区域，在`侧边栏-数据资源-WorkSpace文件`点击`文件一键同步到Node`，公共区域的资源文件会同步至Node节点使用。（同步至多个环境）
 
 详见<a href="../NoteBook/Sidebar.md" title="侧边栏"> 侧边栏-数据资源-WorkSpace文件</a>
 

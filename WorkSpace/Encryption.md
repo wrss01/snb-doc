@@ -6,7 +6,7 @@
 
 ![图 1](../images/passwd.png)  
 
-## 新建
+## 新建密保
 
 点击右上角的`新建密保`,输入`名称（英文）`和`值`。
 
@@ -26,7 +26,7 @@
 
 ![图 5](../images/%E5%A4%8D%E5%88%B6%E5%AF%86%E4%BF%9D.png)  
 
-- 在python单元格中使用密保：
+- 在Python单元格中使用密保：
 
 ![picture 1](../images/%E5%BC%95%E7%94%A8%E5%AF%86%E4%BF%9D.png)  
 
