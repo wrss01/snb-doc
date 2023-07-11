@@ -1,7 +1,9 @@
 # Julia语言支持
+
+<!-- 7101752 -->
 ---
 
-# 创建NoteBook
+## 创建NoteBook
 
 在`新建NoteBook`对话框中选择Kernel类型为“Julia”的选项。
 
@@ -13,7 +15,11 @@
 > 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
 
 
-# Julia语言NoteBook目前支持的功能列表
+
+SNB对其他Julia内核的支持仍处于早期阶段，有些功能尚不完善，例如变量资源管理器、SQL单元格、模型视图等。
+
+
+## 当前支持的功能
 
 - MarkDown 单元格
 - 收藏
