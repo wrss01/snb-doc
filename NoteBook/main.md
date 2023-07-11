@@ -109,11 +109,15 @@ WorkSpace管理界面下，点击左下角的`新建NoteBook`按钮右侧的小�
 
 ### 添加/删除Sheet
 
+默认情况下，每个NoteBook的内容都可以显示在一个Sheet上，您可以在一个可滚动的页面上看到你所有的工作。但如果您的NoteBook非常大并且有大量数据，您可能需要将其内容组织到多个Sheet中。
+
 在NoteBook文档左下角的`+`可以增加新的Sheet，方便用户组织NoteBook结构和内容。
 
 多个Sheet共同组成一份NoteBook文档，当`运行全部单元格`或`分享NoteBook`时SNB会按Sheet的位置顺序依次执行和显示。
 
-点击右侧的`×`可删除Sheet。在SNB中至少存在一个Sheet，您无法将所有的Sheet全部删除。
+一个NoteBook中所有的Sheet共享相同的文件和资源，并且新创建的Sheet会继承先前Sheet的环境。
+
+点击右侧的`×`可删除Sheet（一个NoteBook中至少存在一个Sheet，因此您无法删除NoteBook中所有的Sheet）。
 
 ![图 13](../images/sheets.png)  
 <!-- ![图 8](../images/46c7510d8cc6eaf4c3b936f4ee3ca4844c9891b4d208589fb92d0652f19cdb11.png)   -->

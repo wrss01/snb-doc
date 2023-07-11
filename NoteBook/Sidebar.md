@@ -76,7 +76,7 @@
 
 ![图 23](../images/metad.png)  
 
-### 数据文件
+### WorkSpace文件
 
 - 查看和同步文件
 
@@ -84,21 +84,58 @@
 
 ![图 17](../images/fileup2.png)  
 
-点击`文件一键同步到Node`将文件同步
+- 批量同步至Node环境：点击`文件一键同步到Node`按钮可将文件批量同步至环境文件
 
-![图 18](../images/ays.png)  
+- 单个文件同步至Node环境：如需同步单个文件，则点击该文件右侧的操作按钮，单击`同步到Node`即可
 
-- 复制文件路径
+![图 8](../images/1158d489339f8536829f138472f7544b6a8cd170b1748239e9f59ecb1fd8b4d6.png)  
+
+<!-- - 复制文件路径
 
 点击复制按钮拷贝文件路径
 
-![图 19](../images/cppath.png)  
+![图 19](../images/cppath.png)   -->
 
 - 下载文件
 
 点击文件列表右侧下载按钮可将文件下载至本地
 
 ![图 20](../images/downl.png)  
+
+
+### 环境文件
+
+- 查看文件：点击右侧小箭头查看当前环境下的文件
+
+![图 11](../images/0d6270e207ba9fabd4632ad64fe31d1b2c2bc29ffa9aec0c7e5356c2895a0b78.png)  
+
+- 文件上传：直接上传文件至环境下
+
+- 刷新：刷新文件列表
+
+- 复制路径：点击复制按钮可拷贝文件路径
+
+![图 19](../images/cppath.png)  
+
+- 下载文件：点击文件列表右侧下载按钮可将文件下载至本地
+
+<!-- ![图 20](../images/downl.png)   -->
+![图 12](../images/e4705c5fe4f26974bb16460283d94e714d31fd1276722d844b2b649cf5119c43.png)  
+
+- 删除文件：将文件从环境下删除
+
+- 文件预览（可编辑内容并保存）
+
+点击环境文件下的csv数据文件（蓝色），可以像操作Excel表格一样对数据进行预览和编辑（编辑内容后记得点击保存）。
+
+<!-- ![图 13](../images/af7368f26e9d9eaeeaafffb4ccc93c1a77ed57bd67cd5d28a17ae1ab617246fa.png)   -->
+
+<!-- ![图 14](../images/0e3919a6bb58772b6f37009dd1d683e7d4b522c904fe19ea79387c53e669ab15.png)   -->
+
+![图 15](../images/ffd27cc2d857470cdf6920b80f716a3a3353ae3925bfe9d87aac0c4c7caa09f6.png)  
+
+> [!WARNING]
+> 目前NoteBook仅支持csv数据文件的预览，且文件大小不超过10M
 
 ## 目录
 <span id="idx"></span>
@@ -141,6 +178,18 @@ NoteBook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 ![图 27](../images/varie.png)  
 
+
+### 变量预览和编辑
+
+点击变量列表中的DataFrame数据变量（蓝色），可以像操作Excel表格一样对变量进行预览和编辑（编辑内容后记得点击保存）。
+
+> [!WARNING]
+> 该手动编辑变量的操作不会被SNB记录，因此重新执行NoteBook该手动操作无法重现。
+
+![图 16](../images/16248ee7fc528174b5bc8e3ca9d3e58fc0f3c5e16e5bfa314b3fb390f971df4d.png)  
+
+![图 17](../images/4822bc6f155b5f1080267be40bce739141cb1b459bcb0a57ee7016cb0068a3cd.png)  
+
 > [!warning|style:flat]
 > 重启Kernel的操作将会清除所有已存储的变量值。如果用户在某些变量中保存了非常重要的数据，请在重启Kernel前将重要变量的数据保留下来。
 
@@ -167,8 +216,12 @@ NoteBook文档在我们编写期间会每隔30秒保存一次内容，但如果�
 
 ![](/assets/bubbxx.png)
 
-> [!Tip]
-> 如果用户在WorkSpace设置里配置了GitLab或GitHub，保存的版本会同步到云端仓库。
+
+如用户在WorkSpace设置里配置了GitLab或GitHub，保存版本可选择是否推送到仓库。
+
+![图 18](../images/bd7a1644f4ea3337683a918c1f6b77487c74b87a225f7a85cad8b4973b76e300.png)  
+
+
 
 ### 版本对比
 

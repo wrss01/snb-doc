@@ -24,4 +24,6 @@
 
 可以点击代码片段右侧的操作按钮进行代码复制和删除。
 
-![图 2](../images/aftercolle.png)  
+<!-- ![图 2](../images/aftercolle.png)   -->
+
+![图 0](../images/a1584f783a4852e7a7d28a0567abca9d6b59b029c3f2d3aad6fd693ed236fc7c.png)  
