@@ -94,7 +94,9 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 ![产品理念](images/2e7bb45b98cce19894ff9392dcff5cd7d675f7a7700552ba1de5d4f79567d1f7.png "产品理念")
 
 
-![单元格类型](images/maincell%E7%BB%9F%E4%B8%80.png "单元格类型")
+![单元格类型](images/76c268cdebb9777848d2ed9815988c82fbb3c80348daf406088fed219d5b5eaa.png "单元格类型")
+
+<!-- ![图 3](images/76c268cdebb9777848d2ed9815988c82fbb3c80348daf406088fed219d5b5eaa.png)   -->
 
 <!-- ![单元格类型 style="width: 60%;height: 60%;" ](images/11967a438e13f71cfc0db41ad0c2a1bc563a9183782612ef04c2dbd0009671c7.png "单元格类型") -->
 

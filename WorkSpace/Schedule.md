@@ -20,7 +20,9 @@
 
 在NoteBook文档内，点击左侧侧边栏的`环境` 按钮。 
 
-![图 3](../images/env.png)  
+<!-- ![图 3](../images/env.png)   -->
+![图 0](../images/d8d16648a4f6529e150dee82216630028c4c708199ff327d12abec74a3622ef3.png)  
+
 
 点击最下方的`去创建调度器`
 
@@ -32,7 +34,9 @@
 
 在高级设置中，可以选择配置计划运行完成时状态成功或失败的通知，以及哪些用户将收到这些通知。
 
-![图 6](../images/whogetmessage.png)  
+<!-- ![图 6](../images/whogetmessage.png)   -->
+![图 1](../images/678ea41c757b789d9fb350758df1e12deb93e776f451a770e88edcd6d41e6e00.png)  
+
 
 
 **样例：**
@@ -73,6 +77,19 @@
 
 ![图 11](../images/pauss.png)  
 
+## 运行报告
+
+
+
+![图 5](../images/b7516ebcee0eaabe85c5476ca5b2132e55877fc02488184af76ece13a99b0183.png)  
+
+### 查看报告
+
+
+
+### 下载运行结果
+
+### 删除报告
 
 ## 删除调度
 
@@ -83,13 +100,17 @@
 
 ## 切换查看不同环境下的调度器
 
-![图 12](../images/sches.png)  
+<!-- ![图 12](../images/sches.png)   -->
+<!-- ![图 3](../images/02140596c95b6efbcbe91e1137c6d84f5fe1f6ff0126fea1287cafcd0c0089ad.png)   -->
+![图 4](../images/6ba5410d90d6d0ccad1941b4f35df66542032b286a8f976a22329d023b93a7db.png)  
 
-## 图标
 
-NoteBook设置调度器后会增加显示跳动的图标
+## 圆点标识
 
-![图 13](../images/iconsche.png)  
+配置调度器后的NoteBook名称右侧会增加圆点标识
+
+<!-- ![图 13](../images/iconsche.png)   -->
+![图 2](../images/f6eaa7386d91c84bda4f28df06078d0f6dbef0bb54d9af58afdc5aadbe8d8304.png)  
 
 
 

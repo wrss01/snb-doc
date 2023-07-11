@@ -136,6 +136,8 @@ SmartNoteBook的Markdown单元格支持使用Jinja模板语言将变量与文本
 
 ## 设置MarkDown的标签样式（高级用法）
 
+<span id="mdsecret"></span>
+
 MarkDown的呈现需要解析成HTML, 其支持的HTML标记也只是一部分。从这个角度上讲，Markdown是HTML的一个简化标记形式的子集，因此我们也可以利用CSS定义来重新对Markdown的标签样式进行定义。
 
 例如：
