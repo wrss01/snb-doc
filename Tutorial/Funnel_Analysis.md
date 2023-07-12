@@ -1,5 +1,5 @@
 # 漏斗分析案例
-
+---
 &emsp;&emsp;漏斗分析是一种在电子商务网站分析中常用的技术，SmartNoteBook是一个基于NoteBook的低代码工具，通过结合SQL和Python的优势，以低代码的方式提供了数据转换、分析和可视化的功能，降低了分析难度，充分发挥了SQL和Python的特点，使分析过程更加高效、灵活和可维护。本文带您使用SmartNoteBook进行漏斗分析(Funnel Analysis)。
 
 ![图：漏斗分析(Midjourney生成)](../images/7d812fe1cdb5aba65dcceb7fc01d8774f1d7ea65085d621e1643cf5f9faa342c.png)  
