@@ -1,6 +1,6 @@
 # WorkSpace设置
 ---
-可以配置WorkSpace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
+用于配置WorkSpace的头像，`名称`,`备注`,`仓库类型`,`仓库地址`,`仓库token`,`仓库id`
 
 ## 编辑/新建/切换WorkSpace
 
@@ -26,8 +26,7 @@
 
 <span id="git"></span>
 
-> [!Tip]
-> 如何获取gitlab的Access Token？
+### 如何获取gitlab的Access Token？
 
 1. 登录gitlab，点击`Settings`-->`Access Tokens`，并按照页面填写信息和勾选权限后，点击下方的绿色按钮
 
@@ -37,8 +36,7 @@
 
     ![图 3](../images/ack_token_gen.png)  
 
-> [!Tip]
-> 如何配置github？
+### 如何配置github？
 
 1.登录GitHub，点击右上角的头像选择`Settings`
 

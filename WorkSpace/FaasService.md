@@ -2,7 +2,11 @@
 ---
 <!-- 需精简： -->
 
-数据/模型服务是快速将SmartNoteBook建模后的数据或模型生成API服务，通过API为其他业务系统或第三方提供服务(通过数据API的方式，提供给上层数据应用、数据门户，可视化大屏等)，是释放数据价值的最为关键的步骤。由于数据多样性和模型的复杂性，传统的定制开发API方式需要架构、开发、部署、运维等多步骤、多角色参与，整个过程复杂、成本高、运维/维护困难。近几年诞生较多的DataAPI服务平台，通过配置的方式生成API Service，提升效率、降低开发成本，但实际使用过程中也存在较多的问题，比如灵活性问题，很难应对复杂业务场景、很难应对算法模型的数据变换、处理的需要。为此SmartNoteBook开发了FaaS服务模块，Snb FaaS是函数即服务(Function-as-a-Service)的框架，通过notebook 调试函数，调试完成直接发布到Snb FaaS Node 节点上直接生成Servcie API，根据负载情况弹性扩展Node 节点。通过FaaS 方式生成Service API 既保持灵活性，又降低复杂性，有极高的弹性，维持灵活性、复杂性和弹性的统一。
+数据/模型服务是快速将SmartNoteBook建模后的数据或模型生成API服务，通过API为其他业务系统或第三方提供服务(通过数据API的方式，提供给上层数据应用、数据门户，可视化大屏等)，是释放数据价值的最为关键的步骤。
+
+由于数据多样性和模型的复杂性，传统的定制开发API方式需要架构、开发、部署、运维等多步骤、多角色参与，整个过程复杂、成本高、运维/维护困难。近几年诞生较多的DataAPI服务平台，通过配置的方式生成API Service，提升效率、降低开发成本，但实际使用过程中也存在较多的问题，比如灵活性问题，很难应对复杂业务场景、很难应对算法模型的数据变换、处理的需要。
+
+为此SmartNoteBook开发了FaaS服务模块，Snb FaaS是函数即服务(Function-as-a-Service)的框架，通过notebook 调试函数，调试完成直接发布到Snb FaaS Node 节点上直接生成Servcie API，根据负载情况弹性扩展Node 节点。通过FaaS 方式生成Service API 既保持灵活性，又降低复杂性，有极高的弹性，维持灵活性、复杂性和弹性的统一。
 
 ## 注册API
 
@@ -38,11 +42,18 @@ def translate(word:str="word") -> "HTTP":
 
 函数在单元格中定义完成后，点击`...`-->`注册服务API`进行注册：
 
-![图 1](../images/fass_reg.png)  
+<!-- ![图 1](../images/fass_reg.png)   -->
+![图 0](../images/c8c2657d02359bebd3f4b7e97cb1f20d30dd47a5cf02fc8b1f2206f37fececdd.png)  
+
+
 
 注册成功：
 
 ![图 2](../images/fass_reg_succ.png)  
+
+
+> [!NOTE]
+> 同一环境下服务API注册名称（__MODULE_NAME__）不可重复，不同环境下服务API注册名称（__MODULE_NAME__）可以相同。
 
 ## 管理API
 
@@ -59,7 +70,9 @@ def translate(word:str="word") -> "HTTP":
 
 ## 切换查看不同环境下的API
 
-![图 5](../images/diffnodeapi.png)  
+点击列表右上角的环境标签可切换查看在不同环境下注册的服务API：
+<!-- ![图 5](../images/diffnodeapi.png)   -->
+![图 4](../images/6ba5410d90d6d0ccad1941b4f35df66542032b286a8f976a22329d023b93a7db.png)  
 
 ## 使用API
 

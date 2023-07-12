@@ -104,22 +104,24 @@
 | <img src="../images/836c7510287b9bdb64b74285a5b10e53771eb400adf1cfcd63441dc845a66a4d.png"  style="display: inline-block;padding:0px;border:0px"  /> | AIGC功能 | AI辅助生成/编辑/修复/解释代码 |  |
 
 
-<!-- | 代码补全| 代码自动补全 | 行2列2内容 | 见[代码自动补全](#code) | -->
+
 
 ### 更多操作
 
-| 图标 | 操作 | 解释 | 备注 |
-| :-----| :-----| :---- | :---- | 
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  /> | 向上插入单元格 | 在当前单元格上方新增默认类型为Python语言的单元格 | 命令状态下快捷键`A` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  /> | 向下插入单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 | 命令状态下快捷键`B` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 剪切单元格 | 剪切当前单元格内容 |  命令状态下快捷键`X` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 复制单元格 | 复制当前单元格内容 | 命令状态下快捷键`C` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 粘贴单元格 | 内容粘贴至当前单元格 | 命令状态下快捷键`V` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 上移一格 | 将当前单元格上移一格 |  |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 下移一格 | 将当前单元格下移一格 |  |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` |
-| <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  />  | 拷贝出代码 | 拷贝出当前单元格的代码 | 该功能可以将低代码组件背后的代码拷贝出来，粘贴到 Python 单元格中运行，这个功能为用户提供了更多的自由度和灵活性。|
+点击单元格（cell）右上角的 <img src="../images/2c39df8c628b95d0c11678760ce45d9d7e65608b809dfe44cdf7d0178ba8d391.png"  style="display: inline-block;padding:0px;border:0px"  /> 获取更多操作。
+
+| 操作 | 解释 | 备注 |
+| :-----| :---- | :---- | 
+| 向上插入单元格 | 在当前单元格上方新增默认类型为Python语言的单元格 | 命令状态下快捷键`A` |
+| 向下插入单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 | 命令状态下快捷键`B` |
+| 剪切单元格 | 剪切当前单元格内容 |  命令状态下快捷键`X` |
+| 复制单元格 | 复制当前单元格内容 | 命令状态下快捷键`C` |
+| 粘贴单元格 | 内容粘贴至当前单元格 | 命令状态下快捷键`V` |
+| 上移一格 | 将当前单元格上移一格 |  |
+| 下移一格 | 将当前单元格下移一格 |  |
+| 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
+| 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` |
+| 拷贝出代码 | 拷贝出当前单元格的代码 | 该功能可以将低代码组件背后的代码拷贝出来，粘贴到 Python 单元格中运行，这个功能为用户提供了更多的自由度和灵活性。|
 
 ### 悬浮按钮
 

@@ -70,34 +70,34 @@ Chart组件支持的图标类型包括：
 
 | 配置项  | 作用| 取值 | 备注 |
 | :-----| :-----| :---- | :---- | 
-|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
-|  Stack | 设置数据系列中是否堆积显示| True：堆积显示</br>False：不堆积显示 | 默认：False|
+|  Label | 设置数据系列中是否显示标签| True：显示 <br> False：不显示 | 默认：False|
+|  Stack | 设置数据系列中是否堆积显示| True：堆积显示 <br> False：不堆积显示 | 默认：False|
 
 #### Line（折线图）
 
 | 配置项  | 作用| 取值 | 备注 |
 | :-----| :-----| :---- | :---- | 
-|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈</br>False：不显示圆圈 | 默认：True|
-|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
-|  Smooth | 设置折线是否平滑| True：平滑</br>False：不平滑 | 默认：True|
-|  Filled | 设置是否填充折线下方区域| True：填充</br>False：不填充 | 默认：False|
+|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈<br>False：不显示圆圈 | 默认：True|
+|  Label | 设置数据系列中是否显示标签| True：显示<br>False：不显示 | 默认：False|
+|  Smooth | 设置折线是否平滑| True：平滑<br>False：不平滑 | 默认：True|
+|  Filled | 设置是否填充折线下方区域| True：填充<br>False：不填充 | 默认：False|
 
 #### Point（散点图）
 
 | 配置项  | 作用| 取值 | 备注 |
 | :-----| :-----| :---- | :---- | 
-|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
+|  Label | 设置数据系列中是否显示标签| True：显示<br>False：不显示 | 默认：False|
 |  Size | 设置点的尺寸| 正整数| 默认：10|
-|  Shape | 设置点的形状| circle：圆点</br>rect：矩形</br>roundRect：边缘平滑矩形</br>triangle：三角形</br>diamond：菱形</br>pin：图钉</br>arrow：箭头 | 默认：circle|
+|  Shape | 设置点的形状| circle：圆点<br>rect：矩形<br>roundRect：边缘平滑矩形<br>triangle：三角形<br>diamond：菱形<br>pin：图钉<br>arrow：箭头 | 默认：circle|
 
 #### Area（面积图）
 
 | 配置项  | 作用| 取值 | 备注 |
 | :-----| :-----| :---- | :---- | 
-|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈</br>False：不显示圆圈 | 默认：True|
-|  Label | 设置数据系列中是否显示标签| True：显示</br>False：不显示 | 默认：False|
-|  Smooth | 设置折线是否平滑| True：平滑</br>False：不平滑 | 默认：True|
-|  Filled | 设置是否填充折线下方区域| True：填充</br>False：不填充 | 默认：True|
+|  Point | 设置数据系列中的数据点是否显示圆圈| True：显示圆圈<br>False：不显示圆圈 | 默认：True|
+|  Label | 设置数据系列中是否显示标签| True：显示<br>False：不显示 | 默认：False|
+|  Smooth | 设置折线是否平滑| True：平滑<br>False：不平滑 | 默认：True|
+|  Filled | 设置是否填充折线下方区域| True：填充<br>False：不填充 | 默认：True|
 
 ### 聚合数据
 
@@ -374,7 +374,9 @@ Table组件除用作展示数据集，同时也具备一定的可视化交互能
 
 鼠标移动至单元格的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`Table`。
 
-![图 20](../images/snbtables.png)  
+<!-- ![图 20](../images/snbtables.png)   -->
+![图 8](../images/31bae3ef1da9122474ad215fdf20ad8e7afbf87a9477f9371b489bc11a6e6036.png)  
+
 
 ### Table使用
 

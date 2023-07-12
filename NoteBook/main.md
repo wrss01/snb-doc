@@ -30,7 +30,7 @@ SNB的NoteBook主界面由单元格组成，主要包括code单元格、可视�
 | 评论 | 团队成员可以在单元格开展评论交流。详见<a href="./Comments.md" title="评论">评论</a> |
 | 代码收藏 | 收藏代码存放在代码片段仓库。详见<a href="./Collections.md" title="代码收藏">代码收藏</a> |  
 | 分享功能 | 分享单元格或整份NoteBook报告。详见<a href="./Share.md" title="分享">分享</a> | 
-| 协作 | 当团队成员打开同一份NoteBook...详见<a href="./Teamwork.md" title="协作">协作</a> | 
+| 协作 | 当团队成员打开同一份NoteBook...详见<a href="../WorkSpace/Groups.md/#teamw" title="实时协作">实时协作</a> | 
 | R支持 | 编写、运行、分享R代码。详见<a href="./R.md" title="R单元格">R语言支持</a>   | 
 | SageMath支持 | 编写、运行、分享SageMath代码。详见<a href="./SageMath.md" title="SageMath单元格">SageMath支持</a>   | 
 | Julia支持 | 编写、运行、分享Julia代码。详见<a href="./Julia.md" title="Julia单元格">Julia语言支持</a>   | 
