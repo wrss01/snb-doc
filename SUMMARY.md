@@ -18,7 +18,7 @@
   * [Python单元格](NoteBook/Python.md)
   * [SQL单元格](NoteBook/SQL.md)
   * [MarkDown单元格](NoteBook/Markdown.md)
-  * [AIGC](NoteBook/AIGC.md)
+  * [数据智灵](NoteBook/AIGC.md)
   * [可视化组件](NoteBook/Visualization.md)
   * [EDA组件](NoteBook/EDA.md)
   * [数据处理组件](NoteBook/DataTransform.md)
@@ -31,7 +31,7 @@
   * [评论](NoteBook/Comments.md)
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
-* [例子](Tutorial/main.md)
+* [分析案例](Tutorial/main.md)
   <!-- * [申请账号](Tutorial/Register.md) -->
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
@@ -46,6 +46,6 @@
   <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)
 * [服务条款](Terms.md)
-* [命名规范](Standard.md)
+<!-- * [命名规范](Standard.md) -->
 * [关于](About.md)
 <!-- * [编辑注意事项](snb_config.md) -->
