@@ -12,7 +12,7 @@
     "image-captions",
     "flexible-alerts",
     "mathjax-pro",
-    "back-to-top-button"
+    "-back-to-top-button"
     
   ],
   "variables": {
