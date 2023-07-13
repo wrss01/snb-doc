@@ -11,7 +11,8 @@
     "search-pro-fixed", 
     "image-captions",
     "flexible-alerts",
-    "mathjax-pro"
+    "mathjax-pro",
+    "back-to-top-button"
     
   ],
   "variables": {
