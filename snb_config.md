@@ -96,3 +96,28 @@ https://github.com/fzankl/gitbook-plugin-flexible-alerts
 ## 反馈邮箱
 <feedback@smartnotebook.tech>
 [XXX](feedback@smartnotebook.tech)
+
+
+- repeat：重复方式
+  - "Watermark" - 水印
+  - "Repeat" - 重复
+  - "Repeat-X" - 横向重复
+  - "Repeat-Y" - 纵向重复
+  - "Space" - 间隔重复
+  - flipXY
+
+- position：图片位置
+  - center：居中
+  - left：靠左
+  - right：靠右
+  - top：顶部
+  - bottom：底部
+
+- size：图片大小
+  - auto：自动
+  - cover：覆盖
+  - contain：适应
+  - 100%：拉伸？？
+  - xxx：是啥？？
+
+- opacity：透明度

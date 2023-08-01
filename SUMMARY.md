@@ -22,6 +22,7 @@
   * [可视化组件](NoteBook/Visualization.md)
   * [EDA组件](NoteBook/EDA.md)
   * [数据处理组件](NoteBook/DataTransform.md)
+  * [仪表板](NoteBook/Dashboard.md)
   * [R支持](NoteBook/R.md)
   * [SageMath支持](NoteBook/SageMath.md)
   * [Julia支持](NoteBook/Julia.md)

@@ -8,19 +8,20 @@
 
 一个仪表板可以包含多种类型的视图，例如条形图、饼图、折线图、地图、表格等等。这些视图都是由数据驱动的，可以实时或定期更新。仪表板可以展示各种关键性能指标（KPI），比如销售额、客户满意度、员工绩效等。
 
-用户可以通过交互式操作，比如过滤、钻取、切片和切块等来查看不同的数据视角和层级。这使得用户能够深入理解数据，发现数据的趋势和模式。
+<!-- 
+用户可以通过交互式操作，比如过滤、钻取、切片和切块等来查看不同的数据视角和层级。这使得用户能够深入理解数据，发现数据的趋势和模式。 -->
 
 
 ![图 0](../images/426a75ba60aa205938e2fd63314f7e55ea3c0bfae86f6cbffb8f5fbac3b6192f.png)  
 
 仪表板主要特征如下：
 
-- 支持拖拽notebook 生成各种类型文本、图片、图表等添加到仪表板上。
-- 通过拖拽改变图表大小和位置实现自由布局。
-- 仪表板有强大的自定义功能（包括自定义容器大小，设置仪表板的背景图片包括颜色和水印等）。
-- 支持预览、分享和嵌入到数据门户中
-- 支持通过调度定期更新仪表板。
-- 支持交互组件动态刷新、数据下钻（功能测试中）
+- 支持将NoteBook中各种类型单元格输入、输出添加到仪表板
+- 可通过拖拽或属性设置来改变图表的大小、位置甚至角度，实现自由布局
+- 灵活的自定义设置功能（例如设置元素大小、背景颜色、背景颜色及水印等）
+- 支持预览、分享和嵌入到数据应用或数据门户
+- 通过调度计划定期更新仪表板数据
+- 支持交互组件的动态刷新、数据下钻（功能开发和测试中）
 
 
 ## 创建/修改仪表板
@@ -45,21 +46,68 @@
 |  <img src="../images/a991261f29c064df0b57533e30a19b033c2b51c20f521746727b99db17458d42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏左侧菜单 | 隐藏/显示左侧的操作按钮 | - |
 |  <img src="../images/1c19222318dc4e581e7367583a9794d79413d412e81c05e10a571991f1bd225a.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏右侧菜单 | 隐藏/显示左侧的操作按钮 | - |
 |  <img src="../images/4186043d86d5fa8c5dfe0ffb398d335ad948679ba38491ccf3752ef2720ea702.png"  style="display: inline-block;padding:0px;border:0px"  /> | 保存 | 保存当前画布的状态 | -  |
-|  <img src="../images/2c7204369c33a2052cc32653e373563e1ca4bd1fab1ff863c7244a73fd026b42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 发布/更新发布 | 仪表板设计完成/修改后生成发布链接 | -  |
 |  <img src="../images/5d90b2f9bb7e02451e4de36754818428ba41b3a17cc59002834fead908b4afaf.png"  style="display: inline-block;padding:0px;border:0px"  /> | 预览 | 生成预览链接，预览仪表板内容 | -  |
+|  <img src="../images/2c7204369c33a2052cc32653e373563e1ca4bd1fab1ff863c7244a73fd026b42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 发布/更新发布 | 仪表板设计完成/修改后生成发布链接 | -  |
 |  <img src="../images/59cb15031a4445215f9d5163cdcc278cdc97044408e867fd2eedc9af934fe779.png"  style="display: inline-block;padding:0px;border:0px"  /> | 关闭 | 关闭仪表板界面（重新打开显示最后保存的画布内容） | - |
 
-## 设计仪表板
 
-您可以使用右侧的拖动手柄从左侧的“轮廓”面板中拖放元素。或者，您可以使用每个元素上的“添加到应用程序”按钮。
+## 画布设置
 
-## 重新发布
+点击 <img src="../images/6e96c88651800e935ed4c70ea00245fc4d354e6585d689e59a261522e7f8aff0.png"  style="display: inline-block;padding:0px;border:0px"  /> 可以对画布大小、背景及水印进行设置。
+
+![图 18](../images/7915d399889b03adf467de82d361082cb07430ae95aae1cfb2f392ea51a18573.png)  
+
+## 小地图
+
+点击 <img src="../images/b0773cbfa0f2c640acf3a741b68a875a2b2fd02aa138b779d04be3412505af7b.png"  style="display: inline-block;padding:0px;border:0px"  /> 可开启/关闭小地图显示。
+
+![图 19](../images/404224746d076825de27c93bead91f84a4ec011decbcc81e004828f75e2c0f8c.png)  
+
+
+## 预览
+
+设计完成后，可以先点击 <img src="../images/5d90b2f9bb7e02451e4de36754818428ba41b3a17cc59002834fead908b4afaf.png"  style="display: inline-block;padding:0px;border:0px"  /> 查看效果。
+
+## 发布/更新发布
+
+点击<img src="../images/2c7204369c33a2052cc32653e373563e1ca4bd1fab1ff863c7244a73fd026b42.png"  style="display: inline-block;padding:0px;border:0px"  /> 可以发布正式的仪表板链接。
+
+用户可以直接通过打开链接在网络浏览器中实时查看和互动这个仪表板。此外，这个链接也可以轻松地嵌入到其他应用程序中，为您的业务流程提供即时的数据洞察。如果需要，您也可以将此链接投射到大屏幕上，以便在团队会议或演示中展示数据。这种多元化的展示方式为数据分析带来前所未有的灵活性和方便性，让您可以随时随地获取到最新、最准确的业务洞察。
+
+每当您对仪表板进行更改时，您的仪表板都不会自动重新发布。您需要在更改完之后重新保存并 “更新发布”。
+
+> [!NOTE]
+> 已发布的仪表板的 URL 在更新发布后保持不变，因此您不必担心重新共享或在应用中修改URL的问题。
+
+## 拖动/旋转 
+
+<!-- ![图 20](../images/e8ecc315037e7d5a5207a281a8983b2bfb81157912b3087556f23bb38b6c9e6f.png)  
+
+![图 21](../images/ec133a6dcf2403311a7b54fed27a00361ff68d71df868c7fcc5594ffbcc4336e.gif)   -->
+
+选中元素后可以按下鼠标拖动到合适的位置。
+
+点击元素左上角的圆点并按下鼠标可以调整元素的角度。
+
+![图 22](../images/8fb976815ee13db3b919d10c07f6720ffa9dab1c9f9231455d9cf95195cec01c.gif)  
+
+## 元素设置
+
+双击画布中的元素可以对元素的相关属性（像素大小、位置、层级和旋转角度）进行配置。
+
+![图 23](../images/ce88fd7ffa1a0509a89fe9ad43832eafa2e204e62f2318a4d7f16eaf7a0a1cba.png)  
+
+
+<!-- 
+您可以使用右侧的拖动手柄从左侧的“轮廓”面板中拖放元素。或者，您可以使用每个元素上的“添加到应用程序”按钮。 -->
+
+<!-- ## 重新发布
 
 重新出版
 每当您对其进行更改时，您的笔记本都不会自动重新发布。要重新发布包含最新更改的笔记本，请转到发布编辑器并单击“发布更改”。
 
-已发布项目的 URL 在重新发布后保持不变，因此您不必担心与受众共享新 URL。
+已发布项目的 URL 在重新发布后保持不变，因此您不必担心与受众共享新 URL。 -->
 
-## 操作案例
+## 案例展示（销售KPI仪表板）
 
 ![图 1](../images/32f51c6fb8b971e483154c0e7718b4f4e3bf06e56c57528b45201184fe57cafb.png)  
