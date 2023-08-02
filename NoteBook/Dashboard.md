@@ -95,8 +95,9 @@
 
 双击画布中的元素可以对元素的相关属性（像素大小、位置、层级和旋转角度）进行配置。
 
-![图 23](../images/ce88fd7ffa1a0509a89fe9ad43832eafa2e204e62f2318a4d7f16eaf7a0a1cba.png)  
+<!-- ![图 23](../images/ce88fd7ffa1a0509a89fe9ad43832eafa2e204e62f2318a4d7f16eaf7a0a1cba.png)   -->
 
+![图 24](../images/ccb33c6cc540ff09bcf337557cb62a993ea6c0b3bcc9cb4a70b26c6e0c253123.png)  
 
 <!-- 
 您可以使用右侧的拖动手柄从左侧的“轮廓”面板中拖放元素。或者，您可以使用每个元素上的“添加到应用程序”按钮。 -->
