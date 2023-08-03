@@ -35,20 +35,20 @@
 ## 操作按钮
 
 
-| 图标 | 操作 | 解释 | 备注 |
-| :-----| :-----| :---- | :---- | 
-| <img src="../images/6e96c88651800e935ed4c70ea00245fc4d354e6585d689e59a261522e7f8aff0.png"  style="display: inline-block;padding:0px;border:0px"  /> | 画布设置 | 对画布属性进行配置，如像素大小，背景设置等 | -  | 
-| <img src="../images/b0773cbfa0f2c640acf3a741b68a875a2b2fd02aa138b779d04be3412505af7b.png"  style="display: inline-block;padding:0px;border:0px"  /> | 小地图 | 打开/关闭画布小地图 | - | 
-|  <img src="../images/25d7fe58a21e28a4c80444ab472bf5bae250bdfea210af49128666e71cfa7786.png"  style="display: inline-block;padding:0px;border:0px"  /> | 上一步 | 回退到上一步的画布状态 | - |
-|  <img src="../images/2d9a895d29cea49d008043e368704b99a1a3f1c6a45da4721f1adbad445587dc.png"  style="display: inline-block;padding:0px;border:0px"  /> | 下一步 | 前进到下一步的画布状态（用户之前有做上一步的操作） | -  |
-|  <img src="../images/f48e2b9b4ba5f61a5ea878ee08219b508111a8f58daaaa2a378bd60f75bf91a6.png"  style="display: inline-block;padding:0px;border:0px"  /> | 清空画布 | 清空画布中的所有组件 | - |
-|  <img src="../images/4401a590c0c3131c6960b2ebe248b7a19a4a87ab392eb8979175c5017a6ebc92.png"  style="display: inline-block;padding:0px;border:0px"  /> | 适应屏幕 | 画布自适应调整到合适的大小和位置 | -  |
-|  <img src="../images/a991261f29c064df0b57533e30a19b033c2b51c20f521746727b99db17458d42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏左侧菜单 | 隐藏/显示左侧的操作按钮 | - |
-|  <img src="../images/1c19222318dc4e581e7367583a9794d79413d412e81c05e10a571991f1bd225a.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏右侧菜单 | 隐藏/显示左侧的操作按钮 | - |
-|  <img src="../images/4186043d86d5fa8c5dfe0ffb398d335ad948679ba38491ccf3752ef2720ea702.png"  style="display: inline-block;padding:0px;border:0px"  /> | 保存 | 保存当前画布的状态 | -  |
-|  <img src="../images/5d90b2f9bb7e02451e4de36754818428ba41b3a17cc59002834fead908b4afaf.png"  style="display: inline-block;padding:0px;border:0px"  /> | 预览 | 生成预览链接，预览仪表板内容 | -  |
-|  <img src="../images/2c7204369c33a2052cc32653e373563e1ca4bd1fab1ff863c7244a73fd026b42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 发布/更新发布 | 仪表板设计完成/修改后生成发布链接 | -  |
-|  <img src="../images/59cb15031a4445215f9d5163cdcc278cdc97044408e867fd2eedc9af934fe779.png"  style="display: inline-block;padding:0px;border:0px"  /> | 关闭 | 关闭仪表板界面（重新打开显示最后保存的画布内容） | - |
+| 图标 | 操作 | 解释 |
+| :-----| :-----| :---- |
+| <img src="../images/6e96c88651800e935ed4c70ea00245fc4d354e6585d689e59a261522e7f8aff0.png"  style="display: inline-block;padding:0px;border:0px"  /> | 画布设置 | 对画布属性进行配置，如像素大小，背景设置等 |
+| <img src="../images/b0773cbfa0f2c640acf3a741b68a875a2b2fd02aa138b779d04be3412505af7b.png"  style="display: inline-block;padding:0px;border:0px"  /> | 小地图 | 打开/关闭画布小地图 |
+|  <img src="../images/25d7fe58a21e28a4c80444ab472bf5bae250bdfea210af49128666e71cfa7786.png"  style="display: inline-block;padding:0px;border:0px"  /> | 上一步 | 回退到上一步的画布状态 |
+|  <img src="../images/2d9a895d29cea49d008043e368704b99a1a3f1c6a45da4721f1adbad445587dc.png"  style="display: inline-block;padding:0px;border:0px"  /> | 下一步 | 前进到下一步的画布状态（用户之前有做上一步的操作） |
+|  <img src="../images/f48e2b9b4ba5f61a5ea878ee08219b508111a8f58daaaa2a378bd60f75bf91a6.png"  style="display: inline-block;padding:0px;border:0px"  /> | 清空画布 | 清空画布中的所有组件 |
+|  <img src="../images/4401a590c0c3131c6960b2ebe248b7a19a4a87ab392eb8979175c5017a6ebc92.png"  style="display: inline-block;padding:0px;border:0px"  /> | 适应屏幕 | 画布自适应调整到合适的大小和位置 |
+|  <img src="../images/a991261f29c064df0b57533e30a19b033c2b51c20f521746727b99db17458d42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏左侧菜单 | 隐藏/显示左侧的操作按钮 |
+|  <img src="../images/1c19222318dc4e581e7367583a9794d79413d412e81c05e10a571991f1bd225a.png"  style="display: inline-block;padding:0px;border:0px"  /> | 隐藏右侧菜单 | 隐藏/显示左侧的操作按钮 |
+|  <img src="../images/4186043d86d5fa8c5dfe0ffb398d335ad948679ba38491ccf3752ef2720ea702.png"  style="display: inline-block;padding:0px;border:0px"  /> | 保存 | 保存当前画布的状态 |
+|  <img src="../images/5d90b2f9bb7e02451e4de36754818428ba41b3a17cc59002834fead908b4afaf.png"  style="display: inline-block;padding:0px;border:0px"  /> | 预览 | 生成预览链接，预览仪表板内容 | 
+|  <img src="../images/2c7204369c33a2052cc32653e373563e1ca4bd1fab1ff863c7244a73fd026b42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 发布/更新发布 | 仪表板设计完成/修改后生成发布链接 |
+|  <img src="../images/59cb15031a4445215f9d5163cdcc278cdc97044408e867fd2eedc9af934fe779.png"  style="display: inline-block;padding:0px;border:0px"  /> | 关闭 | 关闭仪表板界面（重新打开显示最后保存的画布内容） |
 
 
 ## 画布设置
