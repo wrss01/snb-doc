@@ -9,7 +9,10 @@
 
 SNB 目前已经过测试支持的数据源类型包括：
 
-![支持的数据源类型](../images/d29cc6e5e6f39e9197465bb88020b8c870b25bbfe2562a3259e8a8a46466c4e0.png)  
+<!-- ![支持的数据源类型](../images/d29cc6e5e6f39e9197465bb88020b8c870b25bbfe2562a3259e8a8a46466c4e0.png)   -->
+
+![支持的数据源类型](../images/d07fa721cc0128c6feb72f62c9907c84e0a002a07a0a66740300ce232f33d9e7.png)  
+
 
 * `MySQL`：关系型数据库管理系统，由瑞典MySQL AB 公司开发，属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系统之一。
 * `Spark`：通用的大数据分析引擎,具有高性能、易用和普遍性等特点。
@@ -22,6 +25,7 @@ SNB 目前已经过测试支持的数据源类型包括：
 * `Greenplum`：业界最快最高性价比的关系型分布式数据库，它在开源的PG(PostgreSql)的基础上采用MPP架构（Massive Parallel Processing,海量并行处理），具有强大的大规模数据分析任务处理能力。
 * `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库。
 * `DuckDB`：DuckDB是一个针对数据分析和查询任务进行优化的高性能列式存储数据库管理系统，它提供了快速的查询性能、低内存占用以及方便的SQL查询功能。
+* `MindsDB`：MindsDB是一个开源的机器学习库，用于使数据科学家和开发人员能够轻松地将机器学习模型集成到其现有项目和工具中。通过MindsDB，用户无需深入了解机器学习的复杂细节就可以训练和部署模型。
 
 > [!NOTE]
 > 即将支持更多数据源类型 —— 目前，SNB正在积极进行国产数据库接入测试的工作。如果您有需要优先支持的数据源，可通过邮件联系我们 <feedback@smartnotebook.tech>。
@@ -49,7 +53,7 @@ SNB 目前已经过测试支持的数据源类型包括：
 
 不同的数据源对应填写的配置项也会存在差异。 -->
 
-- 对于`MySQL`，`PostgreSQL`，`SQL Server`，`ClickHouse`、`Greenplum`和`Neo4j`，您需要配置：
+- 对于`MySQL`，`PostgreSQL`，`SQL Server`，`ClickHouse`、`Greenplum`、`Neo4j`和`MindsDB`，您需要配置：
 
   - 连接名称
   - 数据库主机网址地址（host）
