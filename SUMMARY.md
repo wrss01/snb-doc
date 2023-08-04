@@ -42,7 +42,8 @@
   * [留存分析](Tutorial/Cohort_Analysis.md)
   * [RFM分析](Tutorial/RFM_Analysis.md)
   * [购物篮分析](Tutorial/Market_Basket_Analysis.md)
-  * [KNN](Tutorial/KNN.md)
+  * [KNN](Tutorial/KNN.md) 
+  * [MindsDB实战](Tutorial/Mindsdb_demo.md)
   <!-- * [定期执行](Tutorial/YourFirstSchedule.md) -->
   <!-- * [邀请成员](Tutorial/InviteYourMember.md) -->
 * [隐私政策](Policy.md)

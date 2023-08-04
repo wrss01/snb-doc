@@ -62,21 +62,30 @@
 
 ### 数据连接
 
-- 复制连接
+#### 复制连接
 
 已建立的数据库连接将显示在数据资源板块中，可点击`复制数据连接`按钮，将数据连接代码拷贝至单元格使用。（新建数据连接以及当前支持的数据源类型请参考前面的教程<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
 
 ![图 21](../images/copylinksmysql.png)  
 
-- 浏览元数据
+#### 浏览元数据
 
 点击数据库右侧按钮查看库表元数据。
 
 ![图 22](../images/seemysl.png)  
 
-元数据浏览（如元数据有更新，可点击上方刷新按钮重新获取）
+#### 元数据浏览（如元数据有更新，可点击上方刷新按钮重新获取）
 
 ![图 23](../images/metad.png)  
+
+#### 复制数据源到MindsDB
+
+复制代码至SQL单元格执行，能够快捷无缝的将数据源引入到MindsDB。
+
+MindsDB结合NoteBook的使用教程可以参考<a href="../Tutorial/Mindsdb_demo.md" title="MindsDB(SQL+ML)实战案例">MindsDB(SQL+ML)实战案例</a>
+
+![图 19](../images/0af139ea72f466fb7fbef616761cb9ddfc49fc92ad7bbbec3c72f2ba91f5ab0f.png)  
+
 
 ### WorkSpace文件
 

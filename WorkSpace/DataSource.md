@@ -25,7 +25,7 @@ SNB 目前已经过测试支持的数据源类型包括：
 * `Greenplum`：业界最快最高性价比的关系型分布式数据库，它在开源的PG(PostgreSql)的基础上采用MPP架构（Massive Parallel Processing,海量并行处理），具有强大的大规模数据分析任务处理能力。
 * `Neo4j`：Neo4j是一个开源的，高性能的NoSQL图形数据库。
 * `DuckDB`：DuckDB是一个针对数据分析和查询任务进行优化的高性能列式存储数据库管理系统，它提供了快速的查询性能、低内存占用以及方便的SQL查询功能。
-* `MindsDB`：MindsDB是一个开源的机器学习库，用于使数据科学家和开发人员能够轻松地将机器学习模型集成到其现有项目和工具中。通过MindsDB，用户无需深入了解机器学习的复杂细节就可以训练和部署模型。
+* `MindsDB`：MindsDB是一个开源的机器学习库，用于使数据科学家和开发人员能够轻松地将机器学习模型集成到其现有项目和工具中。通过MindsDB，用户无需深入了解机器学习的复杂细节就可以训练和部署模型。MindsDB结合NoteBook的使用教程可以参考<a href="../Tutorial/Mindsdb_demo.md" title="MindsDB(SQL+ML)实战案例">MindsDB(SQL+ML)实战案例</a>
 
 > [!NOTE]
 > 即将支持更多数据源类型 —— 目前，SNB正在积极进行国产数据库接入测试的工作。如果您有需要优先支持的数据源，可通过邮件联系我们 <feedback@smartnotebook.tech>。
