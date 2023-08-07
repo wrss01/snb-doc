@@ -101,7 +101,7 @@
 |  <img src="../images/139b8af915b786b3bfaff4887b48040d8fddd8381cb95d86265d42de3cd35a90.png"  style="display: inline-block;padding:0px;border:0px"  /> | 下方新增单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 |  |
 | <img src="../images/632ebcf68f9f036300f236a0c6887d3c6e7b1a64ddd69858e13755c0e663c245.png"  style="display: inline-block;padding:0px;border:0px"  /> | Python代码类型  | 显示当前单元格的代码类型 | 点击可选择转换为其他代码单元格类型 |
 | <img src="../images/delce.png"  style="display: inline-block;padding:0px;border:0px"  />  | 删除当前单元格 | 删除当前单元格 |  |
-| <img src="../images/836c7510287b9bdb64b74285a5b10e53771eb400adf1cfcd63441dc845a66a4d.png"  style="display: inline-block;padding:0px;border:0px"  /> | AIGC功能 | AI辅助生成/编辑/修复/解释代码 |  |
+| <img src="../images/836c7510287b9bdb64b74285a5b10e53771eb400adf1cfcd63441dc845a66a4d.png"  style="display: inline-block;padding:0px;border:0px"  /> | AIGC功能 | AI辅助生成/编辑/修复/解释代码 | 功能详见 <a href="../NoteBook/AIGC.md" title="数据智灵(AI伴侣)">数据智灵(AI伴侣)</a> |
 
 
 
