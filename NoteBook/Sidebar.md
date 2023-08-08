@@ -177,6 +177,18 @@ NoteBook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 ![图 26](../images/switchenv.gif)  
 
+### 当前环境信息
+
+<!-- ![图 22](../images/68590f66bff70edda1a8e60c727fa27c8aead0132f7b87851e28616982c35975.png)   -->
+
+在NoteBook的底部状态栏中，您可以看到当前环境的基本配置以及实时的使用状态。
+
+![图 23](../images/4470611f7bf05ef813c991e24f3e13ef6b3d044f7d516c5fbb3077b8b4a1d520.png)  
+
+
+> [!NOTE|style:flat]
+> 环境名称旁边的小圆点通过颜色来直观表示环境的运行状况：蓝色表示环境状态正常，而红色则表示出现异常。
+
 ### 创建调度器
 
 请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">WorkSpace调度器</a>
