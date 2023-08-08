@@ -201,37 +201,62 @@ Chart组件支持的图标类型包括：
 
 Chart提供了多种用于对数据排序的选项：
 
-![图 13](../images/dataorder.png)  
-
-### 显示/隐藏图例
-
-![图 16](../images/toolstips.png)  
-
-### 设置图表宽度/高度
+<!-- ![图 13](../images/dataorder.png)   -->
+![图 15](../images/a69605ebddaf6f59f8cf94f700ed74cf7a06dd4c6e8805edbed31ecc4e634f40.png)  
 
 
-![图 17](../images/shape.png)  
+<!-- ### 显示/隐藏图例
+
+![图 16](../images/toolstips.png)   -->
+
+### 图表设置
+
+点击Chart组件左下角的设置按钮  <img src="../images/2a6a4f5d36c5b024f699bd9ad8846e55c0ad7f67bb988997896f7c9fe4f41a7f.png"  style="display: inline-block;padding:0px;border:0px"  /> 可以看到一些图表的设置选项。
+
+
+
+![图 16](../images/6140bc1fbd41ea4fa03896a88c006fcaa5e8e5ea6e81d23df3413dca7d6d89a3.png)  
+
+#### 宽度/高度
+
+允许用户自定义Chart的宽度和高度，宽度和高度值都应该是以像素（px）为单位的整数。
 
 ### 主题设置
 
 设置图表的主题样式：
-- LIGHT：高亮主题
-- DARK：暗黑主题
-- WHITE：亮白主题
 
-![图 18](../images/theme.png)  
+- **dark**: 为深色背景设计的主题，具有亮色的文本和元素，以确保对比度和可读性。
+- **excel**: 仿照 Microsoft Excel 默认图表的样式设计。
+- **fivethirtyeight**: 受到 FiveThirtyEight 数据新闻网站的图表样式启发。
+- **ggplot2**: 模仿 R 语言的 ggplot2 包的默认样式。
+- **googlecharts**: 受到 Google Charts 工具的样式启发。
+- **latimes**: 受到《洛杉矶时报》的数据可视化风格启发，提供了一种在报纸的数字出版物中常见的清晰和专业的外观。
+- **powerbi**: 仿照 Microsoft Power BI 的默认图表样式。
+- **quartz**: 受到 Quartz 新闻网站图表样式的启发。
+- **urbaninstitute**: 受到 Urban Institute 的数据可视化风格启发。
+-  **VOX**: 受到 Vox 新闻网站的图表样式启发。
+
+<!-- ![图 18](../images/theme.png)   -->
+![图 18](../images/dd674253fea63a04c20787c891dd759745b22d2d5e779551c400a4205b8aab66.png)  
 
 ### 隐藏/显示配置
 
-![图 5](../images/%E9%9A%90%E8%97%8F%E9%85%8D%E7%BD%AE.gif)  
+允许用户根据需要显示或隐藏图表的配置区域。当配置区域被隐藏时，图表的图形区域将被最大化显示，使得图表更为清晰并占据更多的屏幕空间。
+
+<!-- ![图 5](../images/%E9%9A%90%E8%97%8F%E9%85%8D%E7%BD%AE.gif)   -->
+![图 19](../images/150d7c13682d9cd6111072358311ce5d74fc65f58919746009d033beec0af472.gif)  
+
 
 ### 代码拷贝
 
-将代码拷贝到Python单元格进一步自定义图表
+允许用户直接从Chart组件中复制图表的代码，并将其粘贴到Python单元格中。用户可以在Python环境中更加灵活地自定义和修改图表。
 
 ![图 19](../images/codecharts.png)  
 
-![图 7](../images/kaobeidaimapythonzhixing.png)  
+<!-- ![图 7](../images/kaobeidaimapythonzhixing.png)   -->
+
+![图 20](../images/e8501ee3f66fd8dd20b2ef4f6600d3739c7488fe9b9a9baed1a12f200beecbc6.png)  
+
 
 ## Chart开放API
 
