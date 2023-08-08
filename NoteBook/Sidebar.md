@@ -227,10 +227,17 @@ NoteBook文档在我们编写期间会每隔30秒保存一次内容，但如果�
 
 ![](/assets/bubbxx.png)
 
-
-如用户在WorkSpace设置里配置了GitLab或GitHub，保存版本可选择是否推送到仓库。
+如用户在WorkSpace设置里配置了代码仓库GitLab或GitHub，保存版本可选择推送至代码仓库。
 
 ![图 18](../images/bd7a1644f4ea3337683a918c1f6b77487c74b87a225f7a85cad8b4973b76e300.png)  
+
+版本列表会增加`已推送至代码仓库`标识：
+
+![图 20](../images/ea66bfc65d7a8dc4aad7cfeba997569d4e7eafa7b396ba7ade482e4285543423.png)  
+
+保存新版本时查看最近保存版本的信息：
+
+![图 21](../images/60b5114987b8e19334b1727b2833099f6131806bceeee7dca4fd76f9f6b5b55a.png)  
 
 
 
