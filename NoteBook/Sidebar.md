@@ -191,7 +191,7 @@ NoteBook采集MarkDown的标题层级配合层次缩进自动生成目录
 
 ### 创建调度器
 
-请跳转至<a href="../WorkSpace/Schedule.md" title="Workspace调度器">WorkSpace调度器</a>
+创建调度器的方法详见<a href="../WorkSpace/Schedule.md" title="Workspace调度器">WorkSpace调度器</a>
 
 ## 变量浏览
 <span id="vr"></span>

@@ -46,11 +46,14 @@ SNB主要汇集了以下要点：
 
 ![图 2](/images/%E8%AE%BE%E7%BD%AE%E6%A0%87%E9%A2%98.png)  
 
-3.创建NoteBook完成，进入到核心建模页面。
+3.创建完成，进入到核心的NoteBook页面。
 
 目前，您的NoteBook仅包含一个Python代码单元格。默认情况下，它会显示这样一段欢迎代码：
 
-![图 3](/images/welcomecode.png)  
+<!-- ![图 3](/images/welcomecode.png)   -->
+
+![图 4](images/c793deb691c23e76980aae681cc8d77465c9015d057d3cc28716b756074bcb61.png)  
+
 
 
 **编辑笔记本**
@@ -68,15 +71,17 @@ print('当前时间：',now)
 
 2.点击左上角的运行按钮 <img src="images/run.png"  style="display: inline-block;padding:0px;border:0px" /> 或按下快捷键 Ctrl/Shift+Enter 来运行代码块。
 
-3.将鼠标悬停在单元格下边框的中间区域，选择`更多类型`添加 Markdown单元格。
+![图 5](images/5782670c754fb28c0e732fe543f4ccba0785c9228f6cfd05080182057779a821.png)  
 
+3.将鼠标悬停在单元格下边框的中间区域，选择`更多类型`我们可以看到更多的单元格类型或组件。比如我们添加一个 Markdown单元格。
 
 ![图 1](images/63db6cb6f91f327ea5376ab5d30b1180caa0db7e6e4719eba16e3497ed64d4c1.png)  
 
+4.在Markdown单元格中输入文本，然后按下快捷键 Ctrl/Shift+Enter 运行。
 
-4.在Markdown单元格中输入文本。
+![图 6](images/aa1ac346632ad050501c11f70a104cea3cb655ec3d9a046f29b7c0dc63d8f7c6.png)  
 
-5.如果您要运行整个NoteBook代码，请选择上方菜单栏的`运行`,点击`全部运行`。
+5.如果要完整运行整个NoteBook代码，请选择上方菜单栏的`运行`并点击`全部运行`。
 
 
 ## 第二步
