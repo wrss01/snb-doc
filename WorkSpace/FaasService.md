@@ -20,8 +20,10 @@ __MODULE_NAME__ = "Translate"
 
 def translate(word:str="word") -> "HTTP":
     """
-    input={"word":{"type":"string","default":"word"}}
-    output={"type":{"type":"string", "default":"EN2ZH_CN"}, "errorCode":{"type":"integer", "default":0}, "elapsedTime":{"type":"integer", "default":1}, "translateResult":{"type":"array","items":"","default":{"src": "word", "tgt": "词"}}}
+    {
+    "input":{"word":{"type":"string","default":"word"}},
+    "output":{"type":{"type":"string", "default":"EN2ZH_CN"}, "errorCode":{"type":"integer", "default":0}, "elapsedTime":{"type":"integer", "default":1}, "translateResult":{"type":"array","items":"","default":{"src": "word", "tgt": "词"}}}
+    }
     """
 
     url = f"https://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i={word}"
@@ -43,13 +45,17 @@ def translate(word:str="word") -> "HTTP":
 函数在单元格中定义完成后，点击`...`-->`注册服务API`进行注册：
 
 <!-- ![图 1](../images/fass_reg.png)   -->
-![图 0](../images/c8c2657d02359bebd3f4b7e97cb1f20d30dd47a5cf02fc8b1f2206f37fececdd.png)  
+<!-- ![图 0](../images/c8c2657d02359bebd3f4b7e97cb1f20d30dd47a5cf02fc8b1f2206f37fececdd.png)   -->
 
+<!-- ![图 1](../images/79aa26c024ef6caffdc7473d83104efa16261933bab1b5ad78ac9fd33472ca78.png)   -->
+
+![图 2](../images/e87d7cb9a2d08ffaec9dbe6893478605e4ed22d985f74111b3433555e6a4a745.png)  
 
 
 注册成功：
 
-![图 2](../images/fass_reg_succ.png)  
+<!-- ![图 2](../images/fass_reg_succ.png)   -->
+![图 3](../images/4c7d11070a1fbeafd30a213aca3ef8d7c2fe902e2e807b6bafea5161788e89e8.png)  
 
 
 > [!NOTE]
