@@ -133,6 +133,9 @@ SmartNoteBook的Markdown单元格支持使用Jinja模板语言将变量与文本
 
 ![图 15](../images/md_jinja_for.png)  
 
+> [!Tip]
+> 如果需要在MarkDown单元格中输出`{{` 或 `}}` ，需要使用 ` {{ '{{' }}` 和` {{ '}}' }}`  这种方式。
+
 
 ## 设置MarkDown的标签样式（高级用法）
 
