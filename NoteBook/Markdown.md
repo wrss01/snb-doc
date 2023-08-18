@@ -136,11 +136,7 @@ SmartNoteBook的Markdown单元格支持使用Jinja模板语言将变量与文本
 > [!Tip]
 > 如果您想要在MarkDown单元格中输出显示双左大括号 <img src="../images/0407281912b75dc23b884d127480c48a7a6807a0c18a7c0c1736662b6e464e7d.png"  style="display: inline-block;padding:0px;border:0px"  /> 或双右大括号<img src="../images/572a2a7349d4a6d05ead7f00fe00490d113fc1e24e8dd9f9bfb77b67bb982740.png"  style="display: inline-block;padding:0px;border:0px"  />  ，需采用这种方式：<img src="../images/99193e371a61e87b07586d4122d4ba0b42569aaeeb0cc22bde22c203c918f4f0.png"  style="display: inline-block;padding:0px;border:0px"  />  →  <img src="../images/0407281912b75dc23b884d127480c48a7a6807a0c18a7c0c1736662b6e464e7d.png"  style="display: inline-block;padding:0px;border:0px"  />  ，  <img src="../images/7469ad6fcc9d75128dbc1d3583afd25544d77e8e789c6e66185078eb77e65f2b.png"  style="display: inline-block;padding:0px;border:0px"  />  → <img src="../images/572a2a7349d4a6d05ead7f00fe00490d113fc1e24e8dd9f9bfb77b67bb982740.png"  style="display: inline-block;padding:0px;border:0px"  />。
 
-<!-- > [!Tip]
-> 如果您想要在MarkDown单元格中输出显示 双左大括号 `{{` 或 双右大括号 `}}` ，需采用这种方式：`{{ '{{' }}`→ `{{`，`{{ '}}' }}`→ `}}` -->
 
-<!-- > [!Tip]
-> 如果您想要在MarkDown单元格中输出显示 双左大括号 `{{` 或 双右大括号 `}}` ，需采用这种方式：{{ '{{' }}`{{`}}{{'}}`{{' }}} -->
 
 
 
