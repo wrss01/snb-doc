@@ -33,7 +33,7 @@
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
 * [分析案例](Tutorial/main.md)
-  <!-- * [申请账号](Tutorial/Register.md) -->
+  * [申请账号](Tutorial/Register.md)
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
   <!-- * [数据分析](Tutorial/YourFirstAnalysis.md)

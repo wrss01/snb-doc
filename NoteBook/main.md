@@ -43,7 +43,7 @@ SNB的NoteBook主界面由单元格组成，主要包括code单元格、可视�
 
 <span id="newnb"></span>
 
-WorkSpace管理界面下，点击左下角的`新建NoteBook`按钮，弹出新页面。
+WorkSpace管理界面下，点击左下角的`新建 NoteBook`按钮，弹出新页面。
 
 <!-- ![图 8](../images/createnote.png)   -->
 
