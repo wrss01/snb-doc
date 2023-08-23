@@ -12,8 +12,26 @@
 }
 
 .markdown-section{
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.page-inner {
+    padding: 20px 20% 40px 40px;
+}
+
+.book-summary {
+    width: 15%;
+}
+
+@media (min-width: 600px) {
+    .book.with-summary .book-body {
+        left:15%
+    }
+}
+
+.book-anchor {
+    width: 15%;
 }
 
 .markdown-section *{
