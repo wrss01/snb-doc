@@ -1,6 +1,7 @@
 {
   "title":"SmartNotebook",
   "plugins": [
+	"livereload",
     "splitter",
     "hide-element",
     "code",
@@ -13,7 +14,6 @@
     "flexible-alerts",
     "mathjax-pro",
     "-back-to-top-button"
-    
   ],
   "variables": {
     "doorTheme": {
@@ -57,5 +57,9 @@
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
   }
-
 }
+
+
+
+
+

@@ -12,6 +12,8 @@
   * [报告和看板](WorkSpace/Dashboard.md)
   * [成员](WorkSpace/Groups.md)
   * [设置](WorkSpace/Settings.md)
+  * [日志](WorkSpace/Logging.md)
+  * [门户管理](WorkSpace/PortalTion.md)
   * [个人中心](WorkSpace/Profile.md)
 * [NoteBook](NoteBook/main.md)
   * [单元格（cell）](NoteBook/Cell.md)
@@ -33,7 +35,7 @@
   * [分享](NoteBook/Share.md)
   * [快捷键](NoteBook/Shortcuts.md)
 * [分析案例](Tutorial/main.md)
-  <!-- * [申请账号](Tutorial/Register.md) -->
+  * [申请账号](Tutorial/Register.md)
   <!--* [创建Workspace](Tutorial/YourFirstWorkspace.md) -->
   <!--* [创建Notebook](Tutorial/YourFirstNotebook.md) -->
   <!-- * [数据分析](Tutorial/YourFirstAnalysis.md)
