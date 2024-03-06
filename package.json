@@ -12,10 +12,9 @@
   "dependencies": {
     "gitbook": "^2.6.9",
     "gitbook-plugin-mathjax": "^2.0.0",
-    "mathjax": "^2.7.6",
-	"gitbook-plugin-livereload": "^0.0.1"
+    "mathjax": "^2.7.6"
   },
   "devDependencies": {
-    "gitbook-plugin-livereload": "^0.0.1"
+   
   }
 }
