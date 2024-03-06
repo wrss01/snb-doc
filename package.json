@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gitbook": "^2.6.9",
     "gitbook-plugin-mathjax": "^2.0.0",
     "mathjax": "^2.7.6"
   },
