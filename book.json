@@ -1,7 +1,6 @@
 {
   "title":"SmartNotebook",
   "plugins": [
-	"livereload",
     "splitter",
     "hide-element",
     "code",
@@ -58,8 +57,3 @@
     "epub": "styles/epub.css"
   }
 }
-
-
-
-
-
