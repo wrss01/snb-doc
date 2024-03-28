@@ -23,6 +23,7 @@
   * [数据智灵](NoteBook/AIGC.md)
   * [可视化组件](NoteBook/Visualization.md)
   * [EDA组件](NoteBook/EDA.md)
+  * [自助分析组件](NoteBook/selfAnalysis.md)
   * [数据处理组件](NoteBook/DataTransform.md)
   * [仪表板](NoteBook/Dashboard.md)
   * [R支持](NoteBook/R.md)
