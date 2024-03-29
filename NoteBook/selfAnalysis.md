@@ -1,28 +1,32 @@
 # SNB_自助数据分析
-SNB_自助数据分析是以类似Tableau/PowerBI的展现方式，通过拖拽、交互式的一个可视化探索分析界面/工具，并且能够充分利用客户端的算力，具有对大数据量的支持。它可以帮助分析师使用很简单的操作来进行数据分析，对多种分析场景都具有很好的支持。
+SNB_自助数据分析工具采用类似Tableau和PowerBI的展现方式，提供了一个拖拽式、交互式的可视化探索分析界面，能够充分利用客户端的算力，对大数据量进行高效支持。它简化了数据探索的操作，使分析师能够轻松应对多种分析场景，展现出强大的适应性。
 
+![](/assets/selfAnalysis/summary.gif)
 ### 创建自助数据分析组件
 鼠标移动至单元格的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`自助分析`。  
 **操作步骤：**  
 1.准备数据：创建一个DataFrame变量，存放你的数据；  
 2.选择你要分析的数据源（若无，则先去创建一个DataFrame变量）；  
 3.你可以通过下拉“主题类型”或“风格”选项来调整分析界面的视觉效果；  
-4.点击单元格左上方的“执行”图标按钮，即可得到一个数据/可视化探索界面。
-### 保存专题分析
+4.点击单元格左上方的“执行”图标按钮，即可得到一个数据/可视化探索界面，如下图所示：
+![](/assets/selfAnalysis/image0.png)
+
+### 专题分析管理
+#### 1. 保存专题分析
 <div style="display:flex;align-items:center;">点击单元格右边的图标<img width="58" src="/assets/selfAnalysis/image-24.png"  style="margin-right:0;"/>，在弹出的对话框中输入“专题名称”,点击“提交”，即可保存该专题。</div>
 ![alt text](/assets/selfAnalysis/image-25.png)
 在专题分析管理页面可以查看到已保存的专题，你可以点击进入查看或分析。
 ![alt text](/assets/selfAnalysis/image-26.png)
 
-#### 专题分析的权限
+#### 2. 配置权限
 在这里配置该专题分析的查看权限，设置谁可以看，只有勾选过的用户才可以查看。
 ![alt text](/assets/selfAnalysis/image-27.png)
 
 ### 开始分析
 分析界面设有“数据”和“可视化”两个选项卡，默认是展示“可视化”部分，数据探索分析主要是在“可视化”界面进行。
-#### 数据部分
+#### 1. 数据部分
 内容区域展示的是数据字段的概要情况，你可以粗略地查看数据的分布情况、缺失值或者异常值等
-#### 可视化部分
+#### 2. 可视化部分
 工具栏位于顶部
 ![alt text](/assets/selfAnalysis/image.png)
 每个图标按钮的功能如下所述：
@@ -57,11 +61,6 @@ SNB_自助数据分析是以类似Tableau/PowerBI的展现方式，通过拖拽�
 你也可以比对多个不同的度量，只需将他们都拖到行或列中来创建拼接视图，行和列都支持多个字段。
 ![alt text](/assets/selfAnalysis/image-22.png)
 当完成自助探索，你可以选择将结果导出到文件，当下次分析时，便可快速导入之前分析的结果。
-### 如何将图表上传到图表库
-1. <div style="display:flex;align-items:center;">点击工具栏中的图标按钮<img height="50" src="/assets/selfAnalysis/image-14.png"  style="margin-right:0;"/>；</div>
-2. 在弹出的对话框中，点击“上传”按钮，输入“图表名称”和选择“开放状态”，完成后点击“提交”，即可将图表上传至图表库中。
-![alt text](/assets/selfAnalysis/image-23.png)
-
 **说明：** 
 开放状态包括自己访问、WorkSpace内访问和开放访问三种。  
 <u>自己访问</u>：表示该图表是私密的，只能由你访问；  
@@ -69,9 +68,15 @@ SNB_自助数据分析是以类似Tableau/PowerBI的展现方式，通过拖拽�
 <u>开放访问</u>：是指任何人都能访问。
 
 ### 图表库管理
-上传的图表可以从图表管理页面中查看，点击图表即可在新的页签中打开。
+#### 1. 图表上传
+<div style="display:flex;align-items:center;">点击工具栏中的图标按钮<img height="50" src="/assets/selfAnalysis/image-14.png"  style="margin-right:0;"/>；</div>
+在弹出的对话框中，点击“上传”按钮，输入“图表名称”和选择“开放状态”，完成后点击“提交”，即可将图表上传至图表库中。
+![alt text](/assets/selfAnalysis/image-23.png)
+
+#### 2. 图表查看/修改
+上传的图表可以从图表管理页面中查看，可以进入接着探索数据。
 ![alt text](/assets/selfAnalysis/image-28.png)
-可以从这里修改图表的名称和开放状态。
+可以在这里修改图表的名称和开放状态。
 ![alt text](/assets/selfAnalysis/image-29.png)
 
 <br/>
