@@ -79,10 +79,11 @@ SNB_自助数据分析工具采用类似Tableau和PowerBI的展现方式，提�
 ![alt text](../assets/selfAnalysis/image-32.png)
 
 ### 分箱
-分箱是指将数据分成不同的组或类别。在统计学和数据分析中，分箱常常用于将连续数据分成离散的区间，例如年龄分组、收入水平分组、分数分组等。在编程中，分箱也常用于数据预处理和特征工程，以便进行机器学习和数据分析。自助分析组件支持对字段的分箱，在可视化区域的度量通道中，可以做以下步骤进行分箱：
+分箱是指将数据分成不同的
+组或类别。在统计学和数据分析中，分箱常常用于将连续数据分成离散的区间，例如年龄分组、收入水平分组、分数分组等。在编程中，分箱也常用于数据预处理和特征工程，以便进行机器学习和数据分析。自助分析组件支持对字段的分箱，在可视化区域的度量通道中，可以做以下步骤进行分箱：
 ![](../assets/selfAnalysis/image-46.png)
 由于分箱是讲数据离散成组或者类别，所以分箱得到的字段属于维度，所以这时在维度通道就能看到分箱后的新字段bin10(Length),默认是分10箱（组），如图所示：
-![](../assets/selfAnalysis/image-47.png)
+<img height="450" src="/assets/selfAnalysis/image-47.png"  style="margin-right:0;"/>
 ### 图表库管理
 #### 1. 图表上传
 <div style="display:flex;align-items:center;">点击工具栏中的图标按钮<img height="50" src="/assets/selfAnalysis/image-14.png"  style="margin-right:0;"/>；</div>
