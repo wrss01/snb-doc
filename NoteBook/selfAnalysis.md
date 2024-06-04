@@ -84,6 +84,15 @@ SNB_自助数据分析工具采用类似Tableau和PowerBI的展现方式，提�
 ![](../assets/selfAnalysis/image-46.png)
 由于分箱是讲数据离散成组或者类别，所以分箱得到的字段属于维度，所以这时在维度通道就能看到分箱后的新字段bin10(Length),默认是分10箱（组），如图所示：
 <img height="450" src="/assets/selfAnalysis/image-47.png"  style="margin-right:0;"/>
+
+### 语义类型
+在可视化或数据分析工具中数据编码很重要，因为不同的通道对不同语义的数据具有不同的操作。如果指定了字段，就应该描述它所代表的数据编码类型。SNB自助分析工具中支持的数据类型有定量（quantitative）、名义（nominal）、序列（ordinal）和时间（temporal）四种。  
+**quantitative：**定量类型表示可以进行数学测量和操作的数据，例如身高、人数、销售额等。  
+**nominal：** 名义类型表示一种没有任何固定顺序的类别或标签，例如颜色、产品型号、各厂商名称等。  
+**ordinal：** 序列类型表示具有明确顺序或排名，但它们之间的差异不是一个恒定的值。例如从“非常差”到“非常优秀”的业绩好坏程度、“很满意”到“非常满意”的服务评级等。  
+**temporal：**时间类型表示时间或者日期。它能以多种格式存在，例如时间戳、年月日、时间间隔等。
+### 数据绘板
+数据绘板工具提供了一种在不中断可视化探索工作流的情况下转换、清理、标记区分数据的新方式。
 ### 图表库管理
 #### 1. 图表上传
 <div style="display:flex;align-items:center;">点击工具栏中的图标按钮<img height="50" src="/assets/selfAnalysis/image-14.png"  style="margin-right:0;"/>；</div>
