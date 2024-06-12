@@ -55,18 +55,20 @@
 
 点击 <img src="../images/6e96c88651800e935ed4c70ea00245fc4d354e6585d689e59a261522e7f8aff0.png"  style="display: inline-block;padding:0px;border:0px"  /> 可以对画布大小、背景及水印进行设置。
 
-![图 18](../images/7915d399889b03adf467de82d361082cb07430ae95aae1cfb2f392ea51a18573.png)  
+![图 18](../assets/dashboard/2024-06-11 12.07.34.gif)  
 
 ## 小地图
 
 点击 <img src="../images/b0773cbfa0f2c640acf3a741b68a875a2b2fd02aa138b779d04be3412505af7b.png"  style="display: inline-block;padding:0px;border:0px"  /> 可开启/关闭小地图显示。
 
-![图 19](../images/404224746d076825de27c93bead91f84a4ec011decbcc81e004828f75e2c0f8c.png)  
+![图 19](../assets/dashboard/2024-06-11 16.48.44.gif)  
 
 
 ## 预览
 
 设计完成后，可以先点击 <img src="../images/5d90b2f9bb7e02451e4de36754818428ba41b3a17cc59002834fead908b4afaf.png"  style="display: inline-block;padding:0px;border:0px"  /> 查看效果。
+
+![图 20](../assets/dashboard/2024-06-11 17.07.20.gif)  
 
 ## 发布/更新发布
 
