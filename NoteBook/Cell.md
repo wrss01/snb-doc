@@ -78,6 +78,14 @@
 * `Table`:详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
 * `EDA分析`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
 * `EDA概览`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
+  
+<b>Input：</b> 
+* `下拉框`：详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `文本框`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `标签页`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `单选框`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `时间日期`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `按钮`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
 
 <b>Data Transform：</b> 
 * `数据透视表`:详见 <a href="./DataTransform.md" title="数据透视表">数据透视表</a>
