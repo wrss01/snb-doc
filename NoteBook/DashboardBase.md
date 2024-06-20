@@ -39,13 +39,26 @@
 ## 编辑仪表板单元的基础属性（在相对仪表板左上顶点的x、y轴位置、单元的宽、高、层级基础属性）
  双击仪表板上需要编辑的单元、右侧弹出抽屉可以修改单元格基础属性（宽高、位置、层级等）
  同时也支持鼠标操作：<br>
-    改变<div style="font-weight:600;color:blue;display:inline-block"><宽、高></div>: 鼠标移入要修改的单元，拖动线框矩形柄则完成相对应的编辑操作。<br>
-    改变<div style="font-weight:600;color:blue;display:inline-block"><位置></div>: 鼠标移入要修改的单元，鼠标右击不放，移动鼠标则完成相对应的移动操作。
+
+<p>改变<div style="font-weight:600;color:blue;display:inline-block">(宽、高)</div>: 鼠标移入要修改的单元，拖动线框矩形柄则完成相对应的编辑操作。</p>
+<p>改变<div style="font-weight:600;color:blue;display:inline-block">(位置)</div>: 鼠标移入要修改的单元，鼠标右击不放，移动鼠标则完成相对应的移动操作。</p>
 
 ![图 4](../assets/dashboard/2024-06-17 13.25.35.png) 
 
  演示示例
 ![图 5](../assets/dashboard/2024-06-17 14.37.36.gif) 
+
+---
+
+## 仪表板单元命名
+ 仪表板的每个单元都会被命名。<br>
+
+ 演示
+ <video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 832px; height: 468px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/2024062011584.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ## 删除仪表板单元
