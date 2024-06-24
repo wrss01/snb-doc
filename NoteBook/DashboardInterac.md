@@ -75,7 +75,7 @@
 > [!NOTE]
 > 请注意，每个互动组件都关联全局唯一一个python的全局变量。仪表板中互动组件关联的单元格必须有引用该变量，如果没引用即使刷新该组件数据也不起效果。
 
-## 当前仪表板图标联动
+## 当前仪表板图表联动
   交互组件联合查询我们上面图例已经介绍了，如下示例：
   ![图 2](../assets/dashboard/2024-06-21 14.33.01.gif)  
 
@@ -95,6 +95,45 @@
 </video> 
 
 
+## 按钮跳转链接 => 带查询条件
+  按钮跳转带查询条件如下示例：
+<video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1200px; height: 800px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/202406241442.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+
+- 1.把互动组件都添加到 左侧的仪表板中。
+- 2.双击要设置关联互动的单元格。
+- 3.弹出右侧抽屉，点击组件交互
+- 4.设置按钮的交互操作
+- 5.保存并预览
+- 6.发布  
+<video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1200px; height: 800px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/202406241525.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
 
 
+## 按钮下载
+ 按钮点击下载DF 如下示例：
+  ![图 20](../assets/dashboard/2024-06-24 16.11.35.gif) 
 
+设置操作如下：
+<video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1200px; height: 800px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/202406241623.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+
+
+## 图表点击跳转不同报表
+ 如下示例：
+<video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1200px; height: 800px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/202406241735.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+
+设置操作如下：
+<video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 1200px; height: 800px; left: 0px; top: 0px;">
+  <source src="../assets/dashboard/202406241753.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
