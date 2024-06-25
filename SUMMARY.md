@@ -51,6 +51,7 @@
   * [Julia支持](NoteBook/Julia.md)
   * [侧边栏](NoteBook/Sidebar.md)
   * [工具栏](NoteBook/Toolbar.md)
+  * [模型视图](NoteBook/Graph.md)
   * [收藏](NoteBook/Collections.md)
   * [评论](NoteBook/Comments.md)
   * [分享](NoteBook/Share.md)
