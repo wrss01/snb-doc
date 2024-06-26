@@ -42,10 +42,11 @@
  <p>仪表板的每个单元都会被命名。</p><br>
 
  <p>演示视频</p>
- <video tabindex="0" controls class="video-stream html5-main-video" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 832px; height: 468px; left: 0px; top: 0px;">
+  
+<video tabindex="0" controls class="video-stream html5-main-video" controlslist="nodownload" style="width: 1200px; height: 620px; left: 0px; top: 0px;">
   <source src="../assets/dashboard/2024062011584.mp4" type="video/mp4">
   Your browser does not support the video tag.
-  </video>
+</video>
 
 ---
 
