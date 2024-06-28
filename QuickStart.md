@@ -44,7 +44,7 @@ SNB主要汇集了以下要点：
 
 2.输入标题，并选择相应的环境，然后点击提交。
 
-![图 2](/images/%E8%AE%BE%E7%BD%AE%E6%A0%87%E9%A2%98.png)  
+![图 2](assets/productInfo/Xnip2024-06-28_11-24-47.png)  
 
 3.创建完成，进入到核心的NoteBook页面。
 
@@ -75,7 +75,7 @@ print('当前时间：',now)
 
 3.将鼠标悬停在单元格下边框的中间区域，选择`更多类型`我们可以看到更多的单元格类型或组件。比如我们添加一个 Markdown单元格。
 
-![图 1](images/63db6cb6f91f327ea5376ab5d30b1180caa0db7e6e4719eba16e3497ed64d4c1.png)  
+![图 1](assets/productInfo/2024-06-28 11.43.44.gif)  
 
 4.在Markdown单元格中输入文本，然后按下快捷键 Ctrl/Shift+Enter 运行。
 

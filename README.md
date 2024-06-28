@@ -41,20 +41,20 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 
 <!-- ![SmartNoteBook定位 style="width: 60%;height: 60%;" ](images/ee17007b2479e85fe1b4a9b87b76dfd4f61f3929e60c91600e8ed8fc72f10f16.png "SmartNoteBook定位") -->
 
-![SmartNoteBook首页](images/newmainpage.png "SmartNoteBook首页")
+![SmartNoteBook首页](assets/productInfo/2024-06-27-18_28_45.png "SmartNoteBook登录页")
 
-![工作空间管理](images/e75e80bd9bf554d5f587ed4f4014930e97a137eddde8e8723b4c86a95d0bdb47.png  "工作空间管理")
+![工作空间管理](assets/productInfo/1719541185507.jpg  "工作空间管理")
 
-![工作空间管理](images/6c418f9d60211e90c1cae33a090a14ebfacbc33ad142e19428e74395f988fc3f.png "工作空间管理")
+![工作空间管理](assets/productInfo/Xnip2024-06-28_10-54-48.png "工作空间管理")
 
-![SmartNoteBook工作台](images/wstbgif.gif "SmartNoteBook工作台")
+![SmartNoteBook工作台](assets/productInfo/Xnip2024-06-28_10-58-39.png "SmartNoteBook工作台")
 
 
 
 ## NoteBook企业发行版
 基于Notebook思想和企业数据化的需求全新开发了数据分析/数据科学平台:SmartNoteBook,完美兼容NoteBook的显性编程方式(独立代码输入块与显示输出、代码与自然语言标记交织)和Python强大的数据处理、分析和人工智能的框架能力，以下就逐一介绍重点功能：
 
-### 1. 优雅融合SQL数据处理能力：
+### 1.优雅融合SQL数据处理能力：
 兼容主流数据库、数据仓库、MPP、HTAP(Hybrid Transaction/Analytics Processing)、大数据平台,利用强大数据基础设施和Python 融合,充分、快速挖掘数据价值。 数据源的统一配置管理、Notebook内引用及调用数据源、DataFrame与SQL互操作、Python与SQL融合等特性，极大提升数据处理效率、降低入门使用门槛。
 
 - 隐式数据源引用：隐式引用数据源配置为数据连接(Connect)，执行包括数据入库(DataFrame入库操作)、数据处理等(DML或DDL)操作。
@@ -122,13 +122,13 @@ SmartNoteBook是参考Jupyter NoteBook思想实现数据科学与分析的强大
 
 ![辅助功能](images/5b51fd29a7975c0f4cdcbd1b53c2b3e9cbde790b1b20aeeb61e35957a1427892.png "辅助功能")
 
-![模型视图](images/a7a953d9e1ea9f4379fe5df909df68d1e50246968c7847abdbb110bf33722696.png "模型视图")
+![模型视图](assets/productInfo/2024-06-28 11.12.01.gif "模型视图")
 
 ![终端管理](images/2c18d7f6acfa1289c2f40f812b80469286eae0ebe6a8ed59cc9484305f8d150c.png "终端管理")
 
 ![调度配置](images/1acc92e4a90635e0836b68fd471aeee99cc72ac4f877725fa509717cf01dd283.png "调度配置")
 
-![调度历史](images/50728ed010baa33c7f50546bf53d539fe45a743ee79db5d214a526eebe778f45.png "调度历史")
+![调度历史](assets/productInfo/Xnip2024-06-28_11-21-12.png "调度历史")
 
 
 
