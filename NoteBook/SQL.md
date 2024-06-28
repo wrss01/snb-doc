@@ -73,7 +73,7 @@ SNB在SQL应用方面进行了深入的优化和支持，使得SQL数据查询�
 - 方式二：鼠标移动至单元格的下方，当显示悬浮操作框时，单击`更多类型`，然后选择`SQL`。
 
 <!-- ![图 12](../images/newsqlcell.png)   -->
-![图 6](../images/886de307b1f9115974934841cddfe2a35c69a693c044e36c47156ac6e75cfd5f.gif)  
+![图 6](/assets/notebook/2024-06-28 18.02.23.gif)  
 
 
 ## 相关操作
@@ -373,7 +373,7 @@ data={"a":100,"b":200}
 
 1.  添加`Python单元格`
 2.  侧边栏的`数据资源`下复制所用SQL Sever数据源的连接信息
-   ![图 10](../images/sqlserver%E9%93%BE%E6%8E%A5.png)  
+   ![图 10](/assets/notebook/Xnip2024-06-28_18-17-11.png)  
 3.  将连接信息复制到`Python单元格`里
 4.  在连接信息下方增加T-SQL语句和执行代码：
 
@@ -411,7 +411,7 @@ data={"a":100,"b":200}
 
 1.  添加`Python单元格`
 2.  侧边栏的`数据资源`下复制所用Oracle数据源的连接信息
-   ![图 11](../images/Oracle%E8%BF%9E%E6%8E%A5.png)  
+   ![图 11](/assets/notebook/Xnip2024-06-28_18-24-33.png)  
 
 3.  将连接信息复制到`Python单元格`里
 4.  在连接信息下方增加PL/SQL语句和执行代码：

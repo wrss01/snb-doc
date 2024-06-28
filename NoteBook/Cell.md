@@ -74,29 +74,40 @@
 * `MarkDown`：详见 <a href="./Markdown.md" title="Markdown单元格">Markdown单元格</a>
 
 <b>Data Display：</b> 
+
 * `Chart`：详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
 * `Table`:详见 <a href="./Visualization.md" title="可视化">可视化组件</a>
+* `自助分析`:详见 <a href="./selfAnalysis.md" title="自助分析">自助分析</a>
 * `EDA分析`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
-* `EDA概览`:详见 <a href="./EDA.md" title="EDA组件">EDA组件</a>
-  
-<b>Input：</b> 
-* `下拉框`：详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
-* `文本框`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
-* `标签页`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
-* `单选框`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
-* `时间日期`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
-* `按钮`:详见 <a href="./InteractionComponents.md" title="交互组件">交互组件</a>
+* `EDA概览`:详见 <a href="./EDA.md" title="EDA组件">EDA概览</a>
 
 <b>Data Transform：</b> 
+
 * `数据透视表`:详见 <a href="./DataTransform.md" title="数据透视表">数据透视表</a>
 
-<!-- <b>ChatGPT：</b> 
-* `ChatGPT`:详见 <a href="./ChatGPT.md" title="ChatGPT">ChatGPT</a> -->
+<b>Faas API：</b> 
 
+* `HelloAPI`:详见 <a href="/WorkSpace/FaasService.md" title="Faas API">服务API</a>
+* `查询Demo`:详见 <a href="/WorkSpace/FaasService.md" title="Faas API">服务API</a>
+* `预测Demo`:详见 <a href="/WorkSpace/FaasService.md" title="Faas API">服务API</a>
+  
+<b>Input：</b> 
 
-<!-- ![图 36](../images/codecelltype.png)   -->
-![图 1](../images/396805114999bee73d1e1fcdb41ff4f61d06a3c27b1176c082a966b53f7b3c30.png)  
+* `下拉框`：详见 <a href="./InputParams/selectInput.md" title="交互组件">下拉框</a>
+* `文本框`:详见 <a href="./InputParams/textInput.md" title="交互组件">文本框</a>
+* `标签页`:详见 <a href="./InputParams/tabInput.md" title="交互组件">标签页</a>
+* `单选框`:详见 <a href="./InputParams/radioInput.md" title="交互组件">单选框</a>
+* `时间日期`:详见 <a href="./InputParams/timeInput.md" title="交互组件">时间日期</a>
+* `按钮`:详见 <a href="./InputParams/buttonInput.md" title="交互组件">按钮</a>
 
+<b>ML/AI：</b> 
+
+* `降为`：详见 <a href="./machine-learning/dim_reduction.md" title="机器学习">降为</a>
+* `聚类`:详见 <a href="./machine-learning/cluster.md" title="机器学习">聚类</a>
+* `分类`:详见 <a href="./machine-learning/classification.md" title="机器学习">分类</a>
+* `回归`:详见 <a href="./machine-learning/regression.md" title="机器学习">回归</a>
+
+![图 1](/assets/notebook/Xnip2024-06-28_17-28-26.png) 
 
 ## 单元格的操作一览
 
@@ -122,11 +133,13 @@
 | :-----| :---- | :---- | 
 | 向上插入单元格 | 在当前单元格上方新增默认类型为Python语言的单元格 | 命令状态下快捷键`A` |
 | 向下插入单元格 | 在当前单元格下方新增默认类型为Python语言的单元格 | 命令状态下快捷键`B` |
+| 清除输出 | 清除当前单元格的输出 | |
 | 剪切单元格 | 剪切当前单元格内容 |  命令状态下快捷键`X` |
 | 复制单元格 | 复制当前单元格内容 | 命令状态下快捷键`C` |
 | 粘贴单元格 | 内容粘贴至当前单元格 | 命令状态下快捷键`V` |
 | 上移一格 | 将当前单元格上移一格 |  |
 | 下移一格 | 将当前单元格下移一格 |  |
+| Python学习助手 | Python学习助手，可视化代码执行步骤 |  |
 | 注册服务API（FASS) | 将当前单元格内容注册为API服务 | 此功能详见 <a href="../WorkSpace/FaasService.md" title="服务API">服务API</a> |
 | 全屏显示 | 可将当前单元格全屏显示（专注模式） | 命令状态下快捷键`FF` |
 | 拷贝出代码 | 拷贝出当前单元格的代码 | 该功能可以将低代码组件背后的代码拷贝出来，粘贴到 Python 单元格中运行，这个功能为用户提供了更多的自由度和灵活性。|
@@ -137,7 +150,7 @@
 | :-----| :-----| :---- | :---- | 
 | <img src="../images/comm.png"  style="display: inline-block;padding:0px;border:0px"  /> | 评论 | 成员可对当前单元格评论 |此功能详见 <a href="./Comments.md" title="评论">评论</a>  | 
 | <img src="../images/collec.png"  style="display: inline-block;padding:0px;border:0px"  /> | 收藏 | 可收藏当前单元格内容 | 此功能详见 <a href="./Collections.md" title="代码收藏">代码收藏</a>  | 
-|  <img src="../images/shareout.png"  style="display: inline-block;padding:0px;border:0px"  /> | 分享单元格输出 | 分享当前单元格的输入内容，生成分享链接 | 此功能详见 <a href="./Share.md" title="分享">分享</a>  |
+|  <img src="/assets/notebook/Xnip2024-06-28_17-39-42.png"  style="display: inline-block;padding:0px;border:0px"  /> | 分享单元格输出 | 分享当前单元格的输入内容，生成分享链接 | 此功能详见 <a href="./Share.md" title="分享">分享</a>  |
 
 ### SQL单元格
 
@@ -148,7 +161,6 @@
 | `链式输入` | 链式输入 | 使用链式SQL功能时将前面链式输出的变量作为本单元格的输入 |  |
 | `链式输出` | 链式输出 | 使用链式SQL功能时将本单元格输出的变量作为后续单元格的输入 |  |
 | `结果保存为` | 结果保存为 | 将SQL或dfSQL的查询结果保存为新的变量 |  |
-
 
 ### MarkDown单元格
 
