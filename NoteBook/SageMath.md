@@ -1,19 +1,22 @@
-# SageMath支持
-
-<!-- 7101752 -->
----
+# SageMath数学软件
 SageMath 是一个免费的、开源的数学软件系统，采用GPL协议。它整合了许多开源Python包，采用Python语言编写，但也支持其他语言。它的目标是创造一个可变的开源软件以替代Matlab、Magma、Maple 和 Mathematica。
 
 为使大家方便的了解、学习并使用SageMath，我们的SmartNoteBook通过引入SageMath引擎并细致地对兼容性做了优化和完善，充分利用NoteBook的特性，不仅减少大量复杂的安装和配置，而且做到可以让用户即开即用。
 
-## 创建SageMath环境支持
+# SageMath数学引擎的安装配置
+SmartNotebook默认的部署镜像内没有内置SageMath语言计算引擎，需要Node环境中进行安装SageMath和SageMath的kernel包。
 
 
-在`新建NoteBook`对话框中选择Kernel类型为“Sagemath”的选项。
 
-输入`NoteBook标题`并选择对应的环境（需满足您购买的产品拥有创建Sagemath的环境，否则无法创建），最后点击提交。
+# 创建SageMath的notebook及示例代码
 
-![图 6](../images/sgkernel.png)  
+
+在`新建NoteBook`对话框中"选择计算引擎(Kernel)类型"为"Sagemath"的选项。
+
+输入`NoteBook标题`并选择对应的环境，最后点击提交。
+
+![图 0](../images/b0d3df55f45e4e16cb710adc72a87b55d9930ed875d02925fdcb4c96db515d49.png)  
+
 
 > [!warning|style:flat]
 > 成功创建NoteBook后，用户无法在不同的kernel语言类型之间切换。
@@ -34,11 +37,11 @@ factor(20221208)
 ![picture 2](../images/factor%E5%87%BD%E6%95%B0.png)  
 
 
-## SageMath as a Calculator
+# 算术(SageMath as a Calculator)
 
 这里我们介绍介绍一下如何像图形计算器一样使用 SageMath 的一些算术和函数命令。
 
-### 基本算术
+## 基本算术
 
 基础的算术运算符为加 + 、减 -、乘 * 、除 / 、指数 ^
 数字前面的符号-表示它是负数。
@@ -75,7 +78,7 @@ print(11.0/4)
 print(11/4*1.)
 ```
 
-### 整数除法和因式分解
+## 整数除法和因式分解
 
 有时当我们使用除法时，除法运算符不会给我们所有想要的信息。比如，我们不仅想知道约化分数是多少，甚至想知道它的十进制近似值，或者想知道唯一商和余数是多少。我们可以使用运算符// 来计算商，使用运算符 % 用于余数。使用 divmod(）函数来同时计算获得商和余数。
 
@@ -135,7 +138,7 @@ print(lcm(4,5))
 lcm(14,21)
 ```
 
-### 标准函数和常量
+## 标准函数和常量
 
 SageMath几乎包含了人们在学习数学时遇到的所有标准函数。接下来我们将介绍一些最常用的函数：maximum、minimum、 floor、ceiling、trigonometric、exponential、logarithm 函数。我们还将看到许多标准的数学常数，如欧拉常数(e）、π 和黄金比例（ ϕ ）。
 
@@ -240,9 +243,9 @@ print(  exp(log(pi)) )
 print(  e^(log(2)) )
 ```
 
-## SageMath的高级运算
+# SageMath的高级运算
 
-### 关于符号计算和数值计算
+## 关于符号计算和数值计算
 
 我们需要先了解符号计算和数值计算的区别。
 
@@ -256,7 +259,7 @@ print(  e^(log(2)) )
 
 总结：符号计算使用符号和数学公式来表示数学概念，而数值计算使用数字来解决问题。另外，符号计算通常用于解决复杂的数学问题，而数值计算则常用于解决无法使用符号计算直接解决的数学问题。
 
-### 求解方程和不等式
+## 求解方程和不等式
 
 在SageMath里，方程和不等式使用运算符 ==、>=、<=等符号来定义，且可返回True 或False ，如果方程或不等式中有变量，将只返回方程或不等式。
 
@@ -300,7 +303,7 @@ print(find_root(sin(x) == x, -pi/2 , pi/2))
 find_root(sin(x) == cos(x), pi, 3*pi/2)
 ```
 
-### 声明多个变量
+## 声明多个变量
 
 前面的内容，我们求解了方程中仅有一个变量的情况，并且我们总是使用x作为变量名，此时SageMath 会创建一个符号变量 x用于求解方程。如果要求解多元方程，我们就需要使用其他的符号变量，此时我们必须要先使用var()命令声明它。符号变量的名称可以是字母，也可以是字母和数字的组合。
 
@@ -318,7 +321,7 @@ sage: x1, x2 = var("x1 x2")
 sage: restore('phi')
 ```
 
-### 求解具有多个变量的方程
+## 求解具有多个变量的方程
 
 我们也可以用命令solve()求解线性方程组，前提是方程组中所有符号变量都已声明。另外，方程组必须以列表形式输入，最后跟符号变量。结果也是以列表的形式输出。当然，方程组可能是唯一解，也可能有无限多个解，或者压根没有解：
 
@@ -341,7 +344,7 @@ print(solve([ x-y >=2, x+y <=3], x,y))
 solve([ 2*x-y< 4, x+y>5, x-y<6], x,y)
 ```
 
-### 微积分(Calculus)
+## 微积分(Calculus)
 
 SageMath有许多命令可用于研究微分和积分，接下来我们一起熟悉一些这方面的函数使用。
 
@@ -365,7 +368,7 @@ print( h(-1))
 
 定义以上这些函数后，我们将研究如何使用 SageMath 来计算这些函数的极限。
 
-### 极限(Limits)
+## 极限(Limits)
 $$x \rightarrow 1$$ 的极限 $$f(x) = xe^{x}$$是在SageMath中通过在SageMath中输入以下命令来计算的：
 
 ```
@@ -397,7 +400,7 @@ print( limit(h, x=4, dir="right") )
 sage: limit(h, x=4, dir="left")
 ```
 
-### 导数(Derivatives)
+## 导数(Derivatives)
 
 接下来我们要做的是使用 SageMath 来计算我们之前定义的函数的导数。例如，要计算 $$f^{\prime}(x)$$、 $$g^{\prime}(x)$$、$$h^{\prime}(x)$$ 我们将使用该命令。
 
@@ -435,7 +438,7 @@ T_f = fp(0)*( x - 0 ) + f(0)
 T_f
 ```
 
-### 积分(Integrals)
+## 积分(Integrals)
 
 SageMath具有计算许多常见函数的定积分和不定积分的功能。我们将从计算我们之前定义的每个函数的不定积分（也称为反导数）开始。这将通过使用具有类似于integral() 的参数的命令来完成。
 
@@ -443,7 +446,7 @@ SageMath具有计算许多常见函数的定积分和不定积分的功能。我
 integral(f,x)
 ```
 
-### 定积分
+## 定积分
 
 ```
 integral(f, x,0,1)
@@ -457,7 +460,7 @@ print(n(integral(g, x,0,1)))
 n(integral(h, x,0,1))
 ```
 
-### 泰勒级数扩展(Taylor Series Expansion)
+## 泰勒级数扩展(Taylor Series Expansion)
 
 SageMath的另一个有趣的功能是可以计算围绕一个点的泰勒级数展开。首先，我们展示如何在 0 周围展开，也称为麦克劳林级数。让我们举一个函数的例子 $$g(x) = \cos(x)$$。
 
@@ -491,7 +494,7 @@ print(f_taylor._latex_())
 $$\frac{1}{6} \, {\left(x - 2\right)}^{3} {\left(467 \, \cos\left(3\right) - 2130 \, \sin\left(3\right)\right)} e^{8} + \frac{1}{2} \, {\left(x - 2\right)}^{2} {\left(24 \, \cos\left(3\right) - 155 \, \sin\left(3\right)\right)} e^{8} + {\left(x - 2\right)} {\left(\cos\left(3\right) - 12 \, \sin\left(3\right)\right)} e^{8} - e^{8} \sin\left(3\right)$$
 
 
-### 统计学(Statistics)
+## 统计学(Statistics)
 
 SageMath提供的基本描述性统计函数的使用。为了演示它们的用法，我们将首先生成一个从 0 到 100 的整数伪随机列表。我们来计算平均值、中位数、众数、方差和标准差。
 
@@ -508,7 +511,7 @@ print(moving_average(data,20))
 ```
 
 
-## SageMath的可视化
+# SageMath的可视化
 
 SageMath是一个强大的开源数学软件，具有非常广泛的数学可视化功能。它可以生成2-D以及3-D图形，甚至可以制作动画图。
 
@@ -528,7 +531,7 @@ SageMath是一个强大的开源数学软件，具有非常广泛的数学可视
 
 总的来说，SageMath的可视化功能非常强大，能够帮助您更直观地理解数学概念和模型。
 
-### 函数可视化的理论
+## 函数可视化的理论
 
 - **一元函数**是一种特殊的函数，其中函数的输入和输出都是单个变量。一元函数的形式通常是 y=f(x)，其中 x 是输入变量，y 是输出变量。例如，函数 y=x^2+1 就是一个一元函数，其中 x 是输入变量，y 是输出变量。
 
@@ -575,7 +578,7 @@ sage: parametric_plot((f, g), (t,0,2*pi))
 
 这将在平面直角坐标系中绘制出由x=cos(t)和y=sin(t)定义的圆。
 
-### 2D图形
+## 2D图形
 
 SageMath提供了广泛的二维绘图功能，它的底层渲染是使用matplotlib库完成的。
 
@@ -655,7 +658,7 @@ SageMath提供了广泛的二维绘图功能，它的底层渲染是使用matplo
 > [!Tip]
 > 在每个函数名后面输入`?`，可以获得该函数的帮助和示例。
 
-### 3D图形
+## 3D图形
 
 Sage广泛支持3D图形，从基本形状到隐式和参数化绘图。支持以下图形功能：
 
@@ -771,7 +774,7 @@ Sage还支持以下：
 
 - `tostr()` - converts vector information to a space-separated string
 
-### 动画
+## 动画
 
 我们知道动画是由一系列图形对象（或其他可迭代的对象）渲染生成的。通过对每个输入对象调用save_image方法，创建一系列PNG文件来生成图像。然后使用不同的工具将它们组合成各种目标格式。其中，ImageMagick的转换程序可用于生成动画GIF文件。FFmpeg（带有命令行程序FFmpeg）提供了对各种视频格式的支持，但也是生成动画GIF的另一种方法。对于支持APNG的浏览器，APNG可以用作另一种替代方案，并且无需任何额外的依赖。
 
@@ -822,7 +825,7 @@ a[0]       # long time
 a.show()   # optional -- ImageMagick   # long time
 ```
 
-### 常用的绘图命令
+## 常用的绘图命令
 
 * plot()：当需要绘制基本的图形时，我们可以使用plot命令。
 
@@ -898,7 +901,7 @@ show(
   )
 ```
 
-### 优美案例
+## 优美案例
 
 以上我们介绍了SageMath绘图的基础知识，那接下来让我们一起欣赏一些用SageMath绘制的比较有趣的图形，感受一下“函数之美”。
 
@@ -1083,7 +1086,7 @@ def butterfly3d():
 butterfly3d()
 ```
 
-## SageMath的帮助系统
+# SageMath的帮助系统
 
 - Help帮助：使用 “？”
 
@@ -1107,7 +1110,7 @@ factor??
 
 
 
-## 更多
+# 更多
 
 受限于篇幅，我们以上只介绍了SageMath的小部分内容，其中提供的代码希望大家能够借助SmartNoteBook去亲自实践并查看输出的信息，探索和领悟SageMath和数学的魅力！
 
