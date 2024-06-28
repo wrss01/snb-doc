@@ -6,7 +6,7 @@
 
 制作和发布仪表板的步骤参见<a href="../NoteBook/Dashboard.md" title="仪表板">仪表板</a>。
 
-![图 0](../images/90cddb88b999fd82b54f03a7ee6d16ce6cfa4a0e5adf9363886df3db4d912c65.png)  
+![图 0](/assets/workspace/Xnip2024-06-28_15-27-06.png)  
 
 
 ## 查看仪表板

@@ -65,7 +65,7 @@ def translate(word:str="word") -> "HTTP":
 
 点击WorkSpace下的`服务API`，可以看到已注册的API列表。
 
-![图 3](../images/apilist.png)  
+![图 3](/assets/workspace/Xnip2024-06-28_15-23-50.png)  
 
 在此我们可以进行的操作有：
 

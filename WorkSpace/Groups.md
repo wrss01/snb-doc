@@ -1,36 +1,23 @@
 # WorkSpace成员
 ---
 团队成员在相同的WorkSpace下开始协同工作。
-<!-- ![图 9](../images/898684d39aaa16b0cd70a50afa946f940503e3d72a357858ae2cdf5049bda5dd.png)   -->
-<!-- ![图 10](../images/dd48a9185a5f80146b5957c28b1a169ec0274b20726b78cb9d6160f56d384fb8.png)   -->
-<!-- ![图 1](../images/dd48a9185a5f80146b5957c28b1a169ec0274b20726b78cb9d6160f56d384fb8.png)   -->
-<!-- ![图 1](../images/members.png)   -->
-![图 7](../images/4cb0a2368ae1b79a55b161569eefdf3b2c369eb7bfa430d1a912ec97755aa99f.png)  
+
+![图 7](/assets/workspace/Xnip2024-06-28_16-11-04.png)  
 
 ## 邀请团队成员
 
 单击页面右上角的<img src="../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png"  style="display: inline-block;padding:0px;border:0px"  />按钮转到邀请页面，填写受邀请用户的Email并设置其角色（编辑者/查看者），点击`发送邀请`：
-<!-- ![图 8](../images/dbe125f81ed8e0b3ddb2b6c93e077acc7b6cc9c053b97c022c9621a0d7af1432.png)   -->
-
-<!-- ![图 11](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)   -->
-<!-- ![图 2](../images/7beea5f501bf1547547e373a4d824d3bf9e6944dac45ae9552a8970ed8a6da51.png)   -->
 
 ![图 14](../images/76ee534439740d1adc3f27de09fdfbdd2d0d9e7805153ca9bc5d205689648192.png)  
 
 
-<!-- ![图 3](../images/invitelink.png)   -->
-
 发送邀请后，被邀请的团队成员状态将显示为"邀请中..."：
 
-<!-- ![图 4](../images/inviting.png)   -->
-<!-- ![图 12](../images/6b651e876bfd5155f63c947d7ba1d3b0f46e7cff9b59e75d74fb70d76bfb2c9c.png)   -->
 ![图 3](../images/6b651e876bfd5155f63c947d7ba1d3b0f46e7cff9b59e75d74fb70d76bfb2c9c.png)  
 
 被邀请成员点击邮件确认后状态切换为"正常"，此时被邀请人加入该WorkSpace并获得相应的权限参与到协同工作。
-<!-- ![图 14](../images/35e5c77dbbd54089997b23c154c21a52476554c8c88ea7182d6a4809edab0f6c.png)   -->
-![图 4](../images/35e5c77dbbd54089997b23c154c21a52476554c8c88ea7182d6a4809edab0f6c.png)  
 
-<!-- ![图 13](../images/7354975ed57eee36bc10522969115f78468941f9ab72238c5bd35557e7c49837.png)   -->
+![图 4](../images/35e5c77dbbd54089997b23c154c21a52476554c8c88ea7182d6a4809edab0f6c.png)  
 
 > [!NOTE|style:flat]
 > 受邀请用户需要先成功注册SNB的账号，否则无法接收邀请：
@@ -49,13 +36,6 @@
 
 <!-- ![图 15](../images/ac845f080f0c98fb11eb16b6cc583f54ce0cabf21e2806f07811cd57cdd74d8b.png)   -->
 ![图 5](../images/ac845f080f0c98fb11eb16b6cc583f54ce0cabf21e2806f07811cd57cdd74d8b.png)  
-
-
-<!-- ## 被邀请人
-
-被邀请人收到邀请邮件后，需根据邮件提示点击`确认加入`或复制下方链接到浏览器打开，方可加入邀请人的WorkSpace。
-
-![图 5](../images/invited.png)   -->
 
 
 ## 移除成员
@@ -80,13 +60,6 @@
 
 <span id="teamw"></span>
 
-<!-- 待协同操作功能完善后再补充该部分内容 -->
-<!-- 
-SNB 支持实时协作。当团队成员打开你正在编辑的NoteBook时，你会看到他们的头像出现在右上角。您和您的团队现在同时共享同一个执行环境。 -->
-
-<!-- 首先打开NoteBook的成员获得编辑权，其他成员只拥有查看权限。
-
-多人编辑改动即时生效，如何了解谁加入了协作，谁改动了什么？使用协作记录查看完整编辑动态，协作时间、编辑内容完整记录。 -->
 
 SNB支持实时协作模式，允许团队成员实时跟踪代码的编写进度。
 
@@ -94,17 +67,6 @@ SNB支持实时协作模式，允许团队成员实时跟踪代码的编写进�
 
 SNB的实时协作模式通过促进信息同步，极大地提升了用户的交互体验。
 
-
-
-<!-- ![图 8](../images/confli.png)   -->
-
-<!-- ![图 9](../images/01fe724a1e0c7d42fee287505b8018c0b36d2f10da359ba4a18d4c7b08f13385.gif)  
-
-![图 10](d:\00%20%E9%A1%B9%E7%9B%AE%E9%9B%86%E5%90%88\snb%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B8%93%E9%A1%B9\snb_gitbook\images\01fe724a1e0c7d42fee287505b8018c0b36d2f10da359ba4a18d4c7b08f13385.gif)   -->
-
-<!-- ![图 11](../images/a8d9048a6be717f68a97b9f50cf4822c0b5ff5c470e5978a6d05ff95a258cd05.gif)   -->
-
-<!-- ![图 12](../images/f6d2208a26fab5eb318a9442fe1a3824828591f72a53af6bdc369d4203b01b63.gif)   -->
 
 ![图 13](../images/19571b74bff84280b0c566f16d0efbabe396972e1477c76a58e46178884d8064.png)  
 
