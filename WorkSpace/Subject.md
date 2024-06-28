@@ -12,5 +12,9 @@
 ![](/assets/selfAnalysis/image-25.png)
 
 ### 修改专题/配置权限
-在这里可以修改专题的名称和发布状态，也可以配置该专题分析的查看权限，规则是设置谁可以看，只有勾选过的用户才可以查看该专题。
+在专题列表中可以修改专题的名称和发布状态，也可以配置该专题分析的查看权限，规则是设置谁可以看，只有勾选过的用户才可以查看该专题。
+![](../assets/selfAnalysis/image-78.png)
+**编辑**
 ![](/assets/selfAnalysis/image-27.png)
+**删除**
+![](../assets/selfAnalysis/image-80.png)
