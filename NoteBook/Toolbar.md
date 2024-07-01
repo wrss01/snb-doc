@@ -14,7 +14,7 @@
     <th>功能介绍</th>
   </tr>
   <tr>
-    <td rowspan="5">文件</td>
+    <td rowspan="6">文件</td>
     <td>最近打开的</td>
     <td>查看最近编辑过的NoteBook文档（点击可在新的标签页打开）</td>
   </tr>
@@ -35,27 +35,26 @@
     <td>导出.ipynb文件(兼容Jupyter NoteBook)</td>
   </tr>
   <tr>
-    <td rowspan="10">工具</td>
+    <td>保存</td>
+    <td>手动保存NoteBook（除此之外提供每30s自动保存）</td>
+  </tr>
+  <tr>
+    <td rowspan="11">工具</td>
     <td>保存版本</td>
     <td>保存NoteBook版本，该功能参见侧边栏的<a href="./Sidebar.md/#sv" title="保存版本">版本列表-->保存版本</a></td>
-  </tr>
-    <tr>
-    <td>Packages</td>
-    <td>打开`Packages`，该功能参见侧边栏的<a href="./Sidebar.md/#pk" title="Packages">Packages</a></td>
   </tr>
   <tr>
     <td>数据资源</td>
     <td>打开`数据资源`，该功能参见侧边栏的<a href="./Sidebar.md/#ds" title="数据资源">数据资源</a></td>
   </tr>
-    <tr>
-    <td>环境</td>
-    <td>打开`环境`，该功能参见侧边栏的<a href="./Sidebar.md/#env" title="环境">环境</a></td>
+  <tr>
+    <td>计算环境</td>
+    <td>打开`计算环境`，该功能参见侧边栏的<a href="./Sidebar.md/#env" title="计算环境">计算环境</a></td>
   </tr>
   <tr>
-    <td>目录</td>
-    <td>打开`目录`，该功能参见侧边栏的<a href="./Sidebar.md/#idx" title="目录">目录</a></td>
+    <td>导航目录</td>
+    <td>打开`导航目录`，该功能参见侧边栏的<a href="./Sidebar.md/#idx" title="导航目录">导航目录</a></td>
   </tr>
-
   <tr>
     <td>变量预览</td>
     <td>打开`变量预览`，该功能参见侧边栏的<a href="./Sidebar.md/#vr" title="变量预览">变量预览</a></td>
@@ -65,8 +64,12 @@
     <td>打开`版本列表`，该功能参见侧边栏的<a href="./Sidebar.md/#sv" title="保存版本">版本列表</a></td>
   </tr>
   <tr>
-    <td>代码片段</td>
-    <td>打开`代码片段`，该功能参见侧边栏的<a href="./Sidebar.md/#cd" title="代码片段">代码片段</a></td>
+    <td>软件包</td>
+    <td>打开`软件包`，该功能参见侧边栏的<a href="./Sidebar.md/#pk" title="软件包">软件包</a></td>
+  </tr>
+  <tr>
+    <td>代码片段库</td>
+    <td>打开`代码片段库`，该功能参见侧边栏的<a href="./Sidebar.md/#cd" title="代码片段库">代码片段库</a></td>
   </tr>
   <tr>
     <td>终端</td>
@@ -74,7 +77,11 @@
   </tr>
   <tr>
     <td>模型视图</td>
-    <td>分析代码中的变量关系生成关系图</td>
+    <td>分析代码中的变量关系生成关系图<a href="/NoteBook/Graph.md" title="模型视图">模型视图</a></td>
+  </tr>
+  <tr>
+    <td>CELL宽度</td>
+    <td>设置notebook页面，cell单元格的宽度窄、中和宽三种</td>
   </tr>
   <tr>
     <td rowspan="2">Kernel</td>

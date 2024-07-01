@@ -8,14 +8,14 @@
 
 | 图标 | 功能 | 解释 | 
 | :----- | :-----| :---- | 
-| <img src="../images/c358ef50700576b2173750a2c94fdff8b84fe1da312eead1f610f24b04a06365.png"  style="display: inline-block;padding:0px;border:0px"  />  | Packages | NoteBook的包管理 | 
 | <img src="../images/b6d1fe4186dfc7a2c2695730a9bdc350c8b806b7aa7c64205cf66bf1bcd2d5a8.png"  style="display: inline-block;padding:0px;border:0px"  />  | 数据资源 | 文件和数据库管理 | 
-| <img src="../images/1ab063d310d3e0578f81a902d81951e0ac5934876a4263097c990d2a5001e308.png"  style="display: inline-block;padding:0px;border:0px"  />  | 环境 | 查看和管理当前NoteBook的计算资源和调度器| 
-| <img src="../images/3f306e38968ead0be8721c7f61265cbdd797974f47a351b4ea3082b50961c1ad.png"  style="display: inline-block;padding:0px;border:0px"  />  | 目录 | NoteBook根据Markdown单元格中使用的标题显示文档结构| 
-| <img src="../images/46ef8d78353da30ffc22347995c6d1772f01646429ff3396233972cf0cff0b8d.png"  style="display: inline-block;padding:0px;border:0px"  />  | 变量预览 | 浏览NoteBook中使用的变量、值和值的一些属性| 
+| <img src="../images/1ab063d310d3e0578f81a902d81951e0ac5934876a4263097c990d2a5001e308.png"  style="display: inline-block;padding:0px;border:0px"  />  | 计算环境 | 查看和管理当前NoteBook的计算资源和调度器 | 
+| <img src="../images/3f306e38968ead0be8721c7f61265cbdd797974f47a351b4ea3082b50961c1ad.png"  style="display: inline-block;padding:0px;border:0px"  />  | 导航目录 | NoteBook根据Markdown单元格中使用的标题显示文档结构 | 
+| <img src="../images/46ef8d78353da30ffc22347995c6d1772f01646429ff3396233972cf0cff0b8d.png"  style="display: inline-block;padding:0px;border:0px"  />  | 变量预览 | 浏览NoteBook中使用的变量、值和值的一些属性 | 
 | <img src="../images/202b15b6e06157b55053916a8e7dd88a5962d6b361da5a43c525aeb342c33615.png"  style="display: inline-block;padding:0px;border:0px"  />  | 版本列表 | 保存NoteBook版本并可还原至历史记录的状态 | 
-| <img src="../images/5a98854492fc793f7aeede1e487e8da4a90bc98ef3158ad689f06a87fd318b00.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码片段 | 包含`公有库`（NoteBook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
-
+| <img src="../images/c358ef50700576b2173750a2c94fdff8b84fe1da312eead1f610f24b04a06365.png"  style="display: inline-block;padding:0px;border:0px"  />  | 软件包 | NoteBook的包管理 | 
+| <img src="../images/5a98854492fc793f7aeede1e487e8da4a90bc98ef3158ad689f06a87fd318b00.png"  style="display: inline-block;padding:0px;border:0px"  />  | 代码片段库 | 包含`公有库`（NoteBook提供的常用代码片段）和`我的收藏`（用户收藏的代码片段）。 | 
+| <img src="/assets/notebook/Xnip2024-07-01_10-31-09.png"  style="display: inline-block;padding:0px;border:0px"  />  | 快捷键 | 快捷键包含notebook编辑模式、命令模式、文档级别（全局Global） | 
 
 ## Packages
 
@@ -24,7 +24,7 @@
 默认情况下，NoteBook的运行环境已经为用户安装了常用的数据分析、机器学习以及可视化的包。
 
 <!-- ![图 11](../images/packages.png)   -->
-![图 7](../images/308f81792a54e478ca6af1b54c14248f4760b1ea1cf2654157b55fb48029e065.png)  
+![图 7](/assets/notebook/Xnip2024-07-01_10-23-58.png)  
 
 ### 搜索并查看包版本
 
@@ -66,17 +66,17 @@
 
 已建立的数据库连接将显示在数据资源板块中，可点击`复制数据连接`按钮，将数据连接代码拷贝至单元格使用。（新建数据连接以及当前支持的数据源类型请参考前面的教程<a href="../WorkSpace/DataSource.md" title="数据源">数据源</a>）
 
-![图 21](../images/copylinksmysql.png)  
+![图 21](/assets/notebook/Xnip2024-07-01_10-35-10.png)  
 
 #### 浏览元数据
 
 点击数据库右侧按钮查看库表元数据。
 
-![图 22](../images/seemysl.png)  
+![图 22](/assets/notebook/Xnip2024-07-01_10-40-25.png)  
 
 #### 元数据浏览（如元数据有更新，可点击上方刷新按钮重新获取）
 
-![图 23](../images/metad.png)  
+![图 23](/assets/notebook/Xnip2024-07-01_10-42-05.png)  
 
 #### 复制数据源到MindsDB
 
@@ -84,7 +84,7 @@
 
 MindsDB结合NoteBook的使用教程可以参考<a href="../Tutorial/Mindsdb_demo.md" title="MindsDB(SQL+ML)实战案例">MindsDB(SQL+ML)实战案例</a>
 
-![图 19](../images/0af139ea72f466fb7fbef616761cb9ddfc49fc92ad7bbbec3c72f2ba91f5ab0f.png)  
+![图 19](/assets/notebook/Xnip2024-07-01_10-43-33.png)  
 
 
 ### WorkSpace文件

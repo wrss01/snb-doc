@@ -37,7 +37,7 @@ Chart组件支持的图标类型包括：
 鼠标移动至单元格的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`Chart`。
 
 <!-- ![图 8](../images/createchart.png)   -->
-![图 0](../images/f6d1ab4c0301346caf7eb371eea21d81bd6b9188e5efab542cd4cb459d2d7b23.png)  
+![图 0](/assets/notebook/Xnip2024-06-28_17-28-26_07.png)  
  
 
 <!-- 

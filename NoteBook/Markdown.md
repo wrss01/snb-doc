@@ -19,7 +19,7 @@ Markdown单元格通常用作代码的解释性或描述性文本，此外SmartN
 ![图 17](../images/mdnewcells.png)   -->
 
 <!-- ![图 0](../images/d1c6f018ffbe376877975cb02e12041f7f943b221e635ddc231bab04a5a001e0.png)   -->
-![图 1](../images/2b5c15e24d2d527f8126a75eddaa12d18c949aad84c1f693bf0c875d2991195e.png)  
+![图 1](/assets/notebook/Xnip2024-06-28_17-28-26_02.png)  
 
 
 * 直接单击单元格右上角的 `+` 号或者单元格下方的`Add Code Cell`，然后点击右上角的<img src="../assets/cvvr.png"  style="display: inline-block;padding:0px;border:0px"  />，选择`Convert to Markdown`。

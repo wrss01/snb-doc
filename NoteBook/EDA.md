@@ -36,7 +36,7 @@ EDA分析组件提供了一个直观的可定制界面，用于探索数据集�
 
 <!-- ![图 1](../images/edaanyll.png)   -->
 
-![图 0](../images/f0c358314c60580ee93eb9dfa52a8c11185c641298f38b5dba5cb414aec86406.png)  
+![图 0](/assets/notebook/Xnip2024-06-28_17-28-26_03.png)  
 
 
 ### 基本操作
@@ -121,7 +121,7 @@ Dive的主要功能是以网格形式排列记录。这被称为镶嵌，有两�
 鼠标移动至单元格的下边界，当显示悬浮操作框时，单击`更多类型`，然后选择`EDA概览`。
 
 <!-- ![图 2](../images/edawholeview.png)   -->
-![图 1](../images/8b2f3e7d46df1a0044b3da0db2105c6e449a1b6f63bfc7bebe3446307457ae4b.png)  
+![图 1](/assets/notebook/Xnip2024-06-28_17-28-26_04.png)  
 
 
 
