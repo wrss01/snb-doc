@@ -12,7 +12,7 @@ NoteBook是一个可以在浏览器中使用的交互式笔记本文档。它提
 
 SNB的NoteBook主界面由单元格组成，主要包括code单元格、可视化组件单元格、数据处理组件单元格。此外SNB在NoteBook的交互体验、资源管理、交流分享及团队协作等方面做了很多关键的扩展。
 
-![图 1](../images/4439cf1646f26c013a25d09d6b415cdf9e6f92d065c2246365138e148ea4ad79.png)  
+![图 1](/assets/notebook/Xnip2024-07-01_17-51-17.png)  
 
 ## 功能概览
 
@@ -53,7 +53,7 @@ WorkSpace管理界面下，点击左下角的`新建 NoteBook`按钮，弹出新
 依次输入标题、选择可用环境、Kernel类型并选择模式后点击提交：
 
 <!-- ![图 6](../images/notebook_ker.png)   -->
-![图 3](../images/dacc44e5d860b3d41d43f54dc6c583123599bc17d37e0cd095ed1964e5b6e618.png)  
+![图 3](/assets/notebook/Xnip2024-07-01_17-51-35.png)  
 
 > [!WARNING]
 > NoteBook标题不能含有以下特殊字符：`| / : * ? < > "`
