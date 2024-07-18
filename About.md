@@ -33,6 +33,4 @@
 ## 产品咨询
 
 微信扫描下方二维码，我们的工作人员会尽快联系您：
-
-![图 7](images/3b910ca4217af5957ac8826f6bca716b140adb7608f5aeba5eae2581cd2d75a8.png)  
-
+![图 0](images/8e3784bc4cef363b58d3f9e77e1d608f62be421b9a95306bdf885571930d46b2.png)  
