@@ -10,6 +10,7 @@ build:
       # npx create-docusaurus@latest docs classic
       #
       # Install Docusaurus dependencies
+      - npm install -g gitbook-cli
       - npm install
       # Build the site
       - npm run build
