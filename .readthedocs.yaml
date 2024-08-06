@@ -12,9 +12,9 @@ build:
       # Install Docusaurus dependencies
       - npm install -g npm@6.14.12
       - npm install -g gitbook-cli@2.3.2
-      - npm install
-      # Build the site
-      - npm run build
+      - npm install yarn@1.22.21
+      - yarn install 
+      - yarn build
       # Copy generated files into Read the Docs directory
       - mkdir --parents $READTHEDOCS_OUTPUT/html/
       - cp --recursive build/* $READTHEDOCS_OUTPUT/html/
