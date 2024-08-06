@@ -16,7 +16,7 @@ build:
       #- npm install -g graceful-fs@4.2.10
       # - npm install -g gitbook-cli@2.3.2
       # - npm install -g gitbook@3.2.3
-      - npm install @gitbook-ng/gitbook
+      - npm install -g @gitbook-ng/gitbook
       - yarn install 
       - gitbook build
       #- yarn build
