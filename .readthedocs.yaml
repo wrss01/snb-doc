@@ -18,8 +18,8 @@ build:
       # - npm install -g gitbook@3.2.3
       - npm install @gitbook-ng/gitbook
       - yarn install 
-      - gitbook install
-      - yarn build
+      - gitbook build
+      #- yarn build
       # Copy generated files into Read the Docs directory
       - mkdir --parents $READTHEDOCS_OUTPUT/html/
       - cp --recursive build/* $READTHEDOCS_OUTPUT/html/
